@@ -51,12 +51,31 @@ nav_order: 1
     </tr>
 </table>
 
+
+
+<h2>Lajes</h2>
+
 <table style = "width:100%">
     <tr>
         <td style="width: 90%;">\[ ℎ=𝑑+𝑐𝑜𝑏+∅_𝑒+∅_𝑙/2\]</td>
         <td style="width: 10%;"><p align = "right" id = "eq4">(3)</p></td>
     </tr>
 </table>
+
+<ol type="a">
+    <li><p align="justify">7 cm para cobertura não em balanço;</p></li>
+    <li><p align="justify">8 cm para lajes de piso não em balanço;</p></li>
+    <li><p align="justify">10 cm para lajes em balanço;</p></li>
+    <li><p align="justify">10 cm para lajes que suportem veículos de peso total menor ou igual a 30 kN;</p></li>
+    <li><p align="justify">12 cm para lajes que suportem veículos de peso total maior que 30 kN;</p></li>
+    <li><p align="justify">15 cm para lajes com protensão apoiadas em vigas, com o mínimo de L/42 para lajes de piso biapoiadas e L/50 para lajes de piso contínuas;</p></li>
+    <li><p align="justify">16 cm para lajes lisas e 14 cm para lajes-cogumelo, fora do capitel.</p></li>
+    <li><p align="justify">A espessura da mesa, quando não existirem tubulações horizontais embutidas, deve ser maior ou igual a 1/15 da distância entre as faces das nervuras (𝑙_0) e não menor que 4 cm; </p></li>
+    <li><p align="justify">O valor mínimo absoluto da espessura da mesa deve ser 5 cm, quando existirem tubulações embutidas de diâmetro menor ou igual a 10 mm. Para tubulações com diâmetro 𝛷 maior que 10 mm, a mesa deve ter a espessura mínima de 4 cm + 𝛷 (Diâmetro nominal da tubulação), ou 4 cm + 2.𝛷 no caso de haver cruzamento destas tubulações;</p></li>
+    <li><p align="justify">A espessura das nervuras não pode ser inferior a 5 cm; </p></li>
+    <li><p align="justify">Nervuras com espessura menores que 8 cm não podem conter armadura de compressão.</p></li>
+</ol>
+
 
 <table style = "width:100%">
     <tr>
@@ -93,25 +112,49 @@ nav_order: 1
     </tr>
 </table>
 
-<h2>Lajes</h2>
-<ol type="a">
-    <li><p align="justify">7 cm para cobertura não em balanço;</p></li>
-    <li><p align="justify">8 cm para lajes de piso não em balanço;</p></li>
-    <li><p align="justify">10 cm para lajes em balanço;</p></li>
-    <li><p align="justify">10 cm para lajes que suportem veículos de peso total menor ou igual a 30 kN;</p></li>
-    <li><p align="justify">12 cm para lajes que suportem veículos de peso total maior que 30 kN;</p></li>
-    <li><p align="justify">15 cm para lajes com protensão apoiadas em vigas, com o mínimo de L/42 para lajes de piso biapoiadas e L/50 para lajes de piso contínuas;</p></li>
-    <li><p align="justify">16 cm para lajes lisas e 14 cm para lajes-cogumelo, fora do capitel.</p></li>
-    <li><p align="justify">A espessura da mesa, quando não existirem tubulações horizontais embutidas, deve ser maior ou igual a 1/15 da distância entre as faces das nervuras (𝑙_0) e não menor que 4 cm; </p></li>
-    <li><p align="justify">O valor mínimo absoluto da espessura da mesa deve ser 5 cm, quando existirem tubulações embutidas de diâmetro menor ou igual a 10 mm. Para tubulações com diâmetro 𝛷 maior que 10 mm, a mesa deve ter a espessura mínima de 4 cm + 𝛷 (Diâmetro nominal da tubulação), ou 4 cm + 2.𝛷 no caso de haver cruzamento destas tubulações;</p></li>
-    <li><p align="justify">A espessura das nervuras não pode ser inferior a 5 cm; </p></li>
-    <li><p align="justify">Nervuras com espessura menores que 8 cm não podem conter armadura de compressão.</p></li>
-</ol>
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ ℎ=2%.(𝑙_𝑦+𝑙_𝑥)/2\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(8)</p></td>
+    </tr>
+</table>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ ℎ=2%.𝑙_𝑥\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(9)</p></td>
+    </tr>
+</table>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ ℎ=4%.𝑙_𝑥\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(10)</p></td>
+    </tr>
+</table>
+
 <h2>Pilares</h2>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[𝑙_𝑒≤{█(&𝑙_0+ℎ@&𝑙)┤\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(11)</p></td>
+    </tr>
+</table>
+
 <ol type="a">
     <li><p align="justify">0,45.l: Pilar de extremidade ou pilar de canto na direção da menor dimensão do pilar (b);</p></li>
     <li><p align="justify">0,50.l: Pilar de extremidade ou pilar de canto na direção da maior dimensão do pilar (h);</p></li>
     <li><p align="justify">0,50.l: 0,55.l: Complemento dos casos anteriores.</p></li>
 </ol>
+
+
+<p align="justify">Piso: \[𝑄_𝑡𝑜𝑡 = 10 kN/m² a 12 kN/m²\]</p>
+<p align="justify">Cobertura: \[𝑄_𝑡𝑜𝑡 = 6 kN/m² a 8 kN/m²\]</p>
+
+
+
+
+
 
 
