@@ -149,11 +149,12 @@ nav_order: 1
     <li><p align="justify">0,50.l: 0,55.l: Complemento dos casos anteriores.</p></li>
 </ol>
 
-
+<div class = "right">
 <p align="left">Piso: \[𝑄_𝑡𝑜𝑡 = 10 kN/m² a 12 kN/m²\]</p>
 <p align="left">Cobertura: \[𝑄_𝑡𝑜𝑡 = 6 kN/m² a 8 kN/m²\]</p>
+</div>
 
-<div class = "right">
+
 <table style = "width:100%">
     <tr>
         <td style="width: 90%;" align = "right">\[ 𝑁_𝑘^∗=𝑄_𝑡𝑜𝑡.𝐴_𝑖\]</td>
@@ -165,7 +166,7 @@ nav_order: 1
        <td style="width: 90%;"  align = "right">\[ 𝑁_𝑑^∗=𝛼.𝑁_𝑘^∗\]</td> 
     </tr>
 </table>
-</div>
+
 
 
 
