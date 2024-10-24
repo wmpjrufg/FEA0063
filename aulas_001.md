@@ -24,14 +24,29 @@ nav_order: 1
 </p>
 
 <ol type="a">
-    <li><p align="justify">Vigas (elementos lineares): O item 14.4.1.1 da NBR 6118 [4] define viga como um elemento linear em que a flexão é preponderante;</p></li>
-    <li><p align="justify">Pilares (elementos lineares): O item 14.4.1.2 da NBR 6118 [4] define pilar como um elemento linear de eixo reto, usualmente dispostos na vertical, em que as forças normais de compressão são preponderantes;</p></li>
-    <li><p align="justify">Lajes (elemento de superfície): O item 14.4.2.1 da NBR 6118 [4] define laje como um elemento de superfície plana, sujeitos principalmente a ações normais a seu plano.</p></li>
+    <li><p align="justify">Alojamento das armaduras e suas interferências com as armaduras de outros elementos estruturais, respeitando os espaçamentos e cobrimentos estabelecidos nesta Norma;</p></li>
+    <li><p align="justify">Lançamento e vibração do concreto de acordo com a NBR 14931” Execução de estruturas de concreto – procedimento” [17];</p></li>
 </ol>
+
 
 <table style = "width:100%">
     <tr>
+        <td style="width: 90%;">l_{\text{ef}} = l_0 + a_1 + a_2</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(1)</p></td>
+    </tr>
+</table>
+<table style = "width:100%">
+    <tr>
         <td style="width: 90%;">\[ D(t_i) = 1 - \frac{0.2}{t_i} \cdot 0.01 \]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(1)</p></td>
+    </tr>
+</table>
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">a_1, a_2 \leq \begin{cases}
+\frac{t_1}{2}, & \frac{t_2}{2} \\
+0, & 30.h
+\end{cases}</td>
         <td style="width: 10%;"><p align = "right" id = "eq4">(1)</p></td>
     </tr>
 </table>
