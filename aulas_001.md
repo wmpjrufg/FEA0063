@@ -31,7 +31,7 @@ nav_order: 1
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 90%;">l_{\text{ef}} = l_0 + a_1 + a_2</td>
+        <td style="width: 90%;">\[l_{\text{ef}} = l_0 + a_1 + a_2]</td>
         <td style="width: 10%;"><p align = "right" id = "eq4">(1)</p></td>
     </tr>
 </table>
@@ -64,4 +64,11 @@ nav_order: 1
     <li><p align="justify">A espessura das nervuras não pode ser inferior a 5 cm; </p></li>
     <li><p align="justify">Nervuras com espessura menores que 8 cm não podem conter armadura de compressão.</p></li>
 </ol>
+<h2>Pilares</h2>
+<ol type="a">
+    <li><p align="justify">0,45.l: Pilar de extremidade ou pilar de canto na direção da menor dimensão do pilar (b);</p></li>
+    <li><p align="justify">0,50.l: Pilar de extremidade ou pilar de canto na direção da maior dimensão do pilar (h);</p></li>
+    <li><p align="justify">0,50.l: 0,55.l: Complemento dos casos anteriores.</p></li>
+</ol>
+
 
