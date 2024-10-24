@@ -137,7 +137,7 @@ nav_order: 1
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 10%;">PISO    <\td>
+        <td style="width: 10%;"><p align="left">Piso:</p><\td>
         <td style="width: 80%;">𝑙_𝑒≤{█(&𝑙_0+ℎ@&𝑙)┤</td>
         <td style="width: 10%;"><p align = "right" id = "eq4">(11)</p></td>
     </tr>
