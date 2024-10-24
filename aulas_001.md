@@ -1,10 +1,8 @@
 ---
+title: aula 001 - bla bla
+parent: Aulas
 layout: home
-parent: Framework
-nav_order: 2
-has_children: true
-has_toc: true
-title: algorithms
+nav_order: 1
 ---
 
 <!--Don't delete ths script-->

@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: home
 parent: algorithms
 grand_parent: Framework
@@ -6,7 +6,7 @@ nav_order: 1
 has_children: false
 has_toc: false
 title: sampling_algorithm_structural_analysis
----
+--- -->
 
 <!--Don't delete ths script-->
 <script src = "https://polyfill.io/v3/polyfill.min.js?features=es6"></script>

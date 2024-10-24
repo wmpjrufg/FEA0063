@@ -1,9 +1,7 @@
 ---
+title: Plano de ensino
 layout: home
 nav_order: 2
-has_children: true
-has_toc: true
-title: Quick Start
 ---
 
 <!--Don't delete this script-->
