@@ -31,7 +31,7 @@ nav_order: 1
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 90%;">\[l_{\text{ef}} = l_0 + a_1 + a_2]</td>
+        <td style="width: 90%;">\[l_{\text{ef}} = l_0 + a_1 + a_2\]</td>
         <td style="width: 10%;"><p align = "right" id = "eq4">(1)</p></td>
     </tr>
 </table>
