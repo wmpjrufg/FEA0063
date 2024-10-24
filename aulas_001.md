@@ -165,7 +165,7 @@ nav_order: 1
        <td style="width: 90%;"  align = "right">\[ 𝑁_𝑑^∗=𝛼.𝑁_𝑘^∗\]</td> 
     </tr>
 </table>
-<\div>
+</div>
 
 
 
