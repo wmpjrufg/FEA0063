@@ -43,13 +43,56 @@ nav_order: 1
 </table>
 <table style = "width:100%">
     <tr>
-        <td style="width: 90%;">a_1, a_2 \leq \begin{cases}
+        <td style="width: 90%;">\[a_1, a_2 \leq \begin{cases}
 \frac{t_1}{2}, & \frac{t_2}{2} \\
-0, & 30.h
+0, & 30.h\]
 \end{cases}</td>
-        <td style="width: 10%;"><p align = "right" id = "eq4">(2)</p></td>
+
     </tr>
 </table>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ ℎ=𝑑+𝑐𝑜𝑏+∅_𝑒+∅_𝑙/2\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(3)</p></td>
+    </tr>
+</table>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ ℎ=𝑙_𝑒𝑓/12\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(4)</p></td>
+    </tr>
+</table>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ ℎ=𝑙_𝑒𝑓/10\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(5)</p></td>
+    </tr>
+</table>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ ℎ=𝑙_𝑒𝑓/5\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(6)</p></td>
+    </tr>
+</table>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ ℎ=𝑑+𝑐𝑜𝑏+∅_𝑙/2\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(7)</p></td>
+    </tr>
+</table>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ 𝜆=𝑙_𝑦∕𝑙_𝑥\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(7)</p></td>
+    </tr>
+</table>
+
 <h2>Lajes</h2>
 <ol type="a">
     <li><p align="justify">7 cm para cobertura não em balanço;</p></li>
