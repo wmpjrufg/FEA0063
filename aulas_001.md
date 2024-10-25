@@ -198,7 +198,7 @@ nav_order: 1
     lef de cada vão h = lef / 12 
 </p>
 <p>
-    Tramo 1                                    Tramo 2
+    Tramo 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tramo 2
     h= 600 / 12 = 50 cm                         h = 500 / 12 = 42 cm 
     Compatibilizando hviga = 50 cm 
 </p>
