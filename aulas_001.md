@@ -167,7 +167,19 @@ nav_order: 1
     </tr>
 </table>
 
+<h1>Pré-dimensionamneto de elementos - Exemplos</h1>
 
+<h2>Exemplo 01:</h2>
+<p>Considerando a planta de forma apresentada na Figura a seguir determinar as seções transversais de todos os elementos considerando os critérios apresentados no livro de ECA I. Considerar para a esse exemplo que o concreto para a estrutural possui fck de 30 MPa e corresponde ao piso do 2º pavimento de um edifício modelo com um total de 4 pavimentos (Térreo, 1º piso, 2º piso e cobertura). Considere que todos os pavimentos tipo estão carregados com uma carga total de 25 kN/m² (Valor hipotético para esse exercício) e que o pavimento cobertura possui uma carga total de 15 kN/m².
+</p>
+<img src="" width="600" height="600">
+<br>
+<br>
+<p>
+    Estabelecer a altura das lajes: livro Prof Rebello
+    <br>
+    Exemplo 1: Solução Lajes maciças!
+</p>
 
 
 
