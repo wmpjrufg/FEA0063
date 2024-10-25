@@ -179,7 +179,18 @@ nav_order: 1
     Estabelecer a altura das lajes: livro Prof Rebello
     <br>
     Exemplo 1: Solução Lajes maciças!
+    <br>
+    <br>
+    λ -> Vamos utilizar disâncias médias
+    <br>
+    \[ b_x = b_y = 586 + 7 + 7 = 600m\]
+    <br>
+    O que resulta em:
+    <br>
+    \[ λ = 600 / 600 = 1\]
+    LA 20
 </p>
+
 
 
 
