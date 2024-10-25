@@ -172,7 +172,6 @@ nav_order: 1
 <h2>Exemplo 01:</h2>
 <p>Considerando a planta de forma apresentada na Figura a seguir determinar as seções transversais de todos os elementos considerando os critérios apresentados no livro de ECA I. Considerar para a esse exemplo que o concreto para a estrutural possui fck de 30 MPa e corresponde ao piso do 2º pavimento de um edifício modelo com um total de 4 pavimentos (Térreo, 1º piso, 2º piso e cobertura). Considere que todos os pavimentos tipo estão carregados com uma carga total de 25 kN/m² (Valor hipotético para esse exercício) e que o pavimento cobertura possui uma carga total de 15 kN/m².
 </p>
-<img src="" width="600" height="600">
 <br>
 <br>
 <p>
@@ -198,12 +197,27 @@ nav_order: 1
     lef de cada vão h = lef / 12 
 </p>
 <p>
-    Tramo 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tramo 2
-    h= 600 / 12 = 50 cm                         h = 500 / 12 = 42 cm 
+    Tramo 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tramo 2
+    h= 600 / 12 = 50 cm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;h = 500 / 12 = 42 cm 
     Compatibilizando hviga = 50 cm 
 </p>
+<br>
+<p>
+    Divisão por faixa de "responsabilidade" de cada pilar<br>
+    Área sombreada 8,29m²
+</p>
+<p>
+    \[𝐴_(𝑐,𝑃1)=1347,14/(0,85. 3/1,4+2/100.42)=506,17 〖𝑐𝑚〗^2 > 360 cm^2\]
+    <br>
+    \[ b_viga = 14 cm\]
+    Logo:
+    \[ h = 506,17/14 = 36,15 cm\] 
+    P1 -> 14 / 40 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; h = 40
 
-<p style="padding-bottom: 20px;">Texto 1</p>
+</p>
+
+
+
 
 
 
