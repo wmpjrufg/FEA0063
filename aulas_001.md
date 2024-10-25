@@ -190,8 +190,12 @@ nav_order: 1
     \[ λ = 600 / 600 = 1\]
     LA 20
     <br>
-    \[ h = 2% * (b_y +b_x)/2 = 2% * (600 + 600)/2 = 2% * 600 = 12\]
+    \[ h = 2% * (b_y +b_x)/2 = 2% * (600 + 600)/2 = 2% * 600 \]
     h = 12 cm -> Como á laje maciça b_w = 100cm 
+</p>
+<p>
+    Para a viga VS1 -> Solução viga cont.<br>
+    lef de cada vão 
 </p>
 
 
