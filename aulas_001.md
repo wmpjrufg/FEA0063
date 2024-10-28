@@ -716,6 +716,69 @@ nav_order: 1
 </table>
 
 
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr style="background-color: #333; color: white;">
+      <th>Classe de resistência</th>
+      <th>C20</th>
+      <th>C25</th>
+      <th>C30</th>
+      <th>C35</th>
+      <th>C40</th>
+      <th>C45</th>
+      <th>C50</th>
+      <th>C60</th>
+      <th>C70</th>
+      <th>C80</th>
+      <th>C90</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #ccc;">
+      <td>E<sub>ci</sub> (GPa)</td>
+      <td>25</td>
+      <td>28</td>
+      <td>31</td>
+      <td>33</td>
+      <td>35</td>
+      <td>38</td>
+      <td>40</td>
+      <td>42</td>
+      <td>43</td>
+      <td>45</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>E<sub>cs</sub> (GPa)</td>
+      <td>21</td>
+      <td>24</td>
+      <td>27</td>
+      <td>29</td>
+      <td>32</td>
+      <td>34</td>
+      <td>37</td>
+      <td>40</td>
+      <td>42</td>
+      <td>45</td>
+      <td>47</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>α<sub>i</sub></td>
+      <td>0,85</td>
+      <td>0,86</td>
+      <td>0,88</td>
+      <td>0,89</td>
+      <td>0,90</td>
+      <td>0,91</td>
+      <td>0,93</td>
+      <td>0,95</td>
+      <td>0,98</td>
+      <td>1,00</td>
+      <td>1,00</td>
+    </tr>
+  </tbody>
+</table>
+
 <h1>Introdução à segurança estrututural</h1>
 
 
