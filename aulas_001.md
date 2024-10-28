@@ -656,6 +656,64 @@ nav_order: 1
 
 <h1>Propriedades do concreto estrutural</h1>
 
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr style="background-color: #333; color: white;">
+      <th colspan="2">Classe de resistência<br>Grupo I</th>
+      <th colspan="2">Classe de resistência<br>Grupo II</th>
+    </tr>
+    <tr style="background-color: #333; color: white;">
+      <th>Classe</th>
+      <th>Resistência característica à compressão (MPa)</th>
+      <th>Classe</th>
+      <th>Resistência característica à compressão (MPa)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #ccc;">
+      <td>C20</td>
+      <td>20</td>
+      <td>C55</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>C25</td>
+      <td>25</td>
+      <td>C60</td>
+      <td>60</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>C30</td>
+      <td>30</td>
+      <td>C70</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>C35</td>
+      <td>35</td>
+      <td>C80</td>
+      <td>80</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>C40</td>
+      <td>40</td>
+      <td>C90</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <td>C45</td>
+      <td>45</td>
+      <td>C100</td>
+      <td>100</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>C50</td>
+      <td>50</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 <h1>Introdução à segurança estrututural</h1>
