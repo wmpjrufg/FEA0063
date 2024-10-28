@@ -781,6 +781,74 @@ nav_order: 1
 
 <h1>Introdução à segurança estrututural</h1>
 
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr style="background-color: #ddd;">
+      <th>Combinações</th>
+      <th>Concreto γ<sub>c</sub></th>
+      <th>Aço γ<sub>s</sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Normais</td>
+      <td>1,40</td>
+      <td>1,15</td>
+    </tr>
+    <tr style="background-color: #eee;">
+      <td>Especiais ou de construção</td>
+      <td>1,20</td>
+      <td>1,15</td>
+    </tr>
+    <tr>
+      <td>Excepcionais</td>
+      <td>1,20</td>
+      <td>1,00</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr style="background-color: #ddd;">
+      <th >Classe de carregamento</th>
+      <th colspan="2">Ação variável principal da combinação</th>
+    </tr>
+    <tr style="background-color: #ddd;">
+      <th></th>
+      <th >Duração acumulada</th>
+      <th>Ordem de grandeza da duração</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Permanente</td>
+      <td>Permanente</td>
+      <td>Vida útil da construção</td>
+    </tr>
+    <tr style="background-color: #eee;">
+      <td>Longa duração</td>
+      <td>Longa duração</td>
+      <td>Mais de 6 meses</td>
+    </tr>
+    <tr>
+      <td>Média duração</td>
+      <td>Média duração</td>
+      <td>1 semana a 6 meses</td>
+    </tr>
+    <tr style="background-color: #eee;">
+      <td>Curta duração</td>
+      <td>Curta duração</td>
+      <td>Menos de 1 semana</td>
+    </tr>
+    <tr>
+      <td>Duração instantânea</td>
+      <td>Duração instantânea</td>
+      <td>Muito curta</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
