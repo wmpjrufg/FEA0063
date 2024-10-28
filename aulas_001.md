@@ -469,7 +469,94 @@ nav_order: 1
   </tbody>
 </table>
 
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr style="background-color: #333; color: white;">
+      <th rowspan="1">Diâmetro Nominal (mm)</th>
+      <th colspan="2">Massa e tolerância por unidade de comprimento</th>
+      <th colspan="2">Valores Nominais</th>
+    </tr>
+    <tr style="background-color: #333; color: white;">
+        <th>Barras</th>
+      <th>Massa Nominal<sup>2</sup> (kg/m)</th>
+      <th>Máxima variação permitida para massa nominal</th>
+      <th>Área da Seção (mm<sup>2</sup>)</th>
+      <th>Perímetro (m)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #ccc;">
+      <td>6,30</td>
+      <td>0,245</td>
+      <td>± 7%</td>
+      <td>31,20</td>
+      <td>19,80</td>
+    </tr>
+    <tr>
+      <td>8,00</td>
+      <td>0,395</td>
+      <td>± 7%</td>
+      <td>50,30</td>
+      <td>25,10</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>10,00</td>
+      <td>0,617</td>
+      <td>± 6%</td>
+      <td>78,50</td>
+      <td>31,40</td>
+    </tr>
+    <tr>
+      <td>12,50</td>
+      <td>0,963</td>
+      <td>± 6%</td>
+      <td>122,70</td>
+      <td>39,30</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>16,00</td>
+      <td>1,578</td>
+      <td>± 5%</td>
+      <td>201,10</td>
+      <td>50,30</td>
+    </tr>
+    <tr>
+      <td>20,00</td>
+      <td>2,466</td>
+      <td>± 5%</td>
+      <td>314,20</td>
+      <td>62,80</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>22,00</td>
+      <td>2,984</td>
+      <td>± 4%</td>
+      <td>380,10</td>
+      <td>69,10</td>
+    </tr>
+    <tr>
+      <td>25,00</td>
+      <td>3,853</td>
+      <td>± 4%</td>
+      <td>490,90</td>
+      <td>78,50</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>32,00</td>
+      <td>6,313</td>
+      <td>± 4%</td>
+      <td>804,20</td>
+      <td>100,50</td>
+    </tr>
+    <tr>
+      <td>40,00</td>
+      <td>9,865</td>
+      <td>± 4%</td>
+      <td>1256,60</td>
+      <td>125,70</td>
+    </tr>
+  </tbody>
+</table>
 
 <h1>Propriedades do concreto estrutural</h1>
 
