@@ -850,7 +850,62 @@ nav_order: 1
   </tbody>
 </table>
 
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr style="background-color: #ddd;">
+      <th rowspan="2">Combinações de ações</th>
+      <th colspan="2">Permanentes (g)</th>
+      <th colspan="2">Variáveis (q)</th>
+      <th colspan="2">Protensão (p)</th>
+      <th colspan="2">Recalques de apoio e retração</th>
+    </tr>
+    <tr style="background-color: #ddd;">
+      <th>D<sup>1</sup></th>
+      <th>F<sup>1</sup></th>
+      <th>G<sup>1</sup></th>
+      <th>T<sup>1</sup></th>
+      <th>D<sup>1</sup></th>
+      <th>F<sup>1</sup></th>
+      <th>D<sup>1</sup></th>
+      <th>F<sup>1</sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Normais</td>
+      <td>1,4<sup>2</sup></td>
+      <td>1,0</td>
+      <td>1,4</td>
+      <td>1,2</td>
+      <td>1,2</td>
+      <td>0,9</td>
+      <td>1,2</td>
+      <td>0</td>
+    </tr>
+    <tr style="background-color: #eee;">
+      <td>Especiais ou de construção</td>
+      <td>1,3</td>
+      <td>1,0</td>
+      <td>1,2</td>
+      <td>1,0</td>
+      <td>1,2</td>
+      <td>0,9</td>
+      <td>1,2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Excepcionais</td>
+      <td>1,2</td>
+      <td>1,0</td>
+      <td>1,0</td>
+      <td>0</td>
+      <td>1,2</td>
+      <td>0,9</td>
+      <td>1,2</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
