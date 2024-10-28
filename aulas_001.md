@@ -294,7 +294,125 @@ nav_order: 1
   </tbody>
 </table>
 
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr style="background-color: #333; color: white;">
+      <th>Componente químico</th>
+      <th>Teores médios (%)</th>
+      <th>"Responsabilidade"</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #ccc;">
+      <td>Silicato tricálcico (CaO)<sub>3</sub>SiO<sub>2</sub> = C<sub>3</sub>S</td>
+      <td>45 - 75</td>
+      <td>É o maior responsável pela resistência em todas as idades, especialmente até o fim do primeiro mês de cura. Também seria o segundo em ordem de importância para o fator tempo de pega.</td>
+    </tr>
+    <tr>
+      <td>Silicato dicálcico (CaO)<sub>2</sub>SiO<sub>2</sub> = C<sub>2</sub>S</td>
+      <td>7 - 35</td>
+      <td>Adquire maior importância no processo de endurecimento em idades mais avançadas, sendo largamente responsável pelo ganho de resistência a um ano ou mais.</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>Aluminato tricálcico (CaO)<sub>3</sub>Al<sub>2</sub>O<sub>3</sub> = C<sub>3</sub>A</td>
+      <td>0 - 13</td>
+      <td>Contribui na resistência, especialmente no primeiro dia. Esse é o componente mineralógico mais reativo do clínquer ao lado do Silicato tricálcico.</td>
+    </tr>
+    <tr>
+      <td>Ferraluminato tetracálcico (CaO)<sub>4</sub>Al<sub>2</sub>O<sub>3</sub>Fe<sub>2</sub>O<sub>3</sub> = C<sub>4</sub>AF</td>
+      <td>0 - 18</td>
+      <td>Em nada contribui com a resistência. Tem grandes vazios estruturais e é responsável pela reatividade elevada do composto. Portanto, é bastante responsável pela resistência à corrosão química do concreto. Além disso, é o responsável pela coloração acinzentada do concreto.</td>
+    </tr>
+  </tbody>
+</table>
 
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr style="background-color: #333; color: white;">
+      <th>Tipo</th>
+      <th>Cimento</th>
+      <th>Resistência (MPa)</th>
+      <th>Sufixo</th>
+      <th>Clínquer + Gesso</th>
+      <th>Escória siderúrgica</th>
+      <th>Material pozolânico</th>
+      <th>Material carbonático</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #ccc;">
+      <td>Comum</td>
+      <td>CP I</td>
+      <td></td>
+      <td></td>
+      <td>95 - 100</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0 - 5</td>
+    </tr>
+    <tr>
+      <td>Comum com adição</td>
+      <td>CP I - S</td>
+      <td></td>
+      <td></td>
+      <td>90 - 94</td>
+      <td>0</td>
+      <td>0</td>
+      <td>6 - 10</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>Composto</td>
+      <td>CP II - E</td>
+      <td>25, 32 ou 40</td>
+      <td>RS<sup>1</sup> ou BC<sup>2</sup></td>
+      <td>51 - 94</td>
+      <td>6 - 34</td>
+      <td>0</td>
+      <td>0 - 15</td>
+    </tr>
+    <tr>
+      <td>Composto</td>
+      <td>CP II - Z</td>
+      <td>25, 32 ou 40</td>
+      <td>RS<sup>1</sup> ou BC<sup>2</sup></td>
+      <td>71 - 94</td>
+      <td>0</td>
+      <td>6 - 14</td>
+      <td>0</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>Composto</td>
+      <td>CP II - F</td>
+      <td>25, 32 ou 40</td>
+      <td>RS<sup>1</sup> ou BC<sup>2</sup></td>
+      <td>75 - 89</td>
+      <td>0</td>
+      <td>0</td>
+      <td>11 - 25</td>
+    </tr>
+    <tr>
+      <td>Alto-forno</td>
+      <td>CP III</td>
+      <td>25, 32 ou 40</td>
+      <td></td>
+      <td>25 - 65</td>
+      <td>35 - 75</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>Pozolânico</td>
+      <td>CP IV</td>
+      <td>25, 32 ou 40</td>
+      <td></td>
+      <td>45 - 85</td>
+      <td>0</td>
+      <td>15 - 50</td>
+      <td>0 - 10</td>
+    </tr>
+  </tbody>
+</table>
 
 <h1>Propriedades do concreto estrutural</h1>
 
