@@ -907,6 +907,55 @@ nav_order: 1
   </tbody>
 </table>
 
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr style="background-color: #ddd;">
+      <th>Ações</th>
+      <th colspan="3">γ<sub>f2</sub></th>
+    </tr>
+    <tr style="background-color: #ddd;">
+      <th></th>
+      <th>ψ<sub>0</sub></th>
+      <th>ψ<sub>1</sub></th>
+      <th>ψ<sub>2</sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3">Cargas acidentais de edifícios</td>
+      <td>Locais em que não há predominância de pesos de equipamentos que permanecem fixos por longos períodos de tempo, nem de elevadas concentrações de pessoas<sup>2</sup></td>
+      <td>0,5</td>
+      <td>0,4</td>
+      <td>0,3</td>
+    </tr>
+    <tr style="background-color: #eee;">
+      <td>Locais em que há predominância de pesos de equipamentos que permanecem fixos por longos períodos de tempo, ou de elevada concentração de pessoas<sup>3</sup></td>
+      <td>0,7</td>
+      <td>0,6</td>
+      <td>0,4</td>
+    </tr>
+    <tr>
+      <td>Biblioteca, arquivos, oficinas e garagens</td>
+      <td>0,8</td>
+      <td>0,7</td>
+      <td>0,6</td>
+    </tr>
+    <tr style="background-color: #eee;">
+      <td>Vento</td>
+      <td>Pressão dinâmica do vento nas estruturas em geral</td>
+      <td>0,6</td>
+      <td>0,3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Temperatura</td>
+      <td>Variações uniformes de temperatura em relação à média anual local</td>
+      <td>0,6</td>
+      <td>0,5</td>
+      <td>0,3</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
