@@ -220,6 +220,91 @@ nav_order: 1
 
 </p>
 
+<h1> Materiais para o concreto armado (02)</h1>
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr style="background-color: #333; color: white;">
+      <th>Tipo do agregado</th>
+      <th>Faixa de dimensões (mm)</th>
+      <th>DMC em mm</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #ccc;">
+      <td>Brita 0</td>
+      <td>4,80 – 9,50</td>
+      <td>9,50</td>
+    </tr>
+    <tr>
+      <td>Brita 1</td>
+      <td>9,50 – 19,00</td>
+      <td>19,00</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>Brita 2</td>
+      <td>19,00 – 25,00</td>
+      <td>25,00</td>
+    </tr>
+    <tr>
+      <td>Brita 3</td>
+      <td>25,00 – 50,00</td>
+      <td>50,00</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>Brita 4</td>
+      <td>50,00 – 76,00</td>
+      <td>76,00</td>
+    </tr>
+    <tr>
+      <td>Brita 5</td>
+      <td>76,00 – 100,00</td>
+      <td>100,00</td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr style="background-color: #333; color: white;">
+      <th>Componente químico</th>
+      <th>Teores médios (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #ccc;">
+      <td>CaO</td>
+      <td>58 - 67</td>
+    </tr>
+    <tr>
+      <td>SiO<sub>2</sub></td>
+      <td>16 - 26</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>Al<sub>2</sub>O<sub>3</sub></td>
+      <td>4 - 8</td>
+    </tr>
+    <tr>
+      <td>Fe<sub>2</sub>O<sub>3</sub></td>
+      <td>1 - 5</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>Outros</td>
+      <td>0 - 5</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<h1>Propriedades do concreto estrutural</h1>
+
+
+
+<h1>Introdução à segurança estrututural</h1>
+
+
+
+
 
 
 
