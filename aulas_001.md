@@ -957,6 +957,38 @@ nav_order: 1
   </tbody>
 </table>
 
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr style="background-color: #ddd;">
+      <th>Dimensão<sup>1,3</sup></th>
+      <th>19</th>
+      <th>18</th>
+      <th>17</th>
+      <th>16</th>
+      <th>15</th>
+      <th>14</th>
+      <th>13</th>
+      <th>12</th>
+      <th>11</th>
+      <th>10</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>γ<sub>n</sub><sup>2</sup></td>
+      <td>1,00</td>
+      <td>1,05</td>
+      <td>1,10</td>
+      <td>1,15</td>
+      <td>1,20</td>
+      <td>1,25</td>
+      <td>1,30</td>
+      <td>1,35</td>
+      <td>1,40</td>
+      <td>1,45</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
