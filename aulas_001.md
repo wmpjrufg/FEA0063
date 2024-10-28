@@ -558,6 +558,102 @@ nav_order: 1
   </tbody>
 </table>
 
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr style="background-color: #333; color: white;">
+      <th rowspan="1">Diâmetro Nominal<sup>1</sup> (mm)</th>
+      <th colspan="2">Massa e tolerância por unidade de comprimento</th>
+      <th colspan="2">Valores Nominais</th>
+    </tr>
+    <tr style="background-color: #333; color: white;">
+        <th>Fios</th>
+      <th>Massa Nominal<sup>2</sup> (kg/m)</th>
+      <th>Máxima variação permitida para massa nominal</th>
+      <th>Área da Seção (mm<sup>2</sup>)</th>
+      <th>Perímetro (m)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #ccc;">
+      <td>2,40</td>
+      <td>0,036</td>
+      <td>± 6%</td>
+      <td>4,50</td>
+      <td>7,50</td>
+    </tr>
+    <tr>
+      <td>3,40</td>
+      <td>0,071</td>
+      <td>± 6%</td>
+      <td>9,10</td>
+      <td>10,70</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>3,80</td>
+      <td>0,089</td>
+      <td>± 6%</td>
+      <td>11,30</td>
+      <td>11,90</td>
+    </tr>
+    <tr>
+      <td>4,20</td>
+      <td>0,109</td>
+      <td>± 6%</td>
+      <td>13,90</td>
+      <td>13,20</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>5,00</td>
+      <td>0,154</td>
+      <td>± 6%</td>
+      <td>19,60</td>
+      <td>15,70</td>
+    </tr>
+    <tr>
+      <td>5,50</td>
+      <td>0,187</td>
+      <td>± 6%</td>
+      <td>23,80</td>
+      <td>17,30</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>6,00</td>
+      <td>0,222</td>
+      <td>± 6%</td>
+      <td>28,30</td>
+      <td>18,80</td>
+    </tr>
+    <tr>
+      <td>6,30</td>
+      <td>0,253</td>
+      <td>± 6%</td>
+      <td>31,20</td>
+      <td>19,80</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>8,00</td>
+      <td>0,395</td>
+      <td>± 6%</td>
+      <td>50,30</td>
+      <td>25,10</td>
+    </tr>
+    <tr>
+      <td>9,50</td>
+      <td>0,558</td>
+      <td>± 6%</td>
+      <td>70,90</td>
+      <td>29,80</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>10,00</td>
+      <td>0,617</td>
+      <td>± 6%</td>
+      <td>78,50</td>
+      <td>31,40</td>
+    </tr>
+  </tbody>
+</table>
+
 <h1>Propriedades do concreto estrutural</h1>
 
 
