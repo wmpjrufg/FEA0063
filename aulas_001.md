@@ -414,6 +414,63 @@ nav_order: 1
   </tbody>
 </table>
 
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr style="background-color: #333; color: white;">
+      <th rowspan="2">Tipo</th>
+      <th colspan="4">Ensaios de tração (valores mínimos)</th>
+      <th colspan="2">Ensaio de dobramento a 180º</th>
+      <th rowspan="2">Aderência</th>
+    </tr>
+    <tr style="background-color: #333; color: white;">
+      <th>(f<sub>yk</sub>) - MPa</th>
+      <th>(f<sub>st</sub>) - MPa</th>
+      <th>Alongamento após ruptura em 10.φ – A %</th>
+      <th>Alongamento total na força máxima – A<sub>gt</sub> %</th>
+      <th>Diâmetro do pino (mm)</th>
+      <th>Valores mínimos de η para</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #ccc;">
+      <td>CA-25</td>
+      <td>250</td>
+      <td>1,20.f<sub>yk</sub></td>
+      <td>18</td>
+      <td>--</td>
+      <td>φ ≥ 20</td>
+      <td>φ &lt; 10mm</td>
+      <td>1,0</td>
+      <td>1,0</td>
+    </tr>
+    <tr>
+      <td>CA-50</td>
+      <td>500</td>
+      <td>1,08.f<sub>yk</sub></td>
+      <td>8</td>
+      <td>5</td>
+      <td>4.φ</td>
+      <td>6.φ</td>
+      <td>1,0</td>
+      <td>1,5</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td>CA-60</td>
+      <td>600</td>
+      <td>1,05.f<sub>yk</sub></td>
+      <td>5</td>
+      <td>--</td>
+      <td>--</td>
+      <td>5.φ</td>
+      <td>1,0</td>
+      <td>1,5</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 <h1>Propriedades do concreto estrutural</h1>
 
 
