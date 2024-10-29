@@ -271,6 +271,11 @@ nav_order: 1
     </tr>
 </table>
 
+<h2>Agregados</h2>
+<p>Os agregados são materiais granulares, geralmente inertes, com dimensões e propriedades adequadas para a preparação de argamassa ou concreto.</p><br><br>
+<h3>Cjassificação:</h3>
+
+
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
     <tr style="background-color: #333; color: white;">
