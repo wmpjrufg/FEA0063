@@ -224,12 +224,42 @@ nav_order: 1
 
 <h1> Materiais para o concreto armado (02)</h1>
 <h2>Materias que compõem o concreto armado</h2>
-<ul>
-    <li>Agregado</li>
-    <li>Cimento</li>
-    <li>Água</li>
-    <li>Aço</li>
-</ul>
+
+<table style = "width:100%" align="center" border="0" cellpadding="0">
+    <tr>
+    <td style="width: 100%;" >
+            <ul>
+                <li>Agregado</li>
+                <li>Cimento</li>
+                <li>Água</li>
+                <li>Aço</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+
+<table border="1" cellpadding="5" cellspacing="0">
+    <tbody>
+        <tr style="background-color: #ccc;">
+            <td>Agregado</td>
+            <td><img src="https://www.ladrilhospocosdecaldas.com.br/gdd/sgc/imagens/foto_texto/8/rad0C9072017102591710_117.png" alt="Imagem do agregado"></td>
+        </tr>
+         <tr style="background-color: #ccc;">
+            <td>Cimento</td>
+            <td><img src="https://api.aecweb.com.br/tematico/img_figuras/Uso-do-cimento-1111._Olho%24%240.webp" alt="Imagem cimento"></td>
+        </tr>
+        <tr style="background-color: #ccc;">
+            <td>Água</td>
+            <td><img src="https://www.flushengenharia.com.br/imagens/blog/blog-30.jpg" alt="Imagem água"></td>
+        </tr>
+        <tr style="background-color: #ccc;">
+            <td>Aço</td>
+            <td><img src="https://acospop.com.br/wp-content/uploads/2022/04/tipos-de-vergalhao.jpg" alt="Imagem aço"></td>
+        </tr>
+    </tbody>
+</table>
+
 <table style = "width:100%" align="center" border="1" cellpadding="8">
     <tr>
         <td style="width: 50%;" >
