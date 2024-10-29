@@ -220,7 +220,27 @@ nav_order: 1
 
 </p>
 
+<p>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
 <h1> Materiais para o concreto armado (02)</h1>
+<h2>Materias que compõem o concreto armado</h2>
+<ul>
+    <li>Agregado</li>
+    <li>Cimento</li>
+    <li>Água</li>
+    <li>Aço</li>
+</ul>
+<table style = "width:100%" align="center" border="1" cellpadding="8">
+    <tr>
+        <td style="width: 50%;" >
+      <p>Sequência de preparo de concreto</p>
+        </td>
+        <td style="width: 50%;">
+            <img src="https://www.fazfacil.com.br/wp-content/uploads/2012/07/mat_concreto_mistura_3.gif" > 
+        </td>
+    </tr>
+</table>
+
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
     <tr style="background-color: #333; color: white;">
