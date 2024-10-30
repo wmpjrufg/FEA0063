@@ -487,7 +487,7 @@ nav_order: 1
 </ul>
 <br><br>
 
-<h4 align = "center">Tabela 5: Propriedades mecânicas exigíveis de barras e fios de aço destinados a armaduras</h4>
+<h4 align = "center" >Tabela 5: Propriedades mecânicas exigíveis de barras e fios de aço destinados a armaduras</h4>
 
 <table style ="text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center">
   <thead>
@@ -548,8 +548,11 @@ nav_order: 1
     </tr>
   </tbody>
 </table>
+<br><br>
+          
+<h4 align = "center">Tabela 6: Carracterísticas das barras </h4>
 
-<table border="1" cellpadding="5" cellspacing="0">
+<table style = "text-align: center;" border="1" cellpadding="5" cellspacing="0" align = "center">
   <thead>
     <tr style="background-color: #333; color: white;">
       <th rowspan="1">Diâmetro Nominal (mm)</th>
@@ -637,8 +640,11 @@ nav_order: 1
     </tr>
   </tbody>
 </table>
+<br><br>
 
-<table border="1" cellpadding="5" cellspacing="0">
+<h4 align = "center" >Tabela 7: Carracterísticas de fios</h4>
+
+<table style = "text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center">
   <thead>
     <tr style="background-color: #333; color: white;">
       <th rowspan="1">Diâmetro Nominal<sup>1</sup> (mm)</th>
