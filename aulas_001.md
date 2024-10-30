@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/505e1604-6de5-4285-a64f-2ec9312cba74)---
 title: aula 001 - bla bla
 parent: Aulas
 layout: home
@@ -739,10 +739,14 @@ nav_order: 1
     </tr>
   </tbody>
 </table>
+<br><br><br><br><br>
+<p>-----------------------------------------------------------------------------------Propriedades do concreto estrutural----------------------------------------------------------------------------------------------------------------------------------</p>
+<br><br>
+<h1 align = "center">3 Propriedades do concreto estrutural</h1>
+<br><br><br>
+<h4 align = "center">Tabela 1: Concreto estrutural</h4>
 
-<h1>Propriedades do concreto estrutural</h1>
-
-<table border="1" cellpadding="5" cellspacing="0">
+<table style = "text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center" >
   <thead>
     <tr style="background-color: #333; color: white;">
       <th colspan="2">Classe de resistência<br>Grupo I</th>
@@ -789,18 +793,82 @@ nav_order: 1
     <tr>
       <td>C45</td>
       <td>45</td>
-      <td>C100</td>
-      <td>100</td>
+      <td rowspan ="2">C100</td>
+      <td rowspan ="2">100</td>
     </tr>
     <tr style="background-color: #ccc;">
       <td>C50</td>
-      <td>50</td>
-      <td></td>
-      <td></td>
+      <td>50</td> 
     </tr>
   </tbody>
 </table>
+<br><br>
 
+<p>Um dos parâmetros mais importantes no controle tecnológico do concreto é a curva tensão-deformação à compressão, que fornece várias informações importantes para elaboração de projetos estruturais, tais como a resistência à compressão, o módulo de elasticidade tangente inicial e secante, a deformação na carga de pico e a tenacidade do concreto.</p>
+
+<p>Por definição, a resistência característica (𝑓_𝑐𝑘) à compressão do concreto é o valor que apresenta um grau de confiança de 95%, ou seja, 𝑓_𝑐𝑘 é o valor da resistência à compressão do concreto, de modo que 95% dos resultados dos ensaios estejam acima deste valor ou 5% abaixo.</p>
+<br>
+<table style = "width:100%" align="center" border="1" cellpadding="8">
+    <tr>
+        <td style="width: 100%;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIXBnGTC55Ga7z9ky8ZSnYZn4pb_gS6COU1Q&s" alt="Imagem do agregado" >
+        </td>
+    </tr>
+</table>
+<br>
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ 𝑓_(𝑐𝑘,𝑗)=𝛽_1.(𝑡ⓜ,𝑠). 𝑓_(𝑐𝑘,28)]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(1)</p></td>
+    </tr>
+</table>
+<br>
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ 𝛽_1=𝑒𝑥𝑝{𝑠.[1−(28/𝑡)^(1∕2) ]}]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(2)</p></td>
+    </tr>
+</table>
+<br>
+<p>Adote os seguintes valores para s dependendo do tipo de cimento usado</p>
+
+
+<ol type="a">
+    <li><p align="justify">s=0,38 para concreto de cimento CP III e CP IV;</p></li>
+    <li><p align="justify">s=0,25 para concreto de cimento CP I e CP II;</p></li>
+    <li><p align="justify">s=0,20 para concreto de cimento CP V – ARI.</p></li>
+</ol>
+<br>
+
+<table style = "width:100%" align = "center">
+    <tr>
+        <td style="width: 70%;">\[ 𝑓_𝑐𝑡𝑚=0,3∙𝑓_𝑐𝑘^(2∕3)]</td>
+        <td style="width: 15%;"><p align = "right" id = "eq4">----------></p></td>
+        <td style="width: 15%;"><p align = "right" id = "eq4">Valor médio</p></td>
+    </tr>
+</table>
+<table style = "width:100%" align = "center">
+    <tr>
+        <td style="width: 70%;">\[ 𝑓_(𝑐𝑡𝑘, 𝑖𝑛𝑓)=0,7∙𝑓_𝑐𝑡𝑚]</td>
+        <td style="width: 15%;"><p align = "right" id = "eq4">----------></p></td>
+        <td style="width: 15%;"><p align = "right" id = "eq4">Valor inferior</p></td>
+    </tr>
+</table>
+<table style = "width:100%" align = "center">
+    <tr>
+        <td style="width: 70%;">\[ 𝑓𝑓_(𝑐𝑡𝑘,𝑠𝑢𝑝)=1,3∙𝑓_𝑐𝑡𝑚]</td>
+        <td style="width: 15%;"><p align = "right" id = "eq4">----------></p></td>
+        <td style="width: 15%;"><p align = "right" id = "eq4">Valor superior</p></td>
+    </tr>
+</table>
+<br><br>
+<table style = "width:100%" align = "center">
+    <tr>
+        <td style="width: 70%;">\[𝑓_𝑐𝑡𝑚 (𝑡)=1,41.((𝑓_(𝑐𝑘,𝑗) (𝑡))/10)^(2∕3)]</td>
+        <td style="width: 15%;"><p align = "right" id = "eq4">----------></p></td>
+        <td style="width: 15%;"><p align = "right" id = "eq4">Estimativa Prof. José Milton</p></td>
+    </tr>
+</table>
 
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
