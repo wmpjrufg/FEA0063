@@ -274,9 +274,15 @@ nav_order: 1
 <h2>Agregados</h2>
 <p>Os agregados são materiais granulares, geralmente inertes, com dimensões e propriedades adequadas para a preparação de argamassa ou concreto.</p><br><br>
 <h3>Cjassificação:</h3>
+    <ul>
+        <li>Segundo a origem</li>
+        <li>Segundo a massa específica</li>
+        <li>Segundo as dimensões de partícula</li>
+    </ul>
+<br>
 
-
-<table border="1" cellpadding="5" cellspacing="0">
+<h4 align="center">Tabela 1: Faixa de dimensões e DMC do agregado graúdo tipo brita</h4>
+<table border="1" cellpadding="5" cellspacing="0" align="center">
   <thead>
     <tr style="background-color: #333; color: white;">
       <th>Tipo do agregado</th>
@@ -318,7 +324,11 @@ nav_order: 1
   </tbody>
 </table>
 
-<table border="1" cellpadding="5" cellspacing="0">
+<h2>Cimento</h2><br><br>
+<p>Por definição, o cimento é um material ligante ou aglomerante, normalmente pulverulento, que realiza a união entre as partículas dos agregados.</p>
+<h4 align="center">Tabela 2: Composição química média dos clínqueres</h4>
+
+<table border="1" cellpadding="5" cellspacing="0" align="center">
   <thead>
     <tr style="background-color: #333; color: white;">
       <th>Componente químico</th>
@@ -348,8 +358,11 @@ nav_order: 1
     </tr>
   </tbody>
 </table>
+<br>
 
-<table border="1" cellpadding="5" cellspacing="0">
+<h4 align="center">Tabela 3: Composição química do cimento Portland tradicional com os teores médios</h4>
+
+<table border="1" cellpadding="5" cellspacing="0" align="center">
   <thead>
     <tr style="background-color: #333; color: white;">
       <th>Componente químico</th>
@@ -380,10 +393,12 @@ nav_order: 1
     </tr>
   </tbody>
 </table>
+<br>
 
+<h4 align="center">Tabela 4: Tipos de cimentos normatizados no Brasil e a proporção em massa de compostos</h4>
 
-<table border="1" cellpadding="5" cellspacing="0">
-  <thead>
+<table border="1" cellpadding="5" cellspacing="0" align="center">
+  <thead style="text-align:center;">
     <tr style="background-color: #333; color: white;">
       <th>Tipo</th>
       <th>Cimento</th>
@@ -399,8 +414,8 @@ nav_order: 1
     <tr style="background-color: #ccc;">
       <td>Comum</td>
       <td>CP I</td>
-      <td></td>
-      <td></td>
+      <td rowspan = "7" >25, 32 ou 40</td>
+      <td rowspan = "7">RS<sup>1</sup> ou BC<sup>2</sup></td>
       <td>95 - 100</td>
       <td>0</td>
       <td>0</td>
@@ -409,8 +424,6 @@ nav_order: 1
     <tr>
       <td>Comum com adição</td>
       <td>CP I - S</td>
-      <td></td>
-      <td></td>
       <td>90 - 94</td>
       <td>0</td>
       <td>0</td>
@@ -419,8 +432,6 @@ nav_order: 1
     <tr style="background-color: #ccc;">
       <td>Composto</td>
       <td>CP II - E</td>
-      <td>25, 32 ou 40</td>
-      <td>RS<sup>1</sup> ou BC<sup>2</sup></td>
       <td>51 - 94</td>
       <td>6 - 34</td>
       <td>0</td>
@@ -429,8 +440,6 @@ nav_order: 1
     <tr>
       <td>Composto</td>
       <td>CP II - Z</td>
-      <td>25, 32 ou 40</td>
-      <td>RS<sup>1</sup> ou BC<sup>2</sup></td>
       <td>71 - 94</td>
       <td>0</td>
       <td>6 - 14</td>
@@ -439,8 +448,6 @@ nav_order: 1
     <tr style="background-color: #ccc;">
       <td>Composto</td>
       <td>CP II - F</td>
-      <td>25, 32 ou 40</td>
-      <td>RS<sup>1</sup> ou BC<sup>2</sup></td>
       <td>75 - 89</td>
       <td>0</td>
       <td>0</td>
@@ -449,8 +456,6 @@ nav_order: 1
     <tr>
       <td>Alto-forno</td>
       <td>CP III</td>
-      <td>25, 32 ou 40</td>
-      <td></td>
       <td>25 - 65</td>
       <td>35 - 75</td>
       <td>0</td>
@@ -459,8 +464,6 @@ nav_order: 1
     <tr style="background-color: #ccc;">
       <td>Pozolânico</td>
       <td>CP IV</td>
-      <td>25, 32 ou 40</td>
-      <td></td>
       <td>45 - 85</td>
       <td>0</td>
       <td>15 - 50</td>
