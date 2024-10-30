@@ -471,9 +471,25 @@ nav_order: 1
     </tr>
   </tbody>
 </table>
+<br><br>
 
+<h2 align = "center">Aço</h2><br>
+<p>A usina siderúrgica é a empresa responsável pela transformação do minério de ferro em aço, de maneira que ele possa ser usado comercialmente. Este processo tem o nome de Redução.</p>
+<br>
+<p>O aço, por fim, será o resultado da descarbonatação do ferro gusa, ou seja, é produzido a partir deste, controlando-se o teor de carbono para no máximo 2%.</p>
+<br>
+<p>Aços de baixo carbono: Possuem um máximo de 0,30% deste elemento e apresentam grande ductilidade. São bons para o trabalho mecânico e soldagem, não sendo temperáveis, utilizados na construção de edifícios, pontes, navios, automóveis, dentre outros usos.</p>
+<br><br>
+<ul>
+    <li>CA - 25 (barra)</li>
+    <li>CA - 50 (barra)</li>
+    <li>CA - 60 (barra)</li>
+</ul>
+<br><br>
 
-<table border="1" cellpadding="5" cellspacing="0">
+<h4 align = "center">Tabela 5: Propriedades mecânicas exigíveis de barras e fios de aço destinados a armaduras</h4>
+
+<table style ="text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center">
   <thead>
     <tr style="background-color: #333; color: white;">
       <th rowspan="2">Tipo</th>
