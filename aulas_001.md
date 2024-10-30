@@ -492,18 +492,24 @@ nav_order: 1
 <table style ="text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center">
   <thead>
     <tr style="background-color: #333; color: white;">
-      <th rowspan="2">Tipo</th>
+      <th rowspan="3">Tipo</th>
       <th colspan="4">Ensaios de tração (valores mínimos)</th>
       <th colspan="2">Ensaio de dobramento a 180º</th>
-      <th rowspan="2">Aderência</th>
+      <th colspan = "2">Aderência</th>
     </tr>
     <tr style="background-color: #333; color: white;">
-      <th>(f<sub>yk</sub>) - MPa</th>
-      <th>(f<sub>st</sub>) - MPa</th>
-      <th>Alongamento após ruptura em 10.φ – A %</th>
-      <th>Alongamento total na força máxima – A<sub>gt</sub> %</th>
-      <th>Diâmetro do pino (mm)</th>
-      <th>Valores mínimos de η para</th>
+      <th rowspan = "2">(f<sub>yk</sub>) - MPa</th>
+      <th rowspan = "2">(f<sub>st</sub>) - MPa</th>
+      <th  rowspan = "2">Alongamento após ruptura em 10.φ – A %</th>
+      <th  rowspan = "2">Alongamento total na força máxima – A<sub>gt</sub> %</th>
+      <th colspan = "2"  >Diâmetro do pino (mm)</th>
+      <th colspan = "2"  >Valores mínimos de η para</th>
+    </tr>
+     <tr style="background-color: #333; color: white;">
+      <th>φ < 20 </th>
+      <th>φ ≥ 20</th>
+      <th>φ &lt; 10mm</th>
+      <th>φ ≥ 10 mm</th>
     </tr>
   </thead>
   <tbody>
@@ -513,8 +519,8 @@ nav_order: 1
       <td>1,20.f<sub>yk</sub></td>
       <td>18</td>
       <td>--</td>
-      <td>φ ≥ 20</td>
-      <td>φ &lt; 10mm</td>
+      <td>2.φ</td>
+      <td>4.φ</td>
       <td>1,0</td>
       <td>1,0</td>
     </tr>
@@ -535,8 +541,8 @@ nav_order: 1
       <td>1,05.f<sub>yk</sub></td>
       <td>5</td>
       <td>--</td>
-      <td>--</td>
       <td>5.φ</td>
+      <td>--</td>
       <td>1,0</td>
       <td>1,5</td>
     </tr>
