@@ -869,10 +869,41 @@ nav_order: 1
         <td style="width: 15%;"><p align = "right" id = "eq4">Estimativa Prof. José Milton</p></td>
     </tr>
 </table>
+<br><br><br>
+<h4>Módulo tangente inicial</h4>
+<table style = "width:100%" align="center" border="0" cellpadding="8">
+    <tr>
+        <td style="width: 100%;">
+            <img src="https://seer.atitus.edu.br/index.php/revistaec/article/viewFile/2173/1884/14122" alt="Imagem módulos Tg inicial">
+        </td>
+    </tr>
+</table>
+<p>
+   \[𝐸_𝑐𝑖=𝛼_𝐸∙5600∙√(𝑓_𝑐𝑘 )\] Para 𝑓_𝑐𝑘 de 20 a 50 MPa <br>
+   \[𝐸_𝑐𝑖=21,5∙10^3∙𝛼_𝐸∙(𝑓_𝑐𝑘/10+1,25)^(1∕3)\] Para 𝑓_𝑐𝑘 de 55 a 90 MPa <br>
+    <br>
+    𝛼_𝐸=1,2 para basalto e diabásio;  <br>
+    𝛼_𝐸=1,0 para granito e gnaisse; <br>
+    𝛼_𝐸=0,9 para calcário; <br>
+    𝛼_𝐸=0,7 para arenito. <br>
+</p>
+<br><br>
+<h4 align = "center">Módulo secante</h4>
+<table style = "width:100%" align="center" border="0" cellpadding="8">
+    <tr>
+        <td style="width: 100%;">
+            <img src="hhttps://seer.atitus.edu.br/index.php/revistaec/article/viewFile/2173/1884/14121" alt="Imagem módulos secante">
+        </td>
+    </tr>
+</table>
+<p>
+    \[ 𝐸_𝑐𝑠=𝛼_𝑖∙𝐸_𝑐𝑖\] <br>
+    \[ 𝛼_𝑖=0,8+0,2∙𝑓_𝑐𝑘/80≤1,0\]
+</p>
 
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
-    <tr style="background-color: #333; color: white;">
+    <tr style="background-color: white; color: black;">
       <th>Classe de resistência</th>
       <th>C20</th>
       <th>C25</th>
@@ -932,6 +963,26 @@ nav_order: 1
     </tr>
   </tbody>
 </table>
+<br>
+<p>
+    \[ ν = 0,20\] Poisson <br>
+    \[ 𝐺_𝑐  = 𝐸_𝑐𝑠/2,4\] Módulo de elasticidade transversal 
+</p>
+<br><br>
+
+<h4 align = "center">Diagrama tensão-deformação do concreto na compressão </h4>
+<table style = "width:100%" align="center">
+    <tr>
+        <td style="width: 80%;">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxeUZvAydhrwjbhhwor_pkzhJ-XXoaSHB2_ni1CQtSBEG2DcoaQLRnhf668t0FxF9BRydEWekUlQe1u44aw90giKtKt-0xBZGNWDir-4oQK7jO259dEh8ZHX5WFLfOetsr321v7XeId5Hu/s1600/diagrama+tensao+deforma%25C3%25A7ao.png" alt="diagrama tensão-deformação">
+        </td>
+        <td style="width: 20%;">
+            \[ 𝜎_𝑐=0,85∙𝑓_𝑐𝑑 [1−(1−𝜀_𝑐/𝜀_𝑐2 )^𝑛 ] \]
+        </td>
+    </tr>
+</table>
+<br>
+
 
 <h1>Introdução à segurança estrututural</h1>
 
