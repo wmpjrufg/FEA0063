@@ -397,8 +397,8 @@ nav_order: 1
 
 <h4 align="center">Tabela 4: Tipos de cimentos normatizados no Brasil e a proporção em massa de compostos</h4>
 
-<table border="1" cellpadding="5" cellspacing="0" align="center">
-  <thead style="text-align:center;">
+<table style="text-align:center;" border="1" cellpadding="5" cellspacing="0" align="center">
+  <thead>
     <tr style="background-color: #333; color: white;">
       <th>Tipo</th>
       <th>Cimento</th>
