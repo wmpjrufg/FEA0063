@@ -1289,8 +1289,8 @@ nav_order: 1
 </ol>
 <br>
 
-
-
+<h2>11.3 Coeficientes adicionais</h2>
+<br>
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
     <tr style="background-color: #ddd;">
@@ -1322,6 +1322,18 @@ nav_order: 1
       <td>1,45</td>
     </tr>
   </tbody>
+</table>
+<br>
+
+<table style = "width:100%" align = "center">
+    <tr align = "center">
+        <td style="width: 80%;"><p>𝛾<sub>𝑛</sub> = 1,95−0,05.𝑏</p></td>
+	<td style="width: 20%;"><p>Pilar</p></td>
+    </tr>
+     <tr align = "center">
+        <td style="width: 80%;"><p>𝛾<sub>𝑛</sub> = 1,95−0,05.h</p></td>
+	<td style="width: 20%;"><p>Laje</p></td>
+     </tr>
 </table>
 
 
