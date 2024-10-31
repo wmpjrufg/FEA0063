@@ -1221,7 +1221,10 @@ nav_order: 1
     </tr>
   </tbody>
 </table>
-
+<p>
+	D é desfavoravel, F é favoravel, G representa as cargas variáveis em geral e T a temperatura.<br>
+ 	Para as cargas permanentes de pequenas variabilidade, coo o peso próprio das estruturas, especialmente as pré-moldadas, esse coeficiente pode ser reduzido para 1,3.
+</p>
 <br>
 
 <table border="1" cellpadding="5" cellspacing="0">
