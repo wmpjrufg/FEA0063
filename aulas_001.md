@@ -1347,8 +1347,28 @@ nav_order: 1
 	<td style="width: 20%;"><p>Combinação Quase Permanente</p></td>
      </tr>
 </table>
-
-
+<br>
+<p>--------------------------------------------------------------------------------------------------------Estádios I E II---------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<h1>Estádios I E II</h1>
+<br><br>
+<br><br>
+<p>Elementos lineares de concreto armado, conforme a NBR 6118, são dimensionados considerando flexão normal simples, uma vez que o plano do momento fletor está em um dos eixos principais da seção transversal e acompanha as ações de força cortante. No entanto, esta mesma norma estabelece que o dimensionamento de peças submetidas a flexão normal simples deve ser feito de maneira separada (dimensionamento devido ao momento fletor e dimensionamento devido à força cortante).</p>
+<br><br>
+<h4 align = "center">Estádios</h4>
+<br>
+<table border="1" cellpadding="5" cellspacing="0" align = "center">
+  <thead>
+    <tr style="background-color: #ddd;">
+      <th>
+      	<ol type = "a" style = "text-align:left">
+		<li>Estádio I: Esse estágio inicial de linearidade na resposta experimental</li>
+		<li>Estádio II: Uma certa redução da inclinação da curva marcando o início do trecho de não linearidade</li>
+		<li>Estádio III: Plastificação da armadura e/ou plastificação do concreto.</li>
+	</ol>
+      </th>
+    </tr>
+  </thead>
+</table>
 
 
 
