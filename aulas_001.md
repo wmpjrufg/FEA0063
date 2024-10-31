@@ -1382,10 +1382,28 @@ nav_order: 1
 	No Estádio II ocorre um aumento da intensidade do momento fletor solicitante, o que produz uma tensão de tração na maioria dos pontos abaixo da Linha Neutra (L.N.) que supera a tensão resistente do concreto à tração, o que resulta nos seguintes comportamentos:<br>
 	O momento fletor solicitante supera o momento de fissuração, o que provoca o aparecimento das fissuras na região de concreto tracionado, abaixo da linha neutra (h – x). Devido a esse fato, considera-se que apenas o aço resiste aos esforços de tração (despreza- 
         se o concreto tracionado); <br>
+	<br>
 	Admite-se que a tensão de compressão no concreto continue linear; <br>
+	<br>
 	As fissuras de tração na flexão do concreto são visíveis.
 
 </p>
-
+<br>
+<table border="0" cellpadding="5" cellspacing="0" align = "center">
+  <thead>
+    <tr style="background-color: #ddd;">
+      <th rowspan = "3">\[𝑥_𝐼𝐼=(𝑎_2±√(〖𝑎_2〗^2−4.𝑎_1.𝑎_3 ))/(2.𝑎_1 )\]</th>
+      <th>𝑎<sub>1</sub> =𝑏<sub>𝑤</sub>/12</th>
+    </tr>
+    <tr style="background-color: #ddd;">
+      
+      <th>\[𝑎_2=ℎ_𝑓.(𝑏_𝑓  − 𝑏_𝑤 )+(𝛼_𝑒  − 1).𝐴_𝑠^′+𝛼_𝑒.𝐴_𝑠\]</th>
+    </tr>
+    <tr style="background-color: #ddd;">
+    
+      <th>\[𝑎_3=−𝑑^′.(𝛼_𝑒  − 1).𝐴_𝑠^′−𝑑.𝛼_𝑒.𝐴_𝑠−〖ℎ_𝑓〗^2/2.(𝑏_𝑓  − 𝑏_𝑤 )\]</th>
+    </tr>
+  </thead>
+</table>
 
 
