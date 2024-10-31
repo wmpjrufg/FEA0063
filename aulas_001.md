@@ -1022,7 +1022,64 @@ nav_order: 1
 </ol>
 <br><br><br><br>
 <p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-<h1>Introdução à segurança estrututural</h1>
+<h1>11 Introdução à segurança estrututural</h1>
+<br><br>
+
+<p>Conceitualmente, segurança estrutural pode ser dada como a distância entre uma situação de ruína e uma situação de uso, sendo que ao longo da vida útil dessa estrutura a segurança permitirá a ela suportar as ações mais desfavoráveis que podem vir a ocorrer.</p>
+<br>
+<table style = "width:100%" align = "center">
+    <tr align = "left">
+        <td style="width: 100%;">
+		<ul>
+			<li>Incerteza intrínseca (Natural)</li>
+			<li>Incerteza epistêmica</li>
+		</ul>
+	</td>
+    </tr>
+</table>
+<br><br>
+
+<ol type="a">
+	<li><p align="justify">Métodos Clássicos ou Método das Tensões Admissíveis; \[𝜎_𝑟=𝜎_𝑙𝑖𝑚/𝛾\] para 𝛾 ≥ 1 </p></li>
+	<li><p align="justify">Método dos Estados Limites. <br><br><br><br>
+            </p>
+            <span style="position: absolute; left: 30%; top: 25%; transform: translate(-50%, -50%); font-size: 50px;">&#8600;</span>
+            <p align ="center">
+            Método atual empregado nas normativas nacionais e internacionais.
+            </p></li>
+</ol>
+<br><br>
+<p align = "right">Basicamente o modelo semi-probablísticos<br>
+	implementou a filosofia das combinações<br>
+	e dos coeficientes parciais de segurança.<br>
+	<br>
+	\[𝑔_𝑅 (𝑓_𝑘/𝛾_𝑚 )≥𝑔_𝑆 (𝛾_𝑓.𝑄_𝑘 )\]
+</p>
+<br>
+<p>No caso das normativas brasileiras existem dois tipos de abordagem para consideração dos Estados Limites. A ABNT NBR 8681 “Ações e segurança nas estruturas – Procedimento” [13] define esses dois conceitos, são eles:</p><br>
+
+<ol type="a">
+    <li><p align="justify">Estado Limite Último (ELU)</p></li>
+    <li><p align="justify">Estado Limite de Serviço (ELS)</p></li>
+</ol>
+<br><br>
+<h2>11.1 Aspectos sobre a resistência</h2>
+<br>
+
+<table style = "width:100%" align = "center">
+    <tr align = "center">
+        <td style="width: 50%;">\[𝑓_𝑑=𝑓_𝑘/𝛾_𝑚\]</td>
+	<td style="width: 50%;">\[𝛾_𝑚=𝛾_𝑚1.𝛾_𝑚2.𝛾_𝑚3\]</td>
+    </tr>
+</table>
+<br>
+<p>
+	𝛾 <sub>𝑚1</sub> leva em conta a variabilidade da resistência efetiva, transformando a resistência característica em um valor extremo de menor probabilidade de ocorrência;<br>
+ 	𝛾 <sub>𝑚2</sub> considera as diferenças entre a resistência efetiva do material da estrutura e a resistência medida convencionalmente em corpos-de-prova padronizados;<br>
+  	𝛾 <sub>𝑚3</sub> considera as incertezas existentes na determinação das solicitações.
+</p>
+<br>
+
 
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
@@ -1050,7 +1107,7 @@ nav_order: 1
     </tr>
   </tbody>
 </table>
-
+<p>A mesma norma afirma que para avaliações em Estado Limite de Serviço não necessitam de minoração, portanto, 𝛾<sub>𝑚</sub> = 1,0.</p>
 
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
