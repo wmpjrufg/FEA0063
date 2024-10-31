@@ -1371,7 +1371,20 @@ nav_order: 1
 </table>
 <br>
 <p>
-	rgregerg
+	Para o Estádio I são válidas algumas hipóteses, são elas: <br>
+	A região de concreto tracionado, abaixo da linha neutra (h – x), está íntegra (não há fissuras) devido à pequena intensidade das tensões normais de tração, as quais são menores que a tensão resistente do concreto (fct); <br>
+	As tensões na região comprimida são proporcionais às deformações, correspondendo ao trecho linear elástico do diagrama tensão-deformação do concreto; <br>
+	O diagrama de tensão normal ao longo da seção é linear (Ia) – exceto quando o concreto está na iminência da ruptura devido à tração (Ib), em que se tem um diagrama plastificado na região de tração do concreto (Ver Figura 1.8). <br>
+
+</p>
+<br><br>
+<p>
+	No Estádio II ocorre um aumento da intensidade do momento fletor solicitante, o que produz uma tensão de tração na maioria dos pontos abaixo da Linha Neutra (L.N.) que supera a tensão resistente do concreto à tração, o que resulta nos seguintes comportamentos:<br>
+	O momento fletor solicitante supera o momento de fissuração, o que provoca o aparecimento das fissuras na região de concreto tracionado, abaixo da linha neutra (h – x). Devido a esse fato, considera-se que apenas o aço resiste aos esforços de tração (despreza- 
+        se o concreto tracionado); <br>
+	Admite-se que a tensão de compressão no concreto continue linear; <br>
+	As fissuras de tração na flexão do concreto são visíveis.
+
 </p>
 
 
