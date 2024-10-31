@@ -1411,7 +1411,12 @@ nav_order: 1
  	\[𝐼_𝐼𝐼=(𝑏_𝑓.〖𝑥_𝐼𝐼〗^3)/3+𝛼_𝑒.𝐴_𝑠.(𝑥_𝐼𝐼−𝑑)^2+(𝛼_𝑒−1).𝐴_𝑠^′.(𝑥_𝐼𝐼−𝑑^′ )^2\] <br><br><br>
   	Para X <sub>11</sub> > h <sub>f</sub><br><br>
  	\[𝐼_𝐼𝐼=((𝑏_𝑓−𝑏_𝑤 ).〖ℎ_𝑓〗^3)/12+(𝑏_𝑤.〖𝑥_𝐼𝐼〗^3)/3+(𝑏_𝑓−𝑏_𝑤 ).(𝑥_𝐼𝐼−ℎ_𝑓/2)^2+𝛼_𝑒.𝐴_𝑠.(𝑥_𝐼𝐼−𝑑)^2+(𝛼_𝑒−1).𝐴_𝑠^′.(𝑥_𝐼𝐼−𝑑^′ )^2\] <br>
-
+</p>
+<br><br>
+<p>
+	Nas avaliações de flecha e fissuração por exemplo é necessária a consideração do efeito da fissuração sobre as propriedades geométricas da peça visto que na peça existem trechos fissurados e outros não fissurados. Para isso avaliamos a inércia média da peça proposto por Branson e descrito em Carvalho e Figueiredo Filho.<br><br>
+ 	\[𝐼_𝑚=(𝑀_𝑟/𝑀_𝑎 )^𝑛.𝐼_𝑐+[1−(𝑀_𝑟/𝑀_𝑎 )^𝑛 ].𝐼_𝐼𝐼\]
+	
 </p>
 
 
