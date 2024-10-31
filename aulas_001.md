@@ -1108,15 +1108,16 @@ nav_order: 1
   </tbody>
 </table>
 <p>A mesma norma afirma que para avaliações em Estado Limite de Serviço não necessitam de minoração, portanto, 𝛾<sub>𝑚</sub> = 1,0.</p>
-
+<br>
+<h2>11.2 Ações e combinações</h2>
+<br>
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
     <tr style="background-color: #ddd;">
-      <th >Classe de carregamento</th>
+      <th rowspan ="2">Classe de carregamento</th>
       <th colspan="2">Ação variável principal da combinação</th>
     </tr>
     <tr style="background-color: #ddd;">
-      <th></th>
       <th >Duração acumulada</th>
       <th>Ordem de grandeza da duração</th>
     </tr>
@@ -1149,6 +1150,15 @@ nav_order: 1
     </tr>
   </tbody>
 </table>
+<br>
+
+<table style = "width:100%" align = "center">
+    <tr align = "center">
+        <td style="width: 70%;">\[𝑝_𝑚𝑎𝑥=𝑚𝑎𝑥{█(&𝛾_𝑔.𝑔_𝑘+𝛾_𝑞1.𝑞_(1,𝑘)+〖𝜓_0𝑞2.𝛾_𝑞2.𝑞〗_(2,𝑘)@&𝛾_𝑔.𝑔_𝑘+𝛾_𝑞2.𝑞_(2,𝑘)+〖𝜓_0𝑞1.𝛾_𝑞1.𝑞〗_(1,𝑘) )┤\]</td>
+	<td style="width: 30%;"><p>Regra de Turkstra</p></td>
+    </tr>
+</table>
+<br>
 
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
