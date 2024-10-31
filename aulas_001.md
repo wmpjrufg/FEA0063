@@ -982,8 +982,46 @@ nav_order: 1
     </tr>
 </table>
 <br>
+<table style = "text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center"> 
+  <thead>
+    <tr style="background-color: white; color: black;">
+      <th colspan = "2">Para concretos de classe até C50</th>
+      <th colspan = "2">Para concretos de classe até C55 até C90</th>
+  
+  </thead>
+  <tbody>
+    <tr style="background-color: #ccc;">
+      <td colspan = "2">𝜀𝑐2 = 2%</td>
+      <td>\[𝜀𝑐2 = 2,0 ‰+0,085‰∙(𝑓_𝑐𝑘−50)^0,53\]</td>
+    <tr>
+      <td colspan = "2">𝜀𝑐u = 3,5%</td>
+	  <td>\[𝜀𝑐𝑢 = 2,6 ‰+35‰∙[(90−𝑓_𝑐𝑘)/100]^4\]</td>
+    </tr>
+    <tr style="background-color: #ccc;">
+      <td colspan = "2">n = 2</td>
+      <td>\[𝑛=1,4+23,40∙[(90−𝑓_𝑐𝑘)/100]^4\]</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h4>Diagramas tensão-deformação do concreto com variação no tempo de carregamento do corpo-de-prova</h4>
+<table style = "width:100%" align="center" border="1" cellpadding="8">
+    <tr>
+        <td style="width: 100%;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx-FYNDc5jELS042sovBfJRcZiIXfwq_nBCQ&s" alt="Diagramas tensão-deformação do concreto com variação no tempo de carregamento do corpo-de-prova" >
+        </td>
+    </tr>
+</table>
+<br>
+<h3>Reologia do concreto</h3>
+<p>As primeiras deformações tratadas são as que tem o tempo como uma de suas variáveis de projeto:</p><br>
 
-
+<ol type="a">
+    <li><p align="justify">Retração;</p></li>
+    <li><p align="justify">Fluência.</p></li>
+</ol>
+<br><br><br><br>
+<p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
 <h1>Introdução à segurança estrututural</h1>
 
 <table border="1" cellpadding="5" cellspacing="0">
