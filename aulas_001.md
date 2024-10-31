@@ -1276,10 +1276,21 @@ nav_order: 1
   </tbody>
 </table>
 <p>
-	Para valores de ψ<sub>1</sub> relativos às pontes e principalmente aos problemas de fadiga, ver seção 23 (NBR6118).<br>
-	Edifícios residenciais.<br>
+	<sup>1</sup>Para valores de ψ<sub>1</sub> relativos às pontes e principalmente aos problemas de fadiga, ver seção 23 (NBR6118).<br>
+	<sup>2</sup>Edifícios residenciais.<br>
 	<sup>3</sup>Edifícios comerciais, de escritotio, estações e edifícios públicos
 </p>
+<br>
+
+<ol type="a">
+	<li><p align="justify">γ<sub>f2</sub> = 1,00 (combinações raras) </p></li>
+	<li><p align="justify">γ<sub>f2</sub> = ψ<sub>1</sub> (Combinações frequentes);</p></li>
+	<li><p align="justify">γ<sub>f2</sub> = ψ<sub>2</sub> (Combinações quase permanentes)</p></li>
+</ol>
+<br>
+
+
+
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
     <tr style="background-color: #ddd;">
