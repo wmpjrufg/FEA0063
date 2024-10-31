@@ -1160,10 +1160,15 @@ nav_order: 1
 </table>
 <br>
 
-<table border="1" cellpadding="5" cellspacing="0">
+
+
+<table style = "text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center">
   <thead>
     <tr style="background-color: #ddd;">
-      <th rowspan="2">Combinações de ações</th>
+      <th rowspan="3">Combinações de ações</th>
+      <th colspan = "8"> ações</th>
+    </tr>
+       <tr style="background-color: #ddd;">
       <th colspan="2">Permanentes (g)</th>
       <th colspan="2">Variáveis (q)</th>
       <th colspan="2">Protensão (p)</th>
@@ -1216,6 +1221,8 @@ nav_order: 1
     </tr>
   </tbody>
 </table>
+
+<br>
 
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
