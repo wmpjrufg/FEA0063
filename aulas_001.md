@@ -1418,6 +1418,17 @@ nav_order: 1
  	\[𝐼_𝑚=(𝑀_𝑟/𝑀_𝑎 )^𝑛.𝐼_𝑐+[1−(𝑀_𝑟/𝑀_𝑎 )^𝑛 ].𝐼_𝐼𝐼\]
 	
 </p>
+<br><br>
+<p>--------------------------------------------------------------------------------------------------------------Estádio III e domínios de deformação-----------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<br>
+<h1>Estádio III e domínios de deformação</h1>
+<br><br>
+<ol type = "a"> 
+	<li>Devido ao aumento do momento fletor, a fissuração da peça na região tracionada, abaixo da linha neutra (ℎ – 𝑥), aumenta consideravelmente. Portanto, assim como no Estádio II – em que ocorrem as primeiras fissuras no concreto tracionado, a resistência a tração do concreto é desprezada, considerando-se que apenas o aço resiste aos esforços de tração;</li>
+	<li>A fibra mais comprimida do concreto começa a plastificar a partir da deformação específica de 𝜀_𝑐2=0,20% (grupo II equação 1.15 volume I), chegando a atingir, sem aumento de tensão, a deformação específica de 𝜀_𝑐𝑢=0,35% para concretos do grupo I e para concretos do grupo II essa deformação é calculada conforme equação 1.16 volume I;</li>
+	<li>O diagrama de tensões tende a ficar vertical (uniforme), com quase todas as fibras trabalhando com sua tensão máxima de compressão, ou seja, praticamente todas as fibras atingiram deformações superiores a 𝜀_𝑐2=0,20% e chegando até 𝜀_𝑐𝑢=0,35% (ver valores para grupo II do concreto cap. 1 Volume I);</li>
+	<li>A peça está bastante fissurada, com as fissuras se aproximando da linha neutra, fazendo com que sua profundida diminua e, consequentemente, a região comprimida de concreto também.</li>
+</ol>
 
 
 
