@@ -1227,14 +1227,13 @@ nav_order: 1
 </p>
 <br>
 
-<table border="1" cellpadding="5" cellspacing="0">
+<table style = "text-align:center" border="1" cellpadding="5" cellspacing="0" align ="center">
   <thead>
     <tr style="background-color: #ddd;">
-      <th>Ações</th>
+      <th colspan = "2" rowspan ="2">Ações</th>
       <th colspan="3">γ<sub>f2</sub></th>
     </tr>
     <tr style="background-color: #ddd;">
-      <th></th>
       <th>ψ<sub>0</sub></th>
       <th>ψ<sub>1</sub></th>
       <th>ψ<sub>2</sub></th>
@@ -1276,7 +1275,11 @@ nav_order: 1
     </tr>
   </tbody>
 </table>
-
+<p>
+	Para valores de ψ<sub>1</sub> relativos às pontes e principalmente aos problemas de fadiga, ver seção 23 (NBR6118).<br>
+	Edifícios residenciais.<br>
+	<sup>3</sup>Edifícios comerciais, de escritotio, estações e edifícios públicos
+</p>
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
     <tr style="background-color: #ddd;">
