@@ -1528,6 +1528,7 @@ Do ponto de vista de comportamento peças estruturais com armadura dupla são em
 M<sub>lim</sub> 0,45 . b<sub>w</sub> . 𝜆. d<sup>2</sup>. 𝛼<sub>c</sub>. 𝑓<sub>cd</sub>. (1-0,225. 𝜆) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 𝑓<sub>𝑐k</sub> ≤ 50 MPa <br>
 M<sub>lim</sub> 0,35 . b<sub>w</sub> . 𝜆. d<sup>2</sup>. 𝛼<sub>c</sub>. 𝑓<sub>cd</sub>. (1-0,175. 𝜆) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; para 50 MPa < 𝑓<sub>𝑐k</sub> ≤ 50 MPa
 </p>
+<br>
 <p>
 
 \[M_{sd} = b_w \cdot \alpha_c \cdot f_{cd} \cdot \lambda \cdot x \cdot \left( d - 0.50 \cdot \lambda \cdot x \right)\]
@@ -1537,9 +1538,36 @@ M<sub>lim</sub> 0,35 . b<sub>w</sub> . 𝜆. d<sup>2</sup>. 𝛼<sub>c</sub>. �
 \[A_{st} = \frac{M_{sd}}{f_{yd} \cdot \left( d - 0.50 \cdot \lambda \cdot x_{III} \right)}\]
 
 </p>
+<br>
+<p>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+<br>
+<h1>Dimensionamento de seções retangulares - armadura dupla</h1>
+<br>
+
+<p>
+	Nessa análise o momento fletor total de cálculo (Msd) é composto em duas parcelas: O momento M1sd que é igual ao máximo momento absorvido por uma armadura simples (parcela M1d), ou seja, Mlim e a parcela M2sd que é a parcela referente parcela M<sub>2d</sub>.<br><br>
+	
 
 
 
+\[
+A_{\text{1st}} = \frac{M_{\text{1sd}}}{f_{yd} \cdot \left( d - 0.50 \cdot \lambda \cdot x_{\text{III}} \right)}
+\]
+
+
+\[
+A_{\text{2st}} = \frac{M_{\text{2sd}}}{f_{yd} \cdot \left( d - d' \right)}
+\]
+
+
+
+\[
+A_{\text{st}} = \frac{M_{\text{1sd}}}{f_{yd} \cdot \left( d - 0.50 \cdot \lambda \cdot x_{\text{III}} \right)} + \frac{M_{\text{2sd}}}{f_{yd} \cdot \left( d - d' \right)}
+\]
+
+
+</p>
 
 
 
