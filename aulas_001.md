@@ -1548,25 +1548,10 @@ M<sub>lim</sub> 0,35 . b<sub>w</sub> . 𝜆. d<sup>2</sup>. 𝛼<sub>c</sub>. �
 <p>
 	Nessa análise o momento fletor total de cálculo (Msd) é composto em duas parcelas: O momento M1sd que é igual ao máximo momento absorvido por uma armadura simples (parcela M1d), ou seja, Mlim e a parcela M2sd que é a parcela referente parcela M<sub>2d</sub>.<br><br>
 	
-
-
-
-\[
-A_{\text{1st}} = \frac{M_{\text{1sd}}}{f_{yd} \cdot \left( d - 0.50 \cdot \lambda \cdot x_{\text{III}} \right)}
-\]
-
-
-\[
-A_{\text{2st}} = \frac{M_{\text{2sd}}}{f_{yd} \cdot \left( d - d' \right)}
-\]
-
-
-
-\[
-A_{\text{st}} = \frac{M_{\text{1sd}}}{f_{yd} \cdot \left( d - 0.50 \cdot \lambda \cdot x_{\text{III}} \right)} + \frac{M_{\text{2sd}}}{f_{yd} \cdot \left( d - d' \right)}
-\]
-
-
+A<sub>st</sub> = A<sub>1st</sub> + A<sub>2st</sub> <br>
+\[A_{\text{1st}} = \frac{M_{\text{1sd}}}{f_{yd} \cdot \left( d - 0.50 \cdot \lambda \cdot x_{\text{III}} \right)}\] <br><br>
+\[A_{\text{2st}} = \frac{M_{\text{2sd}}}{f_{yd} \cdot \left( d - d' \right)}\]<br><br>
+\[A_{\text{st}} = \frac{M_{\text{1sd}}}{f_{yd} \cdot \left( d - 0.50 \cdot \lambda \cdot x_{\text{III}} \right)} + \frac{M_{\text{2sd}}}{f_{yd} \cdot \left( d - d' \right)}\]<br><br>
 </p>
 
 
