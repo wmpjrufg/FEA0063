@@ -1479,14 +1479,32 @@ nav_order: 1
  	β<sub>x</sub> = x/d ≤ 0,35 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; para 50 MPa < 𝑓<sub>𝑐k</sub> ≤ 50 MPa
 </p>
 <p>
-	x/d ≤ (&#948; - 0,45) / 1,25 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 𝑓<sub>𝑐k</sub> ≤ 50 MPa <br>
-	x/d ≤ (&#948; - 0,56) / 1,25 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; para 50 MPa < 𝑓<sub>𝑐k</sub> ≤ 50 MPa <br>
-	&#948; ≥ 0,90 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Para estruturas de nós móveis 
-	&#948; ≥ 0,75 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Para qualquer outro caso
+	x/d ≤ (&#948; - 0,45) / 1,25 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 𝑓<sub>𝑐k</sub> ≤ 50 MPa <br>
+	x/d ≤ (&#948; - 0,56) / 1,25 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; para 50 MPa < 𝑓<sub>𝑐k</sub> ≤ 50 MPa <br><br>
+	&#948; ≥ 0,90 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Para estruturas de nós móveis <br>
+	&#948; ≥ 0,75 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Para qualquer outro caso
 		
 </p>
-
-
+<br><br>
+<h2>28.2 SOMÍNIOS DE DOFORMAÇÃO</h2>
+<br>
+<p>Os conjuntos de deformações específicas do concreto e do aço ao longo de uma seção transversal retangular com armadura simples (só tracionada) submetida a ações normais definem cinco domínios de deformação. Os domínios representam as diversas possibilidades de ruína da seção; a cada par de deformações específicas de cálculo (εs) e (εc) correspondem um esforço normal, se houver, e um momento fletor atuantes na seção. Para verificar esses domínios é apresentada a Figura a seguir com todos os seis intervalos de deformações.
+</p>
+<br>
+<table style = "width:100%" align="center" border="1" cellpadding="8">
+    <tr align = "left">
+        <td style="width: 50%;"><p>a) Para concretos de classes até C50:</p></td>
+	<td style="width: 50%;"><p>b) Para concretos de classes C55 até C90:</p></td>
+    </tr>
+     <tr align = "left">
+        <td style="width: 50%;"><p>εc2 = 2,0 %;</p></td>
+	<td style="width: 50%;"><p>εc2 = 2,0 % + 0,085% . (f<sub>ck</sub> - 50)<sup>0,53</sup></p></td>
+     </tr>
+     <tr align = "left">
+        <td style="width: 50%;"><p>εcu = 3,5 %;</p></td>
+	<td style="width: 50%;"><p>εc2 = 2,0 % + 35% . [(90 - f<sub>ck</sub> - 50) / 100]<sup>4</sup></p></td>
+     </tr>
+</table>
 
 
 
