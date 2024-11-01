@@ -1474,11 +1474,18 @@ nav_order: 1
 	No caso da seção transversal da viga/lajes for de apoio ou de ligação com outros elementos estruturais, há ainda outras considerações a serem feitas sobre a capacidade de rotação desses elementos.
 </p>
 <br>
-<p>
+<p align = "center">
 	β<sub>x</sub> = x/d ≤ 0,45 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 𝑓<sub>𝑐k</sub> ≤ 50 MPa <br>
  	β<sub>x</sub> = x/d ≤ 0,35 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; para 50 MPa < 𝑓<sub>𝑐k</sub> ≤ 50 MPa
-	
 </p>
+<p>
+	x/d ≤ (&#948; - 0,45) / 1,25 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 𝑓<sub>𝑐k</sub> ≤ 50 MPa <br>
+	x/d ≤ (&#948; - 0,56) / 1,25 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; para 50 MPa < 𝑓<sub>𝑐k</sub> ≤ 50 MPa <br>
+	&#948; ≥ 0,90 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Para estruturas de nós móveis 
+	&#948; ≥ 0,75 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Para qualquer outro caso
+		
+</p>
+
 
 
 
