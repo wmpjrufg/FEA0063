@@ -1505,11 +1505,24 @@ nav_order: 1
 	<td style="width: 50%;"><p>εc2 = 2,0 % + 35% . [(90 - f<sub>ck</sub> - 50) / 100]<sup>4</sup></p></td>
      </tr>
 </table>
+<br>
+<p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<br>
+<h1>Dimensionamento de seções retangulares - armadura simples</h1>
+<br>
+<p>Como visto no capítulo anterior o problema da flexão pura no Estádio III envolve uma série de variáveis como determinação das tensões nas armaduras, a própria armadura e a posição da linha neutra. Logo nesse capítulo teremos como objetivo principal a explicação dos artifícios necessários para obtenção da área de aço de uma peça de concreto armado, seja ela uma seção retangular ou seção Tê
+</p>
+<br>
+<p>
+	\[𝑏_𝑤.𝑑.𝜆.𝛽_𝑥.𝛼_𝑐.𝑓_𝑐𝑑+𝜎_𝑠𝑐.𝐴_𝑠𝑐=𝜎_𝑠𝑡.𝐴_𝑠𝑡 <br>\]<br><br>
+	\[𝑀_𝑠𝑑=𝑏_𝑤.𝑑^2.𝜆.𝛽_𝑥.𝛼_𝑐.𝑓_𝑐𝑑.(1−0,50. 𝜆.𝛽_𝑥 )+ 𝜎_𝑠𝑐.𝐴_𝑠𝑐.(𝑑−𝑑^′ )\] <br><br>
+	\[𝜀_𝑐𝑐/𝛽_𝑥 =𝜀_𝑠𝑐/(𝛽_𝑥−𝑑^′/𝑑)=𝜀_𝑠𝑡/(1−𝛽_𝑥 )\]<br><br>
+ 	β<sub>x</sub> = x/d ≤ 0,45 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 𝑓<sub>𝑐k</sub> ≤ 50 MPa <br>
+ 	β<sub>x</sub> = x/d ≤ 0,35 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; para 50 MPa < 𝑓<sub>𝑐k</sub> ≤ 50 MPa
 
-
-
-
-
+</p>
+<br>
+<p>Com essa quantidade de equações é possível montar um sistema com 4 equações e 5 incógnitas portanto o problema de flexão acaba sendo um sistema possível, porém indeterminado com infinitas soluções. Logo você como projetista deverá arbitrar uma condição para que seja possível determinar a solução para esse sistema.</p>
 
 
 
