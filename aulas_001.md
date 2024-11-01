@@ -1467,10 +1467,18 @@ nav_order: 1
 <p>
 	𝜎<sub>𝑐𝑑</sub> = 𝛼<sub>𝑐</sub>.𝑓<sub>𝑐𝑑</sub> <-------------------------------------->𝜎<sub>𝑐𝑑</sub> = 0,90.𝛼<sub>𝑐</sub>.𝑓<sub>𝑐𝑑</sub> <br> <br>
  	𝛼<sub>𝑐</sub> = 0,85 para 𝑓<sub>𝑐k</sub> ≤ 50 MPa <br>
-  	𝛼<sub>𝑐</sub> = 0,85.(1 - (𝑓<sub>𝑐k</sub> - 50)/200) para 50 MPa < 𝑓<sub>𝑐k</sub> ≤ 50 MPa
+  	𝛼<sub>𝑐</sub> = 0,85 . (1 - (𝑓<sub>𝑐k</sub> - 50) / 200) para 50 MPa < 𝑓<sub>𝑐k</sub> ≤ 50 MPa
 </p>
-
-
+<br>
+<p>
+	No caso da seção transversal da viga/lajes for de apoio ou de ligação com outros elementos estruturais, há ainda outras considerações a serem feitas sobre a capacidade de rotação desses elementos.
+</p>
+<br>
+<p>
+	β<sub>x</sub> = x/d ≤ 0,45 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 𝑓<sub>𝑐k</sub> ≤ 50 MPa <br>
+ 	β<sub>x</sub> = x/d ≤ 0,35 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; para 50 MPa < 𝑓<sub>𝑐k</sub> ≤ 50 MPa
+	
+</p>
 
 
 
