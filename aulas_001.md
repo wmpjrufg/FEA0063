@@ -1454,8 +1454,21 @@ nav_order: 1
 	𝜆 = 0,80 para 𝑓<sub>ck</sub> ≤ 50 MPa <br>
 	𝜆 = 0,80 - ((𝑓<sub>ck</sub> - 50)/400), para 𝑓<sub>ck</sub> >50 MPa  ≤ 50 MPa
 </p>
-
-
+<br>
+<p>A tensão deve ser alterada caso a seção tenha acréscimo ou não de área comprimida.</p><br>
+<table style = "width:100%" align="center" border="1" cellpadding="8">
+    <tr>
+        <td style="width: 100%;">
+            <img src="" alt="LISHA NEUTRA (28)" >
+        </td>
+    </tr>
+</table>
+<br>
+<p>
+	𝜎<sub>𝑐𝑑</sub> = 𝛼<sub>𝑐</sub>.𝑓<sub>𝑐𝑑</sub> <-------------------------------------->𝜎<sub>𝑐𝑑</sub> = 0,90.𝛼<sub>𝑐</sub>.𝑓<sub>𝑐𝑑</sub> <br> <br>
+ 	𝛼<sub>𝑐</sub> = 0,85 para 𝑓<sub>𝑐k</sub> ≤ 50 MPa <br>
+  	𝛼<sub>𝑐</sub> = 0,85.(1 - (𝑓<sub>𝑐k</sub> - 50)/200) para 50 MPa < 𝑓<sub>𝑐k</sub> ≤ 50 MPa
+</p>
 
 
 
