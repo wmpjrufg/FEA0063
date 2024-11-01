@@ -1524,9 +1524,12 @@ nav_order: 1
 <br>
 <p>Com essa quantidade de equações é possível montar um sistema com 4 equações e 5 incógnitas portanto o problema de flexão acaba sendo um sistema possível, porém indeterminado com infinitas soluções. Logo você como projetista deverá arbitrar uma condição para que seja possível determinar a solução para esse sistema.<br>
 No primeiro caso (armadura dupla) estabeleceremos que não conhecemos as armaduras, mas conhecemos a relação 𝛽_𝑥 limitante. Logo se conhecemos 𝛽_𝑥 conhecemos a posição da linha neutra (𝑥_𝐼𝐼𝐼). Para o segundo caso, chamado aqui de armadura simples, não conhecemos a linha neutra e admitimos que a armadura de compressão (𝐴_𝑠𝑐) não se faz necessária. A grande questão é quando estabelecer uma situação ou outra?! <br><br>
-Do ponto de vista de comportamento peças estruturais com armadura dupla são empregadas quando é necessária a redução da posição da linha neutra.
-
-
+Do ponto de vista de comportamento peças estruturais com armadura dupla são empregadas quando é necessária a redução da posição da linha neutra.<br><br>
+M<sub>lim</sub> 0,45 . b<sub>w</sub> . 𝜆. d<sup>2</sup>. 𝛼<sub>c</sub>. 𝑓<sub>cd</sub>. (1-0,225. 𝜆) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 𝑓<sub>𝑐k</sub> ≤ 50 MPa <br>
+M<sub>lim</sub> 0,35 . b<sub>w</sub> . 𝜆. d<sup>2</sup>. 𝛼<sub>c</sub>. 𝑓<sub>cd</sub>. (1-0,175. 𝜆) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; para 50 MPa < 𝑓<sub>𝑐k</sub> ≤ 50 MPa
+</p>
+<p>
+	
 </p>
 
 
