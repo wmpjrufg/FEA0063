@@ -1421,7 +1421,7 @@ nav_order: 1
 <br><br>
 <p>--------------------------------------------------------------------------------------------------------------Estádio III e domínios de deformação-----------------------------------------------------------------------------------------------------------------------------------------------------------</p>
 <br>
-<h1>Estádio III e domínios de deformação</h1>
+<h1>28 Estádio III e domínios de deformação</h1>
 <br><br>
 <ol type = "a"> 
 	<li>Devido ao aumento do momento fletor, a fissuração da peça na região tracionada, abaixo da linha neutra (ℎ – 𝑥), aumenta consideravelmente. Portanto, assim como no Estádio II – em que ocorrem as primeiras fissuras no concreto tracionado, a resistência a tração do concreto é desprezada, considerando-se que apenas o aço resiste aos esforços de tração;</li>
@@ -1429,6 +1429,54 @@ nav_order: 1
 	<li>O diagrama de tensões tende a ficar vertical (uniforme), com quase todas as fibras trabalhando com sua tensão máxima de compressão, ou seja, praticamente todas as fibras atingiram deformações superiores a 𝜀_𝑐2=0,20% e chegando até 𝜀_𝑐𝑢=0,35% (ver valores para grupo II do concreto cap. 1 Volume I);</li>
 	<li>A peça está bastante fissurada, com as fissuras se aproximando da linha neutra, fazendo com que sua profundida diminua e, consequentemente, a região comprimida de concreto também.</li>
 </ol>
+<br>
+<p>
+	Diferentemente dos Estádios I e II – em que são verificados os ELS, no Estádio III tem-se o dimensionamento da peça de concreto armado no Estado Limite Último (ELU), ou seja, na iminência da ruptura.
+	<br>
+	Diante disso, tem-se que no Estádio III existem ao todo cinco incógnitas (𝐴_𝑠, 𝐴_𝑠^′, 𝜎_𝑠, 𝜎_𝑠^′ e 𝑥_𝐼𝐼𝐼) 
+	<br>
+	Estática tem-se apenas duas equações: somatório das forças é igual a zero e somatório dos momentos internos é igual ao momento solicitante externo. 
+	<br>
+	É necessário recorrer às relações entre as deformações da seção transversal para se conseguir mais três novas equações. Essa etapa será chamada de determinação dos domínios de deformação.
+</p>
+<br><br>
+<h2 align = "center">28.1 HIPÓTESES BÁSICAS PARA CÁLCULO</h2>
+<br><br>
+<p>
+	as seções transversais se mantêm planas após a deformação; \[𝑥/𝑑=𝜀_𝑐/(𝜀_𝑐+𝜀_𝑠 )\]
+	<br>
+	a deformação das barras passivas aderentes ou o acréscimo de deformação das barras ativas aderentes em tração ou compressão deve ser a(o) mesma(o) do concreto em seu entorno;
+	<br>
+	as tensões de tração no concreto, normais à seção transversal, devem ser desprezadas no ELU;
+	<br>
+	a distribuição de tensões no concreto é feita de acordo com o diagrama parábola-retângulo, definido em 8.2.10.1, com tensão de pico igual a 〖0,85.𝑓〗_𝑐𝑑, com 𝑓_𝑐𝑑 definido em 12.3.3. Esse diagrama pode ser substituído pelo retângulo de profundidade 𝑦=𝜆.𝑥, onde o valor do parâmetro 𝜆 pode ser tomado igual as equações abaixo:
+	<br>
+	𝜆 = 0,80 para 𝑓<sub>ck</sub> ≤ 50 MPa <br>
+	𝜆 = 0,80 - ((𝑓<sub>ck</sub> - 50)/400), para 𝑓<sub>ck</sub> >50 MPa  ≤ 50 MPa
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
