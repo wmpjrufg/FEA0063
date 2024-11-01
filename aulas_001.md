@@ -1530,14 +1530,12 @@ M<sub>lim</sub> 0,35 . b<sub>w</sub> . 𝜆. d<sup>2</sup>. 𝛼<sub>c</sub>. �
 </p>
 <p>
 
-\[
-M_{sd} = b_w \cdot \alpha_c \cdot f_{cd} \cdot \lambda \cdot x \cdot \left( d - 0.50 \cdot \lambda \cdot x \right)
-\]
-
+\[M_{sd} = b_w \cdot \alpha_c \cdot f_{cd} \cdot \lambda \cdot x \cdot \left( d - 0.50 \cdot \lambda \cdot x \right)\]
+<br>
 \[x_{III} = \frac{d + \sqrt{d^2 - 2 \cdot \left( \frac{M_{sd}}{b_w \cdot \alpha_c \cdot f_{cd}} \right)}}{\lambda}\]
-
-
+<br>
 \[A_{st} = \frac{M_{sd}}{f_{yd} \cdot \left( d - 0.50 \cdot \lambda \cdot x_{III} \right)}\]
+
 </p>
 
 
