@@ -1653,9 +1653,15 @@ A<sub>st</sub> = A<sub>1st</sub> + A<sub>2st</sub> <br>
 	<li>Detalhamentos incorretos ou insuficientes;</li>
 	<li>Erros de dimensionamento;</li>
 	<li>Má definição de concepções estruturais, erro de dimensionamento de cargas atuantes etc.</li>
-	
 </ol>
-
+<br>
+<p>De acordo com a NBR 6118 [3] os mecanismos mais importantes para o envelhecimento de uma estrutura são dados a seguir:</p>
+<br><br>
+<ol type = "a">
+	<li>Mecanismos preponderantes de deterioração relativos ao concreto: </li>
+	<li>Mecanismos preponderantes de deterioração relativos à armadura:</li>
+	<li>Ações mecânicas, movimentações de origem térmica, impactos, ações cíclicas etc.</li>
+</ol>
 
 
 
