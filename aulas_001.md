@@ -1910,10 +1910,15 @@ A<sub>st</sub> = A<sub>1st</sub> + A<sub>2st</sub> <br>
 	𝜆 . x > h<sub>f</sub><br><br><br>
  	M<sub>1sd</sub> = (b<sub>f</sub> - b<sub>w</sub>) . h<sub>f</sub> . 𝑎<sub>c</sub> . f<sub>cd</sub> . (d - 0,5 . h<sub>f</sub>)<br><br>
   	M<sub>2sd</sub> = M<sub>sd</sub> - M<sub>1sd</sub>
-
-
 </p>
-
+<br><br><br>
+<p>
+	\[A_{1st} = \frac{M_{1sd}}{f_{yd} \cdot \left( d - 0.5 \cdot h_f \right)}\]<br><br>
+	A<sub>st</sub> = A<sub>1st</sub> + A<sub>2st</sub><br><br><br>
+	Onde: <br><br>
+	A<sub>1st</sub> - Parcela de aço que advém da contribuição da mesa;<br><br>
+	A<sub>2st</sub> - Parcela de aço que advém da contribuição da nervura.
+</p>
 
 
 
