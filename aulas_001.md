@@ -1553,9 +1553,97 @@ A<sub>st</sub> = A<sub>1st</sub> + A<sub>2st</sub> <br>
 \[A_{\text{2st}} = \frac{M_{\text{2sd}}}{f_{yd} \cdot \left( d - d' \right)}\]<br><br>
 \[A_{\text{st}} = \frac{M_{\text{1sd}}}{f_{yd} \cdot \left( d - 0.50 \cdot \lambda \cdot x_{\text{III}} \right)} + \frac{M_{\text{2sd}}}{f_{yd} \cdot \left( d - d' \right)}\]<br><br>
 </p>
+<br><br>
+<p>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<br>
+<h1>25 Aspectos sobre qualidade e durabilidade de estruturas de concreto</h1>
+<br><br><br><br>
 
-
-
+<table style = "text-align:center" border="1" align = "center">
+    <tr>
+        <th rowspan="2">Tipo de estrutura</th>
+        <th colspan="5">Vida Útil de Projeto (VUP) mínima</th>
+    </tr>
+    <tr>
+        <th>BS 7543 (1992)</th>
+        <th>ISO 2394 (1998)</th>
+        <th>FIB 84 (2006) e EM 206-1 (2007)</th>
+        <th>NBR 15575 (2013)</th>
+        <th>FIB 58 (2010)</th>
+    </tr>
+    <tr>
+        <td>Temporárias</td>
+        <td>&ge; 10 anos</td>
+        <td>1 a 5 anos</td>
+        <td>&ge; 10 anos</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>Partes estruturais substituíveis (Ex.: apoios)</td>
+        <td>&ge; 10 anos</td>
+        <td>&ge; 25 anos</td>
+        <td>10 a 25 anos</td>
+        <td>23 a 20 anos</td>
+        <td>25 a 30 anos</td>
+    </tr>
+    <tr>
+        <td>Estruturas para agricultura e semelhantes</td>
+        <td>-</td>
+        <td>-</td>
+        <td>15 a 30 anos</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>Estruturas offshore</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>&ge; 35 anos</td>
+    </tr>
+    <tr>
+        <td>Edifícios industriais e reformas</td>
+        <td>&ge; 30 anos</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>Edifícios e outras estruturas comuns</td>
+        <td>&ge; 50 anos</td>
+        <td>&ge; 50 anos</td>
+        <td>&ge; 50 anos</td>
+        <td>50 anos</td>
+        <td>&ge; 50 anos</td>
+    </tr>
+    <tr>
+        <td>Edifícios novos e reformas de edifícios públicos</td>
+        <td>&ge; 60 anos</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>Edifícios monumentais, pontes e outras estruturas de engenharia civil</td>
+        <td>&ge; 120 anos</td>
+        <td>-</td>
+        <td>&ge; 100 anos</td>
+        <td>-</td>
+        <td>&ge; 100 anos</td>
+    </tr>
+    <tr>
+        <td>Edifícios monumentais, pontes e outras estruturas de engenharia civil</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>&ge; 200 anos</td>
+    </tr>
+</table>
 
 
 
