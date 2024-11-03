@@ -1855,7 +1855,6 @@ A<sub>st</sub> = A<sub>1st</sub> + A<sub>2st</sub> <br>
         	\[𝑓_(𝑐𝑘,𝑒𝑠𝑡)=𝑓_𝑐𝑚−1,65 . 𝑆𝑑\]<br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </th>
-      
         <th rowspan = "2">
         	Para n ≥ 20:
         </th>
@@ -1867,6 +1866,7 @@ A<sub>st</sub> = A<sub>1st</sub> + A<sub>2st</sub> <br>
         </th>
     </tr>
 </table>
+<br><br><br><br><br><br>
 
 
 
