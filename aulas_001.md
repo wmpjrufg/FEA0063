@@ -1704,7 +1704,58 @@ A<sub>st</sub> = A<sub>1st</sub> + A<sub>2st</sub> <br>
         <td>Elevado</td>
     </tr>
 </table>
-
+<br>
+<br>
+<br>
+<p>
+	Medeiros et al. [6] e Helene [9] afirmam que a durabilidade um sistema estrutural em concreto dependerá da regra dos 4C, conforme descrito a seguir:
+</p>
+<br><br>
+<ol type = "a">
+	<li>Composição ou traço;</li>
+	<li>Compactação ou adensamento efetivo do concreto na estrutura;</li>
+	<li>Cura efetiva do concreto na estrutura;</li>
+	<li>Cobrimento das armaduras.</li>
+</ol>
+<br><br><br><br>
+<table style = "text-align:center" border="1" align = "center">
+    <tr>
+        <th rowspan="2">Concreto<sup>1</sup></th>
+        <th rowspan="2">Tipo<sup>2</sup></th>
+        <th colspan="4">Classe de agressividade</th>
+    </tr>
+    <tr>
+        <th>I</th>
+        <th>II</th>
+        <th>III</th>
+        <th>IV</th>
+    </tr>
+    <tr>
+        <td>Relação água/cimento em massa</td>
+        <td>CA</td>
+        <td>&le; 0,65</td>
+        <td>&le; 0,60</td>
+        <td>&le; 0,55</td>
+        <td>&le; 0,45</td>
+    </tr>
+    <tr>
+        <td>Classe de concreto (ABNT NBR 8953)</td>
+        <td>CA</td>
+        <td>&ge; C20</td>
+        <td>&ge; C25</td>
+        <td>&ge; C30</td>
+        <td>&ge; C40</td>
+    </tr>
+    <tr>
+        <td>Consumo de cimento Portland por metro cúbico de concreto (kg/m³)</td>
+        <td>CA</td>
+        <td>&ge; 260</td>
+        <td>&ge; 280</td>
+        <td>&ge; 320</td>
+        <td>&ge; 360</td>
+    </tr>
+</table>
+<br><br><br>
 
 
 
