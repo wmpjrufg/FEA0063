@@ -1757,7 +1757,39 @@ A<sub>st</sub> = A<sub>1st</sub> + A<sub>2st</sub> <br>
 </table>
 <br><br><br>
 
-
+<table style = "text-align:center" aling = "center" border="1">
+    <tr>
+        <th>Classe</th>
+        <th>Abatimento (mm)</th>
+        <th>Aplicações típicas</th>
+    </tr>
+    <tr>
+        <td>S10</td>
+        <td>10 &le; A &lt; 50</td>
+        <td>Concreto extrusado, vibroprensado ou centrifugado</td>
+    </tr>
+    <tr>
+        <td>S50</td>
+        <td>50 &le; A &lt; 100</td>
+        <td>Alguns tipos de pavimentos e de elementos de fundação</td>
+    </tr>
+    <tr>
+        <td>S100</td>
+        <td>100 &le; A &lt; 160</td>
+        <td>Elementos estruturais, com lançamento convencional do concreto</td>
+    </tr>
+    <tr>
+        <td>S160</td>
+        <td>160 &le; A &lt; 220</td>
+        <td>Elementos estruturais com lançamento bombeado do concreto</td>
+    </tr>
+    <tr>
+        <td>S220</td>
+        <td>&ge; 220</td>
+        <td>Elementos estruturais esbeltos ou com alta densidade de armaduras</td>
+    </tr>
+</table>
+<br><br><br>
 
 
 
