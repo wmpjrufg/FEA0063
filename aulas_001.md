@@ -1644,6 +1644,17 @@ A<sub>st</sub> = A<sub>1st</sub> + A<sub>2st</sub> <br>
         <td>&ge; 200 anos</td>
     </tr>
 </table>
+<br><br>
+<p>Souza e Ripper [5] afirmam que a durabilidade é afetada por três grandes fatores: (a) Falhas relacionadas a etapas de projeto; (b) Falhas relacionadas a etapas de execução; e (c) Falhas relacionadas a etapa de utilização. Porém a nível de projeto, são eles: </p>
+<br>
+<ol type = "a">
+	<li>Falta de compatibilização de projetos (arquitetônicos, estruturais, hidráulicos, elétricos etc.);</li>
+	<li>Má especificação de materiais;</li>
+	<li>Detalhamentos incorretos ou insuficientes;</li>
+	<li>Erros de dimensionamento;</li>
+	<li>Má definição de concepções estruturais, erro de dimensionamento de cargas atuantes etc.</li>
+	
+</ol>
 
 
 
