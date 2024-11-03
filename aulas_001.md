@@ -1662,7 +1662,48 @@ A<sub>st</sub> = A<sub>1st</sub> + A<sub>2st</sub> <br>
 	<li>Mecanismos preponderantes de deterioração relativos à armadura:</li>
 	<li>Ações mecânicas, movimentações de origem térmica, impactos, ações cíclicas etc.</li>
 </ol>
-
+<br><br> <br>
+<table style = "text-align:center" border="1" align = "center">
+    <tr>
+        <th>Classe de agressividade ambiental</th>
+        <th>Agressividade</th>
+        <th>Classificação geral do tipo de ambiente para efeito de projeto</th>
+        <th>Risco de deterioração da estrutura</th>
+    </tr>
+    <tr>
+        <td>I</td>
+        <td>Fraca</td>
+        <td>
+            Rural<br>
+            Submersa
+        </td>
+        <td>Insignificante</td>
+    </tr>
+    <tr>
+        <td>II</td>
+        <td>Moderada</td>
+        <td>Urbana<sup>1,2</sup></td>
+        <td>Pequeno</td>
+    </tr>
+    <tr>
+        <td>III</td>
+        <td>Forte</td>
+        <td>
+            Marinha<sup>1</sup><br>
+            Industrial<sup>1,2</sup>
+        </td>
+        <td>Grande</td>
+    </tr>
+    <tr>
+        <td>IV</td>
+        <td>Muito forte</td>
+        <td>
+            Industrial<sup>1,3</sup><br>
+            Respingo de maré
+        </td>
+        <td>Elevado</td>
+    </tr>
+</table>
 
 
 
