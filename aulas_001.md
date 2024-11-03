@@ -1757,7 +1757,7 @@ A<sub>st</sub> = A<sub>1st</sub> + A<sub>2st</sub> <br>
 </table>
 <br><br><br>
 
-<table style = "text-align:center" aling = "center" border="1">
+<table style = "text-align:center" aling = "center" border="0">
     <tr>
         <th>Classe</th>
         <th>Abatimento (mm)</th>
@@ -1834,6 +1834,38 @@ A<sub>st</sub> = A<sub>1st</sub> + A<sub>2st</sub> <br>
       </table>
      </th>
   </tr>
+</table>
+<br><br><br>
+
+<table style = "text-align:center" align = "center" border="0">
+	<tr>
+    	<th><br>
+        	\[𝑓_(𝑐𝑘,𝑒𝑠𝑡)=2.(𝑓_1+𝑓_2+…𝑓_(𝑚−1))/(𝑚−1)−𝑓_𝑚\]<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </th>
+        <th rowspan = "3">
+   	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </th>
+        <th><br>
+        	Para 𝑛 (número de amostras) 6 ≤ 𝑛 ≤ 20
+        </th>
+    </tr>
+    <tr>
+    	<th><br>
+        	\[𝑓_(𝑐𝑘,𝑒𝑠𝑡)=𝑓_𝑐𝑚−1,65 . 𝑆𝑑\]<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </th>
+      
+        <th rowspan = "2">
+        	Para n ≥ 20:
+        </th>
+    </tr>
+    <tr>
+    	<th><br>
+        	\[𝑆𝑑= √(1/(𝑛−1) ∑1_(𝑖=1)^𝑛▒(𝑓_𝑖−𝑓_𝑐𝑚 )²)\]<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </th>
+    </tr>
 </table>
 
 
