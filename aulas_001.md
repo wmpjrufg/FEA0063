@@ -1867,6 +1867,52 @@ A<sub>st</sub> = A<sub>1st</sub> + A<sub>2st</sub> <br>
     </tr>
 </table>
 <br><br><br><br><br><br>
+<p>---------------------------------------------------------------------------------------Dimensionamento de seções Tê------------------------------------------------------------------------------------------------------------------</p>
+<br>
+<h1>32 Dimensionamento de seções Tê</h1>
+<br>
+<body>
+   <table style = "text-align:justify" align = "right" border="1" width="400">
+    <tr>
+        <th>A grande questão no cálculo da seção Tê é a definição desta largura de colaboração da mesa ou aba (𝑏<sub>𝑓</sub>).
+        Essa definição de largura colaborante é complexa e depende de uma série de fatores como por exemplo, tipo de carregamento,
+        tipo e afastamento entre apoios, rigidez da alma e da laje
+</th>    
+    </tr>
+</table>
+<br>
+</table>
+<br><br><br><br><br><br><br><br>
+  <table style = "text-align:justify" align = "center" border="0" width="400">
+    <tr>
+        <th>NBR 6118 em seu item 14.6.2.2<br><br>
+            \[𝑏_(1≤) {█(&0,1.𝑎@&0,5.𝑏_2 )┤\]<br><br>
+            \[𝑏_(3≤) {█(&0,1.𝑎@&𝑏_4 )┤\]
+</th>    
+    </tr>
+  </table>
+	<table style = "text-align:left">
+    <tr>
+        <th>
+            <ol type="a">
+                <li>Viga simplesmente apoiada: 𝑎 = 1,00.𝑙;</li>
+                <li>Tramo com momento em uma só extremidade: 𝑎 = 0,75.𝑙;</li>
+                <li>Tramo com momentos nas duas extremidades: 𝑎 = 0,60.𝑙;</li>
+                <li>Tramo em balanço: 𝑎 = 2,00.𝑙.</li>
+            </ol>
+        </th>    
+    </tr>
+</table>
+<br><br><br><br>
+<br><br><br><br>
+<p>
+	𝜆 . x ≤ h<sub>f</sub> <br><br>
+	𝜆 . x > h<sub>f</sub><br><br><br>
+ 	M<sub>1sd</sub> = (b<sub>f</sub> - b<sub>w</sub>) . h<sub>f</sub> . 𝑎<sub>c</sub> . f<sub>cd</sub> . (d - 0,5 . h<sub>f</sub>)<br><br>
+  	M<sub>2sd</sub> = M<sub>sd</sub> - M<sub>1sd</sub>
+
+
+</p>
 
 
 
