@@ -19,8 +19,8 @@ nav_order: 2
 </ul>
 
 
-<left><img src="https://www.fazfacil.com.br/wp-content/uploads/2012/07/mat_concreto_mistura_3.gif" width="50%"></left>
-<p align = "left"><b>Figura 1.</b>Sequência de preparo de concreto. <a href="#ref1">[1]</a></p>
+<center><img src="https://www.fazfacil.com.br/wp-content/uploads/2012/07/mat_concreto_mistura_3.gif" width="50%"></center>
+<p align = "center"><b>Figura 1.</b>Sequência de preparo de concreto. <a href="#ref1">[1]</a></p>
 
 
 <h2>Agregados</h2>
