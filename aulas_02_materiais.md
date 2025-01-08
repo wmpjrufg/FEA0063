@@ -578,37 +578,38 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 <br>
 
 <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIXBnGTC55Ga7z9ky8ZSnYZn4pb_gS6COU1Q&s" width="80%"></center>
-<p align = "center"><b>Figura 2.</b>Imagem do agregado.</p>
+<p align = "center"><b>Figura 2.</b> Imagem do agregado.</p>
 
 
-<table cellpadding="10" cellspacing="0" align="center" style="text-align: left; width: 80%; display: none;">
+<table cellpadding="10" cellspacing="0" align="center" style="text-align: left; width: 80%; border-collapse: collapse;">
   <thead>
     <tr>
-      <th colspan="2">Equação</th>
+      <th colspan="2" style="text-align: left; background-color: #f2f2f2; font-weight: bold;">Equação</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>\( f_{ck,j} = \beta_1 \cdot (t \cdot s) \cdot f_{ck,28} \)</td>
-      <td>\( \beta_1 = \exp\left\{ s \cdot \left[ 1 - \left( \frac{28}{t} \right)^{1/2} \right] \right\} \)</td>
+      <td style="padding-left: 20px;">\( f_{ck,j} = \beta_1 \cdot (t \cdot s) \cdot f_{ck,28} \)</td>
+      <td style="padding-left: 20px;">\( \beta_1 = \exp\left\{ s \cdot \left[ 1 - \left( \frac{28}{t} \right)^{1/2} \right] \right\} \)</td>
     </tr>
     <tr>
-      <th colspan="2">Valores de \( s \)</th>
+      <th colspan="2" style="text-align: left; background-color: #f2f2f2; font-weight: bold;">Valores de \( s \)</th>
     </tr>
     <tr>
-      <td>a)</td>
-      <td>\( s = 0,38 \) para concreto de cimento CP III e CP IV</td>
+      <td style="padding-left: 20px;">a)</td>
+      <td style="padding-left: 20px;">\( s = 0,38 \) para concreto de cimento CP III e CP IV</td>
     </tr>
     <tr>
-      <td>b)</td>
-      <td>\( s = 0,25 \) para concreto de cimento CP I e CP II</td>
+      <td style="padding-left: 20px;">b)</td>
+      <td style="padding-left: 20px;">\( s = 0,25 \) para concreto de cimento CP I e CP II</td>
     </tr>
     <tr>
-      <td>c)</td>
-      <td>\( s = 0,20 \) para concreto de cimento CP V -- ARI</td>
+      <td style="padding-left: 20px;">c)</td>
+      <td style="padding-left: 20px;">\( s = 0,20 \) para concreto de cimento CP V -- ARI</td>
     </tr>
   </tbody>
 </table>
+
 
 
 <table style = "width:100%" align = "center">
