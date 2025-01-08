@@ -512,7 +512,6 @@ O <strong>aço</strong>, por fim, será o <strong>resultado da descarbonatação
 <h2>Propriedades do concreto<h2>
 
 <h4 align = "center">Tabela 1: Concreto estrutural</h4>
-
 <table style = "text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center" >
   <thead>
     <tr>
@@ -569,7 +568,8 @@ O <strong>aço</strong>, por fim, será o <strong>resultado da descarbonatação
     </tr>
   </tbody>
 </table>
-<br><br>
+
+<br>
 
 <p align="justify">Um dos <strong>parâmetros mais importantes</strong> no controle tecnológico do concreto é a <strong>curva tensão-deformação à compressão</strong>, que fornece várias <strong>informações importantes</strong> para elaboração de <strong>projetos estruturais</strong>, tais como a <strong>resistência à compressão</strong>, o <strong>módulo de elasticidade</strong> tangente inicial e secante, a deformação na carga de pico e a tenacidade do concreto.
 
@@ -577,45 +577,60 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 
 <br>
 
-<center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIXBnGTC55Ga7z9ky8ZSnYZn4pb_gS6COU1Q&s" width="80%"></center>
-<p align = "center"><b>Figura 2.</b> Imagem do agregado.</p>
+<center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIXBnGTC55Ga7z9ky8ZSnYZn4pb_gS6COU1Q&s" width="100%"></center>
+<p align = "center"><b>Figura 1.</b> Imagem do agregado.</p>
 
 <br>
 
-\[
+\(
 \begin{align*}
-    f_{ck} &= \beta_1 \cdot (t \cdot s) \cdot f_{ck,28} \quad \text{(1)} \\
-    \beta_1 &= \exp\left\{ s \cdot \left[ 1 - \left( \frac{28}{t} \right)^{1/2} \right] \right\} \quad \text{(2)} \\
+    &f_{ck} = \beta_1 \cdot (t \cdot s) \cdot f_{ck,28} \quad \text{(1)} \\
+    &\beta_1 = \exp\left\{ s \cdot \left[ 1 - \left( \frac{28}{t} \right)^{1/2} \right] \right\} \quad \text{(2)} \\
 \end{align*}
-\]
+\)
 
 <p align="justify">Onde:</p>
 <ul>
-    <li>s = 0,38 para concreto de cimento CP III e CP IV</li>
-    <li>s = 0,25 para concreto de cimento CP I e CP II</li>
-    <li>s = 0,20 para concreto de cimento CP V -- ARI</li>
+    <li>\(s = 0,38\) para concreto de cimento CP III e CP IV</li>
+    <li>\(s = 0,25\) para concreto de cimento CP I e CP II</li>
+    <li>\(s = 0,20\) para concreto de cimento CP V -- ARI</li>
 </ul>
 
 <br>
 
-\[
+\(
 \begin{align*}
-    f_{ck} &= 0,30 \cdot f_{ck}^{2/3} \quad \text{(3)} \\
-    f_{ctm} &= 0,7 \cdot f_{ck} \quad \text{(4)} \\
-    f_{ctk,inf} &= 0,7 \cdot f_{ctm} \quad \text{(5)} \\
-    f_{ctk,sup} &= 1,3 \cdot f_{ctm} \quad \text{(6)} \\
-    f_{ctm}(t) &= 1,41 \cdot \left( \frac{f_{ctk,j}(t)}{10} \right)^{2/3} \quad \text{(7)} \\
+    &f_{ck} = 0,30 \cdot f_{ck}^{2/3} \quad \text{(3)} \\
+    &f_{ctm} = 0,7 \cdot f_{ck} \quad \text{(4)} \\
+    &f_{ctk,inf} = 0,7 \cdot f_{ctm} \quad \text{(5)} \\
+    &f_{ctk,sup} = 1,3 \cdot f_{ctm} \quad \text{(6)} \\
+    &f_{ctm}(t) = 1,41 \cdot \left( \frac{f_{ctk,j}(t)}{10} \right)^{2/3} \quad \text{(7)} \\
 \end{align*}
-\]
+\)
 
-<h4>Módulo tangente inicial</h4>
-<table style = "width:100%" align="center" border="0" cellpadding="8">
-    <tr>
-        <td style="width: 100%;">
-            <img src="https://seer.atitus.edu.br/index.php/revistaec/article/viewFile/2173/1884/14122" alt="Imagem módulos Tg inicial">
-        </td>
-    </tr>
-</table>
+<br>
+
+<h2>Módulo tangente inicial</h2>
+
+<center><img src="https://seer.atitus.edu.br/index.php/revistaec/article/viewFile/2173/1884/14122" width="100%"></center>
+<p align = "center"><b>Figura 2.</b> Imagem módulos Tg inicial.</p>
+
+<p align="justify">Para \(f_{ck}\) de 20 a 50 MPa:</p>
+\(E_{ci} = \alpha_E \cdot 5600 \cdot \sqrt{f_{ck}} \quad \text{(8)}\)
+
+<p align="justify">Para \(f_{ck}\) de 55 a 90 MPa:</p>
+\(E_{ci} = 21,5 \cdot 10^3 \cdot \alpha_E \cdot \left( \frac{f_{ck}}{10} + 1,25 \right)^{1/3} \quad \text{(9)}\)
+
+<p align="justify">Onde:</p>
+<ul>
+    <li>\(\alpha_E = 1,2\) para basalto e diabásio</li>
+    <li>\(\alpha_E = 1,0\) para granito e gnaisse</li>
+    <li>\(\alpha_E = 0,9\) para calcário</li>
+    <li>\(\alpha_E = 0,7\) para arenito</li>
+</ul>
+
+<br>
+
 <p>
    \[𝐸_𝑐𝑖=𝛼_𝐸∙5600∙√(𝑓_𝑐𝑘 )\] Para 𝑓_𝑐𝑘 de 20 a 50 MPa <br>
    \[𝐸_𝑐𝑖=21,5∙10^3∙𝛼_𝐸∙(𝑓_𝑐𝑘/10+1,25)^(1∕3)\] Para 𝑓_𝑐𝑘 de 55 a 90 MPa <br>
