@@ -732,32 +732,32 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 
 <br>
 
-<h3>Coeficiente de Poisson</h3>
-
+<p align="justify">Coeficiente de Poisson:</p>
 \[
 \nu = 0,20
 \]
 
-<h3>Módulo de elasticidade transversal</h3>
+<br>
 
+<p align="justify">Módulo de elasticidade transversal:</p>
 \[
 G_c = E_{cs}/2,4
 \]
 
 <br>
 
-<h4 align = "center">Diagrama tensão-deformação do concreto na compressão </h4>
-<table style = "width:100%" align="center">
-    <tr>
-        <td style="width: 80%;">
-            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxeUZvAydhrwjbhhwor_pkzhJ-XXoaSHB2_ni1CQtSBEG2DcoaQLRnhf668t0FxF9BRydEWekUlQe1u44aw90giKtKt-0xBZGNWDir-4oQK7jO259dEh8ZHX5WFLfOetsr321v7XeId5Hu/s1600/diagrama+tensao+deforma%25C3%25A7ao.png" alt="diagrama tensão-deformação">
-        </td>
-        <td style="width: 20%;">
-            \[ 𝜎_𝑐=0,85∙𝑓_𝑐𝑑 [1−(1−𝜀_𝑐/𝜀_𝑐2 )^𝑛 ] \]
-        </td>
-    </tr>
-</table>
+<center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxeUZvAydhrwjbhhwor_pkzhJ-XXoaSHB2_ni1CQtSBEG2DcoaQLRnhf668t0FxF9BRydEWekUlQe1u44aw90giKtKt-0xBZGNWDir-4oQK7jO259dEh8ZHX5WFLfOetsr321v7XeId5Hu/s1600/diagrama+tensao+deforma%25C3%25A7ao.png" width="80%"></center>
+<p align = "center"><b>Figura 4.</b> Diagrama tensão-deformação do concreto na compressão.</p>
+
 <br>
+
+\[
+\sigma_c = 0,85 \cdot f_{cd} \cdot \left[ 1 - \left( 1 - \frac{\varepsilon_c}{\varepsilon_{c2}} \right)^n \right] \quad \text{(12)}
+\]
+
+<br>
+
+
 <table style = "text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center"> 
   <thead>
     <tr style="background-color: white; color: black;">
@@ -779,7 +779,9 @@ G_c = E_{cs}/2,4
     </tr>
   </tbody>
 </table>
+
 <br>
+
 <h4>Diagramas tensão-deformação do concreto com variação no tempo de carregamento do corpo-de-prova</h4>
 <table style = "width:100%" align="center" border="1" cellpadding="8">
     <tr>
