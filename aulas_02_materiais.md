@@ -760,7 +760,7 @@ G_c = E_{cs}/2,4
 
 <table style = "text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center"> 
   <thead>
-    <tr style="background-color: white; color: black;">
+    <tr>
       <th colspan = "2">Para concretos de classe até C50</th>
       <th colspan = "2">Para concretos de classe até C55 até C90</th>
   
