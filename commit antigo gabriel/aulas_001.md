@@ -1,9 +1,9 @@
-![image](https://github.com/user-attachments/assets/505e1604-6de5-4285-a64f-2ec9312cba74)---
+<!-- ![image](https://github.com/user-attachments/assets/505e1604-6de5-4285-a64f-2ec9312cba74)---
 title: aula 001 - bla bla
 parent: Aulas
 layout: home
 nav_order: 1
----
+--- -->
 
 <!--Don't delete ths script-->
 <script src = "https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
