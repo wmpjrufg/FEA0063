@@ -19,7 +19,7 @@ has_toc: True
 </table>
 
 <p align="justify">
-  Este material é construído com auxílio dos alunos de graduação e pós-graduação que passam pelo curso de Estruturas de Concreto Armado 01. Os alunos são registrado no GitHub da disciplina para que efetivem essa contribuição. Para verificar os alunos que já contribuíram basta consultar o <a target="_blank" rel="noopener" href="https://github.com/wmpjrufg/FEA0063/graphs/contributors"><i>link</i></a>.
+  Este material é construído com auxílio dos alunos de graduação e pós-graduação que passam pelo curso de Estruturas de Concreto Armado 01. Os alunos são registrado no GitHub da disciplina para que efetivem essa contribuição. Para verificar os alunos que já contribuíram basta consultar o <a target="_blank" rel="noopener" href="https://github.com/wmpjrufg/FEA0063/graphs/contributors">nosso repositório</a>.
 </p>
 
 <h3>Acesso rápido</h3>
