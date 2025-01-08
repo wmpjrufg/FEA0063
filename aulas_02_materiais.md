@@ -584,7 +584,7 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 <table cellpadding="10" cellspacing="0" align="center" style="text-align: left; width: 80%; border-collapse: collapse;">
   <thead>
     <tr>
-      <th colspan="2" style="text-align: left; background-color: #f2f2f2; font-weight: bold;">Equação</th>
+      <th colspan="2" style="text-align: left; font-weight: bold;">Equação</th>
     </tr>
   </thead>
   <tbody>
@@ -593,7 +593,7 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
       <td style="padding-left: 20px;">\( \beta_1 = \exp\left\{ s \cdot \left[ 1 - \left( \frac{28}{t} \right)^{1/2} \right] \right\} \)</td>
     </tr>
     <tr>
-      <th colspan="2" style="text-align: left; background-color: #f2f2f2; font-weight: bold;">Valores de \( s \)</th>
+      <th colspan="2" style="text-align: left; font-weight: bold;">Valores de \( s \)</th>
     </tr>
     <tr>
       <td style="padding-left: 20px;">a)</td>
