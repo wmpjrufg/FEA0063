@@ -758,39 +758,43 @@ G_c = E_{cs}/2,4
 <br>
 
 
-<table style = "text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center"> 
+<table style="text-align:center;" border="1" cellpadding="5" cellspacing="0" align="center">
   <thead>
     <tr>
-      <th colspan = "2">Para concretos de classe até C50</th>
-      <th colspan = "2">Para concretos de classe até C55 até C90</th>
-  
+      <th colspan="2">Para concretos de classe até C50</th>
+      <th colspan="2">Para concretos de classe até C55 até C90</th>
+    </tr>
   </thead>
   <tbody>
     <tr>
-      <td colspan = "2">𝜀𝑐2 = 2%</td>
-      <td>\[𝜀𝑐2 = 2,0 ‰+0,085‰∙(𝑓_𝑐𝑘−50)^0,53\]</td>
-    <tr>
-      <td colspan = "2">𝜀𝑐u = 3,5%</td>
-	  <td>\[𝜀𝑐𝑢 = 2,6 ‰+35‰∙[(90−𝑓_𝑐𝑘)/100]^4\]</td>
+      <td colspan="2">𝜖<sub>c2</sub> = 2%</td>
+      <td>\[ 𝜖_{c2} = 2,0 ‰ + 0,085 ‰ \cdot (f_{ck} - 50)^{0,53} \]</td>
     </tr>
     <tr>
-      <td colspan = "2">n = 2</td>
-      <td>\[𝑛=1,4+23,40∙[(90−𝑓_𝑐𝑘)/100]^4\]</td>
+      <td colspan="2">𝜖<sub>cu</sub> = 3,5%</td>
+      <td>\[ 𝜖_{cu} = 2,6 ‰ + 35 ‰ \cdot \left[ \frac{(90 - f_{ck})}{100} \right]^4 \]</td>
+    </tr>
+    <tr>
+      <td colspan="2">n = 2</td>
+      <td>\[ n = 1,4 + 23,40 \cdot \left[ \frac{(90 - f_{ck})}{100} \right]^4 \]</td>
     </tr>
   </tbody>
 </table>
 
+
 <br>
 
-<h4>Diagramas tensão-deformação do concreto com variação no tempo de carregamento do corpo-de-prova</h4>
+<!-- <h4>Diagramas tensão-deformação do concreto com variação no tempo de carregamento do corpo-de-prova</h4>
 <table style = "width:100%" align="center" border="1" cellpadding="8">
     <tr>
         <td style="width: 100%;">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx-FYNDc5jELS042sovBfJRcZiIXfwq_nBCQ&s" alt="Diagramas tensão-deformação do concreto com variação no tempo de carregamento do corpo-de-prova" >
         </td>
     </tr>
-</table>
+</table> -->
+
 <br>
+
 <h3>Reologia do concreto</h3>
 <p>As primeiras deformações tratadas são as que tem o tempo como uma de suas variáveis de projeto:</p><br>
 
