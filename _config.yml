@@ -1,11 +1,12 @@
-title: FEA0064
-description: Repositório da disciplina de Estruturas de Concreto Armado 1, 2, Projetos estruturais e fundações.
+title: FEA0063
+description: Repositório da disciplina de Estruturas de Concreto Armado 1
 remote_theme: just-the-docs/just-the-docs
 
 url: https://just-the-docs.github.io
 
 aux_links:
-  teste: https://github.com/just-the-docs/just-the-docs-template
+  Material: www.google.com.br
+  Plano de Ensino: https://drive.google.com/open?id=1M1dqHVAgGe07I0-q1JaotlcF2O1f0tCi&usp=drive_fs
 
 color_scheme: nil
 
