@@ -20,11 +20,11 @@ nav_order: 2
 
 
 <center><img src="https://www.fazfacil.com.br/wp-content/uploads/2012/07/mat_concreto_mistura_3.gif" width="40%"></center>
-<p align = "center"><b>Figura 1.</b>Sequência de preparo de concreto.</p>
+<p align = "left"><b>Figura 1.</b>Sequência de preparo de concreto. <a href="#ref1">[1]</a></p>
 
 
 <h2>Agregados</h2>
-<p>Os agregados são materiais granulares, geralmente inertes, com dimensões e propriedades adequadas para a preparação de argamassa ou concreto.</p>
+<p align="justify">Os agregados são materiais granulares, geralmente inertes, com dimensões e propriedades adequadas para a preparação de argamassa ou concreto.</p>
 
 <h3>Classificação:</h3>
 <ul>
@@ -55,7 +55,7 @@ nav_order: 2
       <td>9,50 – 19,00</td>
       <td>19,00</td>
     </tr>
-    <t>
+    <tr>
       <td>Brita 2</td>
       <td>19,00 – 25,00</td>
       <td>25,00</td>
@@ -78,19 +78,20 @@ nav_order: 2
   </tbody>
 </table>
 
-<h2>Cimento</h2><br><br>
-<p>Por definição, o <strong>cimento</strong> é um <strong>material ligante </strong> ou <strong>material</strong>aglomerante, normalmente pulverulento, que realiza a união entre as partículas dos agregados.</p>
+<h2>Cimento</h2>
+
+<p align="justify">Por definição, o <strong>cimento</strong> é um <strong>material ligante </strong> ou <strong>material</strong> aglomerante, normalmente pulverulento, que realiza a união entre as partículas dos agregados.</p>
 <h4 align="center">Tabela 2: Composição química média dos clínqueres</h4>
 
 <table border="1" cellpadding="5" cellspacing="0" align="center">
   <thead>
-    <tr style="background-color: #333; color: white;">
+    <tr>
       <th>Componente químico</th>
       <th>Teores médios (%)</th>
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>CaO</td>
       <td>58 - 67</td>
     </tr>
@@ -98,7 +99,7 @@ nav_order: 2
       <td>SiO<sub>2</sub></td>
       <td>16 - 26</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>Al<sub>2</sub>O<sub>3</sub></td>
       <td>4 - 8</td>
     </tr>
@@ -106,13 +107,12 @@ nav_order: 2
       <td>Fe<sub>2</sub>O<sub>3</sub></td>
       <td>1 - 5</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>Outros</td>
       <td>0 - 5</td>
     </tr>
   </tbody>
 </table>
-<br>
 
 <h4 align="center">Tabela 3: Composição química do cimento Portland tradicional com os teores médios</h4>
 
