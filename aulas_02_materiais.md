@@ -10,73 +10,42 @@ nav_order: 2
 <script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!--Don't delete this script-->
 
-<table style = "width:100%" align="center" border="0" cellpadding="0">
-    <tr>
-    <td style="width: 100%;" >
-            <ul>
-                <li>Agregado</li>
-                <li>Cimento</li>
-                <li>Água</li>
-                <li>Aço</li>
-            </ul>
-        </td>
-    </tr>
-</table>
+<p align="justify">Materiais que compõem o concreto armado:</p>
+<ul>
+    <li>Agregado</li>
+    <li>Cimento</li>
+    <li>Água</li>
+    <li>Aço</li>
+</ul>
 
 
-<table border="1" cellpadding="5" cellspacing="0">
-    <tbody>
-        <tr style="background-color: #ccc;">
-            <td>Agregado</td>
-            <td><img src="https://www.ladrilhospocosdecaldas.com.br/gdd/sgc/imagens/foto_texto/8/rad0C9072017102591710_117.png" alt="Imagem do agregado"></td>
-        </tr>
-         <tr style="background-color: #ccc;">
-            <td>Cimento</td>
-            <td><img src="https://api.aecweb.com.br/tematico/img_figuras/Uso-do-cimento-1111._Olho%24%240.webp" alt="Imagem cimento"></td>
-        </tr>
-        <tr style="background-color: #ccc;">
-            <td>Água</td>
-            <td><img src="https://www.flushengenharia.com.br/imagens/blog/blog-30.jpg" alt="Imagem água"></td>
-        </tr>
-        <tr style="background-color: #ccc;">
-            <td>Aço</td>
-            <td><img src="https://acospop.com.br/wp-content/uploads/2022/04/tipos-de-vergalhao.jpg" alt="Imagem aço"></td>
-        </tr>
-    </tbody>
-</table>
+<center><img src="https://www.fazfacil.com.br/wp-content/uploads/2012/07/mat_concreto_mistura_3.gif" width="40%"></center>
+<p align = "center"><b>Figura 1.</b>Sequência de preparo de concreto.</p>
 
-<table style = "width:100%" align="center" border="1" cellpadding="8">
-    <tr>
-        <td style="width: 50%;" >
-      <p>Sequência de preparo de concreto</p>
-        </td>
-        <td style="width: 50%;">
-            <img src="https://www.fazfacil.com.br/wp-content/uploads/2012/07/mat_concreto_mistura_3.gif" > 
-        </td>
-    </tr>
-</table>
 
 <h2>Agregados</h2>
-<p>Os agregados são materiais granulares, geralmente inertes, com dimensões e propriedades adequadas para a preparação de argamassa ou concreto.</p><br><br>
-<h3>Cjassificação:</h3>
-    <ul>
-        <li>Segundo a origem</li>
-        <li>Segundo a massa específica</li>
-        <li>Segundo as dimensões de partícula</li>
-    </ul>
-<br>
+<p>Os agregados são materiais granulares, geralmente inertes, com dimensões e propriedades adequadas para a preparação de argamassa ou concreto.</p>
+
+<h3>Classificação:</h3>
+<ul>
+    <li>Segundo a origem</li>
+    <li>Segundo a massa específica</li>
+    <li>Segundo as dimensões de partícula</li>
+</ul>
+
 
 <h4 align="center">Tabela 1: Faixa de dimensões e DMC do agregado graúdo tipo brita</h4>
+
 <table border="1" cellpadding="5" cellspacing="0" align="center">
   <thead>
-    <tr style="background-color: #333; color: white;">
+    <tr>
       <th>Tipo do agregado</th>
       <th>Faixa de dimensões (mm)</th>
       <th>DMC em mm</th>
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>Brita 0</td>
       <td>4,80 – 9,50</td>
       <td>9,50</td>
@@ -86,7 +55,7 @@ nav_order: 2
       <td>9,50 – 19,00</td>
       <td>19,00</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <t>
       <td>Brita 2</td>
       <td>19,00 – 25,00</td>
       <td>25,00</td>
@@ -96,7 +65,7 @@ nav_order: 2
       <td>25,00 – 50,00</td>
       <td>50,00</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>Brita 4</td>
       <td>50,00 – 76,00</td>
       <td>76,00</td>
@@ -110,7 +79,7 @@ nav_order: 2
 </table>
 
 <h2>Cimento</h2><br><br>
-<p>Por definição, o cimento é um material ligante ou aglomerante, normalmente pulverulento, que realiza a união entre as partículas dos agregados.</p>
+<p>Por definição, o <strong>cimento</strong> é um <strong>material ligante </strong> ou <strong>material</strong>aglomerante, normalmente pulverulento, que realiza a união entre as partículas dos agregados.</p>
 <h4 align="center">Tabela 2: Composição química média dos clínqueres</h4>
 
 <table border="1" cellpadding="5" cellspacing="0" align="center">
@@ -817,7 +786,7 @@ nav_order: 2
     <tbody>
         <tr>
             <td><p align = "center" id = "ref1">[1]</p></td>
-            <td><p align = "left">R. E. Melchers and A. T. Beck, Structural Reliability Analysis and Prediction, 3rd ed. edição. Hoboken, NJ: Wiley, 2018.</p></td>
+            <td><p align = "left">Faz Fácil. Traços do Concreto: Misturas e Cuidados Gerais para um Bom Resultado. Faz Fácil 2020. https://www.fazfacil.com.br/reforma-construcao/tracos-concreto-mistura/.</p></td>
         </tr>
         <tr>
             <td><p align = "center" id = "ref2">[2]</p></td>
