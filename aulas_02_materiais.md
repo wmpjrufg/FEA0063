@@ -819,7 +819,7 @@ sigma_c = 0,85 \cdot f_{cd} \cdot \left[ 1 - \left( 1 - \frac{\varepsilon_c}{\va
 
 <h2>Reologia do concreto</h2>
 
-<p>As primeiras deformações tratadas são as que tem o tempo como uma de suas variáveis de projeto:</p><br>
+<p>As primeiras deformações tratadas são as que tem o tempo como uma de suas variáveis de projeto:</p>
 
 <ol type="a">
     <li><p align="justify">Retração;</p></li>
