@@ -581,21 +581,19 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 <p align = "center"><b>Figura 2.</b>Imagem do agregado.</p>
 
 
-<table border="1" cellpadding="10" cellspacing="0" align="center" style="text-align: left; border-collapse: collapse; width: 80%;">
+<table cellpadding="10" cellspacing="0" align="center" style="text-align: left; width: 80%; display: none;">
   <thead>
     <tr>
-      <th colspan="2" style="text-align: left;">Equação</th>
+      <th colspan="2">Equação</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>\( f_{ck,j} = \beta_1 \cdot (t \cdot s) \cdot f_{ck,28} \)</td>
       <td>\( \beta_1 = \exp\left\{ s \cdot \left[ 1 - \left( \frac{28}{t} \right)^{1/2} \right] \right\} \)</td>
-        </p>
-      </td>
     </tr>
     <tr>
-      <th colspan="2" style="text-align: left;">Valores de \( s \)</th>
+      <th colspan="2">Valores de \( s \)</th>
     </tr>
     <tr>
       <td>a)</td>
@@ -611,7 +609,6 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
     </tr>
   </tbody>
 </table>
-
 
 
 <table style = "width:100%" align = "center">
