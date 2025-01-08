@@ -237,9 +237,9 @@ nav_order: 2
 <h2>Aço</h2>
 
 <p align="justify">A usina siderúrgica é a empresa responsável pela transformação do <strong>minério de ferro em aço</strong>, de maneira que ele possa ser usado comercialmente. Este processo tem o nome de Redução.
-
+<br><br>
 O <strong>aço</strong>, por fim, será o <strong>resultado da descarbonatação do ferro gusa</strong>, ou seja, é produzido a partir deste, controlando-se o teor de carbono para no máximo 2%.
-
+<br><br>
 <strong>Aços de baixo carbono</strong>: Possuem um <strong>máximo de 0,30%</strong> deste elemento e <strong>apresentam grande ductilidade</strong>. São bons para o trabalho mecânico e soldagem, não sendo temperáveis, utilizados na construção de edifícios, pontes, navios, automóveis, dentre outros usos.</p>
 
 <ul>
@@ -572,12 +572,12 @@ O <strong>aço</strong>, por fim, será o <strong>resultado da descarbonatação
 <br>
 
 <p align="justify">Um dos <strong>parâmetros mais importantes</strong> no controle tecnológico do concreto é a <strong>curva tensão-deformação à compressão</strong>, que fornece várias <strong>informações importantes</strong> para elaboração de <strong>projetos estruturais</strong>, tais como a <strong>resistência à compressão</strong>, o <strong>módulo de elasticidade</strong> tangente inicial e secante, a deformação na carga de pico e a tenacidade do concreto.
-
+<br><br>
 Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong> à compressão do concreto é o valor que apresenta um <strong>grau de confiança de 95%</strong>, ou seja, 𝑓_𝑐𝑘 é o valor da resistência à compressão do concreto, <strong>de modo que 95% dos resultados dos ensaios estejam acima deste valor ou 5% abaixo</strong>.</p>
 
 <br>
 
-<center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIXBnGTC55Ga7z9ky8ZSnYZn4pb_gS6COU1Q&s" width="100%"></center>
+<center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIXBnGTC55Ga7z9ky8ZSnYZn4pb_gS6COU1Q&s" width="80%"></center>
 <p align = "center"><b>Figura 1.</b> Imagem do agregado.</p>
 
 <br>
@@ -612,8 +612,10 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 
 <h2>Módulo tangente inicial</h2>
 
-<center><img src="https://seer.atitus.edu.br/index.php/revistaec/article/viewFile/2173/1884/14122" width="100%"></center>
+<center><img src="https://seer.atitus.edu.br/index.php/revistaec/article/viewFile/2173/1884/14122" width="80%"></center>
 <p align = "center"><b>Figura 2.</b> Imagem módulos Tg inicial.</p>
+
+<br>
 
 <p align="justify">Para \(f_{ck}\) de 20 a 50 MPa:</p>
 \[E_{ci} = \alpha_E \cdot 5600 \cdot \sqrt{f_{ck}} \quad \text{(8)}\]
@@ -635,8 +637,10 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 
 <h2>Módulo secante</h2>
 
-<center><img src="https://seer.atitus.edu.br/index.php/revistaec/article/viewFile/2173/1884/14121" width="100%"></center>
+<center><img src="https://seer.atitus.edu.br/index.php/revistaec/article/viewFile/2173/1884/14121" width="80%"></center>
 <p align = "center"><b>Figura 3.</b> Imagem módulos secante.</p>
+
+<br>
 
 \[
 \begin{align*}
@@ -647,74 +651,100 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 
 <br>
 
-<table border="1" cellpadding="5" cellspacing="0">
+<table style = "text-align:center;" border="1" cellpadding="5" cellspacing="0">
   <thead>
     <tr>
-      <th>Classe de resistência</th>
-      <th>C20</th>
-      <th>C25</th>
-      <th>C30</th>
-      <th>C35</th>
-      <th>C40</th>
-      <th>C45</th>
-      <th>C50</th>
-      <th>C60</th>
-      <th>C70</th>
-      <th>C80</th>
-      <th>C90</th>
+      <th></th>
+      <th>E<sub>ci</sub> (GPa)</th>
+      <th>E<sub>cs</sub> (GPa)</th>
+      <th>α<sub>i</sub></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>E<sub>ci</sub> (GPa)</td>
+      <td>C20</td>
       <td>25</td>
-      <td>28</td>
-      <td>31</td>
-      <td>33</td>
-      <td>35</td>
-      <td>38</td>
-      <td>40</td>
-      <td>42</td>
-      <td>43</td>
-      <td>45</td>
-      <td>47</td>
-    </tr>
-    <tr>
-      <td>E<sub>cs</sub> (GPa)</td>
       <td>21</td>
-      <td>24</td>
-      <td>27</td>
-      <td>29</td>
-      <td>32</td>
-      <td>34</td>
-      <td>37</td>
-      <td>40</td>
-      <td>42</td>
-      <td>45</td>
-      <td>47</td>
+      <td>0,85</td>
     </tr>
     <tr>
-      <td>α<sub>i</sub></td>
-      <td>0,85</td>
+      <td>C25</td>
+      <td>28</td>
+      <td>24</td>
       <td>0,86</td>
+    </tr>
+    <tr>
+      <td>C30</td>
+      <td>31</td>
+      <td>27</td>
       <td>0,88</td>
+    </tr>
+    <tr>
+      <td>C35</td>
+      <td>33</td>
+      <td>29</td>
       <td>0,89</td>
+    </tr>
+    <tr>
+      <td>C40</td>
+      <td>35</td>
+      <td>32</td>
       <td>0,90</td>
+    </tr>
+    <tr>
+      <td>C45</td>
+      <td>38</td>
+      <td>34</td>
       <td>0,91</td>
+    </tr>
+    <tr>
+      <td>C50</td>
+      <td>40</td>
+      <td>37</td>
       <td>0,93</td>
+    </tr>
+    <tr>
+      <td>C60</td>
+      <td>42</td>
+      <td>40</td>
       <td>0,95</td>
+    </tr>
+    <tr>
+      <td>C70</td>
+      <td>43</td>
+      <td>42</td>
       <td>0,98</td>
+    </tr>
+    <tr>
+      <td>C80</td>
+      <td>45</td>
+      <td>45</td>
       <td>1,00</td>
+    </tr>
+    <tr>
+      <td>C90</td>
+      <td>47</td>
+      <td>47</td>
       <td>1,00</td>
     </tr>
   </tbody>
 </table>
+
 <br>
-<p>
-    \[ ν = 0,20\] Poisson <br>
-    \[ 𝐺_𝑐  = 𝐸_𝑐𝑠/2,4\] Módulo de elasticidade transversal 
-</p>
-<br><br>
+
+<h3>Coeficiente de Poisson</h3>
+
+\[
+\nu = 0,20
+\]
+
+<h3>Módulo de elasticidade transversal</h3>
+
+\[
+G_c = E_{cs}/2,4
+\]
+
+<br>
 
 <h4 align = "center">Diagrama tensão-deformação do concreto na compressão </h4>
 <table style = "width:100%" align="center">
