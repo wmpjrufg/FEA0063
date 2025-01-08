@@ -788,6 +788,7 @@ sigma_c = 0,85 \cdot f_{cd} \cdot \left[ 1 - \left( 1 - \frac{\varepsilon_c}{\va
 <center><img src="assets\images\aula_02\deformacao_tracao.jpeg" width="60%"></center>
 <p align = "center"><b>Figura 6.</b> Diagramas tensão-deformação do concreto na tração.</p>
 
+<br>
 
 <table style="text-align:center;" border="1" cellpadding="5" cellspacing="0" align="center">
   <thead>
@@ -814,14 +815,16 @@ sigma_c = 0,85 \cdot f_{cd} \cdot \left[ 1 - \left( 1 - \frac{\varepsilon_c}{\va
 
 <p align="justify">Dilatação térmica: \(\alpha = 1.10 \cdot 10^{-5} / ^\circ C\)</p>
 
-<!-- <h2>Reologia do concreto</h2>
+<br>
+
+<h2>Reologia do concreto</h2>
 
 <p>As primeiras deformações tratadas são as que tem o tempo como uma de suas variáveis de projeto:</p><br>
 
 <ol type="a">
     <li><p align="justify">Retração;</p></li>
     <li><p align="justify">Fluência.</p></li>
-</ol> -->
+</ol>
 
 <h2>Referências</h2>
 <table>
