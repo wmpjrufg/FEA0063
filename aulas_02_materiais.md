@@ -24,13 +24,13 @@ nav_order: 2
 
 
 <h2>Agregados</h2>
-<p align="justify">Os agregados são materiais granulares, geralmente inertes, com dimensões e propriedades adequadas para a preparação de argamassa ou concreto.</p>
+<p align="justify">Os <strong>agregados</strong> são <strong>materiais granulares</strong>, geralmente inertes, com dimensões e propriedades adequadas para a preparação de argamassa ou concreto.</p>
 
 <h3>Classificação:</h3>
 <ul>
-    <li>Segundo a origem</li>
-    <li>Segundo a massa específica</li>
-    <li>Segundo as dimensões de partícula</li>
+    <li>Segundo a <strong>origem</strong></li>
+    <li>Segundo a massa <strong>específica</strong></li>
+    <li>Segundo as <strong>dimensões de partícula</strong></li>
 </ul>
 
 
@@ -81,8 +81,8 @@ nav_order: 2
 <h2>Cimento</h2>
 
 <p align="justify">Por definição, o <strong>cimento</strong> é um <strong>material ligante </strong> ou <strong>material</strong> aglomerante, normalmente pulverulento, que realiza a união entre as partículas dos agregados.</p>
-<h4 align="center">Tabela 2: Composição química média dos clínqueres</h4>
 
+<h4 align="center">Tabela 2: Composição química média dos clínqueres</h4>
 <table border="1" cellpadding="5" cellspacing="0" align="center">
   <thead>
     <tr>
@@ -114,18 +114,20 @@ nav_order: 2
   </tbody>
 </table>
 
+<br><br>
+
 <h4 align="center">Tabela 3: Composição química do cimento Portland tradicional com os teores médios</h4>
 
 <table border="1" cellpadding="5" cellspacing="0" align="center">
   <thead>
-    <tr style="background-color: #333; color: white;">
+    <tr>
       <th>Componente químico</th>
       <th>Teores médios (%)</th>
       <th>"Responsabilidade"</th>
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>Silicato tricálcico (CaO)<sub>3</sub>SiO<sub>2</sub> = C<sub>3</sub>S</td>
       <td>45 - 75</td>
       <td>É o maior responsável pela resistência em todas as idades, especialmente até o fim do primeiro mês de cura. Também seria o segundo em ordem de importância para o fator tempo de pega.</td>
@@ -135,7 +137,7 @@ nav_order: 2
       <td>7 - 35</td>
       <td>Adquire maior importância no processo de endurecimento em idades mais avançadas, sendo largamente responsável pelo ganho de resistência a um ano ou mais.</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>Aluminato tricálcico (CaO)<sub>3</sub>Al<sub>2</sub>O<sub>3</sub> = C<sub>3</sub>A</td>
       <td>0 - 13</td>
       <td>Contribui na resistência, especialmente no primeiro dia. Esse é o componente mineralógico mais reativo do clínquer ao lado do Silicato tricálcico.</td>
@@ -153,7 +155,7 @@ nav_order: 2
 
 <table style="text-align:center;" border="1" cellpadding="5" cellspacing="0" align="center">
   <thead>
-    <tr style="background-color: #333; color: white;">
+    <tr>
       <th>Tipo</th>
       <th>Cimento</th>
       <th>Resistência (MPa)</th>
@@ -165,7 +167,7 @@ nav_order: 2
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>Comum</td>
       <td>CP I</td>
       <td rowspan = "7" >25, 32 ou 40</td>
@@ -183,7 +185,7 @@ nav_order: 2
       <td>0</td>
       <td>6 - 10</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>Composto</td>
       <td>CP II - E</td>
       <td>51 - 94</td>
@@ -199,7 +201,7 @@ nav_order: 2
       <td>6 - 14</td>
       <td>0</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>Composto</td>
       <td>CP II - F</td>
       <td>75 - 89</td>
@@ -215,7 +217,7 @@ nav_order: 2
       <td>0</td>
       <td>0</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>Pozolânico</td>
       <td>CP IV</td>
       <td>45 - 85</td>
@@ -225,15 +227,16 @@ nav_order: 2
     </tr>
   </tbody>
 </table>
-<br><br>
+<br>
 
-<h2 align = "center">Aço</h2><br>
-<p>A usina siderúrgica é a empresa responsável pela transformação do minério de ferro em aço, de maneira que ele possa ser usado comercialmente. Este processo tem o nome de Redução.</p>
-<br>
-<p>O aço, por fim, será o resultado da descarbonatação do ferro gusa, ou seja, é produzido a partir deste, controlando-se o teor de carbono para no máximo 2%.</p>
-<br>
-<p>Aços de baixo carbono: Possuem um máximo de 0,30% deste elemento e apresentam grande ductilidade. São bons para o trabalho mecânico e soldagem, não sendo temperáveis, utilizados na construção de edifícios, pontes, navios, automóveis, dentre outros usos.</p>
-<br><br>
+<h2>Aço</h2>
+
+<p align="justify">A usina siderúrgica é a empresa responsável pela transformação do <strong>minério de ferro em aço</strong>, de maneira que ele possa ser usado comercialmente. Este processo tem o nome de Redução.
+
+O <strong>aço</strong>, por fim, será o <strong>resultado da descarbonatação do ferro gusa</strong>, ou seja, é produzido a partir deste, controlando-se o teor de carbono para no máximo 2%.
+
+<strong>Aços de baixo carbono</strong>: Possuem um <strong>máximo de 0,30%</strong> deste elemento e <strong>apresentam grande ductilidade</strong>. São bons para o trabalho mecânico e soldagem, não sendo temperáveis, utilizados na construção de edifícios, pontes, navios, automóveis, dentre outros usos.</p>
+
 <ul>
     <li>CA - 25 (barra)</li>
     <li>CA - 50 (barra)</li>
@@ -245,13 +248,13 @@ nav_order: 2
 
 <table style ="text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center">
   <thead>
-    <tr style="background-color: #333; color: white;">
+    <tr>
       <th rowspan="3">Tipo</th>
       <th colspan="4">Ensaios de tração (valores mínimos)</th>
       <th colspan="2">Ensaio de dobramento a 180º</th>
       <th colspan = "2">Aderência</th>
     </tr>
-    <tr style="background-color: #333; color: white;">
+    <tr>
       <th rowspan = "2">(f<sub>yk</sub>) - MPa</th>
       <th rowspan = "2">(f<sub>st</sub>) - MPa</th>
       <th  rowspan = "2">Alongamento após ruptura em 10.φ – A %</th>
@@ -259,7 +262,7 @@ nav_order: 2
       <th colspan = "2"  >Diâmetro do pino (mm)</th>
       <th colspan = "2"  >Valores mínimos de η para</th>
     </tr>
-     <tr style="background-color: #333; color: white;">
+     <tr>
       <th>φ < 20 </th>
       <th>φ ≥ 20</th>
       <th>φ &lt; 10mm</th>
@@ -267,7 +270,7 @@ nav_order: 2
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>CA-25</td>
       <td>250</td>
       <td>1,20.f<sub>yk</sub></td>
@@ -289,7 +292,7 @@ nav_order: 2
       <td>1,0</td>
       <td>1,5</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <t>
       <td>CA-60</td>
       <td>600</td>
       <td>1,05.f<sub>yk</sub></td>
@@ -308,12 +311,12 @@ nav_order: 2
 
 <table style = "text-align: center;" border="1" cellpadding="5" cellspacing="0" align = "center">
   <thead>
-    <tr style="background-color: #333; color: white;">
+    <tr>
       <th rowspan="1">Diâmetro Nominal (mm)</th>
       <th colspan="2">Massa e tolerância por unidade de comprimento</th>
       <th colspan="2">Valores Nominais</th>
     </tr>
-    <tr style="background-color: #333; color: white;">
+    <tr>
         <th>Barras</th>
       <th>Massa Nominal<sup>2</sup> (kg/m)</th>
       <th>Máxima variação permitida para massa nominal</th>
@@ -322,7 +325,7 @@ nav_order: 2
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>6,30</td>
       <td>0,245</td>
       <td>± 7%</td>
@@ -336,7 +339,7 @@ nav_order: 2
       <td>50,30</td>
       <td>25,10</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>10,00</td>
       <td>0,617</td>
       <td>± 6%</td>
@@ -350,7 +353,7 @@ nav_order: 2
       <td>122,70</td>
       <td>39,30</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>16,00</td>
       <td>1,578</td>
       <td>± 5%</td>
@@ -364,7 +367,7 @@ nav_order: 2
       <td>314,20</td>
       <td>62,80</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>22,00</td>
       <td>2,984</td>
       <td>± 4%</td>
@@ -378,7 +381,7 @@ nav_order: 2
       <td>490,90</td>
       <td>78,50</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>32,00</td>
       <td>6,313</td>
       <td>± 4%</td>
@@ -414,7 +417,7 @@ nav_order: 2
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>2,40</td>
       <td>0,036</td>
       <td>± 6%</td>
@@ -428,7 +431,7 @@ nav_order: 2
       <td>9,10</td>
       <td>10,70</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>3,80</td>
       <td>0,089</td>
       <td>± 6%</td>
@@ -442,7 +445,7 @@ nav_order: 2
       <td>13,90</td>
       <td>13,20</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>5,00</td>
       <td>0,154</td>
       <td>± 6%</td>
@@ -456,7 +459,7 @@ nav_order: 2
       <td>23,80</td>
       <td>17,30</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>6,00</td>
       <td>0,222</td>
       <td>± 6%</td>
@@ -470,7 +473,7 @@ nav_order: 2
       <td>31,20</td>
       <td>19,80</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>8,00</td>
       <td>0,395</td>
       <td>± 6%</td>
@@ -484,7 +487,7 @@ nav_order: 2
       <td>70,90</td>
       <td>29,80</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>10,00</td>
       <td>0,617</td>
       <td>± 6%</td>
@@ -514,7 +517,7 @@ nav_order: 2
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>C20</td>
       <td>20</td>
       <td>C55</td>
@@ -526,7 +529,7 @@ nav_order: 2
       <td>C60</td>
       <td>60</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>C30</td>
       <td>30</td>
       <td>C70</td>
@@ -538,7 +541,7 @@ nav_order: 2
       <td>C80</td>
       <td>80</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>C40</td>
       <td>40</td>
       <td>C90</td>
@@ -550,7 +553,7 @@ nav_order: 2
       <td rowspan ="2">C100</td>
       <td rowspan ="2">100</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>C50</td>
       <td>50</td> 
     </tr>
@@ -673,7 +676,7 @@ nav_order: 2
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>E<sub>ci</sub> (GPa)</td>
       <td>25</td>
       <td>28</td>
@@ -701,7 +704,7 @@ nav_order: 2
       <td>45</td>
       <td>47</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td>α<sub>i</sub></td>
       <td>0,85</td>
       <td>0,86</td>
@@ -744,14 +747,14 @@ nav_order: 2
   
   </thead>
   <tbody>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td colspan = "2">𝜀𝑐2 = 2%</td>
       <td>\[𝜀𝑐2 = 2,0 ‰+0,085‰∙(𝑓_𝑐𝑘−50)^0,53\]</td>
     <tr>
       <td colspan = "2">𝜀𝑐u = 3,5%</td>
 	  <td>\[𝜀𝑐𝑢 = 2,6 ‰+35‰∙[(90−𝑓_𝑐𝑘)/100]^4\]</td>
     </tr>
-    <tr style="background-color: #ccc;">
+    <tr>
       <td colspan = "2">n = 2</td>
       <td>\[𝑛=1,4+23,40∙[(90−𝑓_𝑐𝑘)/100]^4\]</td>
     </tr>
