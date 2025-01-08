@@ -581,67 +581,32 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 <p align = "center"><b>Figura 2.</b> Imagem do agregado.</p>
 
 
-<table cellpadding="10" cellspacing="0" align="center" style="text-align: left; width: 80%; border-collapse: collapse;">
-  <thead>
-    <tr>
-      <th colspan="2" style="text-align: left; font-weight: bold;">Equação</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="padding-left: 20px;">\( f_{ck,j} = \beta_1 \cdot (t \cdot s) \cdot f_{ck,28} \)</td>
-      <td style="padding-left: 20px;">\( \beta_1 = \exp\left\{ s \cdot \left[ 1 - \left( \frac{28}{t} \right)^{1/2} \right] \right\} \)</td>
-    </tr>
-    <tr>
-      <th colspan="2" style="text-align: left; font-weight: bold;">Valores de \( s \)</th>
-    </tr>
-    <tr>
-      <td style="padding-left: 20px;">a)</td>
-      <td style="padding-left: 20px;">\( s = 0,38 \) para concreto de cimento CP III e CP IV</td>
-    </tr>
-    <tr>
-      <td style="padding-left: 20px;">b)</td>
-      <td style="padding-left: 20px;">\( s = 0,25 \) para concreto de cimento CP I e CP II</td>
-    </tr>
-    <tr>
-      <td style="padding-left: 20px;">c)</td>
-      <td style="padding-left: 20px;">\( s = 0,20 \) para concreto de cimento CP V -- ARI</td>
-    </tr>
-  </tbody>
-</table>
+\(
+\begin{align*}
+    f_{ck} &= \beta_1 \cdot (t \cdot s) \cdot f_{ck,28} \\
+    \beta_1 &= \exp\left\{ s \cdot \left[ 1 - \left( \frac{28}{t} \right)^{1/2} \right] \right\}
+\end{align*}
+\)
 
+\(
+  \text{onde:}
+  \begin{align*}
+    s &= 0,38 \text{ para concreto de cimento CP III e CP IV} \\
+    s &= 0,25 \text{ para concreto de cimento CP I e CP II} \\
+    s &= 0,20 \text{ para concreto de cimento CP V -- ARI}
+  \end{align*}
+\)
 
+\(
+\begin{align*}
+    f_{ck} &= 0,30 \cdot f_{ck}^{2/3} \\
+    f_{ctm} &= 0,7 \cdot f_{ck} \\
+    f_{ctk,inf} &= 0,7 \cdot f_{ctm} \\
+    f_{ctk,sup} &= 1,3 \cdot f_{ctm} \\
+    f_{ctm}(t) &= 1,41 \cdot \left( \frac{f_{ctk,j}(t)}{10} \right)^{2/3}
+\end{align*}
+\)
 
-<table style = "width:100%" align = "center">
-    <tr>
-        <td style="width: 70%;">\[ 𝑓_𝑐𝑡𝑚=0,3∙𝑓_𝑐𝑘^(2∕3)]</td>
-        <td style="width: 15%;"><p align = "right" id = "eq4">----------></p></td>
-        <td style="width: 15%;"><p align = "right" id = "eq4">Valor médio</p></td>
-    </tr>
-</table>
-<table style = "width:100%" align = "center">
-    <tr>
-        <td style="width: 70%;">\[ 𝑓_(𝑐𝑡𝑘, 𝑖𝑛𝑓)=0,7∙𝑓_𝑐𝑡𝑚]</td>
-        <td style="width: 15%;"><p align = "right" id = "eq4">----------></p></td>
-        <td style="width: 15%;"><p align = "right" id = "eq4">Valor inferior</p></td>
-    </tr>
-</table>
-<table style = "width:100%" align = "center">
-    <tr>
-        <td style="width: 70%;">\[ 𝑓𝑓_(𝑐𝑡𝑘,𝑠𝑢𝑝)=1,3∙𝑓_𝑐𝑡𝑚]</td>
-        <td style="width: 15%;"><p align = "right" id = "eq4">----------></p></td>
-        <td style="width: 15%;"><p align = "right" id = "eq4">Valor superior</p></td>
-    </tr>
-</table>
-<br><br>
-<table style = "width:100%" align = "center">
-    <tr>
-        <td style="width: 70%;">\[𝑓_𝑐𝑡𝑚 (𝑡)=1,41.((𝑓_(𝑐𝑘,𝑗) (𝑡))/10)^(2∕3)]</td>
-        <td style="width: 15%;"><p align = "right" id = "eq4">----------></p></td>
-        <td style="width: 15%;"><p align = "right" id = "eq4">Estimativa Prof. José Milton</p></td>
-    </tr>
-</table>
-<br><br><br>
 <h4>Módulo tangente inicial</h4>
 <table style = "width:100%" align="center" border="0" cellpadding="8">
     <tr>
