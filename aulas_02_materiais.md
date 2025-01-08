@@ -33,6 +33,7 @@ nav_order: 2
     <li>Segundo as <strong>dimensões de partícula</strong></li>
 </ul>
 
+<br>
 
 <h4 align="center">Tabela 1: Faixa de dimensões e DMC do agregado graúdo tipo brita</h4>
 
@@ -78,6 +79,8 @@ nav_order: 2
   </tbody>
 </table>
 
+<br>
+
 <h2>Cimento</h2>
 
 <p align="justify">Por definição, o <strong>cimento</strong> é um <strong>material ligante </strong> ou <strong>material</strong> aglomerante, normalmente pulverulento, que realiza a união entre as partículas dos agregados.</p>
@@ -114,7 +117,7 @@ nav_order: 2
   </tbody>
 </table>
 
-<br><br>
+<br>
 
 <h4 align="center">Tabela 3: Composição química do cimento Portland tradicional com os teores médios</h4>
 
@@ -149,6 +152,7 @@ nav_order: 2
     </tr>
   </tbody>
 </table>
+
 <br>
 
 <h4 align="center">Tabela 4: Tipos de cimentos normatizados no Brasil e a proporção em massa de compostos</h4>
@@ -227,6 +231,7 @@ nav_order: 2
     </tr>
   </tbody>
 </table>
+
 <br>
 
 <h2>Aço</h2>
@@ -242,30 +247,32 @@ O <strong>aço</strong>, por fim, será o <strong>resultado da descarbonatação
     <li>CA - 50 (barra)</li>
     <li>CA - 60 (barra)</li>
 </ul>
-<br><br>
+
+<br>
 
 <h4 align = "center" >Tabela 5: Propriedades mecânicas exigíveis de barras e fios de aço destinados a armaduras</h4>
 
-<table style ="text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center">
+<table border="1" cellpadding="5" cellspacing="0" style="width: 90%; margin: 0 auto; border-collapse: collapse; text-align: center;">
+  <caption><strong>Tabela: Valores mínimos de ensaios de tração, dobramento e aderência</strong></caption>
   <thead>
     <tr>
       <th rowspan="3">Tipo</th>
       <th colspan="4">Ensaios de tração (valores mínimos)</th>
       <th colspan="2">Ensaio de dobramento a 180º</th>
-      <th colspan = "2">Aderência</th>
+      <th colspan="2">Aderência</th>
     </tr>
     <tr>
-      <th rowspan = "2">(f<sub>yk</sub>) - MPa</th>
-      <th rowspan = "2">(f<sub>st</sub>) - MPa</th>
-      <th  rowspan = "2">Alongamento após ruptura em 10.φ – A %</th>
-      <th  rowspan = "2">Alongamento total na força máxima – A<sub>gt</sub> %</th>
-      <th colspan = "2"  >Diâmetro do pino (mm)</th>
-      <th colspan = "2"  >Valores mínimos de η para</th>
+      <th rowspan="2">(f<sub>yk</sub>) - MPa</th>
+      <th rowspan="2">(f<sub>st</sub>) - MPa</th>
+      <th rowspan="2">Alongamento após ruptura em 10φ – A (%)</th>
+      <th rowspan="2">Alongamento total na força máxima – A<sub>gt</sub> (%)</th>
+      <th colspan="2">Diâmetro do pino (mm)</th>
+      <th colspan="2">Valores mínimos de η para</th>
     </tr>
-     <tr>
-      <th>φ < 20 </th>
+    <tr>
+      <th>φ &lt; 20</th>
       <th>φ ≥ 20</th>
-      <th>φ &lt; 10mm</th>
+      <th>φ &lt; 10 mm</th>
       <th>φ ≥ 10 mm</th>
     </tr>
   </thead>
@@ -275,9 +282,9 @@ O <strong>aço</strong>, por fim, será o <strong>resultado da descarbonatação
       <td>250</td>
       <td>1,20.f<sub>yk</sub></td>
       <td>18</td>
-      <td>--</td>
-      <td>2.φ</td>
-      <td>4.φ</td>
+      <td>N/A</td>
+      <td>2φ</td>
+      <td>4φ</td>
       <td>1,0</td>
       <td>1,0</td>
     </tr>
@@ -287,25 +294,27 @@ O <strong>aço</strong>, por fim, será o <strong>resultado da descarbonatação
       <td>1,08.f<sub>yk</sub></td>
       <td>8</td>
       <td>5</td>
-      <td>4.φ</td>
-      <td>6.φ</td>
+      <td>4φ</td>
+      <td>6φ</td>
       <td>1,0</td>
       <td>1,5</td>
     </tr>
-    <t>
+    <tr>
       <td>CA-60</td>
       <td>600</td>
       <td>1,05.f<sub>yk</sub></td>
       <td>5</td>
-      <td>--</td>
-      <td>5.φ</td>
-      <td>--</td>
+      <td>N/A</td>
+      <td>5φ</td>
+      <td>N/A</td>
       <td>1,0</td>
       <td>1,5</td>
     </tr>
   </tbody>
 </table>
-<br><br>
+
+
+<br>
           
 <h4 align = "center">Tabela 6: Carracterísticas das barras </h4>
 
@@ -397,7 +406,8 @@ O <strong>aço</strong>, por fim, será o <strong>resultado da descarbonatação
     </tr>
   </tbody>
 </table>
-<br><br>
+
+<br>
 
 <h4 align = "center" >Tabela 7: Carracterísticas de fios</h4>
 
