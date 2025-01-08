@@ -581,31 +581,41 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 <p align = "center"><b>Figura 2.</b>Imagem do agregado.</p>
 
 
-\[
-\begin{align*}
-f_{ck,j} = \beta_1 \cdot (t \cdot s) \cdot f_{ck,28} \\
-\beta_1 = \exp\left\{ s \cdot \left[ 1 - \left( \frac{28}{t} \right)^{1/2} \right] \right\}
-\end{align*}
-\]
+<table border="1" cellpadding="10" cellspacing="0" align="center" style="text-align: left; border-collapse: collapse; width: 80%;">
+  <thead>
+    <tr>
+      <th colspan="2" style="text-align: center;">Equação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <p style="text-align: center;">
+          \( f_{ck,j} = \beta_1 \cdot (t \cdot s) \cdot f_{ck,28} \)
+          <br>
+          \( \beta_1 = \exp\left\{ s \cdot \left[ 1 - \left( \frac{28}{t} \right)^{1/2} \right] \right\} \)
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <th colspan="2" style="text-align: center;">Valores de \( s \)</th>
+    </tr>
+    <tr>
+      <td>a)</td>
+      <td>\( s = 0,38 \) para concreto de cimento CP III e CP IV</td>
+    </tr>
+    <tr>
+      <td>b)</td>
+      <td>\( s = 0,25 \) para concreto de cimento CP I e CP II</td>
+    </tr>
+    <tr>
+      <td>c)</td>
+      <td>\( s = 0,20 \) para concreto de cimento CP V -- ARI</td>
+    </tr>
+  </tbody>
+</table>
 
-\[
-\text{onde:} \\
-\begin{align*}
-\text{a)} & \quad s = 0,38 \text{ para concreto de cimento CP III e CP IV;} \\
-\text{b)} & \quad s = 0,25 \text{ para concreto de cimento CP I e CP II;} \\
-\text{c)} & \quad s = 0,20 \text{ para concreto de cimento CP V -- ARI.}
-\end{align*}
-\]
 
-<p>Adote os seguintes valores para s dependendo do tipo de cimento usado</p>
-
-
-<ol type="a">
-    <li><p align="justify">s=0,38 para concreto de cimento CP III e CP IV;</p></li>
-    <li><p align="justify">s=0,25 para concreto de cimento CP I e CP II;</p></li>
-    <li><p align="justify">s=0,20 para concreto de cimento CP V – ARI.</p></li>
-</ol>
-<br>
 
 <table style = "width:100%" align = "center">
     <tr>
