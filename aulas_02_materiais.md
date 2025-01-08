@@ -413,12 +413,12 @@ O <strong>aço</strong>, por fim, será o <strong>resultado da descarbonatação
 
 <table style = "text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center">
   <thead>
-    <tr style="background-color: #333; color: white;">
+    <tr>
       <th rowspan="1">Diâmetro Nominal<sup>1</sup> (mm)</th>
       <th colspan="2">Massa e tolerância por unidade de comprimento</th>
       <th colspan="2">Valores Nominais</th>
     </tr>
-    <tr style="background-color: #333; color: white;">
+    <tr>
         <th>Fios</th>
       <th>Massa Nominal<sup>2</sup> (kg/m)</th>
       <th>Máxima variação permitida para massa nominal</th>
@@ -506,20 +506,20 @@ O <strong>aço</strong>, por fim, será o <strong>resultado da descarbonatação
     </tr>
   </tbody>
 </table>
-<br><br><br><br><br>
-<p>-----------------------------------------------------------------------------------Propriedades do concreto estrutural----------------------------------------------------------------------------------------------------------------------------------</p>
-<br><br>
-<h1 align = "center">3 Propriedades do concreto estrutural</h1>
-<br><br><br>
+
+<br>
+
+<h2>Propriedades do concreto<h2>
+
 <h4 align = "center">Tabela 1: Concreto estrutural</h4>
 
 <table style = "text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center" >
   <thead>
-    <tr style="background-color: #333; color: white;">
+    <tr>
       <th colspan="2">Classe de resistência<br>Grupo I</th>
       <th colspan="2">Classe de resistência<br>Grupo II</th>
     </tr>
-    <tr style="background-color: #333; color: white;">
+    <tr>
       <th>Classe</th>
       <th>Resistência característica à compressão (MPa)</th>
       <th>Classe</th>
@@ -571,32 +571,32 @@ O <strong>aço</strong>, por fim, será o <strong>resultado da descarbonatação
 </table>
 <br><br>
 
-<p>Um dos parâmetros mais importantes no controle tecnológico do concreto é a curva tensão-deformação à compressão, que fornece várias informações importantes para elaboração de projetos estruturais, tais como a resistência à compressão, o módulo de elasticidade tangente inicial e secante, a deformação na carga de pico e a tenacidade do concreto.</p>
+<p align="justify">Um dos <strong>parâmetros mais importantes</strong> no controle tecnológico do concreto é a <strong>curva tensão-deformação à compressão</strong>, que fornece várias <strong>informações importantes</strong> para elaboração de <strong>projetos estruturais</strong>, tais como a <strong>resistência à compressão</strong>, o <strong>módulo de elasticidade</strong> tangente inicial e secante, a deformação na carga de pico e a tenacidade do concreto.
 
-<p>Por definição, a resistência característica (𝑓_𝑐𝑘) à compressão do concreto é o valor que apresenta um grau de confiança de 95%, ou seja, 𝑓_𝑐𝑘 é o valor da resistência à compressão do concreto, de modo que 95% dos resultados dos ensaios estejam acima deste valor ou 5% abaixo.</p>
+Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong> à compressão do concreto é o valor que apresenta um <strong>grau de confiança de 95%</strong>, ou seja, 𝑓_𝑐𝑘 é o valor da resistência à compressão do concreto, <strong>de modo que 95% dos resultados dos ensaios estejam acima deste valor ou 5% abaixo</strong>.</p>
+
 <br>
-<table style = "width:100%" align="center" border="1" cellpadding="8">
-    <tr>
-        <td style="width: 100%;">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIXBnGTC55Ga7z9ky8ZSnYZn4pb_gS6COU1Q&s" alt="Imagem do agregado" >
-        </td>
-    </tr>
-</table>
-<br>
-<table style = "width:100%">
-    <tr>
-        <td style="width: 90%;">\[ 𝑓_(𝑐𝑘,𝑗)=𝛽_1.(𝑡ⓜ,𝑠). 𝑓_(𝑐𝑘,28)]</td>
-        <td style="width: 10%;"><p align = "right" id = "eq4">(1)</p></td>
-    </tr>
-</table>
-<br>
-<table style = "width:100%">
-    <tr>
-        <td style="width: 90%;">\[ 𝛽_1=𝑒𝑥𝑝{𝑠.[1−(28/𝑡)^(1∕2) ]}]</td>
-        <td style="width: 10%;"><p align = "right" id = "eq4">(2)</p></td>
-    </tr>
-</table>
-<br>
+
+<center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIXBnGTC55Ga7z9ky8ZSnYZn4pb_gS6COU1Q&s" width="80%"></center>
+<p align = "center"><b>Figura 2.</b>Imagem do agregado.</p>
+
+
+\[
+\begin{align*}
+f_{ck,j} = \beta_1 \cdot (t \cdot s) \cdot f_{ck,28} \\
+\beta_1 = \exp\left\{ s \cdot \left[ 1 - \left( \frac{28}{t} \right)^{1/2} \right] \right\}
+\end{align*}
+\]
+
+\[
+\text{onde:} \\
+\begin{align*}
+\text{a)} & \quad s = 0,38 \text{ para concreto de cimento CP III e CP IV;} \\
+\text{b)} & \quad s = 0,25 \text{ para concreto de cimento CP I e CP II;} \\
+\text{c)} & \quad s = 0,20 \text{ para concreto de cimento CP V -- ARI.}
+\end{align*}
+\]
+
 <p>Adote os seguintes valores para s dependendo do tipo de cimento usado</p>
 
 
