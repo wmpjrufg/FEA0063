@@ -582,12 +582,12 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 
 <br>
 
-\(
+\[
 \begin{align*}
     f_{ck} &= \beta_1 \cdot (t \cdot s) \cdot f_{ck,28} \quad \text{(1)} \\
     \beta_1 &= \exp\left\{ s \cdot \left[ 1 - \left( \frac{28}{t} \right)^{1/2} \right] \right\} \quad \text{(2)} \\
 \end{align*}
-\)
+\]
 
 <p align="justify">Onde:</p>
 <ul>
@@ -596,16 +596,17 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
     <li>s = 0,20 para concreto de cimento CP V -- ARI</li>
 </ul>
 
+<br>
+
 \[
-\begin{aligned}
+\begin{align*}
     f_{ck} &= 0,30 \cdot f_{ck}^{2/3} \quad \text{(3)} \\
     f_{ctm} &= 0,7 \cdot f_{ck} \quad \text{(4)} \\
     f_{ctk,inf} &= 0,7 \cdot f_{ctm} \quad \text{(5)} \\
     f_{ctk,sup} &= 1,3 \cdot f_{ctm} \quad \text{(6)} \\
     f_{ctm}(t) &= 1,41 \cdot \left( \frac{f_{ctk,j}(t)}{10} \right)^{2/3} \quad \text{(7)} \\
-\end{aligned}
+\end{align*}
 \]
-
 
 <h4>Módulo tangente inicial</h4>
 <table style = "width:100%" align="center" border="0" cellpadding="8">
