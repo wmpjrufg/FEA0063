@@ -596,15 +596,16 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
     <li>s = 0,20 para concreto de cimento CP V -- ARI</li>
 </ul>
 
-\(
-\begin{align*}
+\[
+\begin{aligned}
     f_{ck} &= 0,30 \cdot f_{ck}^{2/3} \quad \text{(3)} \\
     f_{ctm} &= 0,7 \cdot f_{ck} \quad \text{(4)} \\
     f_{ctk,inf} &= 0,7 \cdot f_{ctm} \quad \text{(5)} \\
     f_{ctk,sup} &= 1,3 \cdot f_{ctm} \quad \text{(6)} \\
     f_{ctm}(t) &= 1,41 \cdot \left( \frac{f_{ctk,j}(t)}{10} \right)^{2/3} \quad \text{(7)} \\
-\end{align*}
-\)
+\end{aligned}
+\]
+
 
 <h4>Módulo tangente inicial</h4>
 <table style = "width:100%" align="center" border="0" cellpadding="8">
