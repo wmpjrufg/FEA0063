@@ -1,30 +1,29 @@
-title: PAREpy
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: FEA0064
+description: Repositório da disciplina de Estruturas de Concreto Armado 1, 2, Projetos estruturais e fundações.
 remote_theme: just-the-docs/just-the-docs
 
 url: https://just-the-docs.github.io
 
 aux_links:
-  Release history: https://pypi.org/project/parepy-toolbox/#history
+  teste: https://github.com/just-the-docs/just-the-docs-template
 
 color_scheme: nil
 
 callouts_level: quiet # or loud
 callouts:
   highlight:
-    title: Highlight
     color: yellow
   important:
-    title: Important
+    title: Importante
     color: blue
   new:
-    title: New
+    title: Novo
     color: green
   note:
-    title: Note
+    title: Nota
     color: purple
   warning:
-    title: Warning
+    title: Aviso
     color: red
   
 kramdown:
@@ -34,9 +33,6 @@ kramdown:
 
 # Back to top link
 back_to_top: true
-back_to_top_text: "Back to top"
+back_to_top_text: "Voltar ao início"
 
-footer_content: "Copyright &copy 2023 GPEE.</a>"
-
-logo: "/assets/images/logo-2.png"
-favicon_ico: "/assets/images/logo.ico"
+footer_content: "Copyright &copy; 2023. Construído por Wanderlei Malaquias Pereira Junior e seu grupo de pesquisa.</a>"
