@@ -261,3 +261,110 @@ nav_order: 3
     </tr>
   </tbody>
 </table>
+
+
+<center><img src="assets\images\aula_03\fig_1.png" width="80%"></center>
+<p align = "center"><b>Figura 1.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<center><img src="assets\images\aula_03\fig_2.png" width="80%"></center>
+<p align = "center"><b>Figura 2.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<center><img src="assets\images\aula_03\fig_3.png" width="80%"></center>
+<p align = "center"><b>Figura 3.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<center><img src="assets\images\aula_03\fig_4.png" width="80%"></center>
+<p align = "center"><b>Figura 4.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<center><img src="assets\images\aula_03\fig_5.png" width="80%"></center>
+<p align = "center"><b>Figura 5.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<center><img src="assets\images\aula_03\fig_6.png" width="80%"></center>
+<p align = "center"><b>Figura 6.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<center><img src="assets\images\aula_03\fig_7.png" width="80%"></center>
+<p align = "center"><b>Figura 7.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<center><img src="assets\images\aula_03\fig_8.png" width="80%"></center>
+<p align = "center"><b>Figura 8.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<center><img src="assets\images\aula_03\fig_9.png" width="80%"></center>
+<p align = "center"><b>Figura 9.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<center><img src="assets\images\aula_03\fig_10.png" width="80%"></center>
+<p align = "center"><b>Figura 10.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<center><img src="assets\images\aula_03\fig_11.png" width="80%"></center>
+<p align = "center"><b>Figura 11.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<center><img src="assets\images\aula_03\fig_12.png" width="80%"></center>
+<p align = "center"><b>Figura 12.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<center><img src="assets\images\aula_03\fig_13.png" width="80%"></center>
+<p align = "center"><b>Figura 13.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<center><img src="assets\images\aula_03\fig_14.png" width="80%"></center>
+<p align = "center"><b>Figura 14.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<center><img src="assets\images\aula_03\fig_15.png" width="80%"></center>
+<p align = "center"><b>Figura 15.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<center><img src="assets\images\aula_03\fig_16.png" width="80%"></center>
+<p align = "center"><b>Figura 16.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<center><img src="assets\images\aula_03\fig_17.png" width="80%"></center>
+<p align = "center"><b>Figura 17.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<center><img src="assets\images\aula_03\fig_18.png" width="80%"></center>
+<p align = "center"><b>Figura 18.</b> Lore ipsum.</p>
+
+<p aligin = "justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis lacinia blandit. Fusce cursus orci sem, in commodo nibh elementum auctor. In ullamcorper lacus eget blandit pretium.</p>
+
+<h2>Referências</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><p align = "center" id = "ref1">[1]</p></td>
+            <td><p align = "left">Faz Fácil. Traços do Concreto: Misturas e Cuidados Gerais para um Bom Resultado. Faz Fácil 2020. https://www.fazfacil.com.br/reforma-construcao/tracos-concreto-mistura/.</p></td>
+        </tr>
+    </tbody>
+</table>
