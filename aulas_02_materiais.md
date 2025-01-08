@@ -580,30 +580,29 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIXBnGTC55Ga7z9ky8ZSnYZn4pb_gS6COU1Q&s" width="80%"></center>
 <p align = "center"><b>Figura 2.</b> Imagem do agregado.</p>
 
+<br>
 
 \(
 \begin{align*}
-    f_{ck} &= \beta_1 \cdot (t \cdot s) \cdot f_{ck,28} \\
-    \beta_1 &= \exp\left\{ s \cdot \left[ 1 - \left( \frac{28}{t} \right)^{1/2} \right] \right\}
+    f_{ck} &= \beta_1 \cdot (t \cdot s) \cdot f_{ck,28} \quad \text{(1)} \\
+    \beta_1 &= \exp\left\{ s \cdot \left[ 1 - \left( \frac{28}{t} \right)^{1/2} \right] \right\} \quad \text{(2)} \\
 \end{align*}
 \)
 
-\(
-  \text{onde:}
-  \begin{align*}
-    s &= 0,38 \text{ para concreto de cimento CP III e CP IV} \\
-    s &= 0,25 \text{ para concreto de cimento CP I e CP II} \\
-    s &= 0,20 \text{ para concreto de cimento CP V -- ARI}
-  \end{align*}
-\)
+<p align="justify">Onde:</p>
+<ul>
+    <li>s = 0,38 para concreto de cimento CP III e CP IV</li>
+    <li>s = 0,25 para concreto de cimento CP I e CP II</li>
+    <li>s = 0,20 para concreto de cimento CP V -- ARI</li>
+</ul>
 
 \(
 \begin{align*}
-    f_{ck} &= 0,30 \cdot f_{ck}^{2/3} \\
-    f_{ctm} &= 0,7 \cdot f_{ck} \\
-    f_{ctk,inf} &= 0,7 \cdot f_{ctm} \\
-    f_{ctk,sup} &= 1,3 \cdot f_{ctm} \\
-    f_{ctm}(t) &= 1,41 \cdot \left( \frac{f_{ctk,j}(t)}{10} \right)^{2/3}
+    f_{ck} &= 0,30 \cdot f_{ck}^{2/3} \quad \text{(3)} \\
+    f_{ctm} &= 0,7 \cdot f_{ck} \quad \text{(4)} \\
+    f_{ctk,inf} &= 0,7 \cdot f_{ctm} \quad \text{(5)} \\
+    f_{ctk,sup} &= 1,3 \cdot f_{ctm} \quad \text{(6)} \\
+    f_{ctm}(t) &= 1,41 \cdot \left( \frac{f_{ctk,j}(t)}{10} \right)^{2/3} \quad \text{(7)} \\
 \end{align*}
 \)
 
