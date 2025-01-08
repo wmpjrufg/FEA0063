@@ -582,12 +582,12 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 
 <br>
 
-\(
+\[
 \begin{align*}
     &f_{ck} = \beta_1 \cdot (t \cdot s) \cdot f_{ck,28} \quad \text{(1)} \\
     &\beta_1 = \exp\left\{ s \cdot \left[ 1 - \left( \frac{28}{t} \right)^{1/2} \right] \right\} \quad \text{(2)} \\
 \end{align*}
-\)
+\]
 
 <p align="justify">Onde:</p>
 <ul>
@@ -598,7 +598,7 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 
 <br>
 
-\(
+\[
 \begin{align*}
     &f_{ck} = 0,30 \cdot f_{ck}^{2/3} \quad \text{(3)} \\
     &f_{ctm} = 0,7 \cdot f_{ck} \quad \text{(4)} \\
@@ -606,7 +606,7 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
     &f_{ctk,sup} = 1,3 \cdot f_{ctm} \quad \text{(6)} \\
     &f_{ctm}(t) = 1,41 \cdot \left( \frac{f_{ctk,j}(t)}{10} \right)^{2/3} \quad \text{(7)} \\
 \end{align*}
-\)
+\]
 
 <br>
 
@@ -616,10 +616,12 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 <p align = "center"><b>Figura 2.</b> Imagem módulos Tg inicial.</p>
 
 <p align="justify">Para \(f_{ck}\) de 20 a 50 MPa:</p>
-\(E_{ci} = \alpha_E \cdot 5600 \cdot \sqrt{f_{ck}} \quad \text{(8)}\)
+\[E_{ci} = \alpha_E \cdot 5600 \cdot \sqrt{f_{ck}} \quad \text{(8)}\]
+
+<br>
 
 <p align="justify">Para \(f_{ck}\) de 55 a 90 MPa:</p>
-\(E_{ci} = 21,5 \cdot 10^3 \cdot \alpha_E \cdot \left( \frac{f_{ck}}{10} + 1,25 \right)^{1/3} \quad \text{(9)}\)
+\[E_{ci} = 21,5 \cdot 10^3 \cdot \alpha_E \cdot \left( \frac{f_{ck}}{10} + 1,25 \right)^{1/3} \quad \text{(9)}\]
 
 <p align="justify">Onde:</p>
 <ul>
@@ -631,32 +633,23 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 
 <br>
 
-<p>
-   \[𝐸_𝑐𝑖=𝛼_𝐸∙5600∙√(𝑓_𝑐𝑘 )\] Para 𝑓_𝑐𝑘 de 20 a 50 MPa <br>
-   \[𝐸_𝑐𝑖=21,5∙10^3∙𝛼_𝐸∙(𝑓_𝑐𝑘/10+1,25)^(1∕3)\] Para 𝑓_𝑐𝑘 de 55 a 90 MPa <br>
-    <br>
-    𝛼_𝐸=1,2 para basalto e diabásio;  <br>
-    𝛼_𝐸=1,0 para granito e gnaisse; <br>
-    𝛼_𝐸=0,9 para calcário; <br>
-    𝛼_𝐸=0,7 para arenito. <br>
-</p>
-<br><br>
-<h4 align = "center">Módulo secante</h4>
-<table style = "width:100%" align="center" border="0" cellpadding="8">
-    <tr>
-        <td style="width: 100%;">
-            <img src="hhttps://seer.atitus.edu.br/index.php/revistaec/article/viewFile/2173/1884/14121" alt="Imagem módulos secante">
-        </td>
-    </tr>
-</table>
-<p>
-    \[ 𝐸_𝑐𝑠=𝛼_𝑖∙𝐸_𝑐𝑖\] <br>
-    \[ 𝛼_𝑖=0,8+0,2∙𝑓_𝑐𝑘/80≤1,0\]
-</p>
+<h2>Módulo secante</h2>
+
+<center><img src="https://seer.atitus.edu.br/index.php/revistaec/article/viewFile/2173/1884/14121" width="100%"></center>
+<p align = "center"><b>Figura 3.</b> Imagem módulos secante.</p>
+
+\[
+\begin{align*}
+    &E_{cs} = \alpha_i \cdot E_{ci} \quad \text{(10)} \\
+    &\alpha_i = 0,8 + 0,2 \cdot f_{ck}/80 \leq 1,0 \quad \text{(11)} \\
+\end{align*}
+\]
+
+<br>
 
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
-    <tr style="background-color: white; color: black;">
+    <tr>
       <th>Classe de resistência</th>
       <th>C20</th>
       <th>C25</th>
