@@ -805,3 +805,115 @@ nav_order: 2
     <li><p align="justify">Retração;</p></li>
     <li><p align="justify">Fluência.</p></li>
 </ol>
+
+<h2>Referências</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><p align = "center" id = "ref1">[1]</p></td>
+            <td><p align = "left">R. E. Melchers and A. T. Beck, Structural Reliability Analysis and Prediction, 3rd ed. edição. Hoboken, NJ: Wiley, 2018.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref2">[2]</p></td>
+            <td><p align = "left">A. Beck, Confiabilidade e Segurança das Estruturas, 1a edição. GEN LTC, 2021.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref3">[3]</p></td>
+            <td><p align = "left"><a href="https://doi.org/10.17159/2309-8775/2021/v63n1a1" target="_blank" rel="noopener noreferrer">M. Holický, J. V. Retief, and C. Viljoen, “Reliability basis for assessment of existing building structures with reference to sans 10160,” J. S. Afr. Inst. Civ. Eng., vol. 63, no. 1, 2021.</a></p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref4">[4]</p></td>
+            <td><p align = "left"><a href="https://doi.org/10.1590/s1983-41952022000200007" target="_blank" rel="noopener noreferrer">P. H. P. Facholli and A. T. Beck, “Distribution of load effects and reliability of reinforced concrete frames: intact and with columns removed,” Rev. IBRACON Estrut. Mater., vol. 15, no. 2, p. e15207, 2022.</a></p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref5">[5]</p></td>
+            <td><p align = "left"><a href="https://doi.org/10.1061/(ASCE)ST.1943-541X.0003196" target="_blank" rel="noopener noreferrer">A. T. Beck, L. da Rosa Ribeiro, M. Valdebenito, and H. Jensen, “Risk-Based Design of Regular Plane Frames Subject to Damage by Abnormal Events: A Conceptual Study,” Journal of Structural Engineering, vol. 148, no. 1, p. 04021229, Jan. 2022.</a></p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref6">[6]</p></td>
+            <td><p align = "left"><a href="https://doi.org/10.1002/suco.202100226" target="_blank" rel="noopener noreferrer">S. Küttenbaum, T. Braml, A. Taffe, S. Keßler, and S. Maack, “Reliability assessment of existing structures using results of nondestructive testing,” Structural Concrete, vol. 22, no. 5, pp. 2895–2915, Oct. 2021.</a></p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref7">[7]</p></td>
+            <td><p align = "left"><a href="https://doi.org/10.1016/j.engstruct.2019.109788" target="_blank" rel="noopener noreferrer">A. Mankar, I. Bayane, J. D. Sørensen, and E. Brühwiler, “Probabilistic reliability framework for assessment of concrete fatigue of existing RC bridge deck slabs using data from monitoring,” Engineering Structures, vol. 201, p. 109788, Dec. 2019.</a></p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref8">[8]</p></td>
+            <td><p align = "left"><a href="https://doi.org/10.1016/j.engstruct.2021.112016" target="_blank" rel="noopener noreferrer">R. R. Souza, L. F. F. Miguel, G. McClure, F. Alminhana, and J. Kaminski Jr., “Reliability assessment of existing transmission line towers considering mechanical model uncertainties,” Engineering Structures, vol. 237, p. 112016, Jun. 2021.</a></p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref9">[9]</p></td>
+            <td><p align = "left"><a href="https://doi.org/10.1016/j.engstruct.2020.111160" target="_blank" rel="noopener noreferrer">F. Ávila, E. Puertas, and R. Gallego, “Probabilistic reliability assessment of existing masonry buildings: The church of San Justo y Pastor,” Engineering Structures, vol. 223, p. 111160, Nov. 2020.</a></p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref10">[10]</p></td>
+            <td><p align = "left">G. Savaris, P. H. Hallak, and P. C. A. Maia, “Influence of foundation settlements in load redistribution on columns in a monitoring construction - Case Study,” Rev. IBRACON Estrut. Mater., vol. 3, pp. 346–356, Sep. 2010.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref11">[11]</p></td>
+            <td><p align = "left">L. B. Amancio, “Previsão de recalques em fundações profundas utilizando redes neurais artificiais do tipo Perceptron,” Dissertação (Mestrado), Universidade Federal do Ceará, Fortaleza - CE, 2013.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref12">[12]</p></td>
+            <td><p align = "left">Associação Brasileira de Normas Técnicas - ABNT, NBR 8681: Actions and safety of structures - Procedure. Rio de Janeiro – RJ: ABNT, 2003.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref13">[13]</p></td>
+            <td><p align = "left">Associação Brasileira de Normas Técnicas - ABNT, Projeto de estruturas de concreto - Procedimento: NBR 6118. Rio de Janeiro – RJ: ABNT, 2014.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref14">[14]</p></td>
+            <td><p align = "left"><a href="https://doi.org/10.1057/dddmp.2011.25" target="_blank" rel="noopener noreferrer">P. Furness, “Applications of Monte Carlo Simulation in marketing analytics,” J Direct Data Digit Mark Pract, vol. 13, no. 2, pp. 132–147, Oct. 2011.</a></p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref15">[15]</p></td>
+            <td><p align = "left"><a href="https://doi.org/10.35789/fib.BULL.0090" target="_blank" rel="noopener noreferrer">Fédération Internationale du Béton - FIB, Model Code 2010, vol. Volume 1. Germany: fib. The International Federation for Structural Concrete, 2010.</a></p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref16">[16]</p></td>
+            <td><p align = "left"><a href="https://doi.org/10.1590/1679-78255754" target="_blank" rel="noopener noreferrer">W. C. Santiago, H. M. Kroetz, S. H. de C. Santos, F. R. Stucchi, and A. T. Beck, “Reliability-based calibration of main Brazilian structural design codes,” Lat. Am. j. solids struct., vol. 17, no. 1, p. e245, 2020.</a></p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref17">[17]</p></td>
+            <td><p align = "left"><a href="https://doi.org/10.1680/ipeds.1956.12202" target="_blank" rel="noopener noreferrer">A. W. Skempton and D. H. Macdonald, “The allowable settlements of buildings.,” Proceedings of the Institution of Civil Engineers, vol. 5, no. 6, pp. 727–768, Nov. 1956.</a></p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref18">[18]</p></td>
+            <td><p align = "left">B. M. Das, Shallow Foundations: Bearing Capacity and Settlement, Third Edition, 3rd ed. edição. Boca Raton: CRC Press, 2017.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref19">[19]</p></td>
+            <td><p align = "left">J. B. Burland, B. B. Broms, and V. F. De Mello, “Behaviour of foundations and structures,” SOA report, 9th Int. Conf. on Soil Mechanics and Foundations Engineering, vol. 2, pp. 495–549, 1978.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref20">[20]</p></td>
+            <td><p align = "left"><a href="https://wmpjrufg.github.io/FINITO_TOOLBOX/" target="_blank" rel="noopener noreferrer">FINITO, “Finito FEM Toolbox User’s Manual.” 2022.</a></p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref21">[21]</p></td>
+            <td><p align = "left"><a href="https://doi.org/10.1016/j.cpc.2009.09.018" target="_blank" rel="noopener noreferrer">A. Saltelli, P. Annoni, I. Azzini, F. Campolongo, M. Ratto, and S. Tarantola, “Variance based sensitivity analysis of model output. Design and estimator for the total sensitivity index,” Computer Physics Communications, vol. 181, no. 2, pp. 259–270, Feb. 2010.</a></p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref22">[22]</p></td>
+            <td><p align = "left"><a href="https://doi.org/10.1016/j.enbuild.2017.12.066" target="_blank" rel="noopener noreferrer">R. Gagnon, L. Gosselin, and S. Decker, “Sensitivity analysis of energy performance and thermal comfort throughout building design process,” Energy and Buildings, vol. 164, pp. 278–294, Apr. 2018.</a></p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref23">[23]</p></td>
+            <td><p align = "left">A. Saltelli, Ed., Global sensitivity analysis: the primer. Chichester, England ; Hoboken, NJ: John Wiley, 2008.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref24">[24]</p></td>
+            <td><p align = "left"><a href="https://doi.org/10.2134/jeq2004.0044" target="_blank" rel="noopener noreferrer">A. M. L. Lindahl et al., “Stochastic Modeling of Diffuse Pesticide Losses from a Small Agricultural Catchment,” J. Environ. Qual., vol. 34, no. 4, pp. 1174–1185, Jul. 2005.</a></p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref25">[25]</p></td>
+            <td><p align = "left"><a href="https://doi.org/10.1016/j.jtbi.2008.04.011" target="_blank" rel="noopener noreferrer">S. Marino, I. B. Hogue, C. J. Ray, and D. E. Kirschner, “A methodology for performing global uncertainty and sensitivity analysis in systems biology,” Journal of Theoretical Biology, vol. 254, no. 1, pp. 178–196, Sep. 2008.</a></p></td>
+        </tr>
+    </tbody>
+</table>
