@@ -815,8 +815,6 @@ sigma_c = 0,85 \cdot f_{cd} \cdot \left[ 1 - \left( 1 - \frac{\varepsilon_c}{\va
 
 <p align="justify">Dilatação térmica: \(\alpha = 1.10 \cdot 10^{-5} / ^\circ C\)</p>
 
-<br>
-
 <h2>Reologia do concreto</h2>
 
 <p>As primeiras deformações tratadas são as que tem o tempo como uma de suas variáveis de projeto:</p>
