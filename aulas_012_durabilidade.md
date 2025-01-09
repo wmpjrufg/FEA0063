@@ -250,60 +250,47 @@ nav_order: 12
 
 <br>
 
+$$
+c_{nom} = c_{min} + \Delta c 
+$$
+
 <table style = "text-align:center" align = "center">
-  <tr>
-    <th>
-      c<sub>nom</sub> = c<sub>min</sub> + 𝛥<sub>c</sub>
-    </th>
-    <th>
-      <table style = "text-align:center" align = "center">
-          <tr>
-              <th rowspan="2">Tipo de estrutura</th>
-              <th rowspan="2">Componente ou elemento</th>
-              <th colspan="4">Classe de agressividade ambiental (CAA)</th>
-          </tr>
-          <tr>
-              <th>I</th>
-              <th>II</th>
-              <th>III</th>
-              <th>IV<sup>2</sup></th>
-          </tr>
-          <tr>
-              <td rowspan="3">Concreto armado</td>
-              <td>Laje<sup>1</sup></td>
-              <td>20</td>
-              <td>25</td>
-              <td>35</td>
-              <td>45</td>
-          </tr>
-          <tr>
-              <td>Viga/Pilar</td>
-              <td>25</td>
-              <td>30</td>
-              <td>40</td>
-              <td>50</td>
-          </tr>
-          <tr>
-              <td>Elementos estruturais em contato com solo<sup>3</sup></td>
-              <td>-</td>
-              <td>30</td>
-              <td>40</td>
-              <td>50</td>
-          </tr>
-      </table>
-     </th>
-  </tr>
+    <tr>
+        <th rowspan="2">Tipo de estrutura</th>
+        <th rowspan="2">Componente ou elemento</th>
+        <th colspan="4">Classe de agressividade ambiental (CAA)</th>
+    </tr>
+    <tr>
+        <th>I</th>
+        <th>II</th>
+        <th>III</th>
+        <th>IV<sup>2</sup></th>
+    </tr>
+    <tr>
+        <td rowspan="3">Concreto armado</td>
+        <td>Laje<sup>1</sup></td>
+        <td>20</td>
+        <td>25</td>
+        <td>35</td>
+        <td>45</td>
+    </tr>
+    <tr>
+        <td>Viga/Pilar</td>
+        <td>25</td>
+        <td>30</td>
+        <td>40</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Elementos estruturais em contato com solo<sup>3</sup></td>
+        <td>-</td>
+        <td>30</td>
+        <td>40</td>
+        <td>50</td>
+    </tr>
 </table>
 
 <br>
-
-$$
-\begin{align*}
-    &f_{ck,est} = 2.(f_1+f_2+...f_{m-1})/(m-1)-f_m \hspace{1cm} \text{Para } n \text{ (número de amostras) } 6 \leq n \leq 20 \\
-    &f_{ck,est} = f_{ck,m}-1,65 . S_d \hspace{1cm} \text{Para } n \geq 20 \\
-    &S_d = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (f_i-f_{ck,m})^2}
-\end{align*}
-$$
 
 <table style = "text-align:center" align = "center">
 	<tr>
