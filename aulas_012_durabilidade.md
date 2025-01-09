@@ -97,9 +97,11 @@ nav_order: 12
         <td>&ge; 200 anos</td>
     </tr>
 </table>
-<br><br>
-<p align="justify">Souza e Ripper [5] afirmam que a durabilidade é afetada por três grandes fatores: (a) Falhas relacionadas a etapas de projeto; (b) Falhas relacionadas a etapas de execução; e (c) Falhas relacionadas a etapa de utilização. Porém a nível de projeto, são eles: </p>
+
 <br>
+
+<p align="justify">Souza e Ripper [5] afirmam que a durabilidade é afetada por três grandes fatores: (a) <strong>Falhas relacionadas a etapas de projeto</strong>; (b) <strong>Falhas relacionadas a etapas de execução</strong>; e (c) <strong>Falhas relacionadas a etapa de utilização</strong>. Porém a nível de projeto, são eles: </p>
+
 <ol type = "a">
 	<li>Falta de compatibilização de projetos (arquitetônicos, estruturais, hidráulicos, elétricos etc.);</li>
 	<li>Má especificação de materiais;</li>
@@ -107,16 +109,19 @@ nav_order: 12
 	<li>Erros de dimensionamento;</li>
 	<li>Má definição de concepções estruturais, erro de dimensionamento de cargas atuantes etc.</li>
 </ol>
+
 <br>
-<p>De acordo com a NBR 6118 [3] os mecanismos mais importantes para o envelhecimento de uma estrutura são dados a seguir:</p>
-<br><br>
+
+<p align="justify">De acordo com a NBR 6118 [3] os mecanismos mais importantes para o envelhecimento de uma estrutura são dados a seguir:</p>
 <ol type = "a">
 	<li>Mecanismos preponderantes de deterioração relativos ao concreto: </li>
 	<li>Mecanismos preponderantes de deterioração relativos à armadura:</li>
 	<li>Ações mecânicas, movimentações de origem térmica, impactos, ações cíclicas etc.</li>
 </ol>
-<br><br> <br>
-<table style = "text-align:center" border="1" align = "center">
+
+<br>
+
+<table style = "text-align:center" align = "center">
     <tr>
         <th>Classe de agressividade ambiental</th>
         <th>Agressividade</th>
@@ -157,21 +162,20 @@ nav_order: 12
         <td>Elevado</td>
     </tr>
 </table>
+
 <br>
-<br>
-<br>
-<p>
-	Medeiros et al. [6] e Helene [9] afirmam que a durabilidade um sistema estrutural em concreto dependerá da regra dos 4C, conforme descrito a seguir:
-</p>
-<br><br>
+
+<p align="justify">Medeiros et al. [6] e Helene [9] afirmam que a <strong>durabilidade um sistema estrutural</strong> em concreto dependerá da <strong>regra dos 4C</strong>, conforme descrito a seguir:</p>
 <ol type = "a">
 	<li>Composição ou traço;</li>
 	<li>Compactação ou adensamento efetivo do concreto na estrutura;</li>
 	<li>Cura efetiva do concreto na estrutura;</li>
 	<li>Cobrimento das armaduras.</li>
 </ol>
-<br><br><br><br>
-<table style = "text-align:center" border="1" align = "center">
+
+<br>
+
+<table style = "text-align:center" align = "center">
     <tr>
         <th rowspan="2">Concreto<sup>1</sup></th>
         <th rowspan="2">Tipo<sup>2</sup></th>
@@ -208,9 +212,10 @@ nav_order: 12
         <td>&ge; 360</td>
     </tr>
 </table>
-<br><br><br>
 
-<table style = "text-align:center" aling = "center" border="0">
+<br>
+
+<table style = "text-align:center" aling = "center">
     <tr>
         <th>Classe</th>
         <th>Abatimento (mm)</th>
@@ -242,15 +247,16 @@ nav_order: 12
         <td>Elementos estruturais esbeltos ou com alta densidade de armaduras</td>
     </tr>
 </table>
-<br><br><br>
 
-<table style = "text-align:center" align = "center" border="1">
+<br>
+
+<table style = "text-align:center" align = "center">
   <tr>
     <th>
       c<sub>nom</sub> = c<sub>min</sub> + 𝛥<sub>c</sub>
     </th>
     <th>
-      <table style = "text-align:center" align = "center" border="1">
+      <table style = "text-align:center" align = "center">
           <tr>
               <th rowspan="2">Tipo de estrutura</th>
               <th rowspan="2">Componente ou elemento</th>
@@ -288,35 +294,32 @@ nav_order: 12
      </th>
   </tr>
 </table>
-<br><br><br>
 
-<table style = "text-align:center" align = "center" border="0">
+<br>
+
+$$
+\begin{align*}
+    &f_{ck,est} = 2.(f_1+f_2+...f_{m-1})/(m-1)-f_m \hspace{1cm} \text{Para } n \text{ (número de amostras) } 6 \leq n \leq 20 \\
+    &f_{ck,est} = f_{ck,m}-1,65 . S_d \hspace{1cm} \text{Para } n \geq 20 \\
+    &S_d = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (f_i-f_{ck,m})^2}
+\end{align*}
+$$
+
+<table style = "text-align:center" align = "center">
 	<tr>
-    	<th><br>
-        	\[𝑓_(𝑐𝑘,𝑒𝑠𝑡)=2.(𝑓_1+𝑓_2+…𝑓_(𝑚−1))/(𝑚−1)−𝑓_𝑚\]<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        </th>
-        <th rowspan = "3">
-   	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        </th>
-        <th><br>
-        	Para 𝑛 (número de amostras) 6 ≤ 𝑛 ≤ 20
-        </th>
+   <table cellpadding="5" cellspacing="0" align="center">
+  <tbody>
+    <tr>
+      <td>\(f_{ck,est} = 2.(f_1+f_2+...f_{m-1})/(m-1)-f_m \hspace{1cm}\)</td>
+      <td>Para \(n\) (número de amostras) \(6 \leq n \leq 20\)</td>
     </tr>
     <tr>
-    	<th><br>
-        	\[𝑓_(𝑐𝑘,𝑒𝑠𝑡)=𝑓_𝑐𝑚−1,65 . 𝑆𝑑\]<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        </th>
-        <th rowspan = "2">
-        	Para n ≥ 20:
-        </th>
+      <td>\(f_{ck,est} = f_{ck,m}-1,65 . S_d \hspace{1cm}\)</td>
+      <td></td>
     </tr>
     <tr>
-    	<th><br>
-        	\[𝑆𝑑= √(1/(𝑛−1) ∑1_(𝑖=1)^𝑛▒(𝑓_𝑖−𝑓_𝑐𝑚 )²)\]<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        </th>
+      <td>\(S_d = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (f_i-f_{ck,m})^2}\)</td>
+      <td>Para \(n \geq 20\)</td>
     </tr>
+  </tbody>
 </table>
-<br><br><br><br><br><br>

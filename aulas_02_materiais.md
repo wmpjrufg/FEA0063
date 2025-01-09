@@ -37,7 +37,7 @@ nav_order: 2
 
 <h4 align="center">Tabela 1: Faixa de dimensões e DMC do agregado graúdo tipo brita</h4>
 
-<table border="1" cellpadding="5" cellspacing="0" align="center">
+<table cellpadding="5" cellspacing="0" align="center">
   <thead>
     <tr>
       <th>Tipo do agregado</th>
@@ -86,7 +86,7 @@ nav_order: 2
 <p align="justify">Por definição, o <strong>cimento</strong> é um <strong>material ligante </strong> ou <strong>material</strong> aglomerante, normalmente pulverulento, que realiza a união entre as partículas dos agregados.</p>
 
 <h4 align="center">Tabela 2: Composição química média dos clínqueres</h4>
-<table border="1" cellpadding="5" cellspacing="0" align="center">
+<table cellpadding="5" cellspacing="0" align="center">
   <thead>
     <tr>
       <th>Componente químico</th>
@@ -121,7 +121,7 @@ nav_order: 2
 
 <h4 align="center">Tabela 3: Composição química do cimento Portland tradicional com os teores médios</h4>
 
-<table border="1" cellpadding="5" cellspacing="0" align="center">
+<table cellpadding="5" cellspacing="0" align="center">
   <thead>
     <tr>
       <th>Componente químico</th>
@@ -157,7 +157,7 @@ nav_order: 2
 
 <h4 align="center">Tabela 4: Tipos de cimentos normatizados no Brasil e a proporção em massa de compostos</h4>
 
-<table style="text-align:center;" border="1" cellpadding="5" cellspacing="0" align="center">
+<table style="text-align:center;" cellpadding="5" cellspacing="0" align="center">
   <thead>
     <tr>
       <th>Tipo</th>
@@ -252,7 +252,7 @@ O <strong>aço</strong>, por fim, será o <strong>resultado da descarbonatação
 
 <h4 align = "center" >Tabela 5: Propriedades mecânicas exigíveis de barras e fios de aço destinados a armaduras</h4>
 
-<table border="1" cellpadding="5" cellspacing="0" style="width: 90%; margin: 0 auto; border-collapse: collapse; text-align: center;">
+<table cellpadding="5" cellspacing="0" style="width: 90%; margin: 0 auto; border-collapse: collapse; text-align: center;">
   <caption><strong>Tabela: Valores mínimos de ensaios de tração, dobramento e aderência</strong></caption>
   <thead>
     <tr>
@@ -318,7 +318,7 @@ O <strong>aço</strong>, por fim, será o <strong>resultado da descarbonatação
           
 <h4 align = "center">Tabela 6: Carracterísticas das barras </h4>
 
-<table style = "text-align: center;" border="1" cellpadding="5" cellspacing="0" align = "center">
+<table style = "text-align: center;" cellpadding="5" cellspacing="0" align = "center">
   <thead>
     <tr>
       <th rowspan="1">Diâmetro Nominal (mm)</th>
@@ -411,7 +411,7 @@ O <strong>aço</strong>, por fim, será o <strong>resultado da descarbonatação
 
 <h4 align = "center" >Tabela 7: Carracterísticas de fios</h4>
 
-<table style = "text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center">
+<table style = "text-align:center;" cellpadding="5" cellspacing="0" align = "center">
   <thead>
     <tr>
       <th rowspan="1">Diâmetro Nominal<sup>1</sup> (mm)</th>
@@ -512,7 +512,7 @@ O <strong>aço</strong>, por fim, será o <strong>resultado da descarbonatação
 <h2>Propriedades do concreto<h2>
 
 <h4 align = "center">Tabela 1: Concreto estrutural</h4>
-<table style = "text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center" >
+<table style = "text-align:center;" cellpadding="5" cellspacing="0" align = "center" >
   <thead>
     <tr>
       <th colspan="2">Classe de resistência<br>Grupo I</th>
@@ -651,7 +651,7 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 
 <br>
 
-<table style = "text-align:center;" border="1" cellpadding="5" cellspacing="0">
+<table style = "text-align:center;" cellpadding="5" cellspacing="0">
   <thead>
     <tr>
       <th></th>
@@ -751,7 +751,7 @@ Por definição, a <strong>resistência característica (𝑓_𝑐𝑘)</strong>
 
 <br>
 
-<table style="text-align:center;" border="1" cellpadding="5" cellspacing="0" align="center">
+<table style="text-align:center;" cellpadding="5" cellspacing="0" align="center">
   <thead>
     <tr>
       <th colspan="2">Para concretos de classe até C50</th>
@@ -790,7 +790,7 @@ sigma_c = 0,85 \cdot f_{cd} \cdot \left[ 1 - \left( 1 - \frac{\varepsilon_c}{\va
 
 <br>
 
-<table style="text-align:center;" border="1" cellpadding="5" cellspacing="0" align="center">
+<table style="text-align:center;" cellpadding="5" cellspacing="0" align="center">
   <thead>
     <tr>
       <th colspan="2">Tipo</th>
