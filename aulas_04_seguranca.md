@@ -11,67 +11,75 @@ nav_order: 4
 <!--Don't delete this script-->
 
 <h1>11 Introdução à segurança estrututural</h1>
-<br><br>
-
-<p>Conceitualmente, segurança estrutural pode ser dada como a distância entre uma situação de ruína e uma situação de uso, sendo que ao longo da vida útil dessa estrutura a segurança permitirá a ela suportar as ações mais desfavoráveis que podem vir a ocorrer.</p>
 <br>
-<table style = "width:100%" align = "center">
-    <tr align = "left">
-        <td style="width: 100%;">
-		<ul>
-			<li>Incerteza intrínseca (Natural)</li>
-			<li>Incerteza epistêmica</li>
-		</ul>
-	</td>
+
+<p align="justify">Conceitualmente, segurança estrutural pode ser dada como a distância entre uma situação de ruína e uma situação de uso, sendo que ao longo da vida útil dessa estrutura a segurança permitirá a ela suportar as ações mais desfavoráveis que podem vir a ocorrer.</p>
+
+<center><img src="assets\images\aula_04\fig_1.png" width="100%"></center>
+<p align = "center"><b>Figura 1.</b> Bla bla bla.</p>
+
+<br>
+
+<ul>
+    <li>Incerteza intrínseca (Natural)</li>
+    <li>Incerteza epistêmica</li>
+</ul>
+
+<br>
+
+<table border="1" cellpadding="5" cellspacing="0" align="center">
+  <tbody>
+    <tr>
+      <td>Métodos Clássicos ou Método das Tensões Admissíveis:</td>
+      <td>\(\sigma_r = \sigma_{lim} / \gamma \) para \(\gamma \ge 1 \)</td>
     </tr>
+    <tr>
+      <td>Método dos Estados Limites</td>
+      <td>Método atual empregado nas normativas nacionais e internacionais.</td>
+    </tr>
+  </tbody>
 </table>
-<br><br>
 
-<ol type="a">
-	<li><p align="justify">Métodos Clássicos ou Método das Tensões Admissíveis; \[𝜎_𝑟=𝜎_𝑙𝑖𝑚/𝛾\] para 𝛾 ≥ 1 </p></li>
-	<li><p align="justify">Método dos Estados Limites. <br><br><br><br>
-            </p>
-            <span style="position: absolute; left: 30%; top: 25%; transform: translate(-50%, -50%); font-size: 50px;">&#8600;</span>
-            <p align ="center">
-            Método atual empregado nas normativas nacionais e internacionais.
-            </p></li>
-</ol>
-<br><br>
-<p align = "right">Basicamente o modelo semi-probablísticos<br>
-	implementou a filosofia das combinações<br>
-	e dos coeficientes parciais de segurança.<br>
-	<br>
-	\[𝑔_𝑅 (𝑓_𝑘/𝛾_𝑚 )≥𝑔_𝑆 (𝛾_𝑓.𝑄_𝑘 )\]
-</p>
+<p align = "justify">Basicamente o modelo semi-probablísticosimplementou a filosofia das combinações e dos coeficientes parciais de segurança.</p>
+
+\[
+𝑔_𝑅 (𝑓_𝑘/\gamma_𝑚 ) \ge 𝑔_𝑆 (\gamma_𝑓 \cdot 𝑄_𝑘 )
+\]
+
+<center><img src="assets\images\aula_04\fig_2.png" width="100%"></center>
+<p align = "center"><b>Figura 2.</b> Bla bla bla.</p>
+
 <br>
-<p>No caso das normativas brasileiras existem dois tipos de abordagem para consideração dos Estados Limites. A ABNT NBR 8681 “Ações e segurança nas estruturas – Procedimento” [13] define esses dois conceitos, são eles:</p><br>
 
-<ol type="a">
-    <li><p align="justify">Estado Limite Último (ELU)</p></li>
-    <li><p align="justify">Estado Limite de Serviço (ELS)</p></li>
-</ol>
-<br><br>
+<p align = "justify">No caso das normativas brasileiras existem dois tipos de abordagem para consideração dos Estados Limites. A ABNT NBR 8681 “Ações e segurança nas estruturas – Procedimento” [13] define esses dois conceitos, são eles:</p>
+<ul>
+    <li>Estado Limite Último (ELU)</li>
+    <li>Estado Limite de Serviço (ELS)</li>
+</ul>
+
+
 <h2>11.1 Aspectos sobre a resistência</h2>
-<br>
 
-<table style = "width:100%" align = "center">
-    <tr align = "center">
-        <td style="width: 50%;">\[𝑓_𝑑=𝑓_𝑘/𝛾_𝑚\]</td>
-	<td style="width: 50%;">\[𝛾_𝑚=𝛾_𝑚1.𝛾_𝑚2.𝛾_𝑚3\]</td>
+<table border="1" cellpadding="5" cellspacing="0" align="center">
+  <tbody>
+    <tr>
+      <td>\(f_d = f_k / \gamma_m \)</td>
+      <td>\(\gamma_m = \gamma_{m1} \cdot \gamma_{m2} \cdot \gamma_{m3} \)</td>
     </tr>
+  </tbody>
 </table>
-<br>
-<p>
-	𝛾 <sub>𝑚1</sub> leva em conta a variabilidade da resistência efetiva, transformando a resistência característica em um valor extremo de menor probabilidade de ocorrência;<br>
- 	𝛾 <sub>𝑚2</sub> considera as diferenças entre a resistência efetiva do material da estrutura e a resistência medida convencionalmente em corpos-de-prova padronizados;<br>
-  	𝛾 <sub>𝑚3</sub> considera as incertezas existentes na determinação das solicitações.
-</p>
-<br>
+
+<p align="justify">Onde:</p>
+<ul>
+    <li>\(\gamma_{m1}\) leva em conta a variabilidade da resistência efetiva, transformando a resistência característica em um valor extremo de menor probabilidade de ocorrência;</li>
+    <li>\(\gamma_{m2}\) considera as diferenças entre a resistência efetiva do material da estrutura e a resistência medida convencionalmente em corpos-de-prova padronizados;</li>
+    <li>\(\gamma_{m3}\) considera as incertezas existentes na determinação das solicitações.</li>
+</ul>
 
 
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
-    <tr style="background-color: #ddd;">
+    <tr>
       <th>Combinações</th>
       <th>Concreto γ<sub>c</sub></th>
       <th>Aço γ<sub>s</sub></th>
@@ -83,7 +91,7 @@ nav_order: 4
       <td>1,40</td>
       <td>1,15</td>
     </tr>
-    <tr style="background-color: #eee;">
+    <tr>
       <td>Especiais ou de construção</td>
       <td>1,20</td>
       <td>1,15</td>
@@ -95,17 +103,18 @@ nav_order: 4
     </tr>
   </tbody>
 </table>
-<p>A mesma norma afirma que para avaliações em Estado Limite de Serviço não necessitam de minoração, portanto, 𝛾<sub>𝑚</sub> = 1,0.</p>
-<br>
+
+<p align="justify">A mesma norma afirma que para avaliações em Estado Limite de Serviço não necessitam de minoração, portanto, \(\gamma_m = 1,0\).</p>
+
 <h2>11.2 Ações e combinações</h2>
-<br>
+
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
-    <tr style="background-color: #ddd;">
+    <tr>
       <th rowspan ="2">Classe de carregamento</th>
       <th colspan="2">Ação variável principal da combinação</th>
     </tr>
-    <tr style="background-color: #ddd;">
+    <tr>
       <th >Duração acumulada</th>
       <th>Ordem de grandeza da duração</th>
     </tr>
@@ -116,7 +125,7 @@ nav_order: 4
       <td>Permanente</td>
       <td>Vida útil da construção</td>
     </tr>
-    <tr style="background-color: #eee;">
+    <tr>
       <td>Longa duração</td>
       <td>Longa duração</td>
       <td>Mais de 6 meses</td>
@@ -126,7 +135,7 @@ nav_order: 4
       <td>Média duração</td>
       <td>1 semana a 6 meses</td>
     </tr>
-    <tr style="background-color: #eee;">
+    <tr>
       <td>Curta duração</td>
       <td>Curta duração</td>
       <td>Menos de 1 semana</td>
@@ -140,88 +149,103 @@ nav_order: 4
 </table>
 <br>
 
-<table style = "width:100%" align = "center">
-    <tr align = "center">
-        <td style="width: 70%;">\[𝑝_𝑚𝑎𝑥=𝑚𝑎𝑥{█(&𝛾_𝑔.𝑔_𝑘+𝛾_𝑞1.𝑞_(1,𝑘)+〖𝜓_0𝑞2.𝛾_𝑞2.𝑞〗_(2,𝑘)@&𝛾_𝑔.𝑔_𝑘+𝛾_𝑞2.𝑞_(2,𝑘)+〖𝜓_0𝑞1.𝛾_𝑞1.𝑞〗_(1,𝑘) )┤\]</td>
-	<td style="width: 30%;"><p>Regra de Turkstra</p></td>
+<table border="1" cellpadding="5" cellspacing="0" align="center">
+  <tbody>
+    <tr>
+      <td>\(
+        p_{\text{max}} = \max\left\{
+        \begin{aligned}
+            &\gamma_g \cdot g_k + \gamma_{q_1} \cdot q_{1,k} + \psi_{q_2} \cdot \gamma_{q_2} \cdot q_{2,k}, \\
+            &\gamma_g \cdot g_k + \gamma_{q_2} \cdot q_{2,k} + \psi_{q_1} \cdot \gamma_{q_1} \cdot q_{1,k}
+        \end{aligned}
+        \right\}
+        \)</td>
+      <td>Regra de Turkstra</td>
     </tr>
+  </tbody>
 </table>
-<br>
 
+<center><img src="assets\images\aula_04\fig_3.png" width="100%"></center>
+<p align = "center"><b>Figura 3.</b> Bla bla bla.</p>
 
-
-<table style = "text-align:center;" border="1" cellpadding="5" cellspacing="0" align = "center">
+<table style="text-align: center; border: 1px solid; border-collapse: collapse; width: 100%;" align="center">
   <thead>
-    <tr style="background-color: #ddd;">
-      <th rowspan="3">Combinações de ações</th>
-      <th colspan = "8"> ações</th>
+    <tr>
+      <th rowspan="3" style="border: 1px solid; padding: 5px;">Combinações de ações</th>
+      <th colspan="8" style="border: 1px solid; padding: 5px;">Ações</th>
     </tr>
-       <tr style="background-color: #ddd;">
-      <th colspan="2">Permanentes (g)</th>
-      <th colspan="2">Variáveis (q)</th>
-      <th colspan="2">Protensão (p)</th>
-      <th colspan="2">Recalques de apoio e retração</th>
+    <tr>
+      <th colspan="2" style="border: 1px solid; padding: 5px;">Permanentes (g)</th>
+      <th colspan="2" style="border: 1px solid; padding: 5px;">Variáveis (q)</th>
+      <th colspan="2" style="border: 1px solid; padding: 5px;">Protensão (p)</th>
+      <th colspan="2" style="border: 1px solid; padding: 5px;">Recalques de apoio e retração</th>
     </tr>
-    <tr style="background-color: #ddd;">
-      <th>D<sup>1</sup></th>
-      <th>F<sup>1</sup></th>
-      <th>G<sup>1</sup></th>
-      <th>T<sup>1</sup></th>
-      <th>D<sup>1</sup></th>
-      <th>F<sup>1</sup></th>
-      <th>D<sup>1</sup></th>
-      <th>F<sup>1</sup></th>
+    <tr>
+      <th style="border: 1px solid; padding: 5px;">D<sup>1</sup></th>
+      <th style="border: 1px solid; padding: 5px;">F<sup>1</sup></th>
+      <th style="border: 1px solid; padding: 5px;">G<sup>1</sup></th>
+      <th style="border: 1px solid; padding: 5px;">T<sup>1</sup></th>
+      <th style="border: 1px solid; padding: 5px;">D<sup>1</sup></th>
+      <th style="border: 1px solid; padding: 5px;">F<sup>1</sup></th>
+      <th style="border: 1px solid; padding: 5px;">D<sup>1</sup></th>
+      <th style="border: 1px solid; padding: 5px;">F<sup>1</sup></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Normais</td>
-      <td>1,4<sup>2</sup></td>
-      <td>1,0</td>
-      <td>1,4</td>
-      <td>1,2</td>
-      <td>1,2</td>
-      <td>0,9</td>
-      <td>1,2</td>
-      <td>0</td>
-    </tr>
-    <tr style="background-color: #eee;">
-      <td>Especiais ou de construção</td>
-      <td>1,3</td>
-      <td>1,0</td>
-      <td>1,2</td>
-      <td>1,0</td>
-      <td>1,2</td>
-      <td>0,9</td>
-      <td>1,2</td>
-      <td>0</td>
+      <td style="border: 1px solid; padding: 5px;">Normais</td>
+      <td style="border: 1px solid; padding: 5px;">1,4<sup>2</sup></td>
+      <td style="border: 1px solid; padding: 5px;">1,0</td>
+      <td style="border: 1px solid; padding: 5px;">1,4</td>
+      <td style="border: 1px solid; padding: 5px;">1,2</td>
+      <td style="border: 1px solid; padding: 5px;">1,2</td>
+      <td style="border: 1px solid; padding: 5px;">0,9</td>
+      <td style="border: 1px solid; padding: 5px;">1,2</td>
+      <td style="border: 1px solid; padding: 5px;">0</td>
     </tr>
     <tr>
-      <td>Excepcionais</td>
-      <td>1,2</td>
-      <td>1,0</td>
-      <td>1,0</td>
-      <td>0</td>
-      <td>1,2</td>
-      <td>0,9</td>
-      <td>1,2</td>
-      <td>0</td>
+      <td style="border: 1px solid; padding: 5px;">Especiais ou de construção</td>
+      <td style="border: 1px solid; padding: 5px;">1,3</td>
+      <td style="border: 1px solid; padding: 5px;">1,0</td>
+      <td style="border: 1px solid; padding: 5px;">1,2</td>
+      <td style="border: 1px solid; padding: 5px;">1,0</td>
+      <td style="border: 1px solid; padding: 5px;">1,2</td>
+      <td style="border: 1px solid; padding: 5px;">0,9</td>
+      <td style="border: 1px solid; padding: 5px;">1,2</td>
+      <td style="border: 1px solid; padding: 5px;">0</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid; padding: 5px;">Excepcionais</td>
+      <td style="border: 1px solid; padding: 5px;">1,2</td>
+      <td style="border: 1px solid; padding: 5px;">1,0</td>
+      <td style="border: 1px solid; padding: 5px;">1,0</td>
+      <td style="border: 1px solid; padding: 5px;">0</td>
+      <td style="border: 1px solid; padding: 5px;">1,2</td>
+      <td style="border: 1px solid; padding: 5px;">0,9</td>
+      <td style="border: 1px solid; padding: 5px;">1,2</td>
+      <td style="border: 1px solid; padding: 5px;">0</td>
     </tr>
   </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="9" style="text-align: left; padding: 10px; border: 1px solid;">
+        <p align="justify">¹ D é desfavorável, F é favorável, G representa as cargas variáveis em geral e T a temperatura.</p>
+        <p align="justify">² Para as cargas permanentes de pequenas variabilidades, como o peso próprio das estruturas, especialmente as pré-moldadas, esse coeficiente pode ser reduzido para 1,3.</p>
+      </td>
+    </tr>
+  </tfoot>
 </table>
-<p>
-	D é desfavoravel, F é favoravel, G representa as cargas variáveis em geral e T a temperatura.<br>
- 	Para as cargas permanentes de pequenas variabilidade, coo o peso próprio das estruturas, especialmente as pré-moldadas, esse coeficiente pode ser reduzido para 1,3.
-</p>
-<br>
+
+
+<br><br>
 
 <table style = "text-align:center" border="1" cellpadding="5" cellspacing="0" align ="center">
   <thead>
-    <tr style="background-color: #ddd;">
+    <tr>
       <th colspan = "2" rowspan ="2">Ações</th>
       <th colspan="3">γ<sub>f2</sub></th>
     </tr>
-    <tr style="background-color: #ddd;">
+    <tr>
       <th>ψ<sub>0</sub></th>
       <th>ψ<sub>1</sub></th>
       <th>ψ<sub>2</sub></th>
@@ -235,7 +259,7 @@ nav_order: 4
       <td>0,4</td>
       <td>0,3</td>
     </tr>
-    <tr style="background-color: #eee;">
+    <tr>
       <td>Locais em que há predominância de pesos de equipamentos que permanecem fixos por longos períodos de tempo, ou de elevada concentração de pessoas<sup>3</sup></td>
       <td>0,7</td>
       <td>0,6</td>
@@ -247,7 +271,7 @@ nav_order: 4
       <td>0,7</td>
       <td>0,6</td>
     </tr>
-    <tr style="background-color: #eee;">
+    <tr>
       <td>Vento</td>
       <td>Pressão dinâmica do vento nas estruturas em geral</td>
       <td>0,6</td>
@@ -262,26 +286,30 @@ nav_order: 4
       <td>0,3</td>
     </tr>
   </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="5" style="text-align: left; padding: 10px;">
+        <p align="justify">1 Para valores de ψ<sub>1</sub> relativos às pontes e principalmente aos problemas de fadiga, ver seção 23 (NBR6118).</p>
+        <p align="justify">2 Edifícios residenciais.</p>
+        <p align="justify">3 Edifícios comerciais, de escritotio, estações e edifícios públicos</p>
+      </td>
+    </tr>
 </table>
-<p>
-	<sup>1</sup>Para valores de ψ<sub>1</sub> relativos às pontes e principalmente aos problemas de fadiga, ver seção 23 (NBR6118).<br>
-	<sup>2</sup>Edifícios residenciais.<br>
-	<sup>3</sup>Edifícios comerciais, de escritotio, estações e edifícios públicos
-</p>
-<br>
 
-<ol type="a">
-	<li><p align="justify">γ<sub>f2</sub> = 1,00 (combinações raras) </p></li>
-	<li><p align="justify">γ<sub>f2</sub> = ψ<sub>1</sub> (Combinações frequentes);</p></li>
-	<li><p align="justify">γ<sub>f2</sub> = ψ<sub>2</sub> (Combinações quase permanentes)</p></li>
-</ol>
-<br>
+<br><br>
+
+<p align="justify">Onde:</p>
+<ul>
+    <li>\(\gamma_{f2} = 1,00\) (combinações raras)</li>
+    <li>\(\gamma_{f2} = \psi_{1}\) (Combinações frequentes);</li>
+    <li>\(\gamma_{f2} = \psi_{2}\) (Combinações quase permanentes)</li>
+</ul>
 
 <h2>11.3 Coeficientes adicionais</h2>
-<br>
+
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
-    <tr style="background-color: #ddd;">
+    <tr>
       <th>Dimensão<sup>1,3</sup></th>
       <th>19</th>
       <th>18</th>
