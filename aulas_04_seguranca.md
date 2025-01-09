@@ -40,10 +40,10 @@ nav_order: 4
   </tbody>
 </table>
 
-<p align = "justify">Basicamente o modelo semi-probablísticosimplementou a filosofia das combinações e dos coeficientes parciais de segurança.</p>
+<p align = "justify">Basicamente o modelo semi-probablísticos implementou a filosofia das combinações e dos coeficientes parciais de segurança.</p>
 
 \[
-𝑔_𝑅 (𝑓_𝑘/\gamma_𝑚 ) \ge 𝑔_𝑆 (\gamma_𝑓 \cdot 𝑄_𝑘 )
+  𝑔_𝑅 (𝑓_𝑘/\gamma_𝑚 ) \ge 𝑔_𝑆 (\gamma_𝑓 \cdot 𝑄_𝑘 )
 \]
 
 <center><img src="assets\images\aula_04\fig_2.png" width="100%"></center>
