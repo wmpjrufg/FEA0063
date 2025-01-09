@@ -110,8 +110,6 @@ nav_order: 12
 	<li>Má definição de concepções estruturais, erro de dimensionamento de cargas atuantes etc.</li>
 </ol>
 
-<br>
-
 <p align="justify">De acordo com a NBR 6118 [3] os mecanismos mais importantes para o envelhecimento de uma estrutura são dados a seguir:</p>
 <ol type = "a">
 	<li>Mecanismos preponderantes de deterioração relativos ao concreto: </li>
