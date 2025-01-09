@@ -10,259 +10,6 @@ nav_order: 3
 <script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!--Don't delete this script-->
 
-{: .important-title }
-> O que é concreto?
->
-> Adjetivo para exprimir algo que é sólido ou um **substantivo masculino** que designa uma **mistura de cimento, água, areia e brita em determinadas proporções**, que se coloca em uma **fôrma** para que **endureça** e atinja **“grande resistência”**.
-
-<ol>
-  <li>Levantamento dos elementos na laje</li>
-  <li>Cálculo da carga permanente e variável da laje</li>
-  <li>Determinação das áreas de influência das lajes</li>
-  <li>Cálculo do peso próprio das vigas</li>
-  <li>Cálculo das cargas totais nas vigas</li>
-</ol>
-
-<h2>1. Levantamento dos elementos na laje</h2>  
-
-<p aligin = "justify">
-  Para a determionação das ações atuantes na estrutura, mostra-se necessário consultar os procedimentos apresentados na ABNT NBR 6120. Logo, deve-se fazer um levantamento dos elementos presentes na laje, de forma a obter sua carga total na estrutura. Desta forma, para o presente projeto exemplo, tem-se a presença de contrapiso, impermeabilizante, proteção e o peso devido a própria laje, logo consultando-se a norma citada, tem-se que:
-</p>
-
-<p>
-  \[\gamma_{cp} = 19 \, \text{kN/m³}\]
-
-  \[\gamma_{prot} = 19 \, \text{kN/m³}\]
-  
-  \[\gamma_{Laje} = 25 \, \text{kN/m³}\]
-</p>
-
-
-<p aligin = "justify">
-  Já para o impermeabilizante, tem-se que a carga em kN/m² para a espessura de 0,3 cm é de:
-</p>
-
-<p>
-  \[\gamma_{imp} = 0,08 \, \text{kN/m²}\]
-</p>
-
-<h2>2. Cálculo da carga permanente e variável da laje</h2>  
-
-<p aligin = "justify">
-  Em seguida, pode-se calcular a carga superficial devido a cada elemento, considerando-se a espessura que cada um representa na estrutura por meio da equação <a href="#eq1">(1)</a>, que representa a parcela de carga permanente \(g\).
-</p>
-
-<table>
-  <tr>
-    <td align = "left">\[G_{x} = \gamma_{x} \cdot e_{x}\]</td>
-    <td><p align = "right" id = "eq1">(1)</p></td>
-  </tr>
-</table>
-
-<p aligin = "justify">
-  Portanto, aplicando-se a equação <a href="#eq1">(1)</a> e aplicando as respectivas espessuras, tem-se que:
-</p>
-
-<table>
-  <thead align="center">
-    <tr>
-      <th>Elemento</th>
-      <th>\(e \, (cm)\)</th>
-      <th>\(\gamma \, (kN/m³)\)</th>
-      <th>\(G \, (kN/m²)\)</th>
-    </tr>
-  </thead>
-  <tbody align="center">
-    <tr>
-      <td>Contrapiso</td>
-      <td>0,5</td>
-      <td>19</td>
-      <td>0,095</td>
-    </tr>
-    <tr>
-      <td>impermeabilizante</td>
-      <td>0,3</td>
-      <td>-</td>
-      <td>0,08</td>
-    </tr>
-    <tr>
-      <td>Proteção</td>
-      <td>2,5</td>
-      <td>19</td>
-      <td>0,475</td>
-    </tr>
-    <tr>
-      <td>Laje</td>
-      <td>10</td>
-      <td>25</td>
-      <td>2,5</td>
-    </tr>
-    <tr>
-      <td><b>Total (g)</b></td>
-      <td><b>-</b></td>
-      <td><b>-</b></td>
-      <td><b>3,15</b></td>
-    </tr>
-  </tbody>
-  </table>
-
-<p aligin = "justify">
-  Já para a parcela de carga variável na laje, foi adotada a carga dada para uma cobertura, logo:
-</p>
-
-<p>
-  \[q = 1,5 \, \text{kN/m²}\]
-</p>
-
-<h2>3. Determinação das áreas de influência das lajes</h2>  
-
-<p aligin = "justify">
-  Nesta etapa, define-se as áreas de influência da laje, visto que o carregamento atuante é transferido para as vigas. Logo, com o auxílio do AutoCAD, pode-se obter as seguintes áreas de influência:
-<br>
-<img src="https://i.imgur.com/k5k475q.png" alt="A1">
-<br>
-<img src="https://i.imgur.com/oglZZfH.png" alt="A2 e A3">
-</p>
-
-<p>
-  \[A1 = 54509,62 \, \text{cm²}\]
-  \[A2 = 16875,00 \, \text{cm²}\]
-  \[A3 = 16875,00 \, \text{cm²}\]
-</p>
-
-<h2>4. Cálculo do peso próprio das vigas</h2>  
-
-<p aligin = "justify">
-  Para o cálculo do peso próprio das vigas, deve-se considerar a área da seção transversal de cada viga, logo calcula-se por meio da equação <a href="#eq2">(2)</a>.
-</p>
-
-<table>
-  <tr>
-    <td align = "left">\[G_{viga} = \gamma_{CA} \cdot A_{viga}\]</td>
-    <td><p align = "right" id = "eq2">(2)</p></td>
-  </tr>
-</table>
-
-<p aligin = "justify">
-  Portanto, aplicando-se a equação <a href="#eq3">(3)</a>, considerando as dimensões de cada viga e \(\gamma_{CA} = 25 \, \text{kN/m³}\), constroi-se a seguinte tabela:
-</p>
-
-<table>
-  <thead align="center">
-    <tr>
-      <th>Viga</th>
-      <th>\(bw \, (m)\)</th>
-      <th>\(h \, (m)\)</th>
-      <th>\(A \, (m²)\)</th>
-      <th>\(g_{viga} \, (kN/m)\)</th>
-    </tr>
-  </thead>
-  <tbody align="center">
-    <tr>
-      <td>V1</td>
-      <td>0,14</td>
-      <td>0,45</td>
-      <td>0,063</td>
-      <td>1,57</td>
-    </tr>
-    <tr>
-      <td>V2</td>
-      <td>0,14</td>
-      <td>0,30</td>
-      <td>0,042</td>
-      <td>1,05</td>
-    </tr>
-    <tr>
-      <td>V3</td>
-      <td>0,14</td>
-      <td>0,30</td>
-      <td>0,042</td>
-      <td>1,05</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2>5. Cálculo das cargas totais nas vigas</h2>  
-
-<p aligin = "justify">
-  Com tais resultados em mãos, e com o auxílio da relação apresentada pelas equações <a href="#eq3">(3)</a>, <a href="#eq4">(4)</a>, <a href="#eq5">(5)</a> e <a href="#eq6">(6)</a>, pode-se calcular as cargas totais em cada viga.
-</p>
-
-<table>
-  <tr>
-    <td align = "left">\[P_{g_{Laje}} = g_{Laje} \cdot A_{i}\]</td>
-    <td><p align = "right" id = "eq3">(3)</p></td>
-  </tr>
-  <tr>
-    <td align = "left">\[Q_{g_{TOTAL}} = \frac{P_{g_{Laje}}}{l_{i}} + g_{viga}\]</td>
-    <td><p align = "right" id = "eq4">(4)</p></td>
-  </tr>
-  <tr>
-    <td align = "left">\[P_{q_{Laje}} = q_{Laje} \cdot A_{i}\]</td>
-    <td><p align = "right" id = "eq5">(5)</p></td>
-  </tr>
-  <tr>
-    <td align = "left">\[Q_{q} = \frac{P_{q_{Laje}}}{l_{i}}\]</td>
-    <td><p align = "right" id = "eq6">(6)</p></td>
-  </tr>
-</table>
-
-<table>
-  <thead align="center">
-    <tr>
-      <th>Viga</th>
-      <th>\(l_{i} \, (m)\)</th>
-      <th>\(Ai \, (m²)\)</th>
-      <th>\(g_{viga} \, (kN/m)\)</th>
-      <th>\(g_{Laje} \, (kN/m²)\)</th>
-      <th>\(q_{Laje} \, (kN/m²)\)</th>
-      <th>\(P_{g_{Laje}} \, (kN)\)</th>
-      <th>\(P_{q_{Laje}} \, (kN)\)</th>
-      <th>\(Q_{g_{TOTAL}} \, (kN/m)\)</th>
-      <th>\(Q_{q} \, (kN/m)\)</th>
-    </tr>
-  </thead>
-  <tbody align="center">
-    <tr>
-      <td>V1</td>
-      <td>4,50</td>
-      <td>5,45</td>
-      <td>1,57</td>
-      <td>3,15</td>
-      <td>1,50</td>
-      <td>17,17</td>
-      <td>8,18</td>
-      <td>5,39</td>
-      <td>1,82</td>
-    </tr>
-    <tr>
-      <td>V2</td>
-      <td>1,50</td>
-      <td>1,69</td>
-      <td>1,05</td>
-      <td>3,15</td>
-      <td>1,50</td>
-      <td>5,32</td>
-      <td>2,53</td>
-      <td>4,59</td>
-      <td>1,69</td>
-    </tr>
-    <tr>
-      <td>V3</td>
-      <td>1,50</td>
-      <td>1,69</td>
-      <td>1,05</td>
-      <td>3,15</td>
-      <td>1,50</td>
-      <td>5,32</td>
-      <td>2,53</td>
-      <td>4,59</td>
-      <td>1,69</td>
-    </tr>
-  </tbody>
-</table>
-
-
 <center><img src="assets\images\aula_03\fig_1.png" width="80%"></center>
 <p align = "center"><b>Figura 1.</b> Lore ipsum.</p>
 
@@ -368,3 +115,214 @@ nav_order: 3
         </tr>
     </tbody>
 </table>
+
+
+<ol type="a">
+    <li><p align="justify">Vigas (elementos lineares): O item 14.4.1.1 da NBR 6118 [4] define viga como um elemento linear em que a flexão é preponderante;</p></li>
+    <li><p align="justify">Pilares (elementos lineares): O item 14.4.1.2 da NBR 6118 [4] define pilar como um elemento linear de eixo reto, usualmente dispostos na vertical, em que as forças normais de compressão são preponderantes;</p></li>
+    <li><p align="justify">Lajes (elemento de superfície): O item 14.4.2.1 da NBR 6118 [4] define laje como um elemento de superfície plana, sujeitos principalmente a ações normais a seu plano.</p></li>
+</ol>
+
+<h2>Vigas</h2>
+<p align="justify">
+    A seção transversal das vigas não pode apresentar largura inferior a 12 cm e em uma viga parede a largura não deve ser inferior a 15 cm.
+    <br><br>
+    Estes limites podem ser reduzidos, respeitando-se um mínimo absoluto de 10 cm em casos excepcionais, sendo obrigatoriamente respeitadas as seguintes condições:
+</p>
+
+<ol type="a">
+    <li><p align="justify">Alojamento das armaduras e suas interferências com as armaduras de outros elementos estruturais, respeitando os espaçamentos e cobrimentos estabelecidos nesta Norma;</p></li>
+    <li><p align="justify">Lançamento e vibração do concreto de acordo com a NBR 14931” Execução de estruturas de concreto – procedimento” [17];</p></li>
+</ol>
+
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[l_{\text{ef}} = l_0 + a_1 + a_2\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(1)</p></td>
+    </tr>
+</table>
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ D(t_i) = 1 - \frac{0.2}{t_i} \cdot 0.01 \]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(1)</p></td>
+    </tr>
+</table>
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[a_1, a_2 \leq \begin{cases}
+\frac{t_1}{2}, & \frac{t_2}{2} \\
+0, & 30.h\]
+\end{cases}</td>
+
+    </tr>
+</table>
+
+
+
+<h2>Lajes</h2>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ ℎ=𝑑+𝑐𝑜𝑏+∅_𝑒+∅_𝑙/2\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(3)</p></td>
+    </tr>
+</table>
+
+<ol type="a">
+    <li><p align="justify">7 cm para cobertura não em balanço;</p></li>
+    <li><p align="justify">8 cm para lajes de piso não em balanço;</p></li>
+    <li><p align="justify">10 cm para lajes em balanço;</p></li>
+    <li><p align="justify">10 cm para lajes que suportem veículos de peso total menor ou igual a 30 kN;</p></li>
+    <li><p align="justify">12 cm para lajes que suportem veículos de peso total maior que 30 kN;</p></li>
+    <li><p align="justify">15 cm para lajes com protensão apoiadas em vigas, com o mínimo de L/42 para lajes de piso biapoiadas e L/50 para lajes de piso contínuas;</p></li>
+    <li><p align="justify">16 cm para lajes lisas e 14 cm para lajes-cogumelo, fora do capitel.</p></li>
+    <li><p align="justify">A espessura da mesa, quando não existirem tubulações horizontais embutidas, deve ser maior ou igual a 1/15 da distância entre as faces das nervuras (𝑙_0) e não menor que 4 cm; </p></li>
+    <li><p align="justify">O valor mínimo absoluto da espessura da mesa deve ser 5 cm, quando existirem tubulações embutidas de diâmetro menor ou igual a 10 mm. Para tubulações com diâmetro 𝛷 maior que 10 mm, a mesa deve ter a espessura mínima de 4 cm + 𝛷 (Diâmetro nominal da tubulação), ou 4 cm + 2.𝛷 no caso de haver cruzamento destas tubulações;</p></li>
+    <li><p align="justify">A espessura das nervuras não pode ser inferior a 5 cm; </p></li>
+    <li><p align="justify">Nervuras com espessura menores que 8 cm não podem conter armadura de compressão.</p></li>
+</ol>
+
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ ℎ=𝑙_𝑒𝑓/12\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(4)</p></td>
+    </tr>
+</table>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ ℎ=𝑙_𝑒𝑓/10\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(5)</p></td>
+    </tr>
+</table>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ ℎ=𝑙_𝑒𝑓/5\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(6)</p></td>
+    </tr>
+</table>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ ℎ=𝑑+𝑐𝑜𝑏+∅_𝑙/2\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(7)</p></td>
+    </tr>
+</table>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ 𝜆=𝑙_𝑦∕𝑙_𝑥\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(7)</p></td>
+    </tr>
+</table>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ ℎ=2%.(𝑙_𝑦+𝑙_𝑥)/2\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(8)</p></td>
+    </tr>
+</table>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ ℎ=2%.𝑙_𝑥\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(9)</p></td>
+    </tr>
+</table>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ ℎ=4%.𝑙_𝑥\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(10)</p></td>
+    </tr>
+</table>
+
+<h2>Pilares</h2>
+
+<table style = "width:100%">
+    <tr>
+       
+        <td style="width: 90%;">𝑙_𝑒≤{█(&𝑙_0+ℎ@&𝑙)┤</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(11)</p></td>
+    </tr>
+</table>
+
+<ol type="a">
+    <li><p align="justify">0,45.l: Pilar de extremidade ou pilar de canto na direção da menor dimensão do pilar (b);</p></li>
+    <li><p align="justify">0,50.l: Pilar de extremidade ou pilar de canto na direção da maior dimensão do pilar (h);</p></li>
+    <li><p align="justify">0,50.l: 0,55.l: Complemento dos casos anteriores.</p></li>
+</ol>
+
+<div class = "right">
+<p align="left">Piso: \[𝑄_𝑡𝑜𝑡 = 10 kN/m² a 12 kN/m²\]</p>
+<p align="left">Cobertura: \[𝑄_𝑡𝑜𝑡 = 6 kN/m² a 8 kN/m²\]</p>
+</div>
+
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;" align = "right">\[ 𝑁_𝑘^∗=𝑄_𝑡𝑜𝑡.𝐴_𝑖\]</td>
+    </tr>
+    <tr>
+       <td style="width: 90%;" align = "right">\[ 𝑁_𝑘^∗=𝑛_𝑡𝑖𝑝𝑜^ .𝑁_𝑘^𝑡𝑖𝑝𝑜+𝑛_𝑐𝑜𝑏^ .𝑁_𝑘^𝑐𝑜𝑏\]</td> 
+    </tr>
+     <tr>
+       <td style="width: 90%;"  align = "right">\[ 𝑁_𝑑^∗=𝛼.𝑁_𝑘^∗\]</td> 
+    </tr>
+</table>
+
+<h1>Pré-dimensionamneto de elementos - Exemplos</h1>
+
+<h2>Exemplo 01:</h2>
+<p>Considerando a planta de forma apresentada na Figura a seguir determinar as seções transversais de todos os elementos considerando os critérios apresentados no livro de ECA I. Considerar para a esse exemplo que o concreto para a estrutural possui fck de 30 MPa e corresponde ao piso do 2º pavimento de um edifício modelo com um total de 4 pavimentos (Térreo, 1º piso, 2º piso e cobertura). Considere que todos os pavimentos tipo estão carregados com uma carga total de 25 kN/m² (Valor hipotético para esse exercício) e que o pavimento cobertura possui uma carga total de 15 kN/m².
+</p>
+<br>
+<br>
+<p>
+    Estabelecer a altura das lajes: livro Prof Rebello
+    <br>
+    Exemplo 1: Solução Lajes maciças!
+    <br>
+    <br>
+    λ -> Vamos utilizar disâncias médias
+    <br>
+    \[ b_x = b_y = 586 + 7 + 7 = 600m\]
+    <br>
+    O que resulta em:
+    <br>
+    \[ λ = 600 / 600 = 1\]
+    LA 20
+    <br>
+    \[ h = 2% . (b_y +b_x)/2 = 2% . (600 + 600)/2 = 2% . 600 \]
+    h = 12 cm -> Como á laje maciça b_w = 100cm 
+</p>
+<p>
+    Para a viga VS1 -> Solução viga cont.<br>
+    lef de cada vão h = lef / 12 
+</p>
+<p>
+    Tramo 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tramo 2<br>
+    h = 600 / 12 = 50 cm &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; h = 500 / 12 ≅ 42 cm 
+    <br>
+    <br>
+    Compatibilizando hviga = 50 cm 
+</p>
+<br>
+<p>
+    Divisão por faixa de "responsabilidade" de cada pilar<br>
+    Área sombreada 8,29m²
+</p>
+<br>
+<br>
+<p>
+    \[𝐴_(𝑐,𝑃1)=1347,14/(0,85. 3/1,4+2/100.42)=506,17 〖𝑐𝑚〗^2 > 360 cm^2\]
+    <br>
+    \[ b_viga = 14 cm\]
+    Logo:
+    \[ h = 506,17/14 ≅ 36,15 cm\] 
+    P1 -> 14 / 40 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; h ≅ 40
+
+</p>
