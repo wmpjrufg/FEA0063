@@ -32,15 +32,15 @@ nav_order: 6
 
 <table border = "0" style = "width:100%">
   <tr>
-    <td><center><img src = "assets/images/aula_06/fig2aa.png" width = "75%"></center></td>
-    <td><center><img src = "assets/images/aula_06/fig2bb.png" width = "90%"></center></td>
+    <td><center><img src = "assets/images/aula_06/fig2aa.png" width = "90%"></center></td>
+    <td><center><img src = "assets/images/aula_06/fig2bb.png" width = "100%"></center></td>
   </tr>
   <tr>
     <td><center><p align = "center">(a) Modelo de viga contínua + lajes por métodos aproximados.</p></center></td>
     <td><center><p align = "center">(b) Pórtico H + Pilares.</p></center></td>
   </tr>
   <tr>
-    <td><center><img src = "assets/images/aula_06/fig2cc.png" width = "80%"></center></td>
+    <td><center><img src = "assets/images/aula_06/fig2cc.png" width = "100%"></center></td>
     <td><center><img src = "assets/images/aula_06/fig2dd.png" width = "90%"></center></td>
   </tr>
   <tr>
@@ -53,7 +53,7 @@ nav_order: 6
 </table>
 
 <p align = "justify">
-  Sobre a ótica do tipo de análise estrutural, são duas as perspectivas possíveis para avaliação dos esforços em uma estrutura, são elas: (a) a análise linear; ou (b) a análise não linear. A análise não linear normalmente é dividida em três sub grupos, que incluem no problema complexidades que aproximam o modelo do fenômeno natural que deseja representar. O três sub grupos são divididos:
+  Sobre a ótica do tipo de análise estrutural, são duas as perspectivas possíveis para avaliação dos esforços em uma estrutura, são elas: (a) a análise linear; ou (b) a análise não linear. A análise não linear normalmente é dividida em três sub grupos, que incluem no problema complexidades que aproximam o modelo do fenômeno natural que deseja representar. O três sub grupos são divididos em:
 </p>
 
 <ul>
@@ -104,7 +104,7 @@ nav_order: 6
 
 <table border = "0" style = "width:100%">
   <tr>
-    <td><center><img src = "assets/images/aula_06/fig5.png" width = "75%"></center></td>
+    <td><center><img src = "assets/images/aula_06/fig5.png" width = "50%"></center></td>
   </tr>
   <tr>
     <td><center><p align = "justify" id = "fig5"><b>Figura 5.</b> Comportamento não linear físico do concreto devido aop processo de fissuração.</p></center></td>
@@ -175,18 +175,52 @@ nav_order: 6
 
 <table border = "0" style = "width:100%">
   <tr>
-    <td>\[
+    <td style="width:90%">\[
 \frac{\partial^4 w}{\partial x^4} + 2 \frac{\partial^4 w}{\partial x^2 \partial y^2} + \frac{\partial^4 w}{\partial y^4} = \frac{p(x, y)}{D}
 \]</td>
-    <td><p align = "right" id = "eq1">(1)</p></td>
+    <td style="width:10%"><p align = "right" id = "eq1">(1)</p></td>
   </tr>
 </table>
 
 <p align = "justify">
-A <a href="#eq1">equação 1</a> só tem solução analítica para alguns casos particulares como por exemplo em placas circulares. Devido a essa dificuldade de solução formas alternativas foram encontradas para determinar os esforços e deslocamentos em placas com geometrias retangulares com diversas condições de contorno.
+A <a href="#eq1">equação 1</a> só tem solução analítica para alguns casos particulares como por exemplo em placas circulares. Devido a essa dificuldade de solução formas alternativas foram encontradas para determinar os esforços e deslocamentos em placas com geometrias retangulares com diversas condições de contorno. A Tabela empregada neste conteúdo será a <a target="_blank" rel="noopener" href="https://github.com/wmpjrufg/FEA0063/blob/main/assets/files/tabelas/tabela_bares.pdf">Tabela de Bares</a>, disponibilizada por Pinheiro <a href="#ref4">[4]</a>. As <a target="_blank" rel="noopener" href="https://github.com/wmpjrufg/FEA0063/blob/main/assets/files/tabelas/tabela_bares.pdf">Tabelas de Bares</a> serão empregadas quando a relação \(l_y/l_x \leq 2\) é válida, pois para as outras ocasiões adota-se a laje como uma viga com seus respectivos apoios e largura de 1,0 m.
 </p>
 
 <h4>Considerações sobre os apoios</h4>
+
+<p align = "justify">
+A escolha desses apoios pode seguir uma série de critérios práticos que permitem sua seleção, são eles <a href="#ref5">[5,6]</a>:
+</p>
+
+<ol>
+    <li><p align = "justify">Engaste perfeito: Considerado em elementos de laje em balanço como marquises, varandas, etc. É usado também nas bordas onde há continuidade entre duas lajes vizinhas de dimensões e rigidez semelhantes (ver <a href="#fig8">Figura8a</a>);</p></li>
+    <li><p align = "justify">Sobre a continuidade das lajes com espessuras diferentes é possível definir uma condição de engastamento conforme <a href="#fig8">Figura8b</a>;</p></li>
+    <li><p align = "justify">Toda a laje que tiver um lado adjacente a uma laje rebaixada tem este lado apoiado; toda a laje rebaixada deve ser considerada apoiada, salvo condições em que se tiver outros três lados livres (ver <a href="#fig8">Figura8c</a>);</p></li>
+    <li><p align = "justify">No caso onde as lajes não têm continuidade ao longo de toda a borda comum, o critério simplificado para se considerar a vinculação é apresentado <a href="#fig8">Figura8c</a> e equações <a href="#eq2">2</a> e <a href="#eq3">3</a>;</p></li>
+    <li><p align = "justify">Quando em um lado da laje ocorrerem duas situações de vínculo (apoiado e engastado), a favor da segurança considera-se todo o lado apoiado; se o engaste for superior a 85% do comprimento do lado, pode-se considerar como engastado .</p></li>
+</ol>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td><center><img src = "assets/images/aula_06/fig8a.png" width = "80%"></center></td>
+    <td><center><img src = "assets/images/aula_06/fig8b.png" width = "80%"></center></td>
+  </tr>
+  <tr>
+    <td><center><p align = "center">(a)</p></center></td>
+    <td><center><p align = "center">(b)</p></center></td>
+  </tr>
+  <tr>
+    <td><center><img src = "assets/images/aula_06/fig8c.png" width = "80%"></center></td>
+    <td><center><img src = "assets/images/aula_06/fig8d.png" width = "80%"></center></td>
+  </tr>
+  <tr>
+    <td><center><p align = "center">(c)</p></center></td>
+    <td><center><p align = "center">(d)</p></center></td>
+  </tr>
+  <tr>
+    <td colspan="2"><center><p align = "justify" id = "fig8"><b>Figura 8.</b> Condições de engastamento para lajes.</p></center></td>
+  </tr>
+</table>
 
 <h2>Referências</h2>
 <table>
@@ -199,7 +233,7 @@ A <a href="#eq1">equação 1</a> só tem solução analítica para alguns casos 
     <tbody>
         <tr>
             <td><p align = "center" id = "ref1">[1]</p></td>
-            <td><p align = "left">Kimura A. Informática Aplicada a Estruturas de Concreto Armado. Editora Oficina de Textos; 2ed. 2018.</p></td>
+            <td><p align = "left">Kimura, A. Informática Aplicada a Estruturas de Concreto Armado. Editora Oficina de Textos; 2ed. 2018.</p></td>
         </tr>
         <tr>
             <td><p align = "center" id = "ref2">[2]</p></td>
@@ -208,6 +242,18 @@ A <a href="#eq1">equação 1</a> só tem solução analítica para alguns casos 
         <tr>
             <td><p align = "center" id = "ref3">[3]</p></td>
             <td><p align = "left">TQS informática. Manual sistemas computacionais engenharia estrutural. 20--.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref4">[4]</p></td>
+            <td><p align = "left">Pinheiro, L. M. Tabela de Lajes. São Carlos: 2007.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref5">[5]</p></td>
+            <td><p align = "left">Bastos, P. S. dos S. Lajes de concreto armado. Bauru: Unesp. 2020.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref6">[6]</p></td>
+            <td><p align = "left">Campos Filho, A. Projeto de lajes maciças de concreto armado. Porto Alegre: 2014.</p></td>
         </tr>
     </tbody>
 </table>
