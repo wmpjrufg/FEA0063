@@ -297,7 +297,7 @@ $$
    <table cellpadding="5" cellspacing="0" align="center">
   <tbody>
     <tr>
-      <td>\(f_{ck,est} = 2.(f_1+f_2+...f_{m-1})/(m-1)-f_m \hspace{1cm}\)</td>
+      <td>\(\frac{f_{ck,est} = 2.(f_1+f_2+...f_{m-1})}{(m-1)-f_m \hspace{1cm}}\)</td>
       <td>Para \(n\) (número de amostras) \(6 \leq n \leq 20\)</td>
     </tr>
     <tr>
