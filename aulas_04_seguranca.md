@@ -42,9 +42,9 @@ nav_order: 4
 
 <p align = "justify">Basicamente o modelo semi-probablísticos implementou a filosofia das combinações e dos coeficientes parciais de segurança.</p>
 
-\[
+$$
   𝑔_𝑅 (𝑓_𝑘/\gamma_𝑚 ) \ge 𝑔_𝑆 (\gamma_𝑓 \cdot 𝑄_𝑘 )
-\]
+$$
 
 <center><img src="assets\images\aula_04\fig_2.png" width="100%"></center>
 <p align = "center"><b>Figura 2.</b> Bla bla bla.</p>
@@ -294,6 +294,7 @@ nav_order: 4
         <p align="justify">3 Edifícios comerciais, de escritotio, estações e edifícios públicos</p>
       </td>
     </tr>
+  </tfoot>
 </table>
 
 <br><br>
