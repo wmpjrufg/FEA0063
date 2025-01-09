@@ -1,12 +1,11 @@
 ---
-title: Fôrma estrutural
+title: Lançamento fôrma
 layout: default
-parent: Exemplo I
+parent: Exemplo I - Ponto de ônibus
 nav_order: 1
 has_children: false
 has_toc: false
 ---
-
 
 <!--Don't delete this script-->
 <script src = "https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -20,15 +19,37 @@ O lançamento estrutural seguirá as diretrizes para peças de concreto armado e
 As Figuras <a href="#fig1">1</a> e <a href="#fig1">2</a> apresentam a plantas de interferência estrutural da proposta inicial de projeto estrutural. Foi considerado um reboco de 0,5 cm em cada uma das faces para que fosse possível inserir as vigas sem nenhum tipo de requadro nos elementos.
 </p>
 
+<p align = "justify">
+As legendas para posicionamento dos pilares será dada pela <a href="#tab1">Tabela 1</a>. 
+</p>
+
 <table border = "0" style = "width:100%">
   <tr>
-    <td><center><img src = "assets/images/interferencia_terreo.png" width = "100%"></center></td>
+    <td><center><p align = "justify" id = "fig1">Pilar que nasce</p></center></td>
+    <td><center><img src = "assets/images/exemplo1/nasce_pil.png" width = "25%"></center></td>
+  </tr>
+  <tr>
+    <td><center><p align = "justify" id = "fig1">Pilar que segue</p></center></td>
+    <td><center><img src = "assets/images/exemplo1/segue_pil.png" width = "25%"></center></td>
+  </tr>
+  <tr>
+    <td><center><p align = "justify" id = "fig1">Pilar que morre</p></center></td>
+    <td><center><img src = "assets/images/exemplo1/morre_pil.png" width = "25%"></center></td>
+  </tr>
+  <tr>
+    <td colspan="2"><center><p align = "justify" id = "tab1"><b>Tabela 1.</b> Legenda de descrição de pilares na prancha do projeto.</p></center></td>
+  </tr>
+</table>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td><center><img src = "assets/images/exemplo1/interferencia_terreo.png" width = "100%"></center></td>
   </tr>
   <tr>
     <td><center><p align = "justify" id = "fig1"><b>Figura 1.</b> Interferência de pilares e vigas no térreo.</p></center></td>
   </tr>
   <tr>
-    <td><center><img src = "assets/images/interferencia_cobertura.png" width = "100%"></center></td>
+    <td><center><img src = "assets/images/exemplo1/interferencia_cobertura.png" width = "100%"></center></td>
   </tr>
   <tr>
     <td><center><p align = "justify" id = "fig2"><b>Figura 2.</b> Interferência de pilares e vigas na cobertura.</p></center></td>
