@@ -27,7 +27,7 @@ nav_order: 4
 
 <br>
 
-<table border="1" cellpadding="5" cellspacing="0" align="center">
+<table cellpadding="5" cellspacing="0" align="center">
   <tbody>
     <tr>
       <td>Métodos Clássicos ou Método das Tensões Admissíveis:</td>
@@ -40,10 +40,11 @@ nav_order: 4
   </tbody>
 </table>
 
+
 <p align = "justify">Basicamente o modelo semi-probablísticos implementou a filosofia das combinações e dos coeficientes parciais de segurança.</p>
 
 $$
-  𝑔_𝑅 (𝑓_𝑘/\gamma_𝑚 ) \ge 𝑔_𝑆 (\gamma_𝑓 \cdot 𝑄_𝑘 )
+  g_R \left(\frac{f_k}{\gamma_m}\right) \geq g_S \left(\gamma_f \cdot Q_k\right)
 $$
 
 <center><img src="assets\images\aula_04\fig_2.png" width="100%"></center>
@@ -60,7 +61,7 @@ $$
 
 <h2>11.1 Aspectos sobre a resistência</h2>
 
-<table border="1" cellpadding="5" cellspacing="0" align="center">
+<table cellpadding="5" cellspacing="0" align="center">
   <tbody>
     <tr>
       <td>\(f_d = f_k / \gamma_m \)</td>
@@ -76,6 +77,7 @@ $$
     <li>\(\gamma_{m3}\) considera as incertezas existentes na determinação das solicitações.</li>
 </ul>
 
+<br>
 
 <table border="1" cellpadding="5" cellspacing="0">
   <thead>
@@ -147,9 +149,10 @@ $$
     </tr>
   </tbody>
 </table>
+
 <br>
 
-<table border="1" cellpadding="5" cellspacing="0" align="center">
+<table cellpadding="5" cellspacing="0" align="center">
   <tbody>
     <tr>
       <td>\(
@@ -165,8 +168,12 @@ $$
   </tbody>
 </table>
 
+<br>
+
 <center><img src="assets\images\aula_04\fig_3.png" width="100%"></center>
 <p align = "center"><b>Figura 3.</b> Bla bla bla.</p>
+
+<br>
 
 <table style="text-align: center; border: 1px solid; border-collapse: collapse; width: 100%;" align="center">
   <thead>
@@ -236,8 +243,7 @@ $$
   </tfoot>
 </table>
 
-
-<br><br>
+<br>
 
 <table style = "text-align:center" border="1" cellpadding="5" cellspacing="0" align ="center">
   <thead>
@@ -297,7 +303,7 @@ $$
   </tfoot>
 </table>
 
-<br><br>
+<br>
 
 <p align="justify">Onde:</p>
 <ul>
@@ -340,27 +346,29 @@ $$
     </tr>
   </tbody>
 </table>
+
 <br>
 
 <table style = "width:100%" align = "center">
     <tr align = "center">
-        <td style="width: 80%;"><p>𝛾<sub>𝑛</sub> = 1,95−0,05.𝑏</p></td>
+        <td style="width: 80%;"><p>\(\gamma_n = 1,95 - 0,05 \cdot b\)</p></td>
 	<td style="width: 20%;"><p>Pilar</p></td>
     </tr>
      <tr align = "center">
-        <td style="width: 80%;"><p>𝛾<sub>𝑛</sub> = 1,95−0,05.h</p></td>
+        <td style="width: 80%;">\( \gamma_n = 1,95 - 0,05 \cdot h \)</td>
 	<td style="width: 20%;"><p>Laje</p></td>
      </tr>
 </table>
+
 <br>
 
 <table style = "width:100%" align = "center">
     <tr align = "center">
-        <td style="width: 80%;"><p>\[├ 𝐹_𝑑=〖𝛾_𝑔.𝐹〗_(𝑔,𝑘)+〖𝛾_𝜀𝑔.𝐹〗_(𝜀𝑔,𝑘)+〖𝛾_𝑞.(𝐹┤〗_(1𝑞,𝑘)+∑1_(𝑗=2)^𝑛▒〖𝜓_(0,𝑗) 𝐹_(𝑞𝑗,𝑘) 〗)+〖𝛾_𝜀𝑔.𝜓_(0,𝑗).𝐹〗_(𝜀𝑞,𝑘)\]</p></td>
+        <td style="width: 80%;"><p>\(F_d = \gamma_g \cdot F_{g,k} + \gamma_{\epsilon g} \cdot F_{\epsilon g,k} + \gamma_q \cdot (F_{1q,k} + \sum_{j=2}^{n} \psi_i \cdot F_{qj,k}) + \gamma_{\epsilon g} \cdot F_{\epsilon q,k} \)</p></td>
 	<td style="width: 20%;"><p>Combinação Última Normal</p></td>
     </tr>
      <tr align = "center">
-        <td style="width: 80%;"><p>\[ 𝐹_(𝑑,𝑠𝑒𝑟)=∑1_(𝑖=1)^𝑚▒〖𝐹_(𝑔𝑖,𝑘)+∑1_(𝑗=1)^𝑛▒〖𝜓_2𝑗.𝐹_(𝑞𝑗,𝑘) 〗〗\]</p></td>
+        <td style="width: 80%;"><p>\(F_{d,ser} = \sum_{i=1}^{m} F_{gi,k} + \sum_{j=1}^{n} \psi_{2j} \cdot F_{qj,k}\)</p></td>
 	<td style="width: 20%;"><p>Combinação Quase Permanente</p></td>
      </tr>
 </table>
