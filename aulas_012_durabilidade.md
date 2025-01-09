@@ -252,6 +252,8 @@ $$
 c_{nom} = c_{min} + \Delta c 
 $$
 
+<br>
+
 <table style = "text-align:center" align = "center">
     <tr>
         <th rowspan="2">Tipo de estrutura</th>
