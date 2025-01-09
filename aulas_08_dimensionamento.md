@@ -12,13 +12,13 @@ nav_order: 7
 
 <p align="justify">Elementos lineares de concreto armado, conforme a NBR 6118, <strong>são dimensionados considerando flexão normal simples</strong>, uma vez que o plano do momento fletor está em um dos eixos principais da seção transversal e acompanha as ações de força cortante. No entanto, esta mesma norma estabelece que o <strong>dimensionamento de peças submetidas a flexão normal simples deve ser feito de maneira separada</strong> (dimensionamento devido ao momento fletor e dimensionamento devido à força cortante).
 
-<center><img src="assets\images\aula_08\fig_1.png" width="100%"></center>
+<center><img src="assets\images\aula_08\fig_1.png" width="80%"></center>
 <p align = "center"><b>Figura 1.</b> Bla bla bla.</p>
 
-<center><img src="assets\images\aula_08\fig_2.png" width="100%"></center>
+<center><img src="assets\images\aula_08\fig_2.png" width="80%"></center>
 <p align = "center"><b>Figura 2.</b> Bla bla bla.</p>
 
-<center><img src="assets\images\aula_08\fig_3.png" width="100%"></center>
+<center><img src="assets\images\aula_08\fig_3.png" width="80%"></center>
 <p align = "center"><b>Figura 3.</b> Bla bla bla.</p>
 
 <p align="justify">Estádios:</p>
@@ -51,12 +51,16 @@ $$
 \end{align*}
 $$
 
+<br>
+
 <p align="justify">No <strong>Estádio II</strong> ocorre um <strong>aumento da intensidade do momento fletor solicitante</strong>, o que <strong>produz uma tensão de tração</strong> na maioria dos pontos abaixo da Linha Neutra (L.N.) que <strong>supera a tensão resistente do concreto à tração</strong>, o que resulta nos seguintes comportamentos:</p>
 <ul>
     <li>O <strong>momento fletor solicitante supera o momento de fissuração</strong>, o que provoca o aparecimento das fissuras na região de concreto tracionado, abaixo da linha neutra (\(h – x\)). Devido a esse fato, considera-se que apenas o aço resiste aos esforços de tração (despreza-se o concreto tracionado);</li>
     <li>Admite-se que a <strong>tensão de compressão no concreto continue linear</strong>;</li>
     <li>As <strong>fissuras de tração</strong> na flexão do concreto <strong>são visíveis</strong>.
 <ul>
+
+<br>
 
 <table border = "0" style = "width:100%">
   <tr>
@@ -68,3 +72,6 @@ $$
     <td><center><p align = "justify" id = "fig1">Seção com armadura</td>
   </tr>
 </table>
+
+<br>
+
