@@ -79,7 +79,7 @@ $$
 
 <br>
 
-<table border="1" cellpadding="5" cellspacing="0">
+<table cellpadding="5" cellspacing="0">
   <thead>
     <tr>
       <th>Combinações</th>
@@ -110,7 +110,7 @@ $$
 
 <h2>11.2 Ações e combinações</h2>
 
-<table border="1" cellpadding="5" cellspacing="0">
+<table cellpadding="5" cellspacing="0">
   <thead>
     <tr>
       <th rowspan ="2">Classe de carregamento</th>
@@ -245,7 +245,7 @@ $$
 
 <br>
 
-<table style = "text-align:center" border="1" cellpadding="5" cellspacing="0" align ="center">
+<table style = "text-align:center" cellpadding="5" cellspacing="0" align ="center">
   <thead>
     <tr>
       <th colspan = "2" rowspan ="2">Ações</th>
@@ -314,7 +314,7 @@ $$
 
 <h2>11.3 Coeficientes adicionais</h2>
 
-<table border="1" cellpadding="5" cellspacing="0">
+<table cellpadding="5" cellspacing="0">
   <thead>
     <tr>
       <th>Dimensão<sup>1,3</sup></th>
