@@ -310,3 +310,19 @@ $$
     </tr>
   </tbody>
 </table>
+
+<h2>Referências</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><p align = "center" id = "ref1">[1]</p></td>
+            <td><p align = "left">Faz Fácil. Traços do Concreto: Misturas e Cuidados Gerais para um Bom Resultado. Faz Fácil 2020. https://www.fazfacil.com.br/reforma-construcao/tracos-concreto-mistura/.</p></td>
+        </tr>
+    </tbody>
+</table>
