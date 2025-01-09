@@ -25,7 +25,7 @@ nav_order: 9
 
 <h2>1. Levantamento dos elementos na laje</h2>  
 
-<p aligin = "justify">
+<p align = "justify">
   Para a determionação das ações atuantes na estrutura, mostra-se necessário consultar os procedimentos apresentados na ABNT NBR 6120. Logo, deve-se fazer um levantamento dos elementos presentes na laje, de forma a obter sua carga total na estrutura. Desta forma, para o presente projeto exemplo, tem-se a presença de contrapiso, impermeabilizante, proteção e o peso devido a própria laje, logo consultando-se a norma citada, tem-se que:
 </p>
 
@@ -38,7 +38,7 @@ nav_order: 9
 </p>
 
 
-<p aligin = "justify">
+<p align = "justify">
   Já para o impermeabilizante, tem-se que a carga em kN/m² para a espessura de 0,3 cm é de:
 </p>
 
@@ -48,7 +48,7 @@ nav_order: 9
 
 <h2>2. Cálculo da carga permanente e variável da laje</h2>  
 
-<p aligin = "justify">
+<p align = "justify">
   Em seguida, pode-se calcular a carga superficial devido a cada elemento, considerando-se a espessura que cada um representa na estrutura por meio da equação <a href="#eq1">(1)</a>, que representa a parcela de carga permanente \(g\).
 </p>
 
@@ -59,7 +59,7 @@ nav_order: 9
   </tr>
 </table>
 
-<p aligin = "justify">
+<p align = "justify">
   Portanto, aplicando-se a equação <a href="#eq1">(1)</a> e aplicando as respectivas espessuras, tem-se que:
 </p>
 
@@ -106,7 +106,7 @@ nav_order: 9
   </tbody>
   </table>
 
-<p aligin = "justify">
+<p align = "justify">
   Já para a parcela de carga variável na laje, foi adotada a carga dada para uma cobertura, logo:
 </p>
 
@@ -116,7 +116,7 @@ nav_order: 9
 
 <h2>3. Determinação das áreas de influência das lajes</h2>  
 
-<p aligin = "justify">
+<p align = "justify">
   Nesta etapa, define-se as áreas de influência da laje, visto que o carregamento atuante é transferido para as vigas. Logo, com o auxílio do AutoCAD, pode-se obter as seguintes áreas de influência:
 <br>
 <img src="https://i.imgur.com/k5k475q.png" alt="A1">
@@ -132,7 +132,7 @@ nav_order: 9
 
 <h2>4. Cálculo do peso próprio das vigas</h2>  
 
-<p aligin = "justify">
+<p align = "justify">
   Para o cálculo do peso próprio das vigas, deve-se considerar a área da seção transversal de cada viga, logo calcula-se por meio da equação <a href="#eq2">(2)</a>.
 </p>
 
@@ -143,7 +143,7 @@ nav_order: 9
   </tr>
 </table>
 
-<p aligin = "justify">
+<p align = "justify">
   Portanto, aplicando-se a equação <a href="#eq3">(3)</a>, considerando as dimensões de cada viga e \(\gamma_{CA} = 25 \, \text{kN/m³}\), constroi-se a seguinte tabela:
 </p>
 
@@ -184,7 +184,7 @@ nav_order: 9
 
 <h2>5. Cálculo das cargas totais nas vigas</h2>  
 
-<p aligin = "justify">
+<p align = "justify">
   Com tais resultados em mãos, e com o auxílio da relação apresentada pelas equações <a href="#eq3">(3)</a>, <a href="#eq4">(4)</a>, <a href="#eq5">(5)</a> e <a href="#eq6">(6)</a>, pode-se calcular as cargas totais em cada viga.
 </p>
 
