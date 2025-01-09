@@ -16,7 +16,7 @@ nav_order: 4
 <p align="justify">Conceitualmente, segurança estrutural pode ser dada como a distância entre uma situação de ruína e uma situação de uso, sendo que ao longo da vida útil dessa estrutura a segurança permitirá a ela suportar as ações mais desfavoráveis que podem vir a ocorrer.</p>
 
 <center><img src="assets\images\aula_04\fig_1.png" width="100%"></center>
-<p align = "center"><b>Figura 1.</b> Bla bla bla.</p>
+<p align = "center"><b>Figura 1.</b> Bla bla bla <a href="#ref1">[1]</a>.</p>
 
 <br>
 
@@ -371,4 +371,20 @@ $$
         <td style="width: 80%;"><p>\(F_{d,ser} = \sum_{i=1}^{m} F_{gi,k} + \sum_{j=1}^{n} \psi_{2j} \cdot F_{qj,k}\)</p></td>
 	<td style="width: 20%;"><p>Combinação Quase Permanente</p></td>
      </tr>
+</table>
+
+<h2>Referências</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><p align = "center" id = "ref1">[1]</p></td>
+            <td><p align = "left">A. Beck, Confiabilidade e Segurança das Estruturas, 1a edição. GEN LTC, 2021.</p></td>
+        </tr>
+    </tbody>
 </table>
