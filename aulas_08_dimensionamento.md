@@ -381,7 +381,7 @@ O domínio 4 tem um caso particular denominado de 4a que é uma situação onde 
 
 <br>
 
-<p align="justify">O domínio 5 refere-se à compressão não uniforme (sem tração), com toda a seção de concreto comprimida. A linha neutra é externa à seção e cobre o campo de profundidade da linha neutra desde \(x > h\) até \(x ≤ +∞\). O Estado Limite Último e atingido pela ruptura do concreto comprimido com encurtamento na borda mais comprimida situado entre \(\epsilon_{cu}\) e \(\epsilon_{c2}\) [3,5,7–9].</p>
+<p align="justify">A reta b refere-se à situação oposta à reta a, ou seja, a situação de compressão uniforme. O encurtamento das fibras possui valor de \(\epsilon_{c2}\) [3,5,7–9]. Nesse caso a linha neutra \(x = + \infty \).</p>
 
 <br>
 
