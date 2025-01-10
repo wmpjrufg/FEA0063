@@ -10,254 +10,85 @@ nav_order: 8
 <script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!--Don't delete this script-->
 
-{: .important-title }
-> O que é concreto?
->
-> Adjetivo para exprimir algo que é sólido ou um **substantivo masculino** que designa uma **mistura de cimento, água, areia e brita em determinadas proporções**, que se coloca em uma **fôrma** para que **endureça** e atinja **“grande resistência”**.
+<h1>Detalhamento da Seção Transversal</h1>
 
-<ol>
-  <li>Levantamento dos elementos na laje</li>
-  <li>Cálculo da carga permanente e variável da laje</li>
-  <li>Determinação das áreas de influência das lajes</li>
-  <li>Cálculo do peso próprio das vigas</li>
-  <li>Cálculo das cargas totais nas vigas</li>
-</ol>
+<center><img src="assets\images\aula_09\fig_1.png" width="80%"></center>
+<p align = "center"><b>Tabela 1.</b> Tabela de aços.</p>
 
-<h2>1. Levantamento dos elementos na laje</h2>  
-
-<p aligin = "justify">
-  Para a determionação das ações atuantes na estrutura, mostra-se necessário consultar os procedimentos apresentados na ABNT NBR 6120. Logo, deve-se fazer um levantamento dos elementos presentes na laje, de forma a obter sua carga total na estrutura. Desta forma, para o presente projeto exemplo, tem-se a presença de contrapiso, impermeabilizante, proteção e o peso devido a própria laje, logo consultando-se a norma citada, tem-se que:
-</p>
-
-<p>
-  \[\gamma_{cp} = 19 \, \text{kN/m³}\]
-
-  \[\gamma_{prot} = 19 \, \text{kN/m³}\]
-  
-  \[\gamma_{Laje} = 25 \, \text{kN/m³}\]
-</p>
-
-
-<p aligin = "justify">
-  Já para o impermeabilizante, tem-se que a carga em kN/m² para a espessura de 0,3 cm é de:
-</p>
-
-<p>
-  \[\gamma_{imp} = 0,08 \, \text{kN/m²}\]
-</p>
-
-<h2>2. Cálculo da carga permanente e variável da laje</h2>  
-
-<p aligin = "justify">
-  Em seguida, pode-se calcular a carga superficial devido a cada elemento, considerando-se a espessura que cada um representa na estrutura por meio da equação <a href="#eq1">(1)</a>, que representa a parcela de carga permanente \(g\).
-</p>
-
-<table>
-  <tr>
-    <td align = "left">\[G_{x} = \gamma_{x} \cdot e_{x}\]</td>
-    <td><p align = "right" id = "eq1">(1)</p></td>
-  </tr>
-</table>
-
-<p aligin = "justify">
-  Portanto, aplicando-se a equação <a href="#eq1">(1)</a> e aplicando as respectivas espessuras, tem-se que:
-</p>
-
-<table>
-  <thead align="center">
-    <tr>
-      <th>Elemento</th>
-      <th>\(e \, (cm)\)</th>
-      <th>\(\gamma \, (kN/m³)\)</th>
-      <th>\(G \, (kN/m²)\)</th>
-    </tr>
-  </thead>
-  <tbody align="center">
-    <tr>
-      <td>Contrapiso</td>
-      <td>0,5</td>
-      <td>19</td>
-      <td>0,095</td>
-    </tr>
-    <tr>
-      <td>impermeabilizante</td>
-      <td>0,3</td>
-      <td>-</td>
-      <td>0,08</td>
-    </tr>
-    <tr>
-      <td>Proteção</td>
-      <td>2,5</td>
-      <td>19</td>
-      <td>0,475</td>
-    </tr>
-    <tr>
-      <td>Laje</td>
-      <td>10</td>
-      <td>25</td>
-      <td>2,5</td>
-    </tr>
-    <tr>
-      <td><b>Total (g)</b></td>
-      <td><b>-</b></td>
-      <td><b>-</b></td>
-      <td><b>3,15</b></td>
-    </tr>
-  </tbody>
-  </table>
-
-<p aligin = "justify">
-  Já para a parcela de carga variável na laje, foi adotada a carga dada para uma cobertura, logo:
-</p>
-
-<p>
-  \[q = 1,5 \, \text{kN/m²}\]
-</p>
-
-<h2>3. Determinação das áreas de influência das lajes</h2>  
-
-<p aligin = "justify">
-  Nesta etapa, define-se as áreas de influência da laje, visto que o carregamento atuante é transferido para as vigas. Logo, com o auxílio do AutoCAD, pode-se obter as seguintes áreas de influência:
 <br>
-<img src="https://i.imgur.com/k5k475q.png" alt="A1">
+
+<P align = "justify">Segundo Carvalho e Figueiredo Filho (2014) a armadura mínima deve ser colocada para evitar rupturas bruscas da seção, pois o aço faz com que ela apresente uma deformação razoável antes de entrar em ruína, já os valores máximos decorrem da necessidade de assegurar condições de ductilidade e de respeitar o campo de validade dos ensaios que deram origem as prescrições de funcionamento do conjunto  aço-concreto.
+</p>
 <br>
-<img src="https://i.imgur.com/oglZZfH.png" alt="A2 e A3">
+
+<center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_c1.png" width="90%"></center>
+
+<p align = "justify">
+  Onde:
+  <br>
+  W<sub>o</sub> = Módulo de resistência da seção transversal bruta de concreto, relativo à fibra mais tracionada<br>
+  f<sub>(ctk,sup)</sub> = Resistência característica superior do concreto à tração<br>
+  f<sub>ctm</sub> = Resistência característica média do concreto à tração
 </p>
+<br>
 
-<p>
-  \[A1 = 54509,62 \, \text{cm²}\]
-  \[A2 = 16875,00 \, \text{cm²}\]
-  \[A3 = 16875,00 \, \text{cm²}\]
+<p id="tab2"></p>
+<center><img src="./assets/images/ECA_detalhamento_secao_transversal/TAB_2.png" width="90%"></center>
+<p align = "justify"><b>Tabela 2.</b> 
 </p>
+<br>
+<br>
+<center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_c2.png" width="90%"></center>
+<br>
 
-<h2>4. Cálculo do peso próprio das vigas</h2>  
-
-<p aligin = "justify">
-  Para o cálculo do peso próprio das vigas, deve-se considerar a área da seção transversal de cada viga, logo calcula-se por meio da equação <a href="#eq2">(2)</a>.
+<p align = "justify">
+  Segundo Carvalho (2014) as armaduras de pele tem função de mitigar efeitos decorrentes da fissuração, retração e variação da temperatura nas faces de vigas de concreto, servindo também para controlar melhor a abertura de fissuras em vigas. <br>
+  O critério de armadura de pele é aplicado para peças com altura maior ou igual a 60 cm, sendo que a ABNT NBR descreve suas caraterísticas no item 17.3.5.2.3. Sendo a armadura descrita pela equação a seguir:
 </p>
+<br>
 
-<table>
-  <tr>
-    <td align = "left">\[G_{viga} = \gamma_{CA} \cdot A_{viga}\]</td>
-    <td><p align = "right" id = "eq2">(2)</p></td>
-  </tr>
-</table>
-
-<p aligin = "justify">
-  Portanto, aplicando-se a equação <a href="#eq3">(3)</a>, considerando as dimensões de cada viga e \(\gamma_{CA} = 25 \, \text{kN/m³}\), constroi-se a seguinte tabela:
+<p id="fig1"></p>
+<center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_1.png" width="90%"></center>
+<p align = "justify"><b>Figura 1.</b> 
 </p>
+<center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_c3.png" width="90%"></center>
+<br>
 
-<table>
-  <thead align="center">
-    <tr>
-      <th>Viga</th>
-      <th>\(bw \, (m)\)</th>
-      <th>\(h \, (m)\)</th>
-      <th>\(A \, (m²)\)</th>
-      <th>\(g_{viga} \, (kN/m)\)</th>
-    </tr>
-  </thead>
-  <tbody align="center">
-    <tr>
-      <td>V1</td>
-      <td>0,14</td>
-      <td>0,45</td>
-      <td>0,063</td>
-      <td>1,57</td>
-    </tr>
-    <tr>
-      <td>V2</td>
-      <td>0,14</td>
-      <td>0,30</td>
-      <td>0,042</td>
-      <td>1,05</td>
-    </tr>
-    <tr>
-      <td>V3</td>
-      <td>0,14</td>
-      <td>0,30</td>
-      <td>0,042</td>
-      <td>1,05</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2>5. Cálculo das cargas totais nas vigas</h2>  
-
-<p aligin = "justify">
-  Com tais resultados em mãos, e com o auxílio da relação apresentada pelas equações <a href="#eq3">(3)</a>, <a href="#eq4">(4)</a>, <a href="#eq5">(5)</a> e <a href="#eq6">(6)</a>, pode-se calcular as cargas totais em cada viga.
+<p align = "justify">
+  Segundo ABNT NBR 6118:2014 não é necessário uma armadura superior a 5 cm²/m por face do elemento.
+  <br><br><br>
+  Alguns projetistas recomendam o uso da armadura de pela para alturas superiores a 40 cm, melhorando assim o controle a fissuração. Bastos (2015) cita para altura maiores que 50 cm por exemplo.
+  <br><br>
+  O espaçamento disponível pode ser horizontal ou vertical, são dados através das seguintes equações:
 </p>
+<center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_c4.png" width="90%"></center>
+<br>
 
-<table>
-  <tr>
-    <td align = "left">\[P_{g_{Laje}} = g_{Laje} \cdot A_{i}\]</td>
-    <td><p align = "right" id = "eq3">(3)</p></td>
-  </tr>
-  <tr>
-    <td align = "left">\[Q_{g_{TOTAL}} = \frac{P_{g_{Laje}}}{l_{i}} + g_{viga}\]</td>
-    <td><p align = "right" id = "eq4">(4)</p></td>
-  </tr>
-  <tr>
-    <td align = "left">\[P_{q_{Laje}} = q_{Laje} \cdot A_{i}\]</td>
-    <td><p align = "right" id = "eq5">(5)</p></td>
-  </tr>
-  <tr>
-    <td align = "left">\[Q_{q} = \frac{P_{q_{Laje}}}{l_{i}}\]</td>
-    <td><p align = "right" id = "eq6">(6)</p></td>
-  </tr>
-</table>
+<p align = "justify">
+  Fusco (1995) recomenda o acréscimo de mossas no cálculo do diâmetro final das barras. Sendo mossa, as saliências da armadura nervurada (CA 50)
+</p>
+<br>
 
-<table>
-  <thead align="center">
-    <tr>
-      <th>Viga</th>
-      <th>\(l_{i} \, (m)\)</th>
-      <th>\(Ai \, (m²)\)</th>
-      <th>\(g_{viga} \, (kN/m)\)</th>
-      <th>\(g_{Laje} \, (kN/m²)\)</th>
-      <th>\(q_{Laje} \, (kN/m²)\)</th>
-      <th>\(P_{g_{Laje}} \, (kN)\)</th>
-      <th>\(P_{q_{Laje}} \, (kN)\)</th>
-      <th>\(Q_{g_{TOTAL}} \, (kN/m)\)</th>
-      <th>\(Q_{q} \, (kN/m)\)</th>
-    </tr>
-  </thead>
-  <tbody align="center">
-    <tr>
-      <td>V1</td>
-      <td>4,50</td>
-      <td>5,45</td>
-      <td>1,57</td>
-      <td>3,15</td>
-      <td>1,50</td>
-      <td>17,17</td>
-      <td>8,18</td>
-      <td>5,39</td>
-      <td>1,82</td>
-    </tr>
-    <tr>
-      <td>V2</td>
-      <td>1,50</td>
-      <td>1,69</td>
-      <td>1,05</td>
-      <td>3,15</td>
-      <td>1,50</td>
-      <td>5,32</td>
-      <td>2,53</td>
-      <td>4,59</td>
-      <td>1,69</td>
-    </tr>
-    <tr>
-      <td>V3</td>
-      <td>1,50</td>
-      <td>1,69</td>
-      <td>1,05</td>
-      <td>3,15</td>
-      <td>1,50</td>
-      <td>5,32</td>
-      <td>2,53</td>
-      <td>4,59</td>
-      <td>1,69</td>
-    </tr>
-  </tbody>
-</table>
+<p id="tab3"></p>
+<center><img src="./assets/images/ECA_detalhamento_secao_transversal/TAB_3.png" width="90%"></center>
+<p align = "justify"><b>Tabela 3.</b> 
+</p>
+<br>
+<br><br>
+
+<p id="fig2"></p>
+<center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_2.png" width="90%"></center>
+<p align = "justify"><b>Figura 2.</b> Espaçamento armaduras –Armadura simples 
+<br><br><br>
+
+<p id="fig3"></p>
+<center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_3.png" width="90%"></center>
+<p align = "justify"><b>Figura 3.</b> Espaçamento entre feixes de armaduras 
+<br>
+
+<p align = "justify">
+  Segundo Carvalho (2014) os esforços na armadura só podem ser considerados concentrados no centro de gravidade das barras se a distância deste centro ao ponto de armadura mais afastado da linha neutra(𝑎_𝑡𝑒𝑠𝑡𝑒), medida formalmente a ela, for menor que 10% de h. Já para a armadura concentrada considera-se o cálculo abaixo:
+</p>
+<br>
+<center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_c5.png" width="90%"></center>
+<br>
