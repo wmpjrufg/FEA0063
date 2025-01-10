@@ -47,8 +47,8 @@ nav_order: 7
 
 $$
 \begin{align*}
-  &A_h = b_f \cdot h_f + b_w \cdot h + A_s \cdot (\alpha - 1)\\
-  &y_h = \frac{b_f \cdot \left(\frac{h_f²}{2}\right) + b_w \cdot \frac{h²}{2} + A_s \cdot (\alpha - 1) \cdot d}{A_h}\\
+  &A_h = b_f \cdot h_f + b_w \cdot h + A_s \cdot (\alpha - 1)\\\\
+  &y_h = \frac{b_f \cdot \left(\frac{h_f²}{2}\right) + b_w \cdot \frac{h²}{2} + A_s \cdot (\alpha - 1) \cdot d}{A_h}\\\\
   &I_h = \frac{b_f \cdot h_f³}{12} + \frac{b_w \cdot h³}{12} + b_f \cdot h_f \cdot \left(y{cg} - \frac{h_f}{2}\right)² + b_w \cdot h \cdot \left(y{cg} - \frac{h}{2}\right)² + A_s \cdot (\alpha - 1) \cdot d \cdot (y_h - d)²
 \end{align*}
 $$
@@ -145,8 +145,6 @@ $$
   <li>O <strong>diagrama de tensões tende a ficar vertical</strong> (uniforme), <strong>com quase todas as fibras trabalhando com sua tensão máxima de compressão</strong>, ou seja, praticamente todas as fibras atingiram deformações superiores a \(\epsilon_{c2} = 0,20%\) e chegando até \(\epsilon_{cu} = 0,35%\) (ver valores para grupo II do concreto cap. 1 Volume I);</li>
   <li><strong>A peça está bastante fissurada</strong>, com as <strong>fissuras se aproximando da linha neutra, fazendo com que sua profundida diminua</strong> e, consequentemente, a <strong>região comprimida de concreto também</strong>.</li>
 </ol>
-
-<br>
 
 <p align="justify">Diferentemente dos Estádios I e II – em que são verificados os ELS, no Estádio III tem-se o dimensionamento da peça de concreto armado no Estado Limite Último (ELU), ou seja, na iminência da ruptura.
 <br><br>
@@ -402,8 +400,8 @@ O domínio 4 tem um caso particular denominado de 4a que é uma situação onde 
 
 $$
 \begin{align*}
-  &b_w \cdot d \cdot \lambda \cdot \beta_x \cdot \alpha_c \cdot f_{cd} + \sigma_{sc} \cdot A_{sc} = \sigma_{st} \cdot A_{st} \\
-  &M_{sd} = b_w \cdot d^2 \cdot \lambda \cdot \beta_x \cdot \alpha_c \cdot f_{cd} \cdot (1 - 0,50 \cdot \lambda \cdot \beta_x) + \sigma_{sc} \cdot A_{sc} \cdot (d - d') \\
+  &b_w \cdot d \cdot \lambda \cdot \beta_x \cdot \alpha_c \cdot f_{cd} + \sigma_{sc} \cdot A_{sc} = \sigma_{st} \cdot A_{st} \\\\
+  &M_{sd} = b_w \cdot d^2 \cdot \lambda \cdot \beta_x \cdot \alpha_c \cdot f_{cd} \cdot (1 - 0,50 \cdot \lambda \cdot \beta_x) + \sigma_{sc} \cdot A_{sc} \cdot (d - d') \\\\
   &\frac{\varepsilon_{cc}}{\beta_x} = \frac{\varepsilon_{sc}}{\beta_x} - \frac{d'}{d} = \frac{\varepsilon_{st}}{1 - \beta_x}
 \end{align*}
 $$
