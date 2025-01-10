@@ -17,49 +17,64 @@ nav_order: 8
 
 <br>
 
-<P align = "justify">Segundo Carvalho e Figueiredo Filho (2014) a armadura mínima deve ser colocada para evitar rupturas bruscas da seção, pois o aço faz com que ela apresente uma deformação razoável antes de entrar em ruína, já os valores máximos decorrem da necessidade de assegurar condições de ductilidade e de respeitar o campo de validade dos ensaios que deram origem as prescrições de funcionamento do conjunto  aço-concreto.
+<P align = "justify">Segundo Carvalho e Figueiredo Filho (2014) a <strong>armadura mínima deve ser colocada para evitar rupturas bruscas da seção</strong>, pois o aço faz com que ela apresente uma deformação razoável antes de entrar em ruína, <strong>já os valores máximos decorrem da necessidade de assegurar condições de ductilidade e de respeitar o campo de validade dos ensaios que deram origem as prescrições de funcionamento do conjunto  aço-concreto</strong>.
 </p>
+
 <br>
 
-<center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_c1.png" width="90%"></center>
+$$
+\begin{align*}
+  &M_{d, min} = 0,80 \cdot W_0 \cdot f_{ctm}  \\
+  &f_{ctk, sup} = 1,30 \cdot f_{ctm} \\
+  &f_{ctm} = 0,30 \cdot f_{ck}^{2/3} 
+\end{align*}
+$$
 
-<p align = "justify">
-  Onde:
-  <br>
-  W<sub>o</sub> = Módulo de resistência da seção transversal bruta de concreto, relativo à fibra mais tracionada<br>
-  f<sub>(ctk,sup)</sub> = Resistência característica superior do concreto à tração<br>
-  f<sub>ctm</sub> = Resistência característica média do concreto à tração
+<br>
+
+<p align = "justify">Onde:</p>
+<ul>
+    <li>\(W_0\) = Módulo de resistência da seção transversal bruta de concreto, relativo à fibra mais tracionada</li>
+    <li>\(f_{ctk, sup}\) = Resistência característica superior do concreto à tração</li>
+    <li>\(f_{ctm}\) = Resistência característica média do concreto à tração</li>
+</ul>
+
+<br>
+
+<center><img src="assets\images\aula_09\fig_2.png" width="80%"></center>
+<p align = "center"><b>Tabela 2.</b></p>
+
+<br>
+
+$$
+\rho_{min} = \frac{A_{s, min}}{A_{c}}
+$$
+
+<br>
+
+<p align = "justify">Para a armadura máxima o valor respeitado deve ser de no máximo 4% da área de concreto quando somadas todas as armaduras tracionadas e comprimidas da seção, calculada fora da região de emendas.
+<br><br>
+Segundo Carvalho (2014) as <strong>armaduras de pele</strong> tem função de <strong>mitigar efeitos decorrentes da fissuração, retração e variação da temperatura nas faces de vigas de concreto</strong>, servindo também para controlar melhor a abertura de fissuras em vigas. 
+<br><br>
+O critério de armadura de pele é aplicado para peças com altura maior ou igual a 60 cm, sendo que a ABNT NBR descreve suas caraterísticas no item 17.3.5.2.3. Sendo a armadura descrita pela equação a seguir:
 </p>
+
 <br>
 
-<p id="tab2"></p>
-<center><img src="./assets/images/ECA_detalhamento_secao_transversal/TAB_2.png" width="90%"></center>
-<p align = "justify"><b>Tabela 2.</b> 
-</p>
-<br>
-<br>
-<center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_c2.png" width="90%"></center>
+<center><img src="assets\images\aula_09\fig_3.png" width="80%"></center>
+<p align = "center"><b>Figura 1.</b> Bla bla bla </p>
+
 <br>
 
-<p align = "justify">
-  Segundo Carvalho (2014) as armaduras de pele tem função de mitigar efeitos decorrentes da fissuração, retração e variação da temperatura nas faces de vigas de concreto, servindo também para controlar melhor a abertura de fissuras em vigas. <br>
-  O critério de armadura de pele é aplicado para peças com altura maior ou igual a 60 cm, sendo que a ABNT NBR descreve suas caraterísticas no item 17.3.5.2.3. Sendo a armadura descrita pela equação a seguir:
-</p>
-<br>
+$$
+A_{s, face} = 0,10 \% \cdot A_{c, alma} = 0,0010 \% \cdot b_w \cdot h
+$$
 
-<p id="fig1"></p>
-<center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_1.png" width="90%"></center>
-<p align = "justify"><b>Figura 1.</b> 
-</p>
-<center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_c3.png" width="90%"></center>
-<br>
-
-<p align = "justify">
-  Segundo ABNT NBR 6118:2014 não é necessário uma armadura superior a 5 cm²/m por face do elemento.
-  <br><br><br>
-  Alguns projetistas recomendam o uso da armadura de pela para alturas superiores a 40 cm, melhorando assim o controle a fissuração. Bastos (2015) cita para altura maiores que 50 cm por exemplo.
-  <br><br>
-  O espaçamento disponível pode ser horizontal ou vertical, são dados através das seguintes equações:
+<p align = "justify">Segundo ABNT NBR 6118:2014 não é necessário uma armadura superior a 5 cm²/m por face do elemento.
+<br><br>
+Alguns projetistas recomendam o uso da armadura de pela para alturas superiores a 40 cm, melhorando assim o controle a fissuração. Bastos (2015) cita para altura maiores que 50 cm por exemplo.
+<br><br>
+O espaçamento disponível pode ser horizontal ou vertical, são dados através das seguintes equações:
 </p>
 <center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_c4.png" width="90%"></center>
 <br>
