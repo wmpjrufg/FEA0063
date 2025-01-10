@@ -150,7 +150,7 @@ nav_order: 6
   A consideração dos efeitos ditos de 2º ordem será realizada por meios de procedimentos numéricos e com o cálculo da variável \(\gamma _z\). Tal variável avalia a importância desses efeitos de segunda ordem e então caso eles sejam significativos os esforços da estrutura devem ser majorados pelo valor de \(0,95 \cdot \gamma _z\).
 </p>
 
-<h2>Pórtico e o subsistema horizontal de lajes</h2>
+<h2>O modelo estrutural</h2>
 
 <p align = "justify">
   Os <i>softwares</i> mais modernos empregados na atualidade permitem a modelagem tridimensional de uma estrutural. Logo dentro de uma perspectiva de aplicação o modelo hoje dito como ideal é o modelo tridimensional com representação da laje como elemento de grelha. A <a href="#fig7">Figura 7</a> apresenta esse modelo que é utilizado pelo <i>software</i> TQS.
@@ -167,7 +167,11 @@ nav_order: 6
 
 <p align = "justify">
   Neste conteúdo vamos empregar o modelo de pórtico para avaliação dos esforços em pilares e vigas e o modelo tabular para esforços em lajes que é um modelo amplamente aceito para aplicação em estruturas usuais de geometria regular.
-  <br><br>
+</p>
+
+<h2>Subsistema de lajes</h2>
+
+<p align = "justify">
   Iniciando pelo sub-sistema de lajes obteremos os esforços de flexão via teoria da elasticidade linear e os esforços de cisalhamento via teoria de ruptura, gentilmente conhecido como método do "telhado".
   <br><br>
   O método de tabelas consiste em considerar a laje como um elemento de placa esbelto (ver <a href="#fig8">Figura 8</a>) e resolver numericamente a equação de equilíbrio de placas fletidas dado conforme <a href="#eq1">equação 1</a>.
@@ -183,8 +187,64 @@ nav_order: 6
 </table>
 
 <p align = "justify">
-A <a href="#eq1">equação 1</a> só tem solução analítica para alguns casos particulares como por exemplo em placas circulares. Devido a essa dificuldade de solução formas alternativas foram encontradas para determinar os esforços e deslocamentos em placas com geometrias retangulares com diversas condições de contorno. A Tabela empregada neste conteúdo será a <a target="_blank" rel="noopener" href="https://github.com/wmpjrufg/FEA0063/blob/main/assets/files/tabelas/tabela_bares.pdf">Tabela de Bares</a>, disponibilizada por Pinheiro <a href="#ref4">[4]</a>. As <a target="_blank" rel="noopener" href="https://github.com/wmpjrufg/FEA0063/blob/main/assets/files/tabelas/tabela_bares.pdf">Tabelas de Bares</a> serão empregadas quando a relação \(l_y/l_x \leq 2\) é válida, pois para as outras ocasiões adota-se a laje como uma viga com seus respectivos apoios e largura de 1,0 m.
+A <a href="#eq1">equação 1</a> só tem solução analítica para alguns casos particulares como por exemplo em placas circulares. Devido a essa dificuldade de solução formas alternativas foram encontradas para determinar os esforços e deslocamentos em placas com geometrias retangulares com diversas condições de contorno. A Tabela empregada neste conteúdo será a <a target="_blank" rel="noopener" href="https://github.com/wmpjrufg/FEA0063/blob/main/assets/files/tabelas/tabela_bares.pdf">tabela de Bares</a>, disponibilizada por Pinheiro <a href="#ref4">[4]</a>. As <a target="_blank" rel="noopener" href="https://github.com/wmpjrufg/FEA0063/blob/main/assets/files/tabelas/tabela_bares.pdf">tabelas de Bares</a> serão empregadas quando a relação \(l_y/l_x \leq 2\) é válida, pois para as outras ocasiões adota-se a laje como uma viga com seus respectivos apoios e largura de 1,0 m.
+<br><br>
+Para avaliação dos esforços considerando o modelo placa \(l_y/l_x \leq 2\) aplica-se as equações <a href="#eq2">2</a> e <a href="#eq3">3</a>, momento fletor e flecha respectivamente. Os fatores das equações podem ser encontrados na <a target="_blank" rel="noopener" href="https://github.com/wmpjrufg/FEA0063/blob/main/assets/files/tabelas/tabela_bares.pdf">tabela de Bares</a>.
 </p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td style="width:90%">\[ m = \mu \cdot \frac{p \cdot l_{x}^{2}}{100}\]</td>
+    <td style="width:10%"><p align = "right" id = "eq2">(2)</p></td>
+  </tr>
+  <tr>
+    <td style="width:90%">\[ a = \frac{\alpha}{100} \cdot \frac{\b_w}{2} \cdot \frac{p \cdot l_{x}^{4}}{E \cdot I}\]</td>
+    <td style="width:10%"><p align = "right" id = "eq3">(3)</p></td>
+  </tr>
+</table>
+
+<p align = "justify">
+Para avaliações considerando o modelo de viga \(l_y/l_x > 2\) considera-se os esforços da <a href="#fig8">Figura 8</a> conforme modelo de viga adotado. Já as flechas podem ser consultadas na <a target="_blank" rel="noopener" href="https://github.com/wmpjrufg/FEA0063/blob/main/assets/files/tabelas/tabela_vigas.pdf">tabela de vigas</a> disponibilizada por Pinheiro <i>et al</i> [xx].
+</p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td><center><img src = "assets/images/aula_06/fig8aa.png" width = "80%"></center></td>
+    <td><center><img src = "assets/images/aula_06/fig8bb.png" width = "80%"></center></td>
+    <td><center><img src = "assets/images/aula_06/fig8cc.png" width = "80%"></center></td>
+  </tr>
+  <tr>
+    <td><center><p align = "center">(a) Viga apoiada - apoiada</p></center></td>
+    <td><center><p align = "center">(b) Viga engastada - apoiada</p></center></td>
+    <td><center><p align = "center">(b) Viga engastada - engastada</p></center></td>
+  </tr>
+  <tr>
+    <td colspan="3"><center><p align = "justify" id = "fig8"><b>Figura 8.</b> Momento fletor e cortante em vigas.</p></center></td>
+  </tr>
+</table>
+
+<p align = "justify">
+O método da ruptura é empregado para determinação das reações conforme descrito no item <b>14.7.6.1</b> da <a href="#ref2">ABNT NBR 6118 [2]</a>. Portanto, para lajes maciças retangulares com carga uniforme, podem ser feitas as seguintes aproximações:
+</p>
+
+<ol>
+    <li><p align = "justify">As reações em cada apoio são as correspondentes às cargas atuantes nos triângulos ou trapézios determinados através das charneiras plásticas correspondentes à análise efetivada com os critérios de 14.7.4 NBR 6118 [2], sendo que essas reações podem ser, de maneira aproximada, consideradas uniformemente distribuídas sobre os elementos estruturais que lhes servem de apoio;</p></li>
+    <li><p align = "justify">Quando a análise plástica não for efetuada, as charneiras podem ser aproximadas por retas inclinadas, a partir dos vértices, com os seguintes ângulos: (a) 45° entre dois apoios do mesmo tipo; (b) 60° a partir do apoio considerado engastado, se o outro for considerado simplesmente apoiado; e (c) 90° a partir do apoio, quando a borda vizinha for livre.</p></li>
+</ol>
+
+<p align = "justify">
+Alguns exemplos podem ser vistos na <a href="#fig9">Figura 9</a>.
+</p>
+
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td><center><img src = "assets/images/aula_06/fig9.png" width = "100%"></center></td>
+  </tr>
+  <tr>
+    <td colspan="2"><center><p align = "justify" id = "fig9"><b>Figura 9.</b> Exemplificação do método de ruptura <a href="#ref">[xxx]</a>.</p></center></td>
+  </tr>
+</table>
 
 <h4>Considerações sobre os apoios</h4>
 
@@ -200,17 +260,23 @@ A escolha desses apoios pode seguir uma série de critérios práticos que permi
     <li><p align = "justify">Quando em um lado da laje ocorrerem duas situações de vínculo (apoiado e engastado), a favor da segurança considera-se todo o lado apoiado; se o engaste for superior a 85% do comprimento do lado, pode-se considerar como engastado .</p></li>
 </ol>
 
+<h4>Determinação dos esforços</h4>
+
+<p align = "justify">
+A <a href="#eq1">equação 1</a> só tem solução analítica para alguns casos particulares como por exemplo em placas circulares. Devido a essa dificuldade de solução formas alternativas foram encontradas para determinar os esforços e deslocamentos em placas com geometrias retangulares com diversas condições de contorno. A Tabela empregada neste conteúdo será a <a target="_blank" rel="noopener" href="https://github.com/wmpjrufg/FEA0063/blob/main/assets/files/tabelas/tabela_bares.pdf">Tabela de Bares</a>, disponibilizada por Pinheiro <a href="#ref4">[4]</a>. As <a target="_blank" rel="noopener" href="https://github.com/wmpjrufg/FEA0063/blob/main/assets/files/tabelas/tabela_bares.pdf">Tabelas de Bares</a> serão empregadas quando a relação \(l_y/l_x \leq 2\) é válida, pois para as outras ocasiões adota-se a laje como uma viga com seus respectivos apoios e largura de 1,0 m.
+</p>
+
 <table border = "0" style = "width:100%">
   <tr>
     <td><center><img src = "assets/images/aula_06/fig8a.png" width = "80%"></center></td>
-    <td><center><img src = "assets/images/aula_06/fig8b.png" width = "80%"></center></td>
+    <td><center><img src = "assets/images/aula_06/fig8b.png" width = "100%"></center></td>
   </tr>
   <tr>
     <td><center><p align = "center">(a)</p></center></td>
     <td><center><p align = "center">(b)</p></center></td>
   </tr>
   <tr>
-    <td><center><img src = "assets/images/aula_06/fig8c.png" width = "80%"></center></td>
+    <td><center><img src = "assets/images/aula_06/fig8c.png" width = "100%"></center></td>
     <td><center><img src = "assets/images/aula_06/fig8d.png" width = "80%"></center></td>
   </tr>
   <tr>
