@@ -4,8 +4,6 @@ layout: default
 grand_parent: Aulas
 parent: Modelo estrutural e esforços
 nav_order: 1
-has_children: true
-has_toc: true
 ---
 
 <!--Don't delete this script-->
