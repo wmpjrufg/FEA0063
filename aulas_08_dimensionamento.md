@@ -66,7 +66,7 @@ $$
       <tr>
           <td>
               <center>
-                  <img src="assets/images/aula_08/fig_6.png" alt="Figura 6">
+                  <img src="assets/images/aula_08/fig_6.png" alt="Figura 6" width = "80%">
               </center>
           </td>
           <td>
@@ -78,7 +78,7 @@ $$
       <tr>
           <td>
               <center>
-                  <img src="assets/images/aula_08/fig_7.png" alt="Figura 7">
+                  <img src="assets/images/aula_08/fig_7.png" alt="Figura 7" width = "80%">
               </center>
           </td>
           <td>
