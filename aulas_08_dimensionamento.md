@@ -62,39 +62,63 @@ $$
 
 <br>
 
-<table border = "0" style = "width:100%">
-  <tr>
-    <td><center><img src = "assets\images\aula_08\fig_6.png" width = "80%"></center></td>
-    <td><center><p align = "justify" id = "fig1">Seção sem armadura</td>
-  </tr>
-  <tr>
-    <td><center><img src = "assets\images\aula_08\fig_7.png" width = "80%"></center></td>
-    <td><center><p align = "justify" id = "fig1">Seção com armadura</td>
-  </tr>
-</table>
+  <table border="0" style="width:100%">
+      <tr>
+          <td>
+              <center>
+                  <img src="assets/images/aula_08/fig_6.png" alt="Figura 6">
+              </center>
+          </td>
+          <td>
+              <center>
+                  <p align="justify" id="fig1">Seção sem armadura</p>
+              </center>
+          </td>
+      </tr>
+      <tr>
+          <td>
+              <center>
+                  <img src="assets/images/aula_08/fig_7.png" alt="Figura 7">
+              </center>
+          </td>
+          <td>
+              <center>
+                  <p align="justify" id="fig1">Seção com armadura</p>
+              </center>
+          </td>
+      </tr>
+  </table>
 
-<br>
+  <br>
 
-<table style="text-align:center;" cellpadding="5" cellspacing="0" align="center">
-  <tbody>
-    <tr>
-      <td colspan="2">\(x_{II} = \frac{-a_2 \pm \sqrt{a_2^2 - 4 \cdot a_1 \cdot a_3}}{2 \cdot a_1}\)</td>
-      <td>\(\begin{align*}
-              &a_1 = \frac{b_w}{12} \\
-              &a_2 = h_f \cdot (b_f - b_w) + (\alpha_e - 1) \cdot A'_s + \alpha_e \cdot A_s \\
-              &a_3 = -d' \cdot (\alpha_e - 1) \cdot A'_s - d \cdot \alpha_e \cdot A_s - \frac{h_f^2}{2} \cdot (b_f - b_w)
-              \end{align*}\)</td>
-    </tr>
-    <tr>
-      <td colspan="2">Para \(x_{II} \le h_f\):</td>
-      <td>\(I_{II} = \frac{b_f \cdot x_{II}^3}{3} + \alpha_e \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_e - 1) \cdot A'_s \cdot (x_{II} - d')^2\)</td>
-    </tr>
-    <tr>
-      <td colspan="2">Para \(x_{II} > h_f\):</td>
-      <td>\(I_{II} = \frac{(b_f - b_w) \cdot h_f^3}{12} + \frac{b_w \cdot x_{II}^3}{3} + (b_f - b_w) \cdot \left(x_{II} - \frac{h_f}{2}\right)^2 + \alpha_e \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_e - 1) \cdot A'_s \cdot (x_{II} - d')^2\)</td>
-    </tr>
-  </tbody>
-</table>
+  <table class="math-table" cellpadding="5" cellspacing="0">
+      <tbody>
+          <tr>
+              <td colspan="2">
+                  \(x_{II} = \frac{-a_2 \pm \sqrt{a_2^2 - 4 \cdot a_1 \cdot a_3}}{2 \cdot a_1}\)
+              </td>
+              <td>
+                  \(\begin{align*}
+                      &a_1 = \frac{b_w}{12} \\
+                      &a_2 = h_f \cdot (b_f - b_w) + (\alpha_e - 1) \cdot A'_s + \alpha_e \cdot A_s \\
+                      &a_3 = -d' \cdot (\alpha_e - 1) \cdot A'_s - d \cdot \alpha_e \cdot A_s - \frac{h_f^2}{2} \cdot (b_f - b_w)
+                  \end{align*}\)
+              </td>
+          </tr>
+          <tr>
+              <td colspan="2">Para \(x_{II} \leq h_f\):</td>
+              <td>
+                  \(I_{II} = \frac{b_f \cdot x_{II}^3}{3} + \alpha_e \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_e - 1) \cdot A'_s \cdot (x_{II} - d')^2\)
+              </td>
+          </tr>
+          <tr>
+              <td colspan="2">Para \(x_{II} > h_f\):</td>
+              <td>
+                  \(I_{II} = \frac{(b_f - b_w) \cdot h_f^3}{12} + \frac{b_w \cdot x_{II}^3}{3} + (b_f - b_w) \cdot \left(x_{II} - \frac{h_f}{2}\right)^2 + \alpha_e \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_e - 1) \cdot A'_s \cdot (x_{II} - d')^2\)
+              </td>
+          </tr>
+      </tbody>
+  </table>
 
 <br>
 
