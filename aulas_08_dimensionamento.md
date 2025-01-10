@@ -319,7 +319,7 @@ $$
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_12.png" width="80%"></center>
+<center><img src="assets\images\aula_08\fig_12.png" width="60%"></center>
 <p align = "center"><b>Figura 12.</b> Reta <strong>a</strong>.</p>
 
 <br>
@@ -328,7 +328,7 @@ $$
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_13.png" width="80%"></center>
+<center><img src="assets\images\aula_08\fig_13.png" width="60%"></center>
 <p align = "center"><b>Figura 12.</b> Domínio 1.</p>
 
 <br>
@@ -337,7 +337,7 @@ $$
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_14.png" width="80%"></center>
+<center><img src="assets\images\aula_08\fig_14.png" width="60%"></center>
 <p align = "center"><b>Figura 14.</b> Domínio 2.</p>
 
 <br>
@@ -348,7 +348,7 @@ Nesse domínio 2 podemos perceber que o concreto não está no máximo possível
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_15.png" width="80%"></center>
+<center><img src="assets\images\aula_08\fig_15.png" width="60%"></center>
 <p align = "center"><b>Figura 15.</b> Domínio 3.</p>
 
 <br>
@@ -357,7 +357,7 @@ Nesse domínio 2 podemos perceber que o concreto não está no máximo possível
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_16.png" width="80%"></center>
+<center><img src="assets\images\aula_08\fig_16.png" width="60%"></center>
 <p align = "center"><b>Figura 16.</b> Domínio 4.</p>
 
 <br>
@@ -369,7 +369,7 @@ O domínio 4 tem um caso particular denominado de 4a que é uma situação onde 
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_17.png" width="80%"></center>
+<center><img src="assets\images\aula_08\fig_17.png" width="60%"></center>
 <p align = "center"><b>Figura 17.</b> Domínio 5.</p>
 
 <br>
@@ -378,9 +378,98 @@ O domínio 4 tem um caso particular denominado de 4a que é uma situação onde 
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_18.png" width="80%"></center>
+<center><img src="assets\images\aula_08\fig_18.png" width="60%"></center>
 <p align = "center"><b>Figura 18.</b> Reta <strong>b</strong>.</p>
 
 <br>
 
 <p align="justify">O domínio 5 refere-se à compressão não uniforme (sem tração), com toda a seção de concreto comprimida. A linha neutra é externa à seção e cobre o campo de profundidade da linha neutra desde \(x > h\) até \(x ≤ +∞\). O Estado Limite Último e atingido pela ruptura do concreto comprimido com encurtamento na borda mais comprimida situado entre \(\epsilon_{cu}\) e \(\epsilon_{c2}\) [3,5,7–9].</p>
+
+<br>
+
+<h2>Dimensionamento de seções retangulares</h2>
+
+<br>
+
+<p align="justify">Como visto no capítulo anterior o problema da flexão pura no Estádio III envolve uma série de variáveis como determinação das tensões nas armaduras, a própria armadura e a posição da linha neutra. Logo nesse capítulo teremos como <strong>objetivo principal a explicação dos artifícios necessários para obtenção da área de aço de uma peça de concreto armado</strong>, seja ela uma seção retangular ou seção Tê.</p>
+
+<br>
+
+<center><img src="assets\images\aula_08\fig_19.png" width="80%"></center>
+<p align = "center"><b>Figura 19.</b> Bla bla bla.</p>
+
+<br>
+
+$$
+\begin{align*}
+  &b_w \cdot d \cdot \lambda \cdot \beta_x \cdot \alpha_c \cdot f_{cd} + \sigma_{sc} \cdot A_{sc} = \sigma_{st} \cdot A_{st} \\
+  &M_{sd} = b_w \cdot d^2 \cdot \lambda \cdot \beta_x \cdot \alpha_c \cdot f_{cd} \cdot (1 - 0,50 \cdot \lambda \cdot \beta_x) + \sigma_{sc} \cdot A_{sc} \cdot (d - d') \\
+  &\frac{\varepsilon_{cc}}{\beta_x} = \frac{\varepsilon_{sc}}{\beta_x} - \frac{d'}{d} = \frac{\varepsilon_{st}}{1 - \beta_x}
+\end{align*}
+$$
+
+<br>
+
+<table class="math-table" cellpadding="5" cellspacing="0">
+    <tbody>
+        <tr>
+            <td colspan="2">
+                \(\beta_x = \frac{x}{d} \le 0,45\)
+            </td>
+            <td>
+                \(f_{ck} \le 50 MPa\)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">\(\beta_x \frac{x}{d} /le 0,35\)</td>
+            <td>
+                \(50 MPa < f_{ck} \le 90 MPa\)
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
+<p align="justify">Com essa quantidade de equações é possível montar um sistema com <strong>4 equações e 5 incógnitas</strong> portanto o problema de flexão acaba sendo um sistema possível, porém indeterminado com infinitas soluções. Logo você como <strong>projetista deverá arbitrar</strong> uma condição para que seja possível <strong>determinar a solução para esse sistema</strong>.
+<br><br>
+<strong>No primeiro caso (armadura dupla) estabeleceremos que não conhecemos as armaduras, mas conhecemos a relação \(\beta_𝑥\)</strong> limitante. Logo se conhecemos \(\beta_𝑥\) conhecemos a posição da linha neutra (\(x_{III}\)). Para o segundo caso, chamado aqui de <strong>armadura simples, não conhecemos a linha neutra e admitimos que a armadura de compressão (\(𝐴_𝑠𝑐\)) não se faz necessária</strong>. A grande questão é quando estabelecer uma situação ou outra?!
+<br><br>
+Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla</strong> são <strong>empregadas</strong> quando é necessária a <strong>redução da posição da linha neutra</strong>.
+</p>
+
+<br>
+
+<table class="math-table" cellpadding="5" cellspacing="0">
+    <tbody>
+        <tr>
+            <td colspan="2">
+                \(M_{lim} = 0,45 \cdot b_w \cdot \lambda \cdot d² \cdot \alpha_c \cdot f_{cd} \cdot (1 - 0,225 \cdot \lambda)\)
+            </td>
+            <td>
+                \(f_{ck} \le 50 MPa\)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">\(M_{lim} = 0,35 \cdot b_w \cdot \lambda \cdot d² \cdot \alpha_c \cdot f_{cd} \cdot (1 - 0,172 \cdot \lambda)\)</td>
+            <td>
+                \(50 MPa < f_{ck} \le 90 MPa\)
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
+<center><img src="assets\images\aula_08\fig_20.png" width="80%"></center>
+<p align = "center"><b>Figura 20.</b> Bla bla bla.</p>
+
+<br>
+
+$$
+\begin{align*}
+  &M_{sd} = b_w \cdot \alpha_c \cdot f_{cd} \cdot \lambda \cdot x \cdot (d - 0,50 \cdot \lambda \cdot x) \\\\
+  &x_{III} = \frac{d + \sqrt{d^2 - 2 \cdot \left(\frac{M_{sd}}{b_w \cdot \alpha_c \cdot f_{cd}}\right)}}{\lambda} \\\\
+  &A_{st} = \frac{M_{sd}}{f_{yd} \cdot \left(d - 0,50 \cdot \lambda \cdot x_{III}\right)}
+\end{align*}
+$$
