@@ -431,7 +431,7 @@ $$
 
 <p align="justify">Com essa quantidade de equações é possível montar um sistema com <strong>4 equações e 5 incógnitas</strong> portanto o problema de flexão acaba sendo um sistema possível, porém indeterminado com infinitas soluções. Logo você como <strong>projetista deverá arbitrar</strong> uma condição para que seja possível <strong>determinar a solução para esse sistema</strong>.
 <br><br>
-<strong>No primeiro caso (armadura dupla) estabeleceremos que não conhecemos as armaduras, mas conhecemos a relação \(\beta_𝑥\)</strong> limitante. Logo se conhecemos \(\beta_𝑥\) conhecemos a posição da linha neutra (\(x_{III}\)). Para o segundo caso, chamado aqui de <strong>armadura simples, não conhecemos a linha neutra e admitimos que a armadura de compressão (\(𝐴_𝑠𝑐\)) não se faz necessária</strong>. A grande questão é quando estabelecer uma situação ou outra?!
+<strong>No primeiro caso (armadura dupla) estabeleceremos que não conhecemos as armaduras, mas conhecemos a relação \(\beta_𝑥\)</strong> limitante. Logo se conhecemos \(\beta_𝑥\) conhecemos a posição da linha neutra (\(x_{III}\)). Para o segundo caso, chamado aqui de <strong>armadura simples, não conhecemos a linha neutra e admitimos que a armadura de compressão (\(𝐴_{𝑠𝑐}\)) não se faz necessária</strong>. A grande questão é quando estabelecer uma situação ou outra?!
 <br><br>
 Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla</strong> são <strong>empregadas</strong> quando é necessária a <strong>redução da posição da linha neutra</strong>.
 </p>
