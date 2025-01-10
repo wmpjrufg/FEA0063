@@ -152,3 +152,14 @@ A determinação de esforços nas lajes nervuradas bidirecionais pode ser simpli
     <td style="width:10%"><p align = "right" id = "eq4">(4)</p></td>
   </tr>
 </table>
+
+<p align = "justify">
+Para que o processo de dimensionamento das lajes nervuradas seja feito por nervura tanto reações quanto momentos devem ser corrigidos em função do tamanho da nervura, portanto deve-se utilizar a <a href="#eq5">equação (5)</a>.
+</p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td style="width:90%">\[ M_{cor} = M_{tabela} \cdot b_f \]</td>
+    <td style="width:10%"><p align = "right" id = "eq5">(5)</p></td>
+  </tr>
+</table>
