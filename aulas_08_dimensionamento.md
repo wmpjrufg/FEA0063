@@ -324,7 +324,7 @@ $$
 
 <br>
 
-<p align="justify">A reta a corresponde situação de tração uniforme, caso em que toda a seção é tracionada de modo uniforme. A posição da linha encontra-se no infinito negativo (𝑥 = −∞). O Estado Limite Último é atingido por deformação plástica excessiva da armadura passiva sendo caracterizado por um alongamento de 10‰ na mesma. A seção resistente é constituída somente pelas armaduras visto que em situações de tração no ELU o concreto não contribui com a resistência do conjunto [3,5,7–9].</p>
+<p align="justify">A reta a corresponde situação de tração uniforme, caso em que toda a seção é tracionada de modo uniforme. A posição da linha encontra-se no infinito negativo (\(x = - \infty \)). O Estado Limite Último é atingido por deformação plástica excessiva da armadura passiva sendo caracterizado por um alongamento de 10‰ na mesma. A seção resistente é constituída somente pelas armaduras visto que em situações de tração no ELU o concreto não contribui com a resistência do conjunto [3,5,7–9].</p>
 
 <br>
 
@@ -333,7 +333,7 @@ $$
 
 <br>
 
-<p align="justify">O domínio 1 corresponde ao caso de tração não uniforme na seção transversal. A linha neutra ainda é externa a seção e as deformações na parte superior da peça variam entre 10‰ e 0. Logo a linha neutra poderá variar desde 𝑥 > −∞ até 𝑥 ≤ 0. O Estado Limite Último e caracterizado por deformação plástica excessiva da armadura passiva. A seção resistente é composta apenas pelas armaduras [3,5,7–9].</p>
+<p align="justify">O domínio 1 corresponde ao caso de tração não uniforme na seção transversal. A linha neutra ainda é externa a seção e as deformações na parte superior da peça variam entre 10‰ e 0. Logo a linha neutra poderá variar desde \( x > - \infty\) até \(x \ge 0\). O Estado Limite Último e caracterizado por deformação plástica excessiva da armadura passiva. A seção resistente é composta apenas pelas armaduras [3,5,7–9].</p>
 
 <br>
 
