@@ -30,9 +30,10 @@ has_toc: True
   <li>Programa <a target="_blank" rel="noopener" href="https://www.ftool.com.br/Ftool/">Ftool</a></li>
 </ul>
 
-<h3>Referências</h3>
+<h3>Referências para aulas</h3>
 
 <ol>
   <li><p align="justify">ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 6118: Projeto de estruturas de concreto - Procedimento. Rio de Janeiro, 2023.</p></li>
   <li><p align="justify">ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 6120: Ações para o cálculo de estruturas de edificações. Rio de Janeiro, 2019.</p></li>
+  <li><p align="justify">KIMURA, A. Informática Aplicada a Estruturas de Concreto Armado. Editora Oficina de Textos; 2ed. 2018.</p></li>
 </ol>
