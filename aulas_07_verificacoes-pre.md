@@ -120,11 +120,12 @@ nav_order: 6
 </table>
 
 <p align = "justify">Onde:</p>
+
 <table border = "0" style = "width:100%">
   <tr>
     <td style="width:90%">\[ \Delta M_{tot, d} = \sum (F_{V d, i \cdot a_{i}}) \]</td>
   </tr>
-  <td>
+  <tr>
     <td style="width:90%">\[M_{1, tot, d} = \sum (F_{H d, i \cdot Z_{i}}) \]</td>
   </tr>
 </table>
