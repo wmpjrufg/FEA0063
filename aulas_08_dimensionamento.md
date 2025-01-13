@@ -100,7 +100,51 @@ nav_order: 7
 
   <br>
 
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width:90%">\[ x_{II} = \frac{-a_2 \pm \sqrt{a_2^2 - 4 \cdot a_1 \cdot a_3}}{2 \cdot a_1} \]</td>
+        <td style="width:10%"><p align = "right" id = "eq4">(4)</p></td>
+    </tr>
+</table>
+
+<p align="justify">Onde:</p>
+
 <table class="math-table" cellpadding="5" cellspacing="0">
+    <tbody>
+        <tr>
+            <td>\(a_1 = \frac{b_w}{12}\)</td>
+        </tr>
+        <tr>
+            <td>\(a_2 = h_f \cdot (b_f - b_w) + (\alpha_e - 1) \cdot A'_s + \alpha_e \cdot A_s\)</td>
+        </tr>
+        <tr>
+            <td>\(a_3 = -d' \cdot (\alpha_e - 1) \cdot A'_s - d \cdot \alpha_e \cdot A_s - \frac{h_f^2}{2} \cdot (b_f - b_w)\)</td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
+<p align="justify">Para \(x_{II} \leq h_f\):</p>
+
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width:90%">\[ I_{II} = \frac{b_f \cdot x_{II}^3}{3} + \alpha_e \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_e - 1) \cdot A'_s \cdot (x_{II} - d')^2 \]</td>
+        <td style="width:10%"><p align = "right" id = "eq5">(5)</p></td>
+    </tr>
+</table>
+
+<p align="justify">Para \(x_{II} > h_f\):</p>
+
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width:90%">\[ I_{II} = \frac{(b_f - b_w) \cdot h_f^3}{12} + \frac{b_w \cdot x_{II}^3}{3} + (b_f - b_w) \cdot \left(x_{II} - \frac{h_f}{2}\right)^2 + \alpha_e \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_e - 1) \cdot A'_s \cdot (x_{II} - d')^2 \]</td>
+        <td style="width:10%"><p align = "right" id = "eq6">(6)</p></td>
+    </tr>
+</table>
+
+
+<!-- <table class="math-table" cellpadding="5" cellspacing="0">
     <tbody>
         <tr>
             <td colspan="2">
@@ -127,7 +171,7 @@ nav_order: 7
             </td>
         </tr>
     </tbody>
-</table>
+</table> -->
 
 <br>
 
