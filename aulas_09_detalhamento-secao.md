@@ -41,7 +41,59 @@ $$
 
 <br>
 
-<center><img src="assets\images\aula_09\fig_2.png" width="80%"></center>
+<table>
+        <caption>Valores de ρmín (As,min/Ac) %</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Forma da Seção</th>
+                <th colspan="11">Valores de ρmín (%)</th>
+            </tr>
+            <tr>
+                <th>20</th>
+                <th>25</th>
+                <th>30</th>
+                <th>35</th>
+                <th>40</th>
+                <th>45</th>
+                <th>50</th>
+                <th>55</th>
+                <th>60</th>
+                <th>65</th>
+                <th>70</th>
+                <th>75</th>
+                <th>80</th>
+                <th>85</th>
+                <th>90</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Retangular</td>
+                <td>0,150</td>
+                <td>0,150</td>
+                <td>0,150</td>
+                <td>0,164</td>
+                <td>0,179</td>
+                <td>0,194</td>
+                <td>0,208</td>
+                <td>0,210</td>
+                <td>0,219</td>
+                <td>0,226</td>
+                <td>0,233</td>
+                <td>0,239</td>
+                <td>0,245</td>
+                <td>0,251</td>
+                <td>0,256</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="16">
+                    Os valores de ρmín estabelecidos nesta tabela pressupoem o uso de aço CA-50, d/h = 0,8 e γ<sub>c</sub> = 1,4 e γ<sub>s</sub> = 1,15. Caso esses fatores sejam diferentes, ρmín deve ser recalculado.
+                </td>
+            </tr>
+        </tfoot>
+    </table>
 <p align = "center"><b>Tabela 2.</b></p>
 
 <br>
