@@ -14,14 +14,14 @@ nav_order: 7
 
 <p align="justify">Elementos lineares de concreto armado, conforme a NBR 6118, <strong>são dimensionados considerando flexão normal simples</strong>, uma vez que o plano do momento fletor está em um dos eixos principais da seção transversal e acompanha as ações de força cortante. No entanto, esta mesma norma estabelece que o <strong>dimensionamento de peças submetidas a flexão normal simples deve ser feito de maneira separada</strong> (dimensionamento devido ao momento fletor e dimensionamento devido à força cortante).
 
-<center><img src="assets\images\aula_08\fig_1.png" width="80%"></center>
 <p align = "center"><b>Figura 1.</b> Bla bla bla.</p>
-
-<center><img src="assets\images\aula_08\fig_2.png" width="80%"></center>
+<center><img src="assets\images\aula_08\fig_1.png" width="80%"></center>
+<br>
 <p align = "center"><b>Figura 2.</b> Bla bla bla.</p>
-
-<center><img src="assets\images\aula_08\fig_3.png" width="80%"></center>
+<center><img src="assets\images\aula_08\fig_2.png" width="80%"></center>
+<br>
 <p align = "center"><b>Figura 3.</b> Bla bla bla.</p>
+<center><img src="assets\images\aula_08\fig_3.png" width="80%"></center>
 
 <p align="justify">Estádios:</p>
 <ol type = "a">
@@ -30,8 +30,8 @@ nav_order: 7
   <li><strong>Estádio III:</strong> Plastificação da armadura e/ou plastificação do concreto.</li>
 </ol>
 
-<center><img src="assets\images\aula_08\fig_4.png" width="100%"></center>
 <p align = "center"><b>Figura 4.</b> Bla bla bla.</p>
+<center><img src="assets\images\aula_08\fig_4.png" width="100%"></center>
 
 <p align="justify">Para o <strong>Estádio I</strong> são válidas algumas hipóteses, são elas:</p>
 <ul>
@@ -40,18 +40,25 @@ nav_order: 7
     <li>O diagrama de <strong>tensão normal ao longo da seção é linear</strong> (Ia) – exceto quando o <strong>concreto está na iminência da ruptura devido à tração</strong> (Ib), em que se tem um diagrama plastificado na região de tração do concreto (Ver Figura 1.8).</li>
 </ul>
 
-<center><img src="assets\images\aula_08\fig_5.png" width="100%"></center>
 <p align = "center"><b>Figura 5.</b> Bla bla bla.</p>
+<center><img src="assets\images\aula_08\fig_5.png" width="100%"></center>
 
 <br>
 
-$$
-\begin{align*}
-  &A_h = b_f \cdot h_f + b_w \cdot h + A_s \cdot (\alpha - 1)\\\\
-  &y_h = \frac{b_f \cdot \left(\frac{h_f²}{2}\right) + b_w \cdot \frac{h²}{2} + A_s \cdot (\alpha - 1) \cdot d}{A_h}\\\\
-  &I_h = \frac{b_f \cdot h_f³}{12} + \frac{b_w \cdot h³}{12} + b_f \cdot h_f \cdot \left(y{cg} - \frac{h_f}{2}\right)² + b_w \cdot h \cdot \left(y{cg} - \frac{h}{2}\right)² + A_s \cdot (\alpha - 1) \cdot d \cdot (y_h - d)²
-\end{align*}
-$$
+<table border = "0" style = "width:100%">
+  <tr>
+    <td style="width:90%">\[ A_h = b_f \cdot h_f + b_w \cdot h + A_s \cdot (\alpha - 1) \]</td>
+    <td style="width:10%"><p align = "right" id = "eq1">(1)</p></td>
+  </tr>
+    <tr>
+        <td style="width:90%">\[ y_{cg} = \frac{b_f \cdot \frac{h_f}{2} + b_w \cdot \frac{h}{2} + A_s \cdot (\alpha - 1) \cdot d}{A_h} \]</td>
+        <td style="width:10%"><p align = "right" id = "eq2">(2)</p></td>
+    </tr>
+    <tr>
+        <td style="width:90%">\[ I_h = \frac{b_f \cdot h_f^3}{12} + \frac{b_w \cdot h^3}{12} + b_f \cdot h_f \cdot \left(y_{cg} - \frac{h_f}{2}\right)^2 + b_w \cdot h \cdot \left(y_{cg} - \frac{h}{2}\right)^2 + A_s \cdot (\alpha - 1) \cdot d \cdot (y_h - d)^2 \]</td>
+        <td style="width:10%"><p align = "right" id = "eq3">(3)</p></td>
+    </tr>
+</table>
 
 <br>
 
