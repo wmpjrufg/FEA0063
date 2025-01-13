@@ -218,4 +218,42 @@ Conforme o item 19.4 da NBR 6118 (2014), são estabelecidas as relações que se
 <br>
 
 <p align = "center"><b>Figura 7.</b> Reações de apoio características (kN/m) das lajes nas vigas de borda.</p>
-<center><img src="assets\images\aula_07\fig_7.png" width="100%"></center>
+<center><img src="assets\images\aula_07\fig_7.png" width="80%"></center>
+
+<br>
+
+<p align = "justify">Conforme exemplo extraído do Bastos (2015), para verificação da força cortante, tem-se as lajes \(L_1\) e \(L_4\).</p>
+
+<h3>Laje \(L_1\)</h3>
+
+<p align="justify">A laje \(L_1\) apresenta espessura de \(h = 11 cm\), e reação de apoio característica de \(12,41 kN/m\).
+<br><br>
+Aplicando na equação <a href="#eq1">(1)</a>, nota-se:</p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td style="width:90%">\[ V_{sd} = \gamma_f \cdot V_k = 1,4 \cdot 12,41 = 17,4 kN/m \]</td>
+  </tr>
+</table>
+
+<p align="justify">Através da equação <a href="#eq2">(2)</a>, tem-se:</p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td style="width:90%">\[V_{Rd1} = \left[ \tau_{Rd} \cdot k \cdot (1,2 + 40 \cdot \rho_{1}) + 0,15 \cdot \sigma_{cp} \right] \cdot b_{w} \cdot d\]</td>
+  </tr>
+  <tr>
+    <td style="width:90%">\[\tau_{Rd} = 0.25 \cdot f_{ctd} = \frac{f_{ctk,inf}}{\gamma_c} = 0.25 \left( \frac{0.7 \cdot 0.3 \sqrt[3]{25^2}}{1.4} \right) = 0.3206 \, \text{MPa} = 0.03206 \, \text{kN/cm}^2\] </td>
+  </tr>
+</table>
+
+<p align="justify">Fazendo para área de armadura negativa, para laje \(L_1\), o diâmetro da armadura tal como \(\phi=8 cm\) c/8 cm, corresponde à 6,25 cm². Para altura útil da armadura negativa, faz-se \(d=h-2=11-2=9 cm\). \(b_w=100 cm\).
+<br><br>
+Logo:</p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td style="width:90%">\[ \rho_1 = \frac{A_s}{b_w \cdot d} \leq 0,02 \rightarrow \rho_1 = \frac{A_s1}{b_w \cdot d} = \frac{6,25}{100 \cdot 9} = 0,0069 \leq 0,02 \] \rightarrow \text{OK!} </td>
+  </tr>
+</table>
+
