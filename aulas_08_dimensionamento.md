@@ -220,8 +220,8 @@ A <strong>distribuição de tensões no concreto é feita de acordo com o diagra
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_8.png" width="100%"></center>
 <p align = "center"><b>Figura 8.</b> Bla bla bla.</p>
+<center><img src="assets\images\aula_08\fig_8.png" width="100%"></center>
 
 <br>
 
@@ -357,13 +357,13 @@ A <strong>distribuição de tensões no concreto é feita de acordo com o diagra
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_11.png" width="80%"></center>
 <p align = "center"><b>Figura 11.</b> Bla bla bla.</p>
+<center><img src="assets\images\aula_08\fig_11.png" width="80%"></center>
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_12.png" width="60%"></center>
 <p align = "center"><b>Figura 12.</b> Reta <strong>a</strong>.</p>
+<center><img src="assets\images\aula_08\fig_12.png" width="60%"></center>
 
 <br>
 
@@ -371,8 +371,8 @@ A <strong>distribuição de tensões no concreto é feita de acordo com o diagra
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_13.png" width="60%"></center>
 <p align = "center"><b>Figura 12.</b> Domínio 1.</p>
+<center><img src="assets\images\aula_08\fig_13.png" width="60%"></center>
 
 <br>
 
@@ -380,8 +380,8 @@ A <strong>distribuição de tensões no concreto é feita de acordo com o diagra
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_14.png" width="60%"></center>
 <p align = "center"><b>Figura 14.</b> Domínio 2.</p>
+<center><img src="assets\images\aula_08\fig_14.png" width="60%"></center>
 
 <br>
 
@@ -391,8 +391,8 @@ Nesse domínio 2 podemos perceber que o concreto não está no máximo possível
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_15.png" width="60%"></center>
 <p align = "center"><b>Figura 15.</b> Domínio 3.</p>
+<center><img src="assets\images\aula_08\fig_15.png" width="60%"></center>
 
 <br>
 
@@ -400,8 +400,8 @@ Nesse domínio 2 podemos perceber que o concreto não está no máximo possível
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_16.png" width="60%"></center>
 <p align = "center"><b>Figura 16.</b> Domínio 4.</p>
+<center><img src="assets\images\aula_08\fig_16.png" width="60%"></center>
 
 <br>
 
@@ -412,8 +412,8 @@ O domínio 4 tem um caso particular denominado de 4a que é uma situação onde 
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_17.png" width="60%"></center>
 <p align = "center"><b>Figura 17.</b> Domínio 5.</p>
+<center><img src="assets\images\aula_08\fig_17.png" width="60%"></center>
 
 <br>
 
@@ -421,8 +421,8 @@ O domínio 4 tem um caso particular denominado de 4a que é uma situação onde 
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_18.png" width="60%"></center>
 <p align = "center"><b>Figura 18.</b> Reta <strong>b</strong>.</p>
+<center><img src="assets\images\aula_08\fig_18.png" width="60%"></center>
 
 <br>
 
@@ -438,8 +438,8 @@ O domínio 4 tem um caso particular denominado de 4a que é uma situação onde 
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_19.png" width="80%"></center>
 <p align = "center"><b>Figura 19.</b> Bla bla bla.</p>
+<center><img src="assets\images\aula_08\fig_19.png" width="80%"></center>
 
 <br>
 
@@ -483,6 +483,26 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
 
 <br>
 
+<p align="justify">Para \(f_{ck} \leq 50 MPa\):</p>
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width:90%">\[ M_{lim} = 0,45 \cdot b_w \cdot \lambda \cdot d² \cdot \alpha_c \cdot f_{cd} \cdot (1 - 0,225 \cdot \lambda) \]</td>
+        <td style="width:10%"><p align = "right" id = "eq19">(19)</p></td>
+    </tr>
+</table>
+
+<br>
+
+<p align="justify">Para \(50 MPa < f_{ck} \leq 90 MPa\):</p>
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width:90%">\[ M_{lim} = 0,35 \cdot b_w \cdot \lambda \cdot d² \cdot \alpha_c \cdot f_{cd} \cdot (1 - 0,172 \cdot \lambda) \]</td>
+        <td style="width:10%"><p align = "right" id = "eq20">(20)</p></td>
+    </tr>
+</table>
+
+<br>
+
 <table class="math-table" cellpadding="5" cellspacing="0">
     <tbody>
         <tr>
@@ -504,8 +524,8 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
 
 <br>
 
-<center><img src="assets\images\aula_08\fig_20.png" width="80%"></center>
 <p align = "center"><b>Figura 20.</b> Bla bla bla.</p>
+<center><img src="assets\images\aula_08\fig_20.png" width="80%"></center>
 
 <br>
 
