@@ -152,6 +152,8 @@ nav_order: 6
 
 <h2>Verificação de lajes ao cisalhamento</h2>
 
+<br>
+
 <p align="justify">Conforme Carvalho (2014), afirma que as lajes, quando comparadas com vigas, demonstram um comportamento diferente destas no que diz respeito aos esforços cortantes, de modo que, conforme sua configuração, amenize os efeitos ao esforço cortante com auxílio do concreto para resisti-lo, (fazendo emprego de armadura em condições especiais).
 <br><br>
 Conforme o item 19.4 da NBR 6118 (2014), são estabelecidas as relações que se baseiam na verificação do efeito da força cortante, sendo divididas em laje se armadura para força cortante e laje com armadura para força cortante:
@@ -200,10 +202,10 @@ Conforme o item 19.4 da NBR 6118 (2014), são estabelecidas as relações que se
   </tr>
 </table>
 
+<br>
+
 <p align = "center"><b>Figura 6.</b> Comprimento de ancoragem necessária.</p>
 <center><img src="assets\images\aula_07\fig_6.png" width="100%"></center>
-
-<br>
 
 <h3>Laje com armadura para força cortante</h3>
 
@@ -212,6 +214,8 @@ Conforme o item 19.4 da NBR 6118 (2014), são estabelecidas as relações que se
     <li>250 MPa, para laje com espessura até 15 cm;</li>
     <li>435 MPa \(𝑓_{𝑦𝑤𝑑}\), para lajes com espessura maior que 35 cm.</li>
 </ul>   
+
+<br>
 
 <p align = "center"><b>Figura 7.</b> Reações de apoio características (kN/m) das lajes nas vigas de borda.</p>
 <center><img src="assets\images\aula_07\fig_7.png" width="100%"></center>
