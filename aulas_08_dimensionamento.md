@@ -172,7 +172,7 @@ nav_order: 7
 
 <p align="justify">Diferentemente dos Estádios I e II – em que são verificados os ELS, no Estádio III tem-se o dimensionamento da peça de concreto armado no Estado Limite Último (ELU), ou seja, na iminência da ruptura.
 <br><br>
-<strong>Diante disso, tem-se que no Estádio III existem ao todo cinco incógnitas \(\left(𝐴_𝑠, 𝐴_𝑠^′, \sigma_𝑠, 𝜎_𝑠^′ e 𝑥_{𝐼𝐼𝐼} \right)\)</strong>. 
+<strong>Diante disso, tem-se que no Estádio III existem ao todo cinco incógnitas \(\left(𝐴_𝑠, 𝐴_𝑠^′, \sigma_𝑠, 𝜎_𝑠^′\) e \(𝑥_{𝐼𝐼𝐼} \right)\)</strong>. 
 <br><br>
 <strong>Estática tem-se apenas duas equações</strong>: somatório das forças é igual a zero e somatório dos momentos internos é igual ao momento solicitante externo. 
 <br><br>
@@ -241,6 +241,7 @@ A <strong>distribuição de tensões no concreto é feita de acordo com o diagra
                 <p align="justify" id="fig9">\(\sigma_{cd} = a_c \cdot f_{cd}\)</p>
             </center>
         </td>
+        <td style="width:10%"><p align = "right" id = "eq11">(11)</p></td>
     </tr>
     <tr>
         <td>
@@ -253,28 +254,28 @@ A <strong>distribuição de tensões no concreto é feita de acordo com o diagra
                 <p align="justify" id="fig10">\(\sigma_{cd} = 0,90  a_c \cdot f_{cd}\)</p>
             </center>
         </td>
+        <td style="width:10%"><p align = "right" id = "eq12">(12)</p></td>
     </tr>
 </table>
 
 <br>
 
-<table class="math-table" cellpadding="5" cellspacing="0">
-    <tbody>
-        <tr>
-            <td colspan="2">
-                \(a_c = 0,85\)
-            </td>
-            <td>
-                \(f_{ck} \le 50 MPa\)
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">\(a_c = 0,85 \cdot \left(1 - \left(\frac{f_{ck} - 50}{200}\right)\right)\)</td>
-            <td>
-                \(50 MPa < f_{ck} \le 90 MPa\)
-            </td>
-        </tr>
-    </tbody>
+<p align="justify">Para \(f_{ck} \leq 50 MPa\):</p>
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width:90%">\[ a_c = 0,85 \]</td>
+        <td style="width:10%"><p align = "right" id = "eq13">(13)</p></td>
+    </tr>
+</table>
+
+<br>
+
+<p align="justify">Para \(50 MPa < f_{ck} \leq 90 MPa\):</p>
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width:90%">\[ a_c = 0,85 \cdot \left(1 - \left(\frac{f_{ck} - 50}{200}\right)\right) \]</td>
+        <td style="width:10%"><p align = "right" id = "eq14">(14)</p></td>
+    </tr>
 </table>
 
 <br>
@@ -283,37 +284,42 @@ A <strong>distribuição de tensões no concreto é feita de acordo com o diagra
 
 <br>
 
-<table class="math-table" cellpadding="5" cellspacing="0">
-    <tbody>
-        <tr>
-            <td colspan="2">
-                \(\beta_x = \frac{x}{d} \le 0,45\)
-            </td>
-            <td>
-                \(f_{ck} \le 50 MPa\)
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">\(\beta_x \frac{x}{d} /le 0,35\)</td>
-            <td>
-                \(50 MPa < f_{ck} \le 90 MPa\)
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                \(\frac{x}{d} \le \left(\frac{\delta - 0,45}{1,25} \right) \)
-            </td>
-            <td>
-                \(f_{ck} \le 50 MPa\)
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">\(\frac{x}{d} \le \left(\frac{\delta - 0,56}{1,25} \right) \)</td>
-            <td>
-                \(50 MPa < f_{ck} \le 90 MPa\)
-            </td>
-        </tr>
-    </tbody>
+<p align="justify">Para \(f_{ck} \leq 50 MPa\):</p>
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width:90%">\[ \beta_x = \frac{x}{d} \leq 0,45 \]</td>
+        <td style="width:10%"><p align = "right" id = "eq15">(15)</p></td>
+    </tr>
+</table>
+
+<br>
+
+<p align="justify">Para \(50 MPa < f_{ck} \leq 90 MPa\):</p>
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width:90%">\[ \beta_x \frac{x}{d} /le 0,35 \]</td>
+        <td style="width:10%"><p align = "right" id = "eq16">(16)</p></td>
+    </tr>
+</table>
+
+<br>
+
+<p align="justify">Para \(\frac{x}{d} \leq \left(\frac{\delta - 0,45}{1,25} \right)\):</p>
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width:90%">\[ \frac{x}{d} \leq \left(\frac{\delta - 0,45}{1,25} \right) \]</td>
+        <td style="width:10%"><p align = "right" id = "eq17">(17)</p></td>
+    </tr>
+</table>
+
+<br>
+
+<p align="justify">Para \(\frac{x}{d} \leq \left(\frac{\delta - 0,56}{1,25} \right)\):</p>
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width:90%">\[ \frac{x}{d} \leq \left(\frac{\delta - 0,56}{1,25} \right) \]</td>
+        <td style="width:10%"><p align = "right" id = "eq18">(18)</p></td>
+    </tr>
 </table>
 
 <br>
