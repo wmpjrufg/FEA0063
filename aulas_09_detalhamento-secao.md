@@ -236,15 +236,15 @@ O espaçamento disponível pode ser horizontal ou vertical, são dados através 
                               \end{cases} \]</td>
     <td style="width:10%"><p align = "right" id = "eq7">(7)</p></td>
   </tr>
-  <td>
+  <tr>
     <td style="width:90%">\[ b_{\text{disp}} = b_w - 2 \, x (\text{cob} + \phi_e) \]</td>
     <td style="width:10%"><p align = "right" id = "eq8">(8)</p></td>
   </tr>
-  <td>
+  <tr>
     <td style="width:90%">\[ n_{\text{barras,max}} = \frac{(b_{\text{disp}} + a_h)}{\phi_l + a_h}\]</td>
     <td style="width:10%"><p align = "right" id = "eq9">(9)</p></td>
   </tr>
-  <td>
+  <tr>
     <td style="width:90%">\[ \phi_l = \phi + 0,04 \cdot \phi (\text{barra} + \text{mossa}) \]</td>
     <td style="width:10%"><p align = "right" id = "eq10">(10)</p></td>
   </tr>
