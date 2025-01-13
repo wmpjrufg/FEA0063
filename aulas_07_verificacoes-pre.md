@@ -85,6 +85,8 @@ nav_order: 6
 
 <h3>Parâmetro alfa</h3>
 
+<br>
+
 <p align  = "justify">O termômetro da análise de 2º ordem</p>
 
 <br>
@@ -109,6 +111,8 @@ nav_order: 6
 
 <h3>Coeficiente \(\gamma_Z\)</h3>
 
+<br>
+
 <p align = "justify">Quantifica os esforços de 2º ordem que ocorrem na estrutura
 </p>
 
@@ -120,7 +124,6 @@ nav_order: 6
 </table>
 
 <p align = "justify">Onde:</p>
-
 <table border = "0" style = "width:100%">
   <tr>
     <td style="width:90%">\[ \Delta M_{tot, d} = \sum (F_{V d, i \cdot a_{i}}) \]</td>
@@ -130,15 +133,14 @@ nav_order: 6
   </tr>
 </table>
 
+<br>
+
 <h2>Limitações de Deslocamento</h2>
 
+<br>
 
-<p id="fig4"></p>
-<center><img src="./assets/images/ECA_verificacoes_preliminares_sistema_aula20/FIG_4.png" width="90%"></center>
-<p align = "justify"><b>Figura 4.</b> [colocar]
-<br><br><br>
+<p align = "center"><b>Figura 4.</b> Bla bla bla.</p>
+<center><img src="assets\images\aula_07\fig_4.png" width="100%"></center>
 
-<p id="fig5"></p>
-<center><img src="./assets/images/ECA_verificacoes_preliminares_sistema_aula20/FIG_5.png" width="90%"></center>
-<p align = "justify"><b>Figura 5.</b> [colocar]
-<br><br><br>
+<p align = "center"><b>Figura 5.</b> Bla bla bla.</p>
+<center><img src="assets\images\aula_07\fig_5.png" width="100%"></center>
