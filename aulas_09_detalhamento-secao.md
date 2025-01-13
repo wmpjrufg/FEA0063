@@ -12,8 +12,80 @@ nav_order: 8
 
 <h1>Detalhamento da Seção Transversal</h1>
 
-<center><img src="assets\images\aula_09\fig_1.png" width="80%"></center>
 <p align = "center"><b>Tabela 1.</b> Tabela de aços.</p>
+<table>
+    <thead>
+        <tr>
+            <th>Diâmetro (mm)</th>
+            <th>Tipo </th>
+            <th>Massa Linear (kg/m)</th>
+            <th>Área (cm²)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>4,20</td>
+            <td>CA 60</td>
+            <td>0,109</td>
+            <td>0,139</td>
+        </tr>
+        <tr>
+            <td>5,00</td>
+            <td>CA 60</td>
+            <td>0,154</td>
+            <td>0,196</td>
+        </tr>
+        <tr>
+            <td>6,30</td>
+            <td>CA 50</td>
+            <td>0,245</td>
+            <td>0,312</td>
+        </tr>
+        <tr>
+            <td>8,00</td>
+            <td>CA 50</td>
+            <td>0,395</td>
+            <td>0,503</td>
+        </tr>
+        <tr>
+            <td>10,00</td>
+            <td>CA 50</td>
+            <td>0,617</td>
+            <td>0,785</td>
+        </tr>
+        <tr>
+            <td>12,50</td>
+            <td>CA 50</td>
+            <td>0,963</td>
+            <td>1,227</td>
+        </tr>
+        <tr>
+            <td>16,00</td>
+            <td>CA 50</td>
+            <td>1,578</td>
+            <td>2,011</td>
+        </tr>
+        <tr>
+            <td>20,00</td>
+            <td>CA 50</td>
+            <td>2,466</td>
+            <td>3,142</td>
+        </tr>
+        <tr>
+            <td>25,00</td>
+            <td>CA 50</td>
+            <td>3,853</td>
+            <td>4,909</td>
+        </tr>
+        <tr>
+            <td>32,00</td>
+            <td>CA 50</td>
+            <td>6,313</td>
+            <td>8,042</td>
+        </tr>
+    </tbody>
+</table>
+
 
 <br>
 
@@ -48,6 +120,7 @@ nav_order: 8
 
 <br>
 
+<p align = "center"><b>Tabela 2.</b></p>
 <table>
         <caption>Valores de ρmín (As,min/Ac) %</caption>
         <thead>
@@ -101,13 +174,15 @@ nav_order: 8
             </tr>
         </tfoot>
     </table>
-<p align = "center"><b>Tabela 2.</b></p>
 
 <br>
 
-$$
-\rho_{min} = \frac{A_{s, min}}{A_{c}}
-$$
+<table border = "0" style = "width:100%">
+  <tr>
+    <td style="width:90%">\[ \rho_{min} = \frac{A_{s, min}}{A_{c}} \]</td>
+    <td style="width:10%"><p align = "right" id = "eq4">(4)</p></td>
+  </tr>
+</table>
 
 <br>
 
@@ -120,22 +195,51 @@ O critério de armadura de pele é aplicado para peças com altura maior ou igua
 
 <br>
 
-<center><img src="assets\images\aula_09\fig_3.png" width="80%"></center>
 <p align = "center"><b>Figura 1.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_09\fig_1.png" width="80%"></center>
 
 <br>
 
-$$
-A_{s, face} = 0,10 \% \cdot A_{c, alma} = 0,0010 \% \cdot b_w \cdot h
-$$
+<table border = "0" style = "width:100%">
+  <tr>
+    <td style="width:90%">\[ A_{s, face} = 0,10 \% \cdot A_{c, alma} = 0,0010 \% \cdot b_w \cdot h \]</td>
+    <td style="width:10%"><p align = "right" id = "eq5">(5)</p></td>
+  </tr>
+</table>
+
+<br>
 
 <p align = "justify">Segundo ABNT NBR 6118:2014 não é necessário uma armadura superior a 5 cm²/m por face do elemento.
 <br><br>
 Alguns projetistas recomendam o uso da armadura de pela para alturas superiores a 40 cm, melhorando assim o controle a fissuração. Bastos (2015) cita para altura maiores que 50 cm por exemplo.
 <br><br>
-O espaçamento disponível pode ser horizontal ou vertical, são dados através das seguintes equações:
-</p>
-<center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_c4.png" width="90%"></center>
+O espaçamento disponível pode ser horizontal ou vertical, são dados através das seguintes equações:</p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td style="width:90%">\[ a_h \geq 
+                              \begin{cases} 
+                              2 \, \text{cm} \\
+                              \phi_l \\
+                              1,20 \, x_{d,\text{max,agre}}
+                              \end{cases} \]</td>
+    <td style="width:10%"><p align = "right" id = "eq6">(6)</p></td>
+  </tr>
+</table>
+
+<br>
+
+
+$$
+a_h \geq 
+\begin{cases} 
+2 \, \text{cm} \\
+\phi_l \\
+1,20 \, x_{d,\text{max,agre}}
+\end{cases}
+\tag{Eq. 1.3.1}
+$$
+
 <br>
 
 <p align = "justify">
