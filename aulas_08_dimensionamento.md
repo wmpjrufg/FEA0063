@@ -297,7 +297,7 @@ A <strong>distribuição de tensões no concreto é feita de acordo com o diagra
 <p align="justify">Para \(50 MPa < f_{ck} \leq 90 MPa\):</p>
 <table border = "0" style = "width:100%">
     <tr>
-        <td style="width:90%">\[ \beta_x \frac{x}{d} /le 0,35 \]</td>
+        <td style="width:90%">\[ \beta_x \frac{x}{d} \le 0,35 \]</td>
         <td style="width:10%"><p align = "right" id = "eq16">(16)</p></td>
     </tr>
 </table>
