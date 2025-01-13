@@ -315,7 +315,7 @@ O espaçamento disponível pode ser horizontal ou vertical, são dados através 
     <td style="width:10%"><p align = "right" id = "eq13">(13)</p></td>
   </tr>
   <tr>
-    <td style="width:90%">\[ \text{recalcular } A_s \]</td>
+    <td style="width:90%">\[ d_{\text{real}} < d_{\text{calc}} \quad \rightarrow \quad \text{recalcular } A_s \]</td>
     <td style="width:10%"><p align = "right" id = "eq14">(14)</p></td>
   </tr>
   <tr>
