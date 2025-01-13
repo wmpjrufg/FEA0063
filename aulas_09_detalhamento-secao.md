@@ -237,7 +237,7 @@ O espaçamento disponível pode ser horizontal ou vertical, são dados através 
     <td style="width:10%"><p align = "right" id = "eq7">(7)</p></td>
   </tr>
   <tr>
-    <td style="width:90%">\[ b_{\text{disp}} = b_w - 2 \, x (\text{cob} + \phi_e) \]</td>
+    <td style="width:90%">\[ b_{\text{disp}} = b_w - 2 \cdot (\text{cob} + \phi_e) \]</td>
     <td style="width:10%"><p align = "right" id = "eq8">(8)</p></td>
   </tr>
   <tr>
@@ -286,19 +286,44 @@ O espaçamento disponível pode ser horizontal ou vertical, são dados através 
 
 <br>
 
+<p align = "center"><b>Figura 2.</b> Espaçamento armaduras –Armadura simples. </p>
+<center><img src="assets\images\aula_09\fig_2.png" width="80%"></center>
 <p id="fig2"></p>
-<center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_2.png" width="90%"></center>
-<p align = "justify"><b>Figura 2.</b> Espaçamento armaduras –Armadura simples. </p>
-<br><br><br>
 
-<p id="fig3"></p>
-<center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_3.png" width="90%"></center>
-<p align = "justify"><b>Figura 3.</b> Espaçamento entre feixes de armaduras 
 <br>
 
-<p align = "justify">
-  Segundo Carvalho (2014) os esforços na armadura só podem ser considerados concentrados no centro de gravidade das barras se a distância deste centro ao ponto de armadura mais afastado da linha neutra(𝑎_𝑡𝑒𝑠𝑡𝑒), medida formalmente a ela, for menor que 10% de h. Já para a armadura concentrada considera-se o cálculo abaixo:
-</p>
+<p align = "center"><b>Figura 3.</b> Espaçamento entre feixes de armaduras . </p>
+<center><img src="assets\images\aula_09\fig_3.png" width="80%"></center>
+
 <br>
-<center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_c5.png" width="90%"></center>
+
+<p align = "justify">Segundo Carvalho (2014) os esforços na armadura só podem ser considerados concentrados no centro de gravidade das barras se a distância deste centro ao ponto de armadura mais afastado da linha neutra(\(𝑎_{𝑡𝑒𝑠𝑡𝑒}\)), medida formalmente a ela, for menor que 10% de h. Já para a armadura concentrada considera-se o cálculo abaixo: </p>
+
 <br>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td style="width:90%">\[ y_{1\text{º barra}} = \text{cob} + \varphi_e + \frac{\varphi_l}{2} \]</td>
+    <td style="width:10%"><p align = "right" id = "eq11">(11)</p></td>
+  </tr>
+  <tr>
+    <td style="width:90%">\[ y_{\text{cg}} = \frac{\sum A_i \cdot x_i}{\sum A_i} \]</td>
+    <td style="width:10%"><p align = "right" id = "eq12">(12)</p></td>
+  </tr>
+  <tr>
+    <td style="width:90%">\[ d_{\text{real}} > d_{\text{calc}} \]</td>
+    <td style="width:10%"><p align = "right" id = "eq13">(13)</p></td>
+  </tr>
+  <tr>
+    <td style="width:90%">\[ \text{recalcular } A_s \]</td>
+    <td style="width:10%"><p align = "right" id = "eq14">(14)</p></td>
+  </tr>
+  <tr>
+    <td style="width:90%">\[ a_{\text{teste}} = y_{\text{cg}} - y^{1\text{ª barra}} \]</td>
+    <td style="width:10%"><p align = "right" id = "eq15">(15)</p></td>
+  </tr>
+  <tr>
+    <td style="width:90%">\[ < 10\% \cdot h \quad \rightarrow \quad \text{armadura pode ser concentrada} \]</td>
+    <td style="width:10%"><p align = "right" id = "eq16">(16)</p></td>
+  </tr>
+</table>
