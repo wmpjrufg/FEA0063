@@ -12,7 +12,9 @@ nav_order: 8
 
 <h1>Detalhamento da Seção Transversal</h1>
 
-<p align = "center"><b>Tabela 1.</b> Tabela de aços.</p>
+<br>
+
+<p align = "center"><b>Tabela 1.</b> Bla bla bla </p>
 <table>
     <thead>
         <tr>
@@ -120,7 +122,7 @@ nav_order: 8
 
 <br>
 
-<p align = "center"><b>Tabela 2.</b></p>
+<p align = "center"><b>Tabela 2.</b> Bla bla bla </p>
 <table>
         <caption>Valores de ρmín (As,min/Ac) %</caption>
         <thead>
@@ -221,42 +223,72 @@ O espaçamento disponível pode ser horizontal ou vertical, são dados através 
                               \begin{cases} 
                               2 \, \text{cm} \\
                               \phi_l \\
-                              1,20 \, x_{d,\text{max,agre}}
+                              1,20 \cdot d_{max, agre}
                               \end{cases} \]</td>
     <td style="width:10%"><p align = "right" id = "eq6">(6)</p></td>
+  </tr>
+  <tr>
+    <td style="width:90%">\[ a_v \geq 
+                              \begin{cases} 
+                              2 \, \text{cm} \\
+                              \phi_l \\
+                              0,50 \cdot d_{max, agre}
+                              \end{cases} \]</td>
+    <td style="width:10%"><p align = "right" id = "eq7">(7)</p></td>
+  </tr>
+  <td>
+    <td style="width:90%">\[ b_{\text{disp}} = b_w - 2 \, x (\text{cob} + \phi_e) \]</td>
+    <td style="width:10%"><p align = "right" id = "eq8">(8)</p></td>
+  </tr>
+  <td>
+    <td style="width:90%">\[ n_{\text{barras,max}} = \frac{(b_{\text{disp}} + a_h)}{\phi_l + a_h}\]</td>
+    <td style="width:10%"><p align = "right" id = "eq9">(9)</p></td>
+  </tr>
+  <td>
+    <td style="width:90%">\[ \phi_l = \phi + 0,04 \cdot \phi (\text{barra} + \text{mossa}) \]</td>
+    <td style="width:10%"><p align = "right" id = "eq10">(10)</p></td>
   </tr>
 </table>
 
 <br>
 
-
-$$
-a_h \geq 
-\begin{cases} 
-2 \, \text{cm} \\
-\phi_l \\
-1,20 \, x_{d,\text{max,agre}}
-\end{cases}
-\tag{Eq. 1.3.1}
-$$
+<p align = "justify">Fusco (1995) recomenda o acréscimo de mossas no cálculo do diâmetro final das barras. Sendo mossa, as saliências da armadura nervurada (CA 50).</p>
 
 <br>
 
-<p align = "justify">
-  Fusco (1995) recomenda o acréscimo de mossas no cálculo do diâmetro final das barras. Sendo mossa, as saliências da armadura nervurada (CA 50)
-</p>
-<br>
+<p align = "center"><b>Tabela 3.</b> Bla bla bla </p> 
+<table>
+    <thead>
+        <tr>
+            <th>Tipo de brita</th>
+            <th>Diâmetro (mm) </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Brita 0</td>
+            <td>4,8 a 9,5</td>
+        </tr>
+        <tr>
+            <td>Brita 1</td>
+            <td>9,5 a 19,0</td>
+        </tr>
+        <tr>
+        <td>Brita 2</td>
+        <td>19,0 a 25,0</td>
+        </tr>
+        <tr>
+        <td>Brita 3</td>
+        <td>25,0 a 38,0</td>
+        </tr>
+    </tbody>
+</table>
 
-<p id="tab3"></p>
-<center><img src="./assets/images/ECA_detalhamento_secao_transversal/TAB_3.png" width="90%"></center>
-<p align = "justify"><b>Tabela 3.</b> 
-</p>
 <br>
-<br><br>
 
 <p id="fig2"></p>
 <center><img src="./assets/images/ECA_detalhamento_secao_transversal/FIG_2.png" width="90%"></center>
-<p align = "justify"><b>Figura 2.</b> Espaçamento armaduras –Armadura simples 
+<p align = "justify"><b>Figura 2.</b> Espaçamento armaduras –Armadura simples. </p>
 <br><br><br>
 
 <p id="fig3"></p>
