@@ -470,7 +470,7 @@ O domínio 4 tem um caso particular denominado de 4a que é uma situação onde 
             </td>
         </tr>
         <tr>
-            <td colspan="2">\(\beta_x \frac{x}{d} /le 0,35\)</td>
+            <td colspan="2">\(\beta_x \frac{x}{d} \le 0,35\)</td>
             <td>
                 \(50 MPa < f_{ck} \le 90 MPa\)
             </td>
