@@ -222,17 +222,19 @@ Conforme o item 19.4 da NBR 6118 (2014), são estabelecidas as relações que se
 
 <br>
 
-<p align = "justify">Conforme exemplo extraído do Bastos (2015), para verificação da força cortante, tem-se as lajes \(L_1\) e \(L_4\).</p>
+<p align = "justify">Conforme exemplo extraído do Bastos (2015), para verificação da força cortante, temos as lajes \(L_1\) e \(L_4\).</p>
 
 <h3>Laje \(L_1\)</h3>
 
-<p align="justify">A laje \(L_1\) apresenta espessura de \(h = 11 cm\), e reação de apoio característica de \(12,41 kN/m\).
+<br>
+
+<p align="justify">A laje \(L_1\) apresenta espessura de \(h = 11 cm\), e reação de apoio característica de \(12,41 \text{kN/m}\).
 <br><br>
 Aplicando na equação <a href="#eq1">(1)</a>, nota-se:</p>
 
 <table border = "0" style = "width:100%">
   <tr>
-    <td style="width:90%">\[ V_{sd} = \gamma_f \cdot V_k = 1,4 \cdot 12,41 = 17,4 kN/m \]</td>
+    <td style="width:90%">\[ V_{sd} = \gamma_f \cdot V_k = 1,4 \cdot 12,41 = 17,4 \text{kN/m} \]</td>
   </tr>
 </table>
 
@@ -253,7 +255,56 @@ Logo:</p>
 
 <table border = "0" style = "width:100%">
   <tr>
-    <td style="width:90%">\[ \rho_1 = \frac{A_s}{b_w \cdot d} \leq 0,02 \rightarrow \rho_1 = \frac{A_s1}{b_w \cdot d} = \frac{6,25}{100 \cdot 9} = 0,0069 \leq 0,02 \] \rightarrow \text{OK!} </td>
+    <td style="width:90%">\[ \rho_1 = \frac{A_s}{b_w \cdot d} \leq 0,02 \rightarrow \rho_1 = \frac{A_s1}{b_w \cdot d} = \frac{6,25}{100 \cdot 9} = 0,0069 \leq 0,02 \rightarrow \text{OK!} \] </td>
   </tr>
 </table>
+
+<h3>Laje \(L_4\)</h3>
+
+<br>
+
+<p align="justify">A laje \(L_4\) apresenta espessura de \(h=9 cm\), e reação de apoio característica de \(12,78 \text{kN/m}\). Visto que há a consideração do trecho que tem parede apoiada na laje. Aplicando, analogamente, a metodologia utilizada na laje \(L_1\), faz-se:</p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td style="width:90%">\[ V_{sd} = \gamma_f \cdot V_k = 1,4 \cdot 12,78 = 17,9 \text{kN/m} \]</td>
+  </tr>
+  <tr>
+    <td style="width:90%">\[\tau_{Rd} = 0.03206 \, \text{kN/cm}^2\] </td>
+  </tr>
+</table>
+
+<p align="justify">Fazendo para área de armadura positiva, para laje \(L_4\), o diâmetro da armadura tal como \(\phi=5 cm\) c/9 cm, corresponde à 2,22 cm². Para altura útil da armadura positiva, faz-se \(d=h-2,5=9-2,5=6,5 cm\). \(b_w=100 cm\).
+<br><br>
+Logo:</p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td style="width:90%">\[ \rho_1 = \frac{A_s}{b_w \cdot d} \leq 0,02 \rightarrow \rho_1 = \frac{A_s1}{b_w \cdot d} = \frac{2,22}{100 \cdot 6,5} = 0,0034 \leq 0,02 \rightarrow \text{OK!} \] </td>
+  </tr>
+</table>
+
+<br>
+
+<p align = "justify">Se considerarmos 100% da armadura positiva chega até a viga de apoio, tem-se que:</p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td style="width:90%">\[ k = |1,6 - d| = |1,6 - 0,065| = 1,535 > 1 \rightarrow \text{OK!} \] </td>
+  </tr>
+</table>
+
+<p align = "justify">Então, aplicando na equação <a href="#eq2">(2)</a>:</p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td style="width:90%">\[ V_{Rd1} = \left[ \tau_{Rd} \cdot k \cdot (1,2 + 40 \cdot \rho_{1}) + 0,15 \cdot \sigma_{cp} \right] \cdot b_{w} \cdot d = [0,0326 \cdot 1,535(1,2 + 40 \cdot 0,0034)] \cdot 100 \cdot 6,5 \] </td>
+  </tr>
+  <tr>
+    <td style="width:90%">\[ V_{Rd1} = 42,7 \text{kN/m} \] </td>
+  </tr>
+</table>
+
+<p align = "justify">Visto que, \(V_{sd} = 17,9 \text{kN/m} < V_{Rd1} = 42,7 \text{kN/m}\) significa que não haverá necessidade de disposição de armadura transversal na laje \(L_4\).</p>
+
 
