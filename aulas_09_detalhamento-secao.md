@@ -22,13 +22,20 @@ nav_order: 8
 
 <br>
 
-$$
-\begin{align*}
-  &M_{d, min} = 0,80 \cdot W_0 \cdot f_{ctm}  \\
-  &f_{ctk, sup} = 1,30 \cdot f_{ctm} \\
-  &f_{ctm} = 0,30 \cdot f_{ck}^{2/3} 
-\end{align*}
-$$
+<table border = "0" style = "width:100%">
+  <tr>
+    <td style="width:90%">\[ M_{d, min} = 0,80 \cdot W_0 \cdot f_{ctm} \]</td>
+    <td style="width:10%"><p align = "right" id = "eq1">(1)</p></td>
+  </tr>
+  <tr>
+    <td style="width:90%">\[ f_{ctk, sup} = 1,30 \cdot f_{ctm}  \]</td>
+    <td style="width:10%"><p align = "right" id = "eq2">(2)</p></td>
+  </tr>
+  <tr>
+    <td style="width:90%">\[ f_{ctm} = 0,30 \cdot f_{ck}^{2/3}   \]</td>
+    <td style="width:10%"><p align = "right" id = "eq3">(3)</p></td>
+  </tr>
+</table>
 
 <br>
 
