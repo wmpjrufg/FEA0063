@@ -16,14 +16,16 @@ nav_order: 6
 
 <p align = "justify">Antes de começar o detalhamento de uma estrutura é essencial que o projetista já tenha uma planta de fôrma pré-executiva para que na fase final do projeto não sejam necessárias grandes modificações.</p>
 <ul>
-  <li>Verificações de cisalhamento;
-  <li>Verificações de flecha;
-  <li>Verificações de estabilidade.
+  <li>Verificações de cisalhamento;</li>
+  <li>Verificações de flecha;</li>
+  <li>Verificações de estabilidade.</li>
 </ul>
 
 <br>
 
 <h2>Verificação de cisalhamento para lajes sem armaduras</h2>
+
+<br>
 
 <p align = "justify">Para \(V_{sd} \leq V_{Rd1}\):</p> 
 <table border = "0" style = "width:100%">
@@ -33,9 +35,9 @@ nav_order: 6
   </tr>
 </table>
 
-<br>
-
 <h2>Verificação de Flexa</h2>
+
+<br>
 
 <p align = "justify">Para \(M_{a} \leq M_{r}\):</p>
 <table border = "0" style = "width:100%">
@@ -44,6 +46,8 @@ nav_order: 6
     <td style="width:10%"><p align = "right" id = "eq2">(2)</p></td>
   </tr>
 </table>
+
+<br>
 
 <p align = "justify">Para \(M_{a} > M_{r}\):</p>
 <table border = "0" style = "width:100%">
@@ -67,8 +71,12 @@ nav_order: 6
 
 <h2>Verificação de Estabilidade Global</h2>
 
+<br>
+
 <p align = "center"><b>Figura 1.</b> Bla bla bla.</p>
 <center><img src="assets\images\aula_07\fig_1.png" width="100%"></center>
+
+<br>
 
 <p align = "center"><b>Figura 2.</b> Bla bla bla.</p>
 <center><img src="assets\images\aula_07\fig_2.png" width="100%"></center>
@@ -104,8 +112,22 @@ nav_order: 6
 <p align = "justify">Quantifica os esforços de 2º ordem que ocorrem na estrutura
 </p>
 
+<table border = "0" style = "width:100%">
+  <tr>
+    <td style="width:90%">\[ \gamma_Z = \frac{1}{1 - \frac{\Delta M_{tot, d}}{M_{1, tot, d}}} \]</td>
+    <td style="width:10%"><p align = "right" id = "eq7">(7)</p></td>
+  </tr>
+</table>
 
-<br>
+<p align = "justify">Onde:</p>
+<table border = "0" style = "width:100%">
+  <tr>
+    <td style="width:90%">\[ \Delta M_{tot, d} = \sum (F_{V d, i \cdot a_{i}}) \]</td>
+  </tr>
+  <td>
+    <td style="width:90%">\[M_{1, tot, d} = \sum (F_{H d, i \cdot Z_{i}}) \]</td>
+  </tr>
+</table>
 
 <h2>Limitações de Deslocamento</h2>
 
