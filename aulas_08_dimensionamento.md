@@ -529,10 +529,17 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
 
 <br>
 
-$$
-\begin{align*}
-  &M_{sd} = b_w \cdot \alpha_c \cdot f_{cd} \cdot \lambda \cdot x \cdot (d - 0,50 \cdot \lambda \cdot x) \\\\
-  &x_{III} = \frac{d + \sqrt{d^2 - 2 \cdot \left(\frac{M_{sd}}{b_w \cdot \alpha_c \cdot f_{cd}}\right)}}{\lambda} \\\\
-  &A_{st} = \frac{M_{sd}}{f_{yd} \cdot \left(d - 0,50 \cdot \lambda \cdot x_{III}\right)}
-\end{align*}
-$$
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width:90%">\[ M_{sd} = b_w \cdot \alpha_c \cdot f_{cd} \cdot \lambda \cdot x \cdot (d - 0,50 \cdot \lambda \cdot x) \]</td>
+        <td style="width:10%"><p align = "right" id = "eq21">(21)</p></td>
+    </tr>
+    <tr>
+        <td style="width:90%">\[ x_{III} = \frac{d + \sqrt{d^2 - 2 \cdot \left(\frac{M_{sd}}{b_w \cdot \alpha_c \cdot f_{cd}}\right)}}{\lambda} \]</td>
+        <td style="width:10%"><p align = "right" id = "eq22">(22)</p></td>
+    </tr>
+    <tr>
+        <td style="width:90%">\[ A_{st} = \frac{M_{sd}}{f_{yd} \cdot \left(d - 0,50 \cdot \lambda \cdot x_{III}\right)} \]</td>
+        <td style="width:10%"><p align = "right" id = "eq23">(23)</p></td>
+    </tr>
+</table>
