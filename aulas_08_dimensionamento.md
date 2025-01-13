@@ -442,14 +442,20 @@ O domínio 4 tem um caso particular denominado de 4a que é uma situação onde 
 <center><img src="assets\images\aula_08\fig_19.png" width="80%"></center>
 
 <br>
-
-$$
-\begin{align*}
-  &b_w \cdot d \cdot \lambda \cdot \beta_x \cdot \alpha_c \cdot f_{cd} + \sigma_{sc} \cdot A_{sc} = \sigma_{st} \cdot A_{st} \\\\
-  &M_{sd} = b_w \cdot d^2 \cdot \lambda \cdot \beta_x \cdot \alpha_c \cdot f_{cd} \cdot (1 - 0,50 \cdot \lambda \cdot \beta_x) + \sigma_{sc} \cdot A_{sc} \cdot (d - d') \\\\
-  &\frac{\varepsilon_{cc}}{\beta_x} = \frac{\varepsilon_{sc}}{\beta_x} - \frac{d'}{d} = \frac{\varepsilon_{st}}{1 - \beta_x}
-\end{align*}
-$$
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width:90%">\[b_w \cdot d \cdot \lambda \cdot \beta_x \cdot \alpha_c \cdot f_{cd} + \sigma_{sc} \cdot A_{sc} = \sigma_{st} \cdot A_{st} \]</td>
+        <td style="width:10%"><p align = "right" id = "eq19">(19)</p></td>
+    </tr>
+    <tr>
+        <td style="width:90%">\[M_{sd} = b_w \cdot d^2 \cdot \lambda \cdot \beta_x \cdot \alpha_c \cdot f_{cd} \cdot (1 - 0,50 \cdot \lambda \cdot \beta_x) + \sigma_{sc} \cdot A_{sc} \cdot (d - d') \]</td>
+        <td style="width:10%"><p align = "right" id = "eq20">(20)</p></td>
+    </tr>
+    <tr>
+        <td style="width:90%">\[\frac{\varepsilon_{cc}}{\beta_x} = \frac{\varepsilon_{sc}}{\beta_x} - \frac{d'}{d} = \frac{\varepsilon_{st}}{1 - \beta_x}\]</td>
+        <td style="width:10%"><p align = "right" id = "eq21">(21)</p></td>
+    </tr>
+</table>
 
 <br>
 
@@ -487,7 +493,7 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
 <table border = "0" style = "width:100%">
     <tr>
         <td style="width:90%">\[ M_{lim} = 0,45 \cdot b_w \cdot \lambda \cdot d² \cdot \alpha_c \cdot f_{cd} \cdot (1 - 0,225 \cdot \lambda) \]</td>
-        <td style="width:10%"><p align = "right" id = "eq19">(19)</p></td>
+        <td style="width:10%"><p align = "right" id = "eq22">(22)</p></td>
     </tr>
 </table>
 
@@ -497,7 +503,7 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
 <table border = "0" style = "width:100%">
     <tr>
         <td style="width:90%">\[ M_{lim} = 0,35 \cdot b_w \cdot \lambda \cdot d² \cdot \alpha_c \cdot f_{cd} \cdot (1 - 0,172 \cdot \lambda) \]</td>
-        <td style="width:10%"><p align = "right" id = "eq20">(20)</p></td>
+        <td style="width:10%"><p align = "right" id = "eq23">(23)</p></td>
     </tr>
 </table>
 
@@ -532,14 +538,14 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
 <table border = "0" style = "width:100%">
     <tr>
         <td style="width:90%">\[ M_{sd} = b_w \cdot \alpha_c \cdot f_{cd} \cdot \lambda \cdot x \cdot (d - 0,50 \cdot \lambda \cdot x) \]</td>
-        <td style="width:10%"><p align = "right" id = "eq21">(21)</p></td>
+        <td style="width:10%"><p align = "right" id = "eq24">(24)</p></td>
     </tr>
     <tr>
         <td style="width:90%">\[ x_{III} = \frac{d + \sqrt{d^2 - 2 \cdot \left(\frac{M_{sd}}{b_w \cdot \alpha_c \cdot f_{cd}}\right)}}{\lambda} \]</td>
-        <td style="width:10%"><p align = "right" id = "eq22">(22)</p></td>
+        <td style="width:10%"><p align = "right" id = "eq25">(25)</p></td>
     </tr>
     <tr>
         <td style="width:90%">\[ A_{st} = \frac{M_{sd}}{f_{yd} \cdot \left(d - 0,50 \cdot \lambda \cdot x_{III}\right)} \]</td>
-        <td style="width:10%"><p align = "right" id = "eq23">(23)</p></td>
+        <td style="width:10%"><p align = "right" id = "eq26">(26)</p></td>
     </tr>
 </table>
