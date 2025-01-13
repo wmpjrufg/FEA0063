@@ -182,7 +182,7 @@ Conforme o item 19.4 da NBR 6118 (2014), são estabelecidas as relações que se
     <td style="width:90%">\(\tau_{Rd} = 0,25 f_{ctd}\) (Tensão resistente de cálculo do concreto ao cisalhamento);</td>
   </tr>
   <tr>
-    <td style="width:90%">\(f_{ctd} = \frac{f_{ctk, inf}{\gamma_c}}\), não maior que [0,02], ( \(𝐴_𝑠1\) sendo a área de armadura de tração que se estende até não menos que \(𝑑 + 𝑙_{𝑏,𝑛𝑒c}\) além da seção considerada, com \(𝑙_{𝑏,𝑛𝑒𝑐}\) definido em 9.4.2.5 e na figura 19.1 da NBR 6118:2014);</td>
+    <td style="width:90%">\(f_{ctd} = \frac{f_{ctk, inf}}{\gamma_c}\), não maior que [0,02], ( \(𝐴_𝑠1\) sendo a área de armadura de tração que se estende até não menos que \(𝑑 + 𝑙_{𝑏,𝑛𝑒c}\) além da seção considerada, com \(𝑙_{𝑏,𝑛𝑒𝑐}\) definido em 9.4.2.5 e na figura 19.1 da NBR 6118:2014);</td>
   </tr>
   <tr>
     <td style="width:90%">\(b_w\) é a largura mínima da seção ao longo da altura útil \(d\);</td>
