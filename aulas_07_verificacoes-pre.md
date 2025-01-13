@@ -199,3 +199,19 @@ Conforme o item 19.4 da NBR 6118 (2014), são estabelecidas as relações que se
         </td>
   </tr>
 </table>
+
+<p align = "center"><b>Figura 6.</b> Comprimento de ancoragem necessária.</p>
+<center><img src="assets\images\aula_07\fig_6.png" width="100%"></center>
+
+<br>
+
+<h3>Laje com armadura para força cortante</h3>
+
+<p align="justify">Conforme é estabelecido na NBR 6118:2014, deve-se aplicar os critérios estabelecidos no item 17.4.2, e mais, conforme especificações do item 19.4.2, a resistência dos estribos pode ser considerada com os valores máximos, sendo permitida a interpolação linear. </p>
+<ul>
+    <li>250 MPa, para laje com espessura até 15 cm;</li>
+    <li>435 MPa \(𝑓_{𝑦𝑤𝑑}\), para lajes com espessura maior que 35 cm.</li>
+</ul>   
+
+<p align = "center"><b>Figura 7.</b> Reações de apoio características (kN/m) das lajes nas vigas de borda.</p>
+<center><img src="assets\images\aula_07\fig_7.png" width="100%"></center>
