@@ -172,7 +172,7 @@ nav_order: 7
 
 <p align="justify">Diferentemente dos Estádios I e II – em que são verificados os ELS, no Estádio III tem-se o dimensionamento da peça de concreto armado no Estado Limite Último (ELU), ou seja, na iminência da ruptura.
 <br><br>
-<strong>Diante disso, tem-se que no Estádio III existem ao todo cinco incógnitas \(\left(𝐴_𝑠, 𝐴_𝑠^′, \sigma_𝑠, 𝜎_𝑠^′\) e \(𝑥_{𝐼𝐼𝐼} \right)\)</strong>. 
+<strong>Diante disso, tem-se que no Estádio III existem ao todo cinco incógnitas \(\left(𝐴_𝑠, 𝐴_𝑠^′, \sigma_𝑠, 𝜎_𝑠^′\right)\) e \(\left(𝑥_{𝐼𝐼𝐼} \right)\)</strong>. 
 <br><br>
 <strong>Estática tem-se apenas duas equações</strong>: somatório das forças é igual a zero e somatório dos momentos internos é igual ao momento solicitante externo. 
 <br><br>
