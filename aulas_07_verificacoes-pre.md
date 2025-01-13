@@ -143,4 +143,4 @@ nav_order: 6
 <center><img src="assets\images\aula_07\fig_4.png" width="100%"></center>
 
 <p align = "center"><b>Figura 5.</b> Bla bla bla.</p>
-<center><img src="assets\images\aula_07\fig_5.png" width="100%"></center>
+<center><img src="assets\images\aula_07\fig_5.png" width="80%"></center>
