@@ -21,8 +21,6 @@ nav_order: 6
   <li>Verificações de estabilidade.</li>
 </ul>
 
-<br>
-
 <h2>Verificação de cisalhamento para lajes sem armaduras</h2>
 
 <br>
