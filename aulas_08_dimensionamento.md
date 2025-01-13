@@ -143,41 +143,14 @@ nav_order: 7
     </tr>
 </table>
 
-
-<!-- <table class="math-table" cellpadding="5" cellspacing="0">
-    <tbody>
-        <tr>
-            <td colspan="2">
-                \(x_{II} = \frac{-a_2 \pm \sqrt{a_2^2 - 4 \cdot a_1 \cdot a_3}}{2 \cdot a_1}\)
-            </td>
-            <td>
-                \(\begin{align*}
-                    &a_1 = \frac{b_w}{12} \\
-                    &a_2 = h_f \cdot (b_f - b_w) + (\alpha_e - 1) \cdot A'_s + \alpha_e \cdot A_s \\
-                    &a_3 = -d' \cdot (\alpha_e - 1) \cdot A'_s - d \cdot \alpha_e \cdot A_s - \frac{h_f^2}{2} \cdot (b_f - b_w)
-                \end{align*}\)
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">Para \(x_{II} \leq h_f\):</td>
-            <td>
-                \(I_{II} = \frac{b_f \cdot x_{II}^3}{3} + \alpha_e \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_e - 1) \cdot A'_s \cdot (x_{II} - d')^2\)
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">Para \(x_{II} > h_f\):</td>
-            <td>
-                \(I_{II} = \frac{(b_f - b_w) \cdot h_f^3}{12} + \frac{b_w \cdot x_{II}^3}{3} + (b_f - b_w) \cdot \left(x_{II} - \frac{h_f}{2}\right)^2 + \alpha_e \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_e - 1) \cdot A'_s \cdot (x_{II} - d')^2\)
-            </td>
-        </tr>
-    </tbody>
-</table> -->
-
 <br>
 
-$$
-l_m = \left(\frac{M_r}{M_a} \right)^{n} \cdot I_c + \left[1 - \left(\frac{M_r}{M_a} \right)^{n}\right] \cdot I_{II}
-$$
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width:90%">\[ l_m = \left(\frac{M_r}{M_a} \right)^{n} \cdot I_c + \left[1 - \left(\frac{M_r}{M_a} \right)^{n}\right] \cdot I_{II} \]</td>
+        <td style="width:10%"><p align = "right" id = "eq7">(7)</p></td>
+    </tr>
+</table>
 
 <br>
 
@@ -211,9 +184,12 @@ $$
 
 <p align="justify">As <strong>seções transversais se mantêm planas</strong> após a deformação; </p>
 
-$$
-\frac{x}{d} = \frac{\epsilon_{c}}{\epsilon_{c} + \epsilon_{s}}
-$$
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width:90%">\[\frac{x}{d} = \frac{\epsilon_{c}}{\epsilon_{c} + \epsilon_{s}} \]</td>
+        <td style="width:10%"><p align = "right" id = "eq8">(8)</p></td>
+    </tr>
+</table>
 
 <p align="justify">A <strong>deformação das barras passivas</strong> aderentes ou o acréscimo de deformação das barras ativas aderentes em tração ou compressão <strong>deve ser a(o) mesma(o) do concreto em seu entorno</strong>;
 <br><br>
@@ -223,12 +199,24 @@ A <strong>distribuição de tensões no concreto é feita de acordo com o diagra
 
 <br>
 
-$$
-\begin{align*}
-  &\lambda = 0,80 \quad \text{para} \quad f_{ck} \leq 50 MPa \\
-  &\lambda = 0,80 - \left(\frac{f_{ck} - 50}{400}\right) \quad \text{para} \quad f_{ck} > MPa
-\end{align*}
-$$
+<p align="justify">Para \(\quad \text{para} \quad f_{ck} \leq 50 MPa\):</p>
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width:90%">\[ \lambda = 0,80 \]</td>
+        <td style="width:10%"><p align = "right" id = "eq9">(9)</p></td>
+    </tr>
+</table>
+
+<br>
+
+<p align="justify">Para \(\quad \text{para} \quad f_{ck} > 50 MPa\):</p>
+
+<table border = "0" style = "width:100%">
+    <tr>
+        <td style="width:90%">\[ \lambda = 0,80 - \left(\frac{f_{ck} - 50}{400}\right) \]</td>
+        <td style="width:10%"><p align = "right" id = "eq10">(10)</p></td>
+    </tr>
+</table>
 
 <br>
 
