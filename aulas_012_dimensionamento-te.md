@@ -15,16 +15,16 @@ nav_order: 10
 <br>
 
 <p align = "center"><b>Figura 1.</b> Bla bla bla.</p>
-<center><img src="assets\images\aula_012\fig_1.png" width="100%"></center>
+<center><img src="assets\images\aula_012\fig_1.png" width="80%"></center>
 
 <p align = "center"><b>Figura 2.</b> Bla bla bla.</p>
-<center><img src="assets\images\aula_012\fig_2.png" width="100%"></center>
+<center><img src="assets\images\aula_012\fig_2.png" width="80%"></center>
 
 <p align = "center"><b>Figura 3.</b> Bla bla bla.</p>
-<center><img src="assets\images\aula_012\fig_3.png" width="100%"></center>
+<center><img src="assets\images\aula_012\fig_3.png" width="80%"></center>
 
 <p align = "center"><b>Figura 4.</b> Bla bla bla.</p>
-<center><img src="assets\images\aula_012\fig_4.png" width="100%"></center>
+<center><img src="assets\images\aula_012\fig_4.png" width="80%"></center>
 
 <p align="justify">A grande questão no <strong>cálculo da seção Tê</strong> é a <strong>definição desta largura de colaboração da mesa ou aba \((𝑏_𝑓\))</strong>. Essa definição de largura colaborante é complexa e depende de uma série de fatores como por exemplo, tipo de carregamento, tipo e afastamento entre apoios, rigidez da alma e da laje.
 <br><br>
@@ -60,9 +60,14 @@ NBBR 6118 em seu item 14.6.2.2:
 <br>
 
 <p align = "center"><b>Figura 5.</b> Bla bla bla.</p>
-<center><img src="assets\images\aula_012\fig_5.png" width="100%"></center>
+<center><img src="assets\images\aula_012\fig_5.png" width="80%"></center>
 
 <br>
 
 <p align = "center"><b>Figura 6.</b> Bla bla bla.</p>
-<center><img src="assets\images\aula_012\fig_6.png" width="100%"></center>
+<center><img src="assets\images\aula_012\fig_6.png" width="80%"></center>
+
+<br>
+
+<p align = "center"><b>Figura 7.</b> Bla bla bla.</p>
+<center><img src="assets\images\aula_012\fig_7.png" width="80%"></center>
