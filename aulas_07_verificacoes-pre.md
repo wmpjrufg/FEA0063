@@ -224,6 +224,8 @@ Conforme o item 19.4 da NBR 6118 (2014), são estabelecidas as relações que se
 
 <p align = "justify">Conforme exemplo extraído do Bastos (2015), para verificação da força cortante, temos as lajes \(L_1\) e \(L_4\).</p>
 
+<br>
+
 <h3>Laje \(L_1\)</h3>
 
 <br>
