@@ -414,3 +414,31 @@ Se armadura simples:</p>
     </td>
   </tr>
 </table>
+
+<p align = "center"><b>Figura 4.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_09\fig_4.png" width="80%"></center>
+
+<p align = "justify">Valor real para  felxão: \(x = 0,1812 \, \text{m}\).
+<br><br>
+Avaliando as deformações:</p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td>\[ \frac{x}{d} = \frac{0,1812}{0,47} = 0,385 \]</td>
+    <td> Confirma \(\beta_x \leq 0,45\)</td>
+  </tr>
+</table>
+
+<p align = "center"><b>Figura 5.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_09\fig_5.png" width="80%"></center>
+
+<p align = "justify">Como é grupo I, \(\epsilon_{cu} = 3,5 % \)
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td>\[ \frac{x}{d} = \frac{\epsilon_{cu}}{\epsilon_{cm} + \epsilon_{s}} = \frac{3,5}{3,5 + 10} = 0,26 \]</td>
+  </tr>
+</table>
+
+<p align = "justify">\(\frac{x}{d} > 0,26\): domínio 3.</p>
+
