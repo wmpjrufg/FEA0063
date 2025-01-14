@@ -389,4 +389,19 @@ O espaçamento disponível pode ser horizontal ou vertical, são dados através 
   </tr>
 </table>
 
-<p align = "justify">Logo \(M_{sd} < M_{lim}\): armadura simples.</p>
+<p align = "justify">Logo \(M_{sd} < M_{lim}\): armadura simples.
+<br><br>
+Se armadura simples:</p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td>\[x_{III} = \frac{d \pm \sqrt{d^2 - 2 \cdot \left(\frac{M_{sd}}{b_w \cdot \alpha_c \cdot f_{cd}}\right)}}{\lambda}
+\] </td>
+  </tr>
+  <tr>
+    <td>\[x^+ = 0,9937 \, \text{m}\]</td>
+  </tr>
+  <tr>
+    <td>\[x^- = 0,1812 \, \text{m}\]</td>
+  </tr>
+</table>
