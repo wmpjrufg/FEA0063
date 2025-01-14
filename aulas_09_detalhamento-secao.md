@@ -367,11 +367,11 @@ O espaçamento disponível pode ser horizontal ou vertical, são dados através 
 <table border = "0" style = "width:100%">
   <tr>
     <td style="width:90%">\[ M_{lim} = 0,45 \cdot b_w \cdot \lambda \cdot d^2 \cdot \alpha_c \cdot f_{cd} \cdot (1 - 0,225 \cdot \lambda)\]</td>
-    <td>f_{ck} \leq 50 \, \text{MPa}</td>
+    <td>\[ f_{ck} \leq 50 \, \text{MPa} \]</td>
   </tr>
   <tr>
-    <td>M_{lim} = 0,35 \cdot b_w \cdot \lambda \cdot d^2 \cdot \alpha_c \cdot f_{cd} \cdot (1 - 0,175 \cdot \lambda)</td>
-    <td>50 \, \text{MPa} < f_{ck} \leq 90 \, \text{MPa}</td>
+    <td>\[ M_{lim} = 0,35 \cdot b_w \cdot \lambda \cdot d^2 \cdot \alpha_c \cdot f_{cd} \cdot (1 - 0,175 \cdot \lambda) \]</td>
+    <td>\[ 50 \, \text{MPa} < f_{ck} \leq 90 \, \text{MPa} \]</td>
   </tr>
 </table>
 
