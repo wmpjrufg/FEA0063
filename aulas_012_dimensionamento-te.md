@@ -15,12 +15,12 @@ nav_order: 10
 <br>
 
 <p align = "center"><b>Figura 1.</b> Bla bla bla.</p>
-<center><img src="assets\images\aula_012\fig_1.png" width="80%"></center>
+<center><img src="assets\images\aula_012\fig_1.png" width="60%"></center>
 
 <br>
 
 <p align = "center"><b>Figura 2.</b> Bla bla bla.</p>
-<center><img src="assets\images\aula_012\fig_2.png" width="80%"></center>
+<center><img src="assets\images\aula_012\fig_2.png" width="60%"></center>
 
 <br>
 
