@@ -345,36 +345,6 @@ O espaçamento disponível pode ser horizontal ou vertical, são dados através 
     <li><p align="justify">\(c = 2 \, \text{cm}\) (cobrimento nominal).</p></li>
 </ol>
 
-<table>
-  <tr>
-    <td>\[ M_{k,\text{mín}} = -10.000 \, \text{kN.cm}\]</td>
-  </tr>
-  <tr>
-    <td>\[ \gamma_c = \gamma_r = 1,4 \quad ; \quad \gamma_s = 1,15\]</td>
-  </tr>
-  <tr>
-    <td>\[ \text{concreto C20} \, (f_{ck} = 20 \, \text{MPa, Grupo I})\]</td>
-  </tr>
-  <tr>
-    <td>\[ \text{aço CA-50}\]</td>
-  </tr>
-  <tr>
-    <td>\[ \phi_l = 5 \, \text{mm} \, \text{(diâmetro do estribo)}\]</td>
-  </tr>
-  <tr>
-    <td>\[ \text{concreto com brita 1 } (d_{\text{máx}} = 19 \, \text{mm}), \, \text{sem brita 2}\]</td>
-  </tr>
-  <tr>
-    <td>\[ 
-      \begin{align*}
-          h &= 50 \, \text{cm} \\
-          b_w &= 20 \, \text{cm} \\
-          d &= 47 \, \text{cm} \text{(altura útil)} \\
-          c &= 2 \, \text{cm} \text{(cobrimento nominal)}
-      \end{align*}\]</td>
-  </tr>
-</table>
-
 <p align = "justify">A primeira etapa consiste na determinação do momento limite:</p>
 
 <table border = "0" style = "width:100%">
