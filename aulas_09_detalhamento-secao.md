@@ -475,8 +475,8 @@ Avaliando as deformações:</p>
   <tr>
     <td>
       \[x = 
-    </td> -->
-</table>
+    </td> 
+</table> -->
 
 <h2>Exemplo 02 - Detalhamento e verificação do centroíde da armadura</h2>
 
