@@ -86,7 +86,7 @@ NBBR 6118 em seu item 14.6.2.2:
     <tr>
         <td>
             <center>
-                <img src="assets/images/aula_012/fig_8.png" alt="Figura 6" width = "60%">
+                <img src="assets/images/aula_012/fig_8.png" alt="Figura 6" width = "80%">
             </center>
         </td>
         <td>
@@ -98,7 +98,7 @@ NBBR 6118 em seu item 14.6.2.2:
     <tr>
         <td>
             <center>
-                <img src="assets/images/aula_012/fig_9.png" alt="Figura 7" width = "60%">
+                <img src="assets/images/aula_012/fig_9.png" alt="Figura 7" width = "80%">
             </center>
         </td>
         <td>
