@@ -376,3 +376,17 @@ O espaçamento disponível pode ser horizontal ou vertical, são dados através 
 </table>
 
 <p align = "justify">Como nosso \(f_{ck} = 20 \, \text{MPa}\).</p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td>\[ \alpha_c = 0,85 \quad ; \quad \lambda = 0,80 \quad ; \quad \beta_x = 0,45 \]</td>
+  </tr>
+  <tr>
+    <td>\[ M_{lim} = 158,37 \, \text{kN.m}\]</td>
+  </tr>
+  <tr>
+    <td>\[ M_{sd} = 100 \cdot 1,40 = 140 \, \text{kN.m}\]</td>
+  </tr>
+</table>
+
+<p align = "justify">Logo \(M_{sd} < M_{lim}\): armadura simples.</p>
