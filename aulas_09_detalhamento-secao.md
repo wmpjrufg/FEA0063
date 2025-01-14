@@ -355,16 +355,3 @@ O espaçamento disponível pode ser horizontal ou vertical, são dados através 
   <tr>
     <td style="width:90%">\[ \text{concreto com brita 1 } (d_{\text{máx}} = 19 \, \text{mm}), \, \text{sem brita 2}\]</td>
   </tr>
-
-
-
-
-
-\(M_{k,\text{mín}} = -10.000 \, \text{kN.cm}\)
-\(\gamma_c = \gamma_r = 1,4 \quad ; \quad \gamma_s = 1,15\)
-\(\text{concreto C20} \, (f_{ck} = 20 \, \text{MPa, Grupo I})\)
-\(\text{aço CA-50}\)
-\(\phi_l = 5 \, \text{mm} \, \text{(diâmetro do estribo)}\)
-\(\text{concreto com brita 1 } (d_{\text{máx}} = 19 \, \text{mm}), \, \text{sem brita 2}\)
-\(h = 50 \, \text{cm} \quad ; \quad b_w = 20 \, \text{cm}\)
-\(d = 47 \, \text{cm} \, \text{(altura útil)} \quad ; \quad c = 2,0 \, \text{cm} \, \text{(cobrimento nominal)}\)
