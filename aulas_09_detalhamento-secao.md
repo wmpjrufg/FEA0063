@@ -335,19 +335,15 @@ O espaçamento disponível pode ser horizontal ou vertical, são dados através 
 <table border = "0" style = "width:100%">
   <tr>
     <td style="width:90%">\[ M_{k,\text{mín}} = -10.000 \, \text{kN.cm}\]</td>
-    <td>\[ h = 50 \, \text{cm}\]</td>
   </tr>
   <tr>
     <td style="width:90%">\[ \gamma_c = \gamma_r = 1,4 \quad ; \quad \gamma_s = 1,15\]</td>
-    <td>\[ b_w = 20 \, \text{cm}\]</td>
   </tr>
   <tr>
     <td style="width:90%">\[ \text{concreto C20} \, (f_{ck} = 20 \, \text{MPa, Grupo I})\]</td>
-    <td>\[ d = 47 \, \text{cm} \, \text{(altura útil)}\]</td>
   </tr>
   <tr>
     <td style="width:90%">\[ \text{aço CA-50}\]</td>
-    <td>\[ c = 2,0 \, \text{cm} \, \text{(cobrimento nominal)}\]</td>
   </tr>
   <tr>
     <td style="width:90%">\[ \phi_l = 5 \, \text{mm} \, \text{(diâmetro do estribo)}\]</td>
@@ -355,3 +351,13 @@ O espaçamento disponível pode ser horizontal ou vertical, são dados através 
   <tr>
     <td style="width:90%">\[ \text{concreto com brita 1 } (d_{\text{máx}} = 19 \, \text{mm}), \, \text{sem brita 2}\]</td>
   </tr>
+  <tr>
+    <td style="width:90%">\[ 
+      \begin{align*}
+          h &= 50 \, \text{cm} \\
+          b_w &= 20 \, \text{cm} \\
+          d &= 47 \, \text{cm} \text{(altura útil)} \\
+          c &= 2 \, \text{cm} \text{(cobrimento nominal)}
+      \end{align*}\]</td>
+  </tr>
+</table>
