@@ -520,3 +520,10 @@ Avaliando as deformações:</p>
     <td>\[ n_{\text{bar}} = \frac{(17,74 + 4)}{1,3 + 4} = 4,15 \, \text{barras} = 4 \, \text{barras}\]</td>
   </tr>
 </table>
+
+<p align = "justify">Se os comodos alojam 4 barras (16 barras \(\rightarrow\) 4 camadas!), então:</p>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td>\[ y_{1\text{º cg}} = 3 + 0,63 + \frac{1,3}{2} = 4,28 \, \text{cm}\]</td>
+  </tr>
