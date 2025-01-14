@@ -332,35 +332,18 @@ O espaçamento disponível pode ser horizontal ou vertical, são dados através 
 
 <p align = "justify">Dada uma seção retangular com os dados a seguir, determinar a armadura longitudinal necessária:</p>
 
-<table>
-  <tr>
-    <td>\[ M_{k,\text{mín}} = -10.000 \, \text{kN.cm}\]</td>
-  </tr>
-  <tr>
-    <td>\[ \gamma_c = \gamma_r = 1,4 \quad ; \quad \gamma_s = 1,15\]</td>
-  </tr>
-  <tr>
-    <td>\[ \text{concreto C20} \, (f_{ck} = 20 \, \text{MPa, Grupo I})\]</td>
-  </tr>
-  <tr>
-    <td>\[ \text{aço CA-50}\]</td>
-  </tr>
-  <tr>
-    <td>\[ \phi_l = 5 \, \text{mm} \, \text{(diâmetro do estribo)}\]</td>
-  </tr>
-  <tr>
-    <td>\[ \text{concreto com brita 1 } (d_{\text{máx}} = 19 \, \text{mm}), \, \text{sem brita 2}\]</td>
-  </tr>
-  <tr>
-    <td>\[ 
-      \begin{align*}
-          h &= 50 \, \text{cm} \\
-          b_w &= 20 \, \text{cm} \\
-          d &= 47 \, \text{cm} \text{(altura útil)} \\
-          c &= 2 \, \text{cm} \text{(cobrimento nominal)}
-      \end{align*}\]</td>
-  </tr>
-</table>
+<ol type="a">
+    <li><p align="justify">\(M_{k, \text{mín}} = -10.000 \, \text{kN.cm}\);</p></li>
+    <li><p align="justify">\(\gamma_c = \gamma_r = 1,4 \quad ; \quad \gamma_s = 1,15\);</p></li>
+    <li><p align="justify">Concreto C20 (fck = 20 MPa, Grupo I);</p></li>
+    <li><p align="justify">Aço CA-50;</p></li>
+    <li><p align="justify">\(\phi_l = 5 \, \text{mm}\) (diâmetro do estribo);</p></li>
+    <li><p align="justify">Concreto com brita 1 (dmax = 19 mm), sem brita 2;</p></li>
+    <li><p align="justify">\(h = 50 \, \text{cm}\);</p></li>
+    <li><p align="justify">\(bw = 20 \, \text{cm}\);</p></li>
+    <li><p align="justify">\(d = 47 \, \text{cm}\) (altura útil);</p></li>
+    <li><p align="justify">\(c = 2 \, \text{cm}\) (cobrimento nominal).</p></li>
+</ol>
 
 <p align = "justify">A primeira etapa consiste na determinação do momento limite:</p>
 
@@ -414,3 +397,116 @@ Se armadura simples:</p>
     </td>
   </tr>
 </table>
+
+<p align = "center"><b>Figura 4.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_09\fig_4.png" width="80%"></center>
+
+<p align = "justify">Valor real para  flexão: \(x = 0,1812 \, \text{m}\).
+<br><br>
+Avaliando as deformações:</p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td>\[ \frac{x}{d} = \frac{0,1812}{0,47} = 0,385 \]</td>
+    <td> Confirma \(\beta_x \leq 0,45\)</td>
+  </tr>
+</table>
+
+<p align = "center"><b>Figura 5.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_09\fig_5.png" width="80%"></center>
+
+<p align = "justify">Como é grupo I, \(\epsilon_{cu} = 3,5 % \)
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td>\[ \frac{x}{d} = \frac{\epsilon_{cu}}{\epsilon_{cm} + \epsilon_{s}} = \frac{3,5}{3,5 + 10} = 0,26 \]</td>
+    <td>\[\frac{x}{d} > 0,26 \quad \text{domínio 3}\]</td>
+  </tr>
+</table>
+
+<p align = "justify">Como é domínio 3.
+<br><br>
+\(\epsilon_{s} \geq \epsilon_{yd}? \)</p>
+</p>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td>\[ \frac{x}{d} = \frac{\epsilon_{c}}{\epsilon_{c} + \epsilon_{s}} = \frac{\epsilon_c}{B_x} \rightarrow \epsilon_s = \frac{\epsilon_c}{B_x} - \epsilon_c \]</td>
+    <td>\[ \epsilon_s = 5,59 \% \]</td>
+  </tr>
+</table>
+
+<br>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td></td>
+
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td rowspan="2" style="width:70%;">\[A_{st} = \frac{M_{sd}}{f_{yd} \cdot (d - 0,5 \cdot \lambda \cdot x_{III})}\]</td>
+    <td style="width:30%;">
+      \[A_{st} = 0,00081 \, \text{m}^2\]
+    </td>
+  </tr>
+  <tr>
+    <td>
+      \[A_{st} = 8,1 \, \text{cm}^2\]\]
+    </td>
+  </tr>
+  <tr>
+    <td>
+      \[x = \]
+    </td>
+  </tr>
+</table>
+
+<h2>Exemplo 02 - Detalhamento e verificação do centroíde da armadura</h2>
+
+<p align = "justify">Dada uma seção transversal da viga (25 x 90 cm –> d = 80 cm) mostrada na Figura abaixo. Detalhar a seção de apoio considerando uma área de aço necessária de 19,51 cm². Considere que esse valor já foi verificado quanto a armadura mínima e máxima. Considere no detalhamento que o concreto será executado com brita 2 com DMC = 25 mm, cobrimento 3 cm, estribo de 6,3 mm e \(x_{III} = 35,83 cm\).</p>
+
+<p align = "center"><b>Figura 6.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_09\fig_6.png" width="80%"></center>
+
+<ol type="a">
+    <li><p align="justify">\(A_s = 19,51 \, \text{cm}^2\);</p></li>
+    <li><p align="justify">Vamos escolher o detalhamento como \(\phi = 12, 5 \, \text{mm}\);</p></li>
+    <li><p align="justify">\(A_s \phi = 1,227 \, \text{cm}^2\);</p></li>
+    <li><p align="justify">\(n_{bar} = \frac{19,51}{1,227} = 15,89 \, \text{barras}\);</p></li>
+    <li><p align="justify">\(n_{bar} = 16 \, \text{barras}\);</p></li>
+</ol>
+
+<p align = "justify">Seção de apoio:</p>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td>\[ a_h \geq 
+          \begin{cases} 
+          2 \, \text{cm} \\
+          \phi_l = 1,3 \, \text{cm}\\
+          1,20 \cdot d_{max, agre} = 1,20 \cdot 2,5 = 3 \, \text{cm}
+          \end{cases} \]</td>
+</tr>
+  <tr>
+    <td>\[ a_v \geq 
+          \begin{cases} 
+          2 \, \text{cm} \\
+          \phi_l = 1,3 \, \text{cm} \\
+          0,50 \cdot d_{max, agre} = 1,25 \, \text{cm}
+          \end{cases} \]</td>
+  </tr>
+  <tr>
+    <td>\[ b_{\text{disp}} = 25 - 2 \cdot (3 + 0,63) = 17,74 \, \text{cm}\]</td>
+  </tr>
+  <tr>
+    <td>\[ n_{\text{bar}} = \frac{(17,74 + 4)}{1,3 + 4} = 4,15 \, \text{barras} = 4 \, \text{barras}\]</td>
+  </tr>
+</table>
+
+<p align = "justify">Se os comodos alojam 4 barras (16 barras \(\rightarrow\) 4 camadas!), então:</p>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td>\[ y_{1\text{º cg}} = 3 + 0,63 + \frac{1,3}{2} = 4,28 \, \text{cm}\]</td>
+  </tr>
