@@ -259,6 +259,8 @@ Logo:</p>
   </tr>
 </table>
 
+<br>
+
 <h3>Laje \(L_4\)</h3>
 
 <br>
