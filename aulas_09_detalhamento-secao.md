@@ -418,7 +418,7 @@ Se armadura simples:</p>
 <p align = "center"><b>Figura 4.</b> Bla bla bla </p>
 <center><img src="assets\images\aula_09\fig_4.png" width="80%"></center>
 
-<p align = "justify">Valor real para  felxão: \(x = 0,1812 \, \text{m}\).
+<p align = "justify">Valor real para  flexão: \(x = 0,1812 \, \text{m}\).
 <br><br>
 Avaliando as deformações:</p>
 
@@ -437,8 +437,17 @@ Avaliando as deformações:</p>
 <table border = "0" style = "width:100%">
   <tr>
     <td>\[ \frac{x}{d} = \frac{\epsilon_{cu}}{\epsilon_{cm} + \epsilon_{s}} = \frac{3,5}{3,5 + 10} = 0,26 \]</td>
+    <td>\[\frac{x}{d} > 0,26 \text{domínio 3}\]</td>
   </tr>
 </table>
 
-<p align = "justify">\(\frac{x}{d} > 0,26\): domínio 3.</p>
+<p align = "justify">Como é domínio 3.
+<br><br>
+\(\epsilon_{s} \geq \epsilon_{yd}? \)</p>
+</p>
 
+<table border = "0" style = "width:100%">
+  <tr>
+    <td>\[ \frac{x}{d} = \frac{\epsilon_{c}}{\epsilon_{c} + \epsilon_{s}} = \frac{\epsilon_c}{B_x} \rightarrow \epsilon_s = \frac{\epsilon_c}{B_x} - \epsilon_c \]</td>
+  </tr>
+</table>
