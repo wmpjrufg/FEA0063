@@ -460,7 +460,7 @@ Avaliando as deformações:</p>
     <td></td>
 
 
-<!-- <table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
   <tr>
     <td rowspan="2" style="width:70%;">\[A_{st} = \frac{M_{sd}}{f_{yd} \cdot (d - 0,5 \cdot \lambda \cdot x_{III})}\]</td>
     <td style="width:30%;">
@@ -474,9 +474,9 @@ Avaliando as deformações:</p>
   </tr>
   <tr>
     <td>
-      \[x = 
+      \[x = \]
     </td> 
-</table> -->
+</table>
 
 <h2>Exemplo 02 - Detalhamento e verificação do centroíde da armadura</h2>
 
@@ -492,3 +492,30 @@ Avaliando as deformações:</p>
     <li><p align="justify">\(n_{bar} = \frac{19,51}{1,227} = 15,89 \, \text{barras}\);</p></li>
     <li><p align="justify">\(n_{bar} = 16 \, \text{barras}\);</p></li>
 </ol>
+
+<p align = "justify">Seção de apoio:</p>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td>\[ a_h \geq 
+          \begin{cases} 
+          2 \, \text{cm} \\
+          \phi_l = 1,3 \, \text{cm}\\
+          1,20 \cdot d_{max, agre} = 1,20 \cdot 2,5 = 3 \, \text{cm}
+          \end{cases} \]</td>
+</tr>
+  <tr>
+    <td>\[ a_v \geq 
+          \begin{cases} 
+          2 \, \text{cm} \\
+          \phi_l = 1,3 \, \text{cm} \\
+          0,50 \cdot d_{max, agre} = 1,25 \, \text{cm}
+          \end{cases} \]</td>
+  </tr>
+  <tr>
+    <td>\[ b_{\text{disp}} = 25 - 2 \cdot (3 + 0,63) = 17,74 \, \text{cm}\]</td>
+  </tr>
+  <tr>
+    <td>\[ n_{\text{bar}} = \frac{(17,74 + 4)}{1,3 + 4} = 4,15 \, \text{barras} = 4 \, \text{barras}\]</td>
+  </tr>
+</table>
