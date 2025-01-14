@@ -332,6 +332,19 @@ O espaçamento disponível pode ser horizontal ou vertical, são dados através 
 
 <p align = "justify">Dada uma seção retangular com os dados a seguir, determinar a armadura longitudinal necessária:</p>
 
+<ol type="a">
+    <li><p align="justify">\(M_{k, \text{mín}} = -10.000 \, \text{kN.cm}\);</p></li>
+    <li><p align="justify">\(\gamma_c = \gamma_r = 1,4 \quad ; \quad \gamma_s = 1,15\);</p></li>
+    <li><p align="justify">Concreto C20 (fck = 20 MPa, Grupo I);</p></li>
+    <li><p align="justify">Aço CA-50;</p></li>
+    <li><p align="justify">\(\phi_l = 5 \, \text{mm}\) (diâmetro do estribo);</p></li>
+    <li><p align="justify">Concreto com brita 1 (dmax = 19 mm), sem brita 2;</p></li>
+    <li><p align="justify">\(h = 50 \, \text{cm}\);</p></li>
+    <li><p align="justify">\(bw = 20 \, \text{cm}\);</p></li>
+    <li><p align="justify">\(d = 47 \, \text{cm}\) (altura útil);</p></li>
+    <li><p align="justify">\(c = 2 \, \text{cm}\) (cobrimento nominal).</p></li>
+</ol>
+
 <table>
   <tr>
     <td>\[ M_{k,\text{mín}} = -10.000 \, \text{kN.cm}\]</td>
