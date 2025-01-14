@@ -393,15 +393,24 @@ O espaçamento disponível pode ser horizontal ou vertical, são dados através 
 <br><br>
 Se armadura simples:</p>
 
-<table border = "0" style = "width:100%">
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
   <tr>
-    <td>\[x_{III} = \frac{d \pm \sqrt{d^2 - 2 \cdot \left(\frac{M_{sd}}{b_w \cdot \alpha_c \cdot f_{cd}}\right)}}{\lambda}
-\] </td>
+    <td rowspan="2" style="width:70%;">
+      \[
+      x_{III} = \frac{d \pm \sqrt{d^2 - 2 \cdot \left(\frac{M_{sd}}{b_w \cdot \alpha_c \cdot f_{cd}}\right)}}{\lambda}
+      \]
+    </td>
+    <td style="width:30%;">
+      \[
+      x^+ = 0,9937 \, \text{m}
+      \]
+    </td>
   </tr>
   <tr>
-    <td>\[x^+ = 0,9937 \, \text{m}\]</td>
-  </tr>
-  <tr>
-    <td>\[x^- = 0,1812 \, \text{m}\]</td>
+    <td>
+      \[
+      x^- = 0,1812 \, \text{m}
+      \]
+    </td>
   </tr>
 </table>
