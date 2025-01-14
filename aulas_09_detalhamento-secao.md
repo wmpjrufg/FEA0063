@@ -332,27 +332,27 @@ O espaçamento disponível pode ser horizontal ou vertical, são dados através 
 
 <p align = "justify">Dada uma seção retangular com os dados a seguir, determinar a armadura longitudinal necessária:</p>
 
-<table border = "0" style = "width:100%">
+<table>
   <tr>
-    <td style="width:90%">\[ M_{k,\text{mín}} = -10.000 \, \text{kN.cm}\]</td>
+    <td>\[ M_{k,\text{mín}} = -10.000 \, \text{kN.cm}\]</td>
   </tr>
   <tr>
-    <td style="width:90%">\[ \gamma_c = \gamma_r = 1,4 \quad ; \quad \gamma_s = 1,15\]</td>
+    <td>\[ \gamma_c = \gamma_r = 1,4 \quad ; \quad \gamma_s = 1,15\]</td>
   </tr>
   <tr>
-    <td style="width:90%">\[ \text{concreto C20} \, (f_{ck} = 20 \, \text{MPa, Grupo I})\]</td>
+    <td>\[ \text{concreto C20} \, (f_{ck} = 20 \, \text{MPa, Grupo I})\]</td>
   </tr>
   <tr>
-    <td style="width:90%">\[ \text{aço CA-50}\]</td>
+    <td>\[ \text{aço CA-50}\]</td>
   </tr>
   <tr>
-    <td style="width:90%">\[ \phi_l = 5 \, \text{mm} \, \text{(diâmetro do estribo)}\]</td>
+    <td>\[ \phi_l = 5 \, \text{mm} \, \text{(diâmetro do estribo)}\]</td>
   </tr>
   <tr>
-    <td style="width:90%">\[ \text{concreto com brita 1 } (d_{\text{máx}} = 19 \, \text{mm}), \, \text{sem brita 2}\]</td>
+    <td>\[ \text{concreto com brita 1 } (d_{\text{máx}} = 19 \, \text{mm}), \, \text{sem brita 2}\]</td>
   </tr>
   <tr>
-    <td style="width:90%">\[ 
+    <td>\[ 
       \begin{align*}
           h &= 50 \, \text{cm} \\
           b_w &= 20 \, \text{cm} \\
