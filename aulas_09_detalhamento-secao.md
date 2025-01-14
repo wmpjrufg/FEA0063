@@ -437,7 +437,7 @@ Avaliando as deformações:</p>
 <table border = "0" style = "width:100%">
   <tr>
     <td>\[ \frac{x}{d} = \frac{\epsilon_{cu}}{\epsilon_{cm} + \epsilon_{s}} = \frac{3,5}{3,5 + 10} = 0,26 \]</td>
-    <td>\[\frac{x}{d} > 0,26 \text{domínio 3}\]</td>
+    <td>\[\frac{x}{d} > 0,26 \quad \text{domínio 3}\]</td>
   </tr>
 </table>
 
@@ -449,5 +449,46 @@ Avaliando as deformações:</p>
 <table border = "0" style = "width:100%">
   <tr>
     <td>\[ \frac{x}{d} = \frac{\epsilon_{c}}{\epsilon_{c} + \epsilon_{s}} = \frac{\epsilon_c}{B_x} \rightarrow \epsilon_s = \frac{\epsilon_c}{B_x} - \epsilon_c \]</td>
+    <td>\[ \epsilon_s = 5,59 \% \]</td>
   </tr>
 </table>
+
+<br>
+
+<table border = "0" style = "width:100%">
+  <tr>
+    <td></td>
+
+
+<!-- <table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td rowspan="2" style="width:70%;">\[A_{st} = \frac{M_{sd}}{f_{yd} \cdot (d - 0,5 \cdot \lambda \cdot x_{III})}\]</td>
+    <td style="width:30%;">
+      \[A_{st} = 0,00081 \, \text{m}^2\]
+    </td>
+  </tr>
+  <tr>
+    <td>
+      \[A_{st} = 8,1 \, \text{cm}^2\]\]
+    </td>
+  </tr>
+  <tr>
+    <td>
+      \[x = 
+    </td> -->
+</table>
+
+<h2>Exemplo 02 - Detalhamento e verificação do centroíde da armadura</h2>
+
+<p align = "justify">Dada uma seção transversal da viga (25 x 90 cm –> d = 80 cm) mostrada na Figura abaixo. Detalhar a seção de apoio considerando uma área de aço necessária de 19,51 cm². Considere que esse valor já foi verificado quanto a armadura mínima e máxima. Considere no detalhamento que o concreto será executado com brita 2 com DMC = 25 mm, cobrimento 3 cm, estribo de 6,3 mm e \(x_{III} = 35,83 cm\).</p>
+
+<p align = "center"><b>Figura 6.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_09\fig_6.png" width="80%"></center>
+
+<ol type="a">
+    <li><p align="justify">\(A_s = 19,51 \, \text{cm}^2\);</p></li>
+    <li><p align="justify">Vamos escolher o detalhamento como \(\phi = 12, 5 \, \text{mm}\);</p></li>
+    <li><p align="justify">\(A_s \phi = 1,227 \, \text{cm}^2\);</p></li>
+    <li><p align="justify">\(n_{bar} = \frac{19,51}{1,227} = 15,89 \, \text{barras}\);</p></li>
+    <li><p align="justify">\(n_{bar} = 16 \, \text{barras}\);</p></li>
+</ol>
