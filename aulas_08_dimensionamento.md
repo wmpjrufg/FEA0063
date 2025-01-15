@@ -549,3 +549,47 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
         <td style="width:10%"><p align = "right" id = "eq26">(26)</p></td>
     </tr>
 </table>
+
+
+
+
+
+
+
+<h2>Exercício 1 - Propriedades geomértricas no Estádio I e II</h2>
+
+<p align = "justify">
+    Verificar as propriedades da seção transversal de uma laje pré-fabricada com altura de 16 cm (d = 13,9 cm). Considere que esta laje é construída com o fck = 20 MPa e que a área de aço das sapatas pré-fabricadas é de 3,615 cm². Essa laje é disposta em um vão de 5 m, tem distância intereixos de 50 cm e uma capa de 4 cm. <br>
+    <br>
+    Considere para o módulo de elasticidade do aço igual a 200 GPa e para o concreto empregue a Tabela 8.1 da NBR 6118.
+</p>
+
+<center><img src="assets\images\aula_08\fig_21.jpg" width="100%"></center>
+<p align = "center"><b>Figura 21.</b> bla bla.</p>
+
+<p align = "justify">
+    Inicialmente é necessario determinar o módulo de elasticidade do concreto em função da sua ressitência caracterísstica à compressão através da Tabela 8.1 da NBR 6118 <a href="#ref1">[1]</a>
+</p>
+
+<table>
+    <tr>
+        <td>
+            <center><img src="assets\images\aula_08\fig_22.png" width="100%"></center>
+        </td>
+    </tr>
+<table>
+<p align = "justify">
+    Com a determinação do módulo de elasticidade do concreto definido, deve-se calcular o módulo de deformação secante (αi) pela Equação***.
+</p>
+
+<p id="Eq2"></p>
+<table border = "0" style = "width:100%">
+    <tr>
+        <td>\[E_{s}= \alpha_i * E_{cs}\]</td>
+        <td>***</td>
+    </tr>
+</table>
+<p align = "justify">
+    onde E<sub>s</sub> é o módulo de elasticidade do aço;<br>
+    E<sub>cs</sub> é o módulo de elasticidade do concreto.<br>
+</p>
