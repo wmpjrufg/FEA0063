@@ -334,7 +334,7 @@ Além destes dados considerar que as lajes (fim residencial) tem a mesma espessu
 
 <table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
     <tr>
-        <td>\[\alpha_f = \Delta \epsilon = \epsilon_{(t)} - \epssilon_{(t_0)} = 2 - 0,68 = 1,32\]</td>
+        <td>\[\alpha_f = \Delta \epsilon = \epsilon_{(t)} - \epsilon_{(t_0)} = 2 - 0,68 = 1,32\]</td>
     </tr>
 </table>
 
