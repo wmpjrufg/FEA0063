@@ -522,6 +522,9 @@ Avaliando as deformações:</p>
   </tr>
 </table>
 
+<p align = "center"><b>Figura 7.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_09\fig_7.png" width="80%"></center>
+
 <br>
 
 <table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
@@ -578,3 +581,13 @@ Avaliando as deformações:</p>
     <td>\[h = \frac{2,75}{0,32} = 7,0 \, \text{barras por face}\]</td>
   </tr>
 </table>
+
+<br>
+
+<p align = "center"><b>Figura 8.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_09\fig_8.png" width="80%"></center>
+
+<br>
+
+<p align = "center"><b>Figura 9.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_09\fig_9.png" width="80%"></center>
