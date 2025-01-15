@@ -627,7 +627,7 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
     Tratando-se da geometria a peça como seção Tê conforme a Figura <a href="#fig23">23</a> pois h<sub>f</sub> ≠ 0 e b<sub>w</sub> ≠ b<sub>f</sub>
 </p>
 <p id="fig23"></p>
-<center><img src="assets\images\aula_08\fig_23.png" width="100%"></center>
+<center><img src="assets\images\aula_08\fig_23.jpg" width="100%"></center>
 <p align = "center"><b>Figura 23.</b> Seção Tê.</p>
 <p align = "justify">
     Tomando a seção da peça como seção Tê obtém-se os seguintes valores para a área, alrura e inercia da peça:
