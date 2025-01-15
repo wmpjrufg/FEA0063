@@ -151,3 +151,48 @@ Além destes dados considerar que as lajes (fim residencial) tem a mesma espessu
 
 <p align = "center"><b>Figura 9.</b> Bla bla bla </p>
 <center><img src="assets\images\aula_06\fig019.png" width="80%"></center>
+
+<p align="justify">\(V_{Sd} \leq V_{Rd1}\) para lajes sem armadura</p>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[V_{Rd1} = \left[ \tau_{Rd} \cdot k \cdot (1,2 + 40 \cdot \rho_1) + 0,15 \cdot \sigma_{cp} \right] \cdot b_w \cdot d \]</td>
+    </tr>
+    <tr>
+        <td>\[\tau_{Rd} = 0,25 f_{ctd} = 0,25 \cdot \frac{f_{ck,inf}}{\gamma_c} = 0,25 \cdot \left( \frac{0,7 \cdot 0,3 \cdot \sqrt[3]{25²}}{1,4} \right)  = 0,32 \, MPa\]</td>
+    </tr>
+</table>
+
+<p align="justify">PAra \(A_s = 1,5 \, \text{cm²/m}\): </p>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[\rho = \frac{A_s}{b_w \cdot d} = \frac{1,5}{100 \cdot 8,5} = 0,0018\]</td>
+    </tr>
+</table>
+
+<p align="justify">\(\rho \leq 0,02\) OK!</p>
+
+<p align="justify">Considerando que 100% chega ao apoio:</p>
+
+<p align = "center"><b>Figura 10.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_06\fig020.png" width="80%"></center>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[k = | 1,6 - 0,085 | = 1,52\]</td>
+    </tr>
+</table>
+
+<p align="justify">\(k > 1,00\) OK!</p>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[V_{Rd1} = \left[ 0,32 \cdot 1,52 \cdot (1,2 + 40 \cdot 0,0018) \right] \cdot 100 \cdot 8,5 = 52,46 \, kN/m\]</td>
+    </tr>
+    <tr>
+        <td>\[V_{Sd max} = 10,22 \, kN/m\]</td>
+    </tr>
+</table>
+
+<p align="justify">\(V_{Sd max} <> V_{Rd1}\) OK!</p>
