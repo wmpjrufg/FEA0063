@@ -293,3 +293,34 @@ Além destes dados considerar que as lajes (fim residencial) tem a mesma espessu
         <td>\[4,03\, (CUN)\]</td>
     </tr>
 </table>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[M_{a max} = 3,10 (m_{x'}) \]</td>
+    </tr>
+    <tr>
+        <td>\[M_{a max} = 3,10 \, kN/m = 310 \, kN/cm\]</td>
+    </tr>
+</table>
+
+<p align = "justify">\( 641 > 310 \), portanto a peça não fissura.</p>
+
+<br>
+
+<p align = "justify">Temos:</p>
+<ol type="a">
+    <li> \(b_w = 1,00 \, m ou 100 \, cm\)</li>
+    <li> \(p = 4,05 + 1,5 \cdot 0,3 = 4,95 \, kN/m²\)</li>
+    <li> \(I_c = 8333,33 \, cm^4\)</li>
+    <li> \(E_{ci} \, cap1 = 25 \, MPa \rightarrow 28 GPa\)</li>
+    <li> \(E_{cs} = 24 \, GPa \rightarrow 2400 \, kN/cm²\)</li>
+</ol>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[\a_i = \frac{a}{100} \cdot \frac{b}{12} \cdot \frac{p \cdot l_x^4}{E_c I}\]</td>
+    </tr>
+    <tr>
+        <td>\[a_i = \frac{2,50}{100} \cdot \frac{100}{12} \cdot \frac{0,000495 \cdot 300^4}{2400 \cdot 8333,33} = 0,04 \, cm (flecha direta)\]</td>
+    </tr>
+</table>
