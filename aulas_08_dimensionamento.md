@@ -624,7 +624,7 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
 </table>
 
 
-<center><img src="assets\images\aula_08\fig_23.jpg" width="100%"></center>
+<center><img src="assets\images\aula_08\fig_24.jpg" width="100%"></center>
 <p align = "center"><b>Figura 21.</b> bla bla.</p>
 
 
