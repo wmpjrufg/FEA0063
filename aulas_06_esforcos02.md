@@ -222,6 +222,7 @@ Além destes dados considerar que as lajes (fim residencial) tem a mesma espessu
     </tr>
     <tr>
         <td>\[M_r = \frac{1,5 \cdot 0,2565 \cdot 8333,33}{5} = 641,24 \, kN\]</td>
+    </tr>
 </table>
 
 <p align = "center"><b>Figura 12.</b> Bla bla bla </p>
@@ -259,4 +260,32 @@ Além destes dados considerar que as lajes (fim residencial) tem a mesma espessu
       <td>0,78 </td>
     </tr>
   </tbody>
+</table>
+
+<br>
+
+<p align = "center"><b>Figura 13.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_06\fig023.png" width="80%"></center>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[m_x = 1,40\]</td>
+        <td> (COP)</td>
+        <td>\[2,42 \, (CUN)\]</td>
+    </tr>
+    <tr>
+        <td>\[m_{x'} = 3,10\]</td>
+        <td> (COP)</td>
+        <td>\[5,35 \, (CUN)\]</td>
+    </tr>
+    <tr>
+        <td>\[m_y = 0,64\]</td>
+        <td> (COP)</td>
+        <td>\[1,11\, (CUN)\]</td>
+    </tr>
+    <tr>
+        <td>\[m_{y'} = 2,33\]</td>
+        <td> (COP)</td>
+        <td>\[4,03\, (CUN)\]</td>
+    </tr>
 </table>
