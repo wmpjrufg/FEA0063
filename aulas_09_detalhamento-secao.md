@@ -510,3 +510,32 @@ Avaliando as deformações:</p>
   <tr>
     <td>\[ y_{1\text{º cg}} = 3 + 0,63 + \frac{1,3}{2} = 4,28 \, \text{cm}\]</td>
   </tr>
+</table>
+
+<p align = "justify">Onde 0,63 é o centróide da 1ª camada de armadura.</p>
+
+<br>
+
+/[
+  y_{cg} = \frac{\sum A_i \cdot y_i}{\sum A_i}
+/]
+
+<br>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td>\[\sum A_{i y_{i}} = 4 \cdot A_s \phi \cdot 4,28 + 4 \cdot A_s \phi \cdot (4,28 + 3,5) \quad \text{...}\]</td>
+  </tr>
+  <tr>
+    <td>\[\sum A_{i y_{i}} = 4 \cdot A_s \phi \cdot (4,28 + 4,28 + 3,5 + 4,28 + 2 \cdot 3,5 + \quad \text{...} \quad + 4,28 + 3 \cdot 3,5) \]</td>
+  </tr>
+  <tr>
+    <td>\[\sum A_{i y_{i}} = 4 \cdot A_s \phi \cdot (38,12) = 152,48 \]</td>
+  </tr>
+  <tr>
+    <td>\[\sum A_{i y_{i}} = 152,48\]</td>
+  </tr>
+  <tr>
+    <td>\[\sum A_i = 4 \cdot A_s \phi \cdot 4 = 16 A_s \phi \]</td>
+  </tr>
+</table>
