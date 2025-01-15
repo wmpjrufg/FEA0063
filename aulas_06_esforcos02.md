@@ -162,3 +162,18 @@ Além destes dados considerar que as lajes (fim residencial) tem a mesma espessu
         <td>\[\tau_{Rd} = 0,25 f_{ctd} = 0,25 \cdot \frac{f_{ck,inf}}{\gamma_c} = 0,25 \cdot \left( \frac{0,7 \cdot 0,3 \cdot \sqrt[3]{25²}}{1,4} \right)  = 0,32 \, MPa\]</td>
     </tr>
 </table>
+
+<p align="justify">PAra \(A_s = 1,5 \, \text{cm²/m}\): </p>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[\rho = \frac{A_s}{b_w \cdot d} = \frac{1,5}{100 \cdot 8,5} = 0,0018\]</td>
+    </tr>
+</table>
+
+<p align="justify">\(\rho \leq 0,02\) OK!</p>
+
+<p align="justify">Considerando que 100% chega ao apoio:</p>
+
+<p align = "center"><b>Figura 10.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_06\fig020.png" width="80%"></center>
