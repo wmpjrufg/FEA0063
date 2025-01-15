@@ -137,3 +137,17 @@ Além destes dados considerar que as lajes (fim residencial) tem a mesma espessu
         <td>\[V_{y'd} = R_{y'd} = 3,04 \cdot 1,4 + 1,13 \cdot 1,4 = 5,84 \, kN/m\]</td>
     </tr>
 </table>
+
+<p align="justify">PAra checar previamente o cisalhamento, vamos definir uma armadura mínima:</p>
+
+<p align = "center"><b>Figura 8.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_06\fig018.png" width="80%"></center>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[As_{min} = \rho \cdot A_c = \frac{0,15}{100} \cdot 100 \cdot 10 = 1,5 \, cm²/m\]</td>
+    </tr>
+</table>
+
+<p align = "center"><b>Figura 9.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_06\fig019.png" width="80%"></center>
