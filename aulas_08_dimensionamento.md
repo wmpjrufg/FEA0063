@@ -656,11 +656,11 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
     </tr>
     <tr>
         <td>\[a_2 = h_f \cdot (b_f - b_w) + (\alpha_e - 1) \cdot A_s' + \alpha_e \cdot A_s\]</td>
-        <td><p align = "center "id="eq33">(33)</p></td>
+        <td><p align = "center" id="eq33">(33)</p></td>
     </tr>
     <tr>
         <td>\[a_3 = -d' \cdot (\alpha_e - 1) \cdot A_s' - d \cdot \alpha_e \cdot A_s - \frac{h_f^2}{2} \cdot (b_f - b_w)\]</td>
-        <td><p align = "center"id="eq34">(34)</p></td>
+        <td><p align = "center" id="eq34">(34)</p></td>
     </tr>
 </table>
 <p align = "justify">
