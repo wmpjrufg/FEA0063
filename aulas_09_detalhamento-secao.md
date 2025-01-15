@@ -516,9 +516,11 @@ Avaliando as deformações:</p>
 
 <br>
 
-/[
-  y_{cg} = \frac{\sum A_i \cdot y_i}{\sum A_i}
-/]
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td>\[y_{cg} = \frac{\sum A_i \cdot y_i}{\sum A_i} \]</td>
+  </tr>
+</table>
 
 <br>
 
@@ -533,9 +535,12 @@ Avaliando as deformações:</p>
     <td>\[\sum A_{i y_{i}} = 4 \cdot A_s \phi \cdot (38,12) = 152,48 \]</td>
   </tr>
   <tr>
-    <td>\[\sum A_{i y_{i}} = 152,48\]</td>
+    <td>\[\sum A_{i y_{i}} = 152,48 A_s \phi\]</td>
   </tr>
   <tr>
     <td>\[\sum A_i = 4 \cdot A_s \phi \cdot 4 = 16 A_s \phi \]</td>
+  </tr>
+  <tr>
+    <td>\[y_{cg} = \frac{152,48 A_s \phi}{16 A_s \phi} = 9,53 \, \text{cm}\]</td>
   </tr>
 </table>
