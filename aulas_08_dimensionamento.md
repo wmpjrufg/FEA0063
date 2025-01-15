@@ -623,6 +623,11 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
     </tr>
 </table>
 
+
+<center><img src="assets\images\aula_08\fig_23.jpg" width="100%"></center>
+<p align = "center"><b>Figura 21.</b> bla bla.</p>
+
+
 <p align = "justify">
     Tratando-se da geometria a peça como seção Tê conforme a Figura <a href="#fig23">23</a> pois h<sub>f</sub> ≠ 0 e b<sub>w</sub> ≠ b<sub>f</sub>
 </p>
