@@ -159,6 +159,6 @@ Além destes dados considerar que as lajes (fim residencial) tem a mesma espessu
         <td>\[V_{Rd1} = \left[ \tau_{Rd} \cdot k \cdot (1,2 + 40 \cdot \rho_1) + 0,15 \cdot \sigma_{cp} \right] \cdot b_w \cdot d \]</td>
     </tr>
     <tr>
-        <td>\[\tau_{Rd} = 0,25 f_{ctd} = 0,25 \cdot \frac{f_{ck,inf}}{\gamma_c} = 0,25 \cdot \left( \frac{0,7 \cdot 0,3 \cdot \sqrt[3]{25²}}{1,4})  = 0,32 \, MPa\]</td>
+        <td>\[\tau_{Rd} = 0,25 f_{ctd} = 0,25 \cdot \frac{f_{ck,inf}}{\gamma_c} = 0,25 \cdot \left( \frac{0,7 \cdot 0,3 \cdot \sqrt[3]{25²}}{1,4} \right)  = 0,32 \, MPa\]</td>
     </tr>
 </table>
