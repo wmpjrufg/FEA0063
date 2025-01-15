@@ -1,5 +1,5 @@
 ---
-title: Exemplo 1
+title: Exemplo
 layout: default
 grand_parent: Aulas
 parent: Modelo estrutural e esforços
