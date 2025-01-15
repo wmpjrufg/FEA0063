@@ -195,4 +195,97 @@ Além destes dados considerar que as lajes (fim residencial) tem a mesma espessu
     </tr>
 </table>
 
-<p align="justify">\(V_{Sd max} <> V_{Rd1}\) OK!</p>
+<p align="justify">\(V_{Sd max} < V_{Rd1}\) OK!</p>
+
+<p align = "center"><b>Figura 11.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_06\fig021.png" width="80%"></center>
+
+<br>
+
+<p align="justify">Considerando \(\alpha = 1,5\) (seção retangular) e \(y = 5 \, \text{cm}\), vamos para a avaliação da fissuração:</p>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[M_r = \frac{\alpha \cdot f_{ct} \cdot I_c}{y_y}\]</td>
+    </tr>
+    <tr>
+        <td>\[f_{ct} = f_{ctm} = 0,3 \cdot \sqrt[3]{25²} = 2,565 \, MPa\]</td>
+    </tr>
+    <tr>
+        <td>\[f_{ct} = 0,2565 \, kN/cm²\]</td>
+    </tr>
+</table>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[I = \frac{b_w \cdot h³}{12} = \frac{100 \cdot 10³}{12} =8333,33 \, cm^4\]</td>
+    </tr>
+    <tr>
+        <td>\[M_r = \frac{1,5 \cdot 0,2565 \cdot 8333,33}{5} = 641,24 \, kN\]</td>
+    </tr>
+</table>
+
+<p align = "center"><b>Figura 12.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_06\fig022.png" width="80%"></center>
+
+<br>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+  <thead>
+    <tr>
+      <th></th>
+      <th>G</th>
+      <th>Q</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>\(m_x\)</th>
+      <td>1,26 </td>
+      <td>0,47</td>
+    </tr>
+    <tr>
+      <th>\(m_{x'}\)</th>
+      <td>2,79 </td>
+      <td>1,03 </td>
+    </tr>
+    <tr>
+      <th>\(m_y\)</th>
+      <td>0,58 </td>
+      <td>0,21 </td>
+    </tr>
+    <tr>
+      <th>\(m_{y'}\)</th>
+      <td>2,10 </td>
+      <td>0,78 </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<p align = "center"><b>Figura 13.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_06\fig023.png" width="80%"></center>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[m_x = 1,40\]</td>
+        <td> (COP)</td>
+        <td>\[2,42 \, (CUN)\]</td>
+    </tr>
+    <tr>
+        <td>\[m_{x'} = 3,10\]</td>
+        <td> (COP)</td>
+        <td>\[5,35 \, (CUN)\]</td>
+    </tr>
+    <tr>
+        <td>\[m_y = 0,64\]</td>
+        <td> (COP)</td>
+        <td>\[1,11\, (CUN)\]</td>
+    </tr>
+    <tr>
+        <td>\[m_{y'} = 2,33\]</td>
+        <td> (COP)</td>
+        <td>\[4,03\, (CUN)\]</td>
+    </tr>
+</table>
