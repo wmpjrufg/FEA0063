@@ -579,14 +579,14 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
     </tr>
 </table>
 <p align = "justify">
-    Com a determinação do módulo de elasticidade do concreto definido, deve-se calcular o módulo de deformação secante (αe) pela Equação***.
+    Com a determinação do módulo de elasticidade do concreto definido, deve-se calcular o módulo de deformação secante (αe) pela Equação <a href="#eq27">27</a>.
 </p>
 
-<p id="Eq2"></p>
+
 <table border = "0" style = "width:100%">
     <tr>
         <td>\[E_{s}= \alpha_e * E_{cs}\]</td>
-        <td>***</td>
+        <td><p align = "center" id = "eq27">(27)</p></td>
     </tr>
 </table>
 <p align = "justify">
@@ -594,7 +594,7 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
     E<sub>cs</sub> é o módulo de elasticidade do concreto.<br>
 </p>
 <p align = "justify">
-    Através da Equação <a href="#Eq10">***</a> obtém-se o seguinte valor para o códulo de deformação secant:
+    Através da Equação <a href="#eq27">27</a> obtém-se o seguinte valor para o módulo de deformação secant:
 </p>
 <table border = "0" style = "width:100%">
     <tr>
@@ -602,32 +602,24 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
     </tr>
 </table>
 <br>
-
-<br>
 <p align ="justify">
-    O proximo passo que deve ser realizado é o cálculo da área da peça pré-fabricada (A<sub>h</sub>), da altura da peça pré-fabricada (y<sub>h</sub>) e da inercia da da peça pré-fabricada (I<sub>h</sub>), dadas pelas Equações <a href="#Eq10">*</a>, <a href="#Eq10">**</a>, <a href="#Eq10">***</a>.
+    O proximo passo que deve ser realizado é o cálculo da área da peça pré-fabricada (A<sub>h</sub>), da altura da peça pré-fabricada (y<sub>h</sub>) e da inercia da da peça pré-fabricada (I<sub>h</sub>), dadas pelas Equações <a href="#eq28">28</a>, <a href="#eq29">29</a>, <a href="#eq30">30</a>.
 </p>
 <br>
 <table>
     <tr>
         <td>\[A_h = (b_f - b_w) \cdot h_f + b_w \cdot h + A_s \cdot (\alpha_e - 1)\]</td>
-        <td>*</td>
+        <td><p align = "center" id = "eq28">(28)</p></td>
     </tr>
     <tr>
         <td>\[y_h = \frac{(b_f - b_w) \cdot \frac{h_f^2}{2} + b_w \cdot \frac{h^2}{2} + A_s \cdot (\alpha_e - 1) \cdot d}{A_h}\]</td>
-        <td>**</td>
+        <td><p align = "center" id = "eq29">(29)</p></td>
     </tr>
         <tr>
         <td>\[I_h = \frac{(b_f - b_w) \cdot h_f^3}{12} + \frac{b_w \cdot h^3}{12} + (b_f - b_w) \cdot h_f \cdot \left( y_{cg} - \frac{h_f}{2} \right)^2 + b_w \cdot h \cdot \left( y_{cg} - \frac{h}{2} \right)^2 + A_s \cdot (\alpha_e - 1) \cdot d \cdot \left( y_h - d \right)^2\]</td>
-        <td>***</td>
+        <td><p align = "center" id = "eq30">(30)</p></td>
     </tr>
 </table>
-
-
-<center><img src="assets\images\aula_08\fig_24.jpg" width="100%"></center>
-<p align = "center"><b>Figura 21.</b> bla bla.</p>
-
-
 <p align = "justify">
     Tratando-se da geometria a peça como seção Tê conforme a Figura <a href="#fig23">23</a> pois h<sub>f</sub> ≠ 0 e b<sub>w</sub> ≠ b<sub>f</sub>
 </p>
@@ -651,28 +643,28 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
 <br>
 <h3>Estádio II</h3>
 <p align = "justify">
-    Para o estádio II na primeira etapa que dever ser realizada vamos estimar b<sub>w</sub> = b<sub>f</sub>, para utilizar nas Equações <a href="#Eq23">@</a>, <a href="#Eq23">@@</a>, <a href="#Eq23">@@@</a>. 
+    Para o estádio II na primeira etapa que dever ser realizada vamos estimar b<sub>w</sub> = b<sub>f</sub>, para utilizar nas Equações <a href="#eq32">32</a>, <a href="#eq33">33</a>, <a href="#eq34">34</a>. 
 </p>
 <table border = "0" style = "width:100%">
     <tr>
         <td>\[x_{II} = \frac{a_2 \pm \sqrt{a_2^2 - 4 \cdot a_1 \cdot a_3}}{2 \cdot a_1}\]</td>
-        <td><p id="Eq23">(@#)</p></td>
+        <td><p id="eq31">(31)</p></td>
     </tr>
     <tr>
         <td>\[a_1 = \frac{b_w}{12}\]</td>
-        <td><p id="Eq23">(@)</p></td>
+        <td><p id="eq32">(32)</p></td>
     </tr>
     <tr>
         <td>\[a_2 = h_f \cdot (b_f - b_w) + (\alpha_e - 1) \cdot A_s' + \alpha_e \cdot A_s\]</td>
-        <td><p id="Eq23">(@@)</p></td>
+        <td><p id="eq33">(33)</p></td>
     </tr>
     <tr>
         <td>\[a_3 = -d' \cdot (\alpha_e - 1) \cdot A_s' - d \cdot \alpha_e \cdot A_s - \frac{h_f^2}{2} \cdot (b_f - b_w)\]</td>
-        <td><p id="Eq23">(@@@)</p></td>
+        <td><p id="eq34">(34)</p></td>
     </tr>
 </table>
 <p align = "justify">
-    Realizando os cálculos das Equações <a href="#Eq23">@</a>, <a href="#Eq23">@@</a>, <a href="#Eq23">@@@</a> obtém-se os seguintes valores: 
+    Realizando os cálculos das Equações <a href="#eq32">32</a>, <a href="#eq33">33</a>, <a href="#eq34">34</a> obtém-se os seguintes valores: 
 </p>
 <table border = "0" style = "width:100%">
     <tr>
@@ -686,7 +678,7 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
     </tr>
 </table>
 <p align = "justify">
-    Subistituindo os valores obtidos para a<sub>2</sub>, a<sub>2</sub>, a<sub>3</sub> na Equação <a href="#Eq23">@#</a> obtém-se o seguinte valor para X<sub>II</sub>:
+    Subistituindo os valores obtidos para a<sub>2</sub>, a<sub>2</sub>, a<sub>3</sub> na Equação <a href="#eq31">31</a> obtém-se o seguinte valor para X<sub>II</sub>:
 </p>
 <table border = "0" style = "width:100%">
     <tr>
@@ -695,16 +687,16 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
 </table>
 <p align = "justify">
     Como X<sub>II</sub> é menor que h<sub>f</sub> que possúi um valor de 4cm a linha neutra se encontra na mesa!<br>
-    Com isso podemos cácular a inécia (33wdqdhjd) utilizando a Equação <a href="#Eq23">%</a>.
+    Com isso podemos cácular a inécia (33wdqdhjd) utilizando a Equação <a href="#eq35">35</a>.
 </p> 
 <table border = "0" style = "width:100%">
     <tr>
         <td>\[I_{II} = \frac{b_f \cdot x_{II}^3}{3} + \alpha_e \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_e - 1) \cdot A_s' \cdot (x_{II} - d')^2\]</td>
-        <td><p id="Eq23">(@@)</p></td>
+        <td><p id="eq35">(35)</p></td>
     </tr>
 </table>
 <p align = "justify">
-    Através da Equação <a href="#Eq23">%</a> chega-se ao seguinte valor para a inercia (3dadfdf):
+    Através da Equação <a href="#eq35">35</a> chega-se ao seguinte valor para a inercia (3dadfdf):
 </p>
 <table border = "0" style = "width:100%" align = "center">
     <tr>
