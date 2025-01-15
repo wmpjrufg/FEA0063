@@ -523,7 +523,7 @@ Avaliando as deformações:</p>
 </table>
 
 <p align = "center"><b>Figura 7.</b> Bla bla bla </p>
-<center><img src="assets\images\aula_09\fig_7.png" width="80%"></center>
+<center><img src="assets\images\aula_09\fig_7.png" width="60%"></center>
 
 <br>
 
