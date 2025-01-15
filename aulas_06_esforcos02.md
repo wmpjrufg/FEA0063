@@ -216,6 +216,8 @@ Além destes dados considerar que as lajes (fim residencial) tem a mesma espessu
     </tr>
 </table>
 
+<br>
+
 <table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
     <tr>
         <td>\[I = \frac{b_w \cdot h³}{12} = \frac{100 \cdot 10³}{12} =8333,33 \, cm^4\]</td>
@@ -266,6 +268,8 @@ Além destes dados considerar que as lajes (fim residencial) tem a mesma espessu
 
 <p align = "center"><b>Figura 13.</b> Bla bla bla </p>
 <center><img src="assets\images\aula_06\fig023.png" width="80%"></center>
+
+<br>
 
 <table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
     <tr>
