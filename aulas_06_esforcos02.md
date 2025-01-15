@@ -309,7 +309,7 @@ Além destes dados considerar que as lajes (fim residencial) tem a mesma espessu
 
 <p align = "justify">Temos:</p>
 <ol type="a">
-    <li> \(b_w = 1,00 \, m ou 100 \, cm\)</li>
+    <li> \(b_w = 1,00 \, m \) ou \(100 \, cm\)</li>
     <li> \(p = 4,05 + 1,5 \cdot 0,3 = 4,95 \, kN/m²\)</li>
     <li> \(I_c = 8333,33 \, cm^4\)</li>
     <li> \(E_{ci} \, cap1 = 25 \, MPa \rightarrow 28 GPa\)</li>
@@ -318,9 +318,35 @@ Além destes dados considerar que as lajes (fim residencial) tem a mesma espessu
 
 <table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
     <tr>
-        <td>\[\a_i = \frac{a}{100} \cdot \frac{b}{12} \cdot \frac{p \cdot l_x^4}{E_c I}\]</td>
+        <td>\[a_i = \frac{a}{100} \cdot \frac{b}{12} \cdot \frac{p \cdot l_x^4}{E_c I}\]</td>
     </tr>
     <tr>
         <td>\[a_i = \frac{2,50}{100} \cdot \frac{100}{12} \cdot \frac{0,000495 \cdot 300^4}{2400 \cdot 8333,33} = 0,04 \, cm (flecha direta)\]</td>
     </tr>
 </table>
+
+<br>
+
+<p align = "justify">Com a fluência:</p>
+
+<p align = "center"><b>Figura 14.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_06\fig024.png" width="80%"></center>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[\alpha_f = \Delta \epsilon = \epsilon_{(t)} - \epssilon_{(t_0)} = 2 - 0,68 = 1,32\]</td>
+    </tr>
+</table>
+
+<br>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[a_{t \infty} = 0,04 \cdot (1 + 1,32) = 0,0928 \, cm\]</td>
+    </tr>
+</table>
+
+<p align = "center"><b>Figura 15.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_06\fig025.png" width="80%"></center>
+
+<p align = "justify">\(a_{lim} > a_{t \infty}\) OK.</p>
