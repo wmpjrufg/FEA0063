@@ -522,6 +522,9 @@ Avaliando as deformações:</p>
   </tr>
 </table>
 
+<p align = "center"><b>Figura 7.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_09\fig_7.png" width="60%"></center>
+
 <br>
 
 <table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
@@ -544,3 +547,47 @@ Avaliando as deformações:</p>
     <td>\[y_{cg} = \frac{152,48 A_s \phi}{16 A_s \phi} = 9,53 \, \text{cm}\]</td>
   </tr>
 </table>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td>\[d_{real} = 90 - 9,53 = 80,47 \, \text{cm}\]</td>
+  </tr>
+  <tr>
+      <td>\[d_{calc} = 80 \, \text{cm}\]</td>
+  </tr>
+</table>
+
+<p align = "justify">\( d_{real} > d_{calc} \rightarrow \, \text{OK!} \).</p>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td>\[a_{teste} = y_{cg} - y_{1\text{º cg}} < 10\% \cdot h \]</td>
+  </tr>
+  <tr>
+    <td>\[a_{teste} = 9,53 - 4,28 = 5,25 \, \text{cm} < 10\% \cdot 80 = 9 \, \text{cm} \]</td>
+  </tr>
+</table>
+
+<p align = "justify">Armadura de pele, pois \(h > 60 \, \text{cm}\).</p>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td>\[A_{s pele} = 0,10 \% \cdot A_c = 0,0010 \cdot 25 \cdot 90 = 2,75 \, \text{cm}^2\]</td>
+  </tr>
+  <tr>
+    <td>\[\phi 6,3 \, \text{mm} \rightarrow A_{s \phi} = 0,32 \, \text{cm}^2\]</td>
+  </tr>
+  <tr>
+    <td>\[h = \frac{2,75}{0,32} = 7,0 \, \text{barras por face}\]</td>
+  </tr>
+</table>
+
+<br>
+
+<p align = "center"><b>Figura 8.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_09\fig_8.png" width="80%"></center>
+
+<br>
+
+<p align = "center"><b>Figura 9.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_09\fig_9.png" width="80%"></center>
