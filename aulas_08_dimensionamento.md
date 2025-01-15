@@ -648,19 +648,19 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
 <table border = "0" style = "width:100%">
     <tr>
         <td>\[x_{II} = \frac{a_2 \pm \sqrt{a_2^2 - 4 \cdot a_1 \cdot a_3}}{2 \cdot a_1}\]</td>
-        <td><p id="eq31">(31)</p></td>
+        <td><p align = "center" id="eq31">(31)</p></td>
     </tr>
     <tr>
         <td>\[a_1 = \frac{b_w}{12}\]</td>
-        <td><p id="eq32">(32)</p></td>
+        <td><p align = " center" id="eq32">(32)</p></td>
     </tr>
     <tr>
         <td>\[a_2 = h_f \cdot (b_f - b_w) + (\alpha_e - 1) \cdot A_s' + \alpha_e \cdot A_s\]</td>
-        <td><p id="eq33">(33)</p></td>
+        <td><p align = "center "id="eq33">(33)</p></td>
     </tr>
     <tr>
         <td>\[a_3 = -d' \cdot (\alpha_e - 1) \cdot A_s' - d \cdot \alpha_e \cdot A_s - \frac{h_f^2}{2} \cdot (b_f - b_w)\]</td>
-        <td><p id="eq34">(34)</p></td>
+        <td><p align = "center"id="eq34">(34)</p></td>
     </tr>
 </table>
 <p align = "justify">
@@ -692,7 +692,7 @@ Do ponto de vista de comportamento peças estruturais com <strong>armadura dupla
 <table border = "0" style = "width:100%">
     <tr>
         <td>\[I_{II} = \frac{b_f \cdot x_{II}^3}{3} + \alpha_e \cdot A_s \cdot (x_{II} - d)^2 + (\alpha_e - 1) \cdot A_s' \cdot (x_{II} - d')^2\]</td>
-        <td><p id="eq35">(35)</p></td>
+        <td><p align = "center" id="eq35">(35)</p></td>
     </tr>
 </table>
 <p align = "justify">
