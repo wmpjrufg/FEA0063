@@ -35,7 +35,7 @@ Além destes dados considerar que as lajes (fim residencial) tem a mesma espessu
 <p align="justify">Exemplificando a laje L2:</p>
 
 <p align = "center"><b>Figura 3.</b> Bla bla bla </p>
-<center><img src="assets\images\aula_06\fig013.png" width="80%"></center>
+<center><img src="assets\images\aula_06\fig013.png" width="60%"></center>
 
 <table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
     <tr>
@@ -45,12 +45,14 @@ Além destes dados considerar que as lajes (fim residencial) tem a mesma espessu
 
 <p align="justify">Como \(\lambda < 2\): LAZD</p>
 
+<br>
+
 <p align = "center"><b>Figura 4.</b> Bla bla bla </p>
 <center><img src="assets\images\aula_06\fig014.png" width="80%"></center>
 
 <br>
 
-<p align="justify">Dado \(\rho = 4,05 \, \text{kN/m²}\), \(l_x = 3 \, \text{m}\), temos:</p>
+<p align="justify">Dado \(\rho = 4,05 \, \text{kN/m²}\) e \(l_x = 3 \, \text{m}\), temos:</p>
 
 <table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
     <tr>
@@ -72,3 +74,66 @@ Além destes dados considerar que as lajes (fim residencial) tem a mesma espessu
 
 <p align = "center"><b>Figura 5.</b> Bla bla bla </p>
 <center><img src="assets\images\aula_06\fig015.png" width="80%"></center>
+
+<br>
+
+<p align = "center"><b>Figura 6.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_06\fig016.png" width="80%"></center>
+
+<br>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[V_{AZ} = \frac{4,05 \cdot 1,30}{3} = 1,76 \, kN/m\]</td>
+    </tr>
+    <tr>
+        <td>\[V_{A3} = \frac{4,05 \cdot 2,25}{3} = 3,04 \, kN/m\]</td>
+    </tr>
+    <tr>
+        <td>\[V_{A1} = \frac{4,05 \cdot 4,23}{4} = 5,71 \, kN/m\]</td>
+    </tr>
+</table>
+
+<p align = "center"><b>Figura 7.</b> Bla bla bla </p>
+<center><img src="assets\images\aula_06\fig017.png" width="80%"></center>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+  <thead>
+    <tr>
+      <th></th>
+      <th>G</th>
+      <th>Q</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>\(R_x'\)</th>
+      <td>5,71 </td>
+      <td>1,59 </td>
+    </tr>
+    <tr>
+      <th>\(R_y\)</th>
+      <td>1,76 </td>
+      <td>0,65 </td>
+    </tr>
+    <tr>
+      <th>\(R_y'\)</th>
+      <td>3,04 </td>
+      <td>1,13 </td>
+    </tr>
+  </tbody>
+</table>
+
+<p align="justify">Valore de cálculo par cisaalhamento:</p>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[V_{x'd} = R_{x'l} = 5,71 \cdot 1,4 + 1,59 \cdot 1,4 = 10,22 \, kN/m\]</td>
+    </tr>
+    <tr>
+        <td>\[V_{yd} = R_{yd} = 1,76 \cdot 1,4 + 0,65 \cdot 1,4 = 3,37 \, kN/m\]</td>
+    </tr>
+    <tr>
+        <td>\[V_{y'd} = R_{y'd} = 3,04 \cdot 1,4 + 1,13 \cdot 1,4 = 5,84 \, kN/m\]</td>
+    </tr>
+</table>
