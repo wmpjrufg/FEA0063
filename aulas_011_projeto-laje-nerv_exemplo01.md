@@ -86,3 +86,52 @@ Como toda laje pré fabricada é LA1d</p>
 <table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
     <tr>
         <td>\[M_{max} = b_f \cdot M_{max}' \rightarrow M_{max} = 0,40 \cdot 5,60 \cdot \frac{4,15^2}{8} = 4,82 \, kNm/nerv\]</td>
+    </tr>
+</table>
+
+<p align = "justify">Verificação do tipo de "Tê":
+<br><br>
+1º iteração: </p> 
+<ul>
+    <li>\(b_w = b_f = 0,40 \, m \, = 40 \, cm\)</li>
+    <li>\(\lambda = 0,80 \)</li>
+    <li>\(\alpha_c = 0,85 \)</li>
+</ul>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+  <tr>
+    <td rowspan="2" style="width:70%;">
+      \[
+      x_{III} = \frac{d \pm \sqrt{d^2 - 2 \cdot \left(\frac{M_{sd}}{b_w \cdot \alpha_c \cdot f_{cd}}\right)}}{\lambda}
+      \]
+    </td>
+    <td style="width:30%;">
+      \[
+      x^+ = 0,23 \, \text{m}
+      \]
+    </td>
+  </tr>
+  <tr>
+    <td>
+      \[
+      x^- = 0,013 \, \text{m}
+      \]
+    </td>
+  </tr>
+</table>
+
+<p align = "justify">Como \(x_{III} = 0,013 \, m < 0,8 h f = 3,2 \, cm\), então é falso "Tê".</p>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[A_{St} = \frac{M_{sd}}{f_{yd} \cdot (d - 0,50 \cdot \lambda \cdot x_{III})} = 0,000116 \, m^2 \, = 1,17 \, cm^2\]</td>
+    </tr>
+    <tr>
+        <td>\[A_{Smin} = \frac{0,15}{100} \cdot 9 \cdot 12 = 0,162 \, cm^2\]</td>
+    </tr>
+    <tr>
+        <td>\[A_{Smax} = \frac{4}{100} \cdot 9 \cdot 12 = 4,32 \, cm^2\]</td>
+    </tr>
+</table>
+
+<p align = "justify">Onde \(9 \cdot 12\) é a alma do Tê.</p>
