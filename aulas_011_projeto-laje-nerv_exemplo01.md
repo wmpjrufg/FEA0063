@@ -47,6 +47,42 @@ nav_order: 1
                     b_4 
                 \end{cases}\]</td>
     </tr>
+</table>
+
+<p align = "justify"> Temos \(a = 1 \cdot 1 = 1 \cdot 4 \, m \, = 4,0 \, m\) e \(b_2 = 31 \, cm\). Portanto:</p>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
     <tr>
-        <td>\[a = 1 \cdot 1 = 1 \cdot 4 \, m \, = 4,0 \, m\]</td>
+        <td>\[b_1 \leq 
+                \begin{cases} 
+                    0,1 \cdot 4 = 0,4 \, m \\ 
+                    0,5 \cdot 0,31 = 0,155 \, m 
+                \end{cases}\]</td>
     </tr>
+</table>
+
+<p align = "justify">Logo, \(b_1 = 0,155 \, m\).</p>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[b_f = b_w + 2 \cdot b_1 = 0,09 + 2 \cdot 0,155 = 0,40 \, m\]</td>
+    </tr>
+</table>
+
+<p align = "justify">Repartição do esforço por nervura:</p>
+<br><br>
+Como toda laje pré fabricada é LA1d</p>
+
+<p align = "justify">Como vão ser os esforços máximos:</p>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[M_{max}' = \frac{P_{sd} \cdot l^2}{8} \rightarrow P_{sd} = (2,0 + 2,0) \cdot 1,40 = 5,60 \, kN/m²\]</td>
+    </tr>
+</table>
+
+<p align = "justify">Como é nervurada, tudo deverá ser por nervura:</p>
+
+<table border="0" style="width:100%; border-collapse:collapse; text-align:center;">
+    <tr>
+        <td>\[M_{max} = b_f \cdot M_{max}' \rightarrow M_{max} = 0,40 \cdot 5,60 \cdot \frac{4,15^2}{8} = 4,82 \, kNm/nerv\]</td>
